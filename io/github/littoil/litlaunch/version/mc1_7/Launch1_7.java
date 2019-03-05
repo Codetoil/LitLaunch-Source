@@ -16,7 +16,6 @@ import io.github.littoil.tpsmod.TPSMod;
 @Mod(modid = Launch1_7.MODID, version = Launch1_7.VERSION)
 public class Launch1_7 extends LaunchForge<FMLPreInitializationEvent, FMLInitializationEvent, FMLPostInitializationEvent, FMLServerStartingEvent> {
     public static final String VERSION = "1.7-0.0.0.0";
-    public static Launch1_7 INSTANCE = new Launch1_7();
     
     public Launch1_7()
     {

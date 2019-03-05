@@ -1,12 +1,9 @@
 package io.github.littoil.tpsmod;
 
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
-
+import io.github.littoil.litlaunch.launchcommon.LaunchCommon;
 import io.github.littoil.litlaunch.launchcommon.events.LitEvent;
 
 public class LitEventHandler {
-    static final Logger LOGGER = LogManager.getLogger();
     
     private TPSMod tpsmod;
     
@@ -16,13 +13,13 @@ public class LitEventHandler {
     
     public LitEventHandler(TPSMod tpsmod)
     {
-    	LOGGER.info("Creating new Event Handler!");
+    	LaunchCommon.INSTANCE.LOGGER.info("Creating new Event Handler!");
     	this.tpsmod = tpsmod;
     }
     
 	public void newEvent(LitEvent event)
 	{
-		LOGGER.info("Have new event \"" + event.name + "\"");
+		LaunchCommon.INSTANCE.LOGGER.info("Have new event \"" + event.name + "\"");
 		switch (event.name)
 		{
 		case "PreInit":
@@ -38,7 +35,7 @@ public class LitEventHandler {
 			tpsmod.serverStart();
 			break;
 		default:
-			LOGGER.error("Unknown event \"" + event.name + "\"");
+			LaunchCommon.INSTANCE.LOGGER.error("Unknown event \"" + event.name + "\"");
 			break;
 		}
 	}

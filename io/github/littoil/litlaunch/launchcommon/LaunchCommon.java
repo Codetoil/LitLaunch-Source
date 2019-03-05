@@ -1,14 +1,13 @@
 package io.github.littoil.litlaunch.launchcommon;
 
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
-
 import io.github.littoil.tpsmod.TPSMod;
 
 public class LaunchCommon implements ILaunch {
-    protected static final Logger LOGGER = LogManager.getLogger();
     public static TPSMod tpsmod;
     public static String VERSION;
+    
+    public ILogger LOGGER;
+    public static LaunchCommon INSTANCE;
 
     public void LaunchInit()
     {

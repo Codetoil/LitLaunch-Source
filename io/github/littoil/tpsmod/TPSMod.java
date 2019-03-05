@@ -2,16 +2,12 @@ package io.github.littoil.tpsmod;
 
 import java.util.ArrayList;
 
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
-
 import io.github.littoil.litlaunch.launchcommon.Command;
+import io.github.littoil.litlaunch.launchcommon.LaunchCommon;
 import io.github.littoil.tpsmod.commands.CommandHandler;
 
 public class TPSMod {
 	public static final String VERSION = "1.2.1";
-	
-	protected static final Logger LOGGER = LogManager.getLogger();
 	
 	public static LitEventHandler eventhandler;
 	public static ArrayList<Command> commandList = new ArrayList<Command>();
@@ -30,20 +26,20 @@ public class TPSMod {
 	
 	public void preInit()
 	{
-		LOGGER.info("TPSMod v" + VERSION + " preinitializing");
+		LaunchCommon.INSTANCE.LOGGER.info("TPSMod v" + VERSION + " preinitializing");
 	}
 	
 	public void Init()
 	{
-		LOGGER.info("TPSMod v" + VERSION + " initializing");
+		LaunchCommon.INSTANCE.LOGGER.info("TPSMod v" + VERSION + " initializing");
 	}
 	
 	public void postInit()
 	{
-		LOGGER.info("TPSMod v" + VERSION + " postinitializing");
+		LaunchCommon.INSTANCE.LOGGER.info("TPSMod v" + VERSION + " postinitializing");
 	}
 	public void serverStart()
 	{
-		LOGGER.info("TPSMod v" + VERSION + " starting server");
+		LaunchCommon.INSTANCE.LOGGER.info("TPSMod v" + VERSION + " starting server");
 	}
 }

@@ -1,13 +1,11 @@
 package io.github.littoil.tpsmod.commands;
 
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
+import io.github.littoil.litlaunch.launchcommon.LaunchCommon;
 
 public class CommandHandler {
-    static final Logger LOGGER = LogManager.getLogger();
     
 	public static void execute()
 	{
-		LOGGER.info("test!");
+		LaunchCommon.INSTANCE.LOGGER.info("test!");
 	}
 }

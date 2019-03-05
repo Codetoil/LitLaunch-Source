@@ -17,10 +17,11 @@ import net.minecraftforge.fml.relauncher.Side;
 @Mod(modid = Launch1_12.MODID, version = Launch1_12.VERSION)
 public class Launch1_12 extends LaunchForge<FMLPreInitializationEvent, FMLInitializationEvent, FMLPostInitializationEvent, FMLServerStartingEvent> {
     public static final String VERSION = "1.12-0.0.0.0";
-    public static Launch1_12 INSTANCE = new Launch1_12();
     
     public Launch1_12()
     {
+    	((LaunchCommon) this).LOGGER = new Logger1_12();
+    	LaunchCommon.INSTANCE = new Launch1_12();
     	LaunchCommon.VERSION = VERSION;
     	Side side = FMLCommonHandler.instance().getSide();
     	switch (side)

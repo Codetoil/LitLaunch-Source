@@ -19,6 +19,7 @@ public class Launch1_13 extends LaunchForge<FMLCommonSetupEvent, Object, Object,
     public static final String VERSION = "1.13-0.0.0.0";
     public static Launch1_13 INSTANCE = new Launch1_13();
     
+    
     public Launch1_13()
     {
     	LaunchCommon.VERSION = VERSION;
@@ -35,18 +36,18 @@ public class Launch1_13 extends LaunchForge<FMLCommonSetupEvent, Object, Object,
     		LOGGER.error("FML is not disted(client vs server). This may not go well!");
     		break;
     	}
-    	try {
-    		FMLJavaModLoadingContext jmlc = FMLJavaModLoadingContext.get();
-        	IEventBus modeb = jmlc.getModEventBus();
-        	modeb.addListener(this::setup);
-        	modeb.addListener(this::setupClient);
-        	modeb.addListener(this::serverLoad1_13);
-        	
-    	} catch (NullPointerException e)
-    	{
-    		e.printStackTrace();
-    	}
+		FMLJavaModLoadingContext jmlc = FMLJavaModLoadingContext.get();
+		if (jmlc == null)
+		{
+			LOGGER.error("JavaModLoadingContext Null! WTF");
+			return;
+		}
+    	IEventBus modeb = jmlc.getModEventBus();
+    	modeb.addListener(this::setup);
+    	modeb.addListener(this::setupClient);
+    	modeb.addListener(this::serverLoad1_13);
     	super.LaunchInit();
+    	LOGGER.info(Launch1_13.MODID);
     }
     
     private void setup(final FMLCommonSetupEvent event) {

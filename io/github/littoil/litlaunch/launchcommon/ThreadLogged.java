@@ -1,16 +1,15 @@
 package io.github.littoil.litlaunch.launchcommon;
 
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
-
 public abstract class ThreadLogged extends Thread {
 	
-	protected static final Logger LOGGER = LogManager.getLogger();
+	ILogger LOGGER;
+	
 	private final String name;
-	public ThreadLogged(String name)
+	public ThreadLogged(String name, ILogger LOGGER)
 	{
 		super(name + " thread");
 		this.name = name;
+		this.LOGGER = LOGGER;
 	}
 	
 	/**
