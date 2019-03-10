@@ -1,18 +1,16 @@
 package io.github.littoil.litlaunch.version.mc1_13;
 
-import io.github.littoil.litlaunch.launchcommon.LaunchTPSMOD;
-import io.github.littoil.litlaunch.launchforge.LaunchForge;
-import io.github.littoil.litlaunch.version.mc1_13.proxy.ClientProxy1_13;
-import io.github.littoil.litlaunch.version.mc1_13.proxy.ServerProxy1_13;
-import net.minecraftforge.api.distmarker.Dist;
-import net.minecraftforge.common.MinecraftForge;
-import net.minecraftforge.eventbus.api.SubscribeEvent;
-import net.minecraftforge.fml.common.Mod;
-import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
-import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
-import net.minecraftforge.fml.event.server.FMLServerStartingEvent;
-import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
-import net.minecraftforge.fml.loading.FMLEnvironment;
+import io.github.littoil.litlaunch.launchcommon.*;
+import io.github.littoil.litlaunch.launchforge.*;
+import io.github.littoil.litlaunch.version.mc1_13.proxy.*;
+import net.minecraftforge.api.distmarker.*;
+import net.minecraftforge.common.*;
+import net.minecraftforge.eventbus.api.*;
+import net.minecraftforge.fml.common.*;
+import net.minecraftforge.fml.event.lifecycle.*;
+import net.minecraftforge.fml.event.server.*;
+import net.minecraftforge.fml.javafmlmod.*;
+import net.minecraftforge.fml.loading.*;
 
 @Mod(LaunchForge.MODID)
 public class Launch1_13 {
@@ -65,10 +63,7 @@ public class Launch1_13 {
 
 	public void setupClient(final FMLClientSetupEvent event)
 	{
-		if (FMLEnvironment.dist.isClient())
-		{
-			LaunchForge.ccproxy.preInit();
-		}
+		LaunchForge.ccproxy.preInit();
 	}
 
 	@SubscribeEvent
