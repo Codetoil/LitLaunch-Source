@@ -1,8 +1,7 @@
 package io.github.littoil.litlaunch.version.mc1_13.proxy;
 
 import io.github.littoil.litlaunch.launchcommon.Command;
-import io.github.littoil.litlaunch.launchcommon.proxy.CommonClientProxy;
-import io.github.littoil.litlaunch.version.mc1_13.CommandNew;
+import io.github.littoil.litlaunch.launchforge.proxy.CommonClientProxy;
 import io.github.littoil.tpsmod.TPSMod;
 
 public class ClientProxy1_13 extends CommonClientProxy {

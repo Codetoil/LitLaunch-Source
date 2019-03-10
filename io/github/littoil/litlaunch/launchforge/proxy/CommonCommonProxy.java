@@ -1,4 +1,4 @@
-package io.github.littoil.litlaunch.launchcommon.proxy;
+package io.github.littoil.litlaunch.launchforge.proxy;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;

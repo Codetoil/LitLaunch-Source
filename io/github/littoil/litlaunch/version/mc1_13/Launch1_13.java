@@ -14,8 +14,8 @@ import net.minecraftforge.fml.event.server.FMLServerStartingEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.fml.loading.FMLEnvironment;
 
-@Mod(Launch1_13.MODID)
-public class Launch1_13 extends LaunchForge<FMLCommonSetupEvent, Object, Object, FMLServerStartingEvent> {
+@Mod(LaunchForge.MODID)
+public class Launch1_13 {
     public static final String VERSION = "1.13-0.0.0.2";
 
     public Launch1_13() {
@@ -33,7 +33,7 @@ public class Launch1_13 extends LaunchForge<FMLCommonSetupEvent, Object, Object,
 	public boolean setProxy()
 	{
 		boolean result;
-		if (ccproxy != null)
+		if (LaunchForge.ccproxy != null)
 		{
 			LaunchTPSMOD.INSTANCE.LOGGER.error("Tried re-setting proxy!");
 			result = false;
@@ -43,11 +43,11 @@ public class Launch1_13 extends LaunchForge<FMLCommonSetupEvent, Object, Object,
 			Dist dist = FMLEnvironment.dist;
 			switch (dist) {
 				case CLIENT:
-					ccproxy = new ClientProxy1_13();
+					LaunchForge.ccproxy = new ClientProxy1_13();
 					result = true;
 					break;
 				case DEDICATED_SERVER:
-					ccproxy = new ServerProxy1_13();
+					LaunchForge.ccproxy = new ServerProxy1_13();
 					result = true;
 					break;
 				default:
@@ -60,20 +60,20 @@ public class Launch1_13 extends LaunchForge<FMLCommonSetupEvent, Object, Object,
 	}
 
 	public void setup(final FMLCommonSetupEvent event) {
-    	super.preInit(event);
+    	LaunchForge.preInit();
 	}
 
 	public void setupClient(final FMLClientSetupEvent event)
 	{
 		if (FMLEnvironment.dist.isClient())
 		{
-			ccproxy.preInit();
+			LaunchForge.ccproxy.preInit();
 		}
 	}
 
 	@SubscribeEvent
 	public void serverLoad(FMLServerStartingEvent event) {
-    	super.serverLoad(event);
+    	LaunchForge.serverLoad();
 	}
 
     /*private void setup(final FMLCommonSetupEvent event) {

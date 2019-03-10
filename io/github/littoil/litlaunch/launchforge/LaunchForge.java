@@ -1,34 +1,31 @@
 package io.github.littoil.litlaunch.launchforge;
 
 import io.github.littoil.litlaunch.launchcommon.LaunchCommon;
-import io.github.littoil.litlaunch.launchcommon.LitEventHandler;
-import io.github.littoil.litlaunch.launchcommon.proxy.CommonCommonProxy;
-import io.github.littoil.litlaunch.launchcommon.events.*;
-import net.minecraft.client.Minecraft;
+import io.github.littoil.litlaunch.launchforge.proxy.CommonCommonProxy;
 
-public abstract class LaunchForge<FMLPreInitEvent, FMLInitEvent, FMLPostInitEvent, FMLServerLoadEvent> {
+public abstract class LaunchForge {
     public static final String MODID = "tpsmod";
     public static CommonCommonProxy ccproxy;
 
-	public void preInit(FMLPreInitEvent event)
+	public static void preInit()
 	{
 		LaunchCommon.preInit();
 		ccproxy.preInit();
 	}
 	
-	public void init(FMLInitEvent event)
+	public static void init()
 	{
 		LaunchCommon.init();
 		ccproxy.init();
 	}
 
-	public void postInit(FMLPostInitEvent event)
+	public static void postInit()
 	{
 		LaunchCommon.postInit();
 		ccproxy.postInit();
 	}
 	
-	public void serverLoad(FMLServerLoadEvent event)
+	public static void serverLoad()
 	{
 		LaunchCommon.serverLoad();
 		ccproxy.serverLoad();

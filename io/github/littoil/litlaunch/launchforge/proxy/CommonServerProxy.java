@@ -1,4 +1,4 @@
-package io.github.littoil.litlaunch.launchcommon.proxy;
+package io.github.littoil.litlaunch.launchforge.proxy;
 
 /**
  * The common for all versions server proxy!
