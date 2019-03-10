@@ -58,7 +58,7 @@ public class Launch1_13 {
 	}
 
 	public void setup(final FMLCommonSetupEvent event) {
-    		LaunchForge.preInit();
+		LaunchForge.preInit();
 	}
 
 	public void setupClient(final FMLClientSetupEvent event)
@@ -68,7 +68,7 @@ public class Launch1_13 {
 
 	@SubscribeEvent
 	public void serverLoad(FMLServerStartingEvent event) {
-    		LaunchForge.serverLoad();
+		LaunchForge.serverLoad();
 	}
 
     /*private void setup(final FMLCommonSetupEvent event) {
