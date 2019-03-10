@@ -1,11 +1,11 @@
 package io.github.littoil.tpsmod.commands;
 
-import io.github.littoil.litlaunch.launchcommon.LaunchCommon;
+import io.github.littoil.litlaunch.launchcommon.LaunchTPSMOD;
 
 public class CommandHandler {
     
-	public static void execute()
+	public static void executeTPS()
 	{
-		LaunchCommon.INSTANCE.LOGGER.info("test!");
+		LaunchTPSMOD.INSTANCE.LOGGER.info("test!");
 	}
 }

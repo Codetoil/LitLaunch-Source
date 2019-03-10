@@ -1,42 +1,39 @@
 package io.github.littoil.litlaunch.launchforge;
 
 import io.github.littoil.litlaunch.launchcommon.LaunchCommon;
+import io.github.littoil.litlaunch.launchcommon.LitEventHandler;
 import io.github.littoil.litlaunch.launchcommon.proxy.CommonCommonProxy;
+import io.github.littoil.litlaunch.launchcommon.events.*;
+import net.minecraft.client.Minecraft;
 
-public abstract class LaunchForge<PreInitEvent, InitEvent, PostInitEvent, ServerLoadEvent> extends LaunchCommon {
+public abstract class LaunchForge<FMLPreInitEvent, FMLInitEvent, FMLPostInitEvent, FMLServerLoadEvent> {
     public static final String MODID = "tpsmod";
     public static CommonCommonProxy ccproxy;
-    
-    
-    
-	public void preInit(PreInitEvent event)
+
+	public void preInit(FMLPreInitEvent event)
 	{
-		super.preInit();
-		sendEvent("PreInit");
+		LaunchCommon.preInit();
+		ccproxy.preInit();
 	}
 	
-	public void init(InitEvent event)
+	public void init(FMLInitEvent event)
 	{
-		super.init();
-		sendEvent("Init");
+		LaunchCommon.init();
+		ccproxy.init();
 	}
 
-	public void postInit(PostInitEvent event)
+	public void postInit(FMLPostInitEvent event)
 	{
-		super.postInit();
-		sendEvent("PostInit");
+		LaunchCommon.postInit();
+		ccproxy.postInit();
 	}
 	
-	public void serverLoad(ServerLoadEvent event)
+	public void serverLoad(FMLServerLoadEvent event)
 	{
-		super.serverLoad();
-		sendEvent("ServerLoad");
+		LaunchCommon.serverLoad();
+		ccproxy.serverLoad();
 	}
-    
-	@Override
-    public void sendEvent(String eventName)
-    {
-    	super.sendEvent(eventName);
-    }
+
+	public abstract boolean setProxy();
     
 }

@@ -12,5 +12,9 @@ public abstract class CommonCommonProxy {
     
     public abstract void preInit();
 
-	public abstract void serverLoad();
+    public abstract void init();
+
+    public abstract void postInit();
+
+    public abstract void serverLoad();
 }

@@ -1,15 +1,17 @@
 package io.github.littoil.litlaunch.launchcommon.events;
 
-public class LitEvent {
-	public String name;
-	
-	public LitEvent()
-	{
-		this("");
-	}
-	
-	public LitEvent(String name)
-	{
-		this.name = name;
-	}
+import java.util.EventObject;
+
+public class LitEvent extends EventObject {
+    private String type;
+
+    public LitEvent(Object source, String type) {
+        super(source);
+        this.type = type;
+    }
+
+    public String getType()
+    {
+        return this.type;
+    }
 }

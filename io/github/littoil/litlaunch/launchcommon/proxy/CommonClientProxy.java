@@ -3,16 +3,18 @@ package io.github.littoil.litlaunch.launchcommon.proxy;
 /**
  * The common for all versions client proxy!
  * */
-public class CommonClientProxy extends CommonCommonProxy {
+public abstract class CommonClientProxy extends CommonCommonProxy {
 
 	@Override
-	public void preInit() {
-		
-	}
+	public abstract void preInit();
 
 	@Override
-	public void serverLoad() {
-		
-	}
+	public abstract void init();
+
+	@Override
+	public abstract void postInit();
+
+	@Override
+	public abstract void serverLoad();
 
 }
