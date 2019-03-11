@@ -31,14 +31,8 @@ public class CommandNew implements ICommand {
 	@Override
 	public void processCommand(ICommandSender p_71515_1_, String[] p_71515_2_) {
 		try {
-			comm.method.invoke(null);
-		} catch (SecurityException e) {
-			e.printStackTrace();
-		} catch (IllegalAccessException e) {
-			e.printStackTrace();
-		} catch (IllegalArgumentException e) {
-			e.printStackTrace();
-		} catch (InvocationTargetException e) {
+			comm.runnable.run();
+		} catch (Exception e) {
 			e.printStackTrace();
 		}
 	}

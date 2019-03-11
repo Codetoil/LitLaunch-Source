@@ -1,6 +1,6 @@
 package io.github.littoil.litlaunch.version.mc1_7.proxy;
 
-import io.github.littoil.litlaunch.launchcommon.proxy.CommonServerProxy;
+import io.github.littoil.litlaunch.launchforge.proxy.CommonServerProxy;
 
 public class ServerProxy1_7 extends CommonServerProxy {
     @Override

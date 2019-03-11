@@ -15,8 +15,8 @@ import io.github.littoil.litlaunch.version.mc1_7.proxy.ClientProxy1_7;
 import io.github.littoil.litlaunch.version.mc1_7.proxy.ServerProxy1_7;
 import io.github.littoil.tpsmod.TPSMod;
 
-@Mod(modid = Launch1_7.MODID, version = Launch1_7.VERSION)
-public class Launch1_7 extends LaunchForge<FMLPreInitializationEvent, FMLInitializationEvent, FMLPostInitializationEvent, FMLServerStartingEvent> {
+@Mod(modid = LaunchForge.MODID, version = Launch1_7.VERSION)
+public class Launch1_7 {
     public static final String VERSION = "1.7-0.0.0.2";
 
     public Launch1_7()
@@ -31,7 +31,7 @@ public class Launch1_7 extends LaunchForge<FMLPreInitializationEvent, FMLInitial
     public boolean setProxy()
 	{
 		boolean result;
-		if (ccproxy != null)
+		if (LaunchForge.ccproxy != null)
 		{
 			LaunchTPSMOD.INSTANCE.LOGGER.error("Tried re-setting proxy!");
 			result = false;
@@ -41,11 +41,11 @@ public class Launch1_7 extends LaunchForge<FMLPreInitializationEvent, FMLInitial
 			Side side = FMLCommonHandler.instance().getSide();
 			switch (side) {
 				case CLIENT:
-					ccproxy = new ClientProxy1_7();
+					LaunchForge.ccproxy = new ClientProxy1_7();
 					result = true;
 					break;
 				case SERVER:
-					ccproxy = new ServerProxy1_7();
+					LaunchForge.ccproxy = new ServerProxy1_7();
 					result = true;
 					break;
 				default:
@@ -58,27 +58,23 @@ public class Launch1_7 extends LaunchForge<FMLPreInitializationEvent, FMLInitial
 	}
 
 	@EventHandler
-	@Override
 	public void preInit(FMLPreInitializationEvent event) {
-		super.preInit(event);
+		LaunchForge.preInit();
 	}
 
 	@EventHandler
-	@Override
 	public void init(FMLInitializationEvent event) {
-		super.init(event);
+		LaunchForge.init();
 	}
 
 	@EventHandler
-	@Override
 	public void postInit(FMLPostInitializationEvent event) {
-		super.postInit(event);
+		LaunchForge.postInit();
 	}
 
 	@EventHandler
-	@Override
 	public void serverLoad(FMLServerStartingEvent event) {
-		super.serverLoad(event);
+		LaunchForge.serverLoad();
 		TPSMod.commandList.forEach((command) -> {
 			if (Command.Side.SERVER.equals(command.side) || Command.Side.BOTH.equals(command.side))
 					event.registerServerCommand(new CommandNew(command));

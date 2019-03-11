@@ -2,7 +2,7 @@ package io.github.littoil.litlaunch.version.mc1_7.proxy;
 
 import io.github.littoil.litlaunch.launchcommon.Command;
 import io.github.littoil.litlaunch.launchcommon.LaunchTPSMOD;
-import io.github.littoil.litlaunch.launchcommon.proxy.CommonClientProxy;
+import io.github.littoil.litlaunch.launchforge.proxy.CommonClientProxy;
 import io.github.littoil.litlaunch.version.mc1_7.CommandNew;
 import io.github.littoil.tpsmod.TPSMod;
 

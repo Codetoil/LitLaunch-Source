@@ -3,8 +3,6 @@ package io.github.littoil.litlaunch.version.mc1_8;
 import io.github.littoil.litlaunch.launchcommon.Command;
 import io.github.littoil.litlaunch.launchcommon.LaunchCommon;
 import io.github.littoil.litlaunch.launchcommon.LaunchTPSMOD;
-import io.github.littoil.litlaunch.launchcommon.proxy.CommonClientProxy;
-import io.github.littoil.litlaunch.launchcommon.proxy.CommonServerProxy;
 import io.github.littoil.litlaunch.launchforge.LaunchForge;
 import io.github.littoil.litlaunch.version.mc1_8.proxy.ClientProxy1_8;
 import io.github.littoil.litlaunch.version.mc1_8.proxy.ServerProxy1_8;
@@ -18,8 +16,8 @@ import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLServerStartingEvent;
 import net.minecraftforge.fml.relauncher.Side;
 
-@Mod(modid = Launch1_8.MODID, version = Launch1_8.VERSION)
-public class Launch1_8 extends LaunchForge<FMLPreInitializationEvent, FMLInitializationEvent, FMLPostInitializationEvent, FMLServerStartingEvent> {
+@Mod(modid = LaunchForge.MODID, version = Launch1_8.VERSION)
+public class Launch1_8{
 	public static final String VERSION = "1.8-0.0.0.2";
 
 	public Launch1_8()
@@ -34,7 +32,7 @@ public class Launch1_8 extends LaunchForge<FMLPreInitializationEvent, FMLInitial
 	public boolean setProxy()
 	{
 		boolean result;
-		if (ccproxy != null)
+		if (LaunchForge.ccproxy != null)
 		{
 			LaunchTPSMOD.INSTANCE.LOGGER.error("Tried re-setting proxy!");
 			result = false;
@@ -44,11 +42,11 @@ public class Launch1_8 extends LaunchForge<FMLPreInitializationEvent, FMLInitial
 			Side side = FMLCommonHandler.instance().getSide();
 			switch (side) {
 				case CLIENT:
-					ccproxy = new ClientProxy1_8();
+					LaunchForge.ccproxy = new ClientProxy1_8();
 					result = true;
 					break;
 				case SERVER:
-					ccproxy = new ServerProxy1_8();
+					LaunchForge.ccproxy = new ServerProxy1_8();
 					result = true;
 					break;
 				default:
@@ -61,27 +59,23 @@ public class Launch1_8 extends LaunchForge<FMLPreInitializationEvent, FMLInitial
 	}
 
 	@EventHandler
-	@Override
 	public void preInit(FMLPreInitializationEvent event) {
-		super.preInit(event);
+		LaunchForge.preInit();
 	}
 
 	@EventHandler
-	@Override
 	public void init(FMLInitializationEvent event) {
-		super.init(event);
+		LaunchForge.init();
 	}
 
 	@EventHandler
-	@Override
 	public void postInit(FMLPostInitializationEvent event) {
-		super.postInit(event);
+		LaunchForge.postInit();
 	}
 
 	@EventHandler
-	@Override
 	public void serverLoad(FMLServerStartingEvent event) {
-		super.serverLoad(event);
+		LaunchForge.serverLoad();
 		TPSMod.commandList.forEach((command) -> {
 			if (Command.Side.SERVER.equals(command.side) || Command.Side.BOTH.equals(command.side))
 				event.registerServerCommand(new CommandNew(command));
