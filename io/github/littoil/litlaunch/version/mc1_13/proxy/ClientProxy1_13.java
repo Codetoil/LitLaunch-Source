@@ -57,6 +57,7 @@ public class ClientProxy1_13 extends CommonClientProxy {
                     LaunchTPSMOD.INSTANCE.LOGGER.info(command.name);
                     if (e.getMessage().equals("/" + command.name))
                     {
+                        
                         try {
                             command.runnable.run();
                         } catch (Exception ex)
