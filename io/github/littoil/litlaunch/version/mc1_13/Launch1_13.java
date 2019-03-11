@@ -3,7 +3,9 @@ package io.github.littoil.litlaunch.version.mc1_13;
 import io.github.littoil.litlaunch.launchcommon.*;
 import io.github.littoil.litlaunch.launchforge.*;
 import io.github.littoil.litlaunch.version.mc1_13.proxy.*;
+import io.github.littoil.tpsmod.TPSMod;
 import net.minecraftforge.api.distmarker.*;
+import net.minecraftforge.client.event.ClientChatEvent;
 import net.minecraftforge.common.*;
 import net.minecraftforge.eventbus.api.*;
 import net.minecraftforge.fml.common.*;
@@ -69,7 +71,15 @@ public class Launch1_13 {
 	@SubscribeEvent
 	public void serverLoad(FMLServerStartingEvent event) {
 		LaunchForge.serverLoad();
+		TPSMod.commandList.forEach((command) -> {
+			if (io.github.littoil.litlaunch.launchcommon.Command.Side.SERVER.equals(command.side) || io.github.littoil.litlaunch.launchcommon.Command.Side.BOTH.equals(command.side))
+			{
+				new CommandNew((Command) command, event.getCommandDispatcher());
+			}
+		});
 	}
+
+
 
     /*private void setup(final FMLCommonSetupEvent event) {
 		super.preInit(event);
@@ -94,13 +104,7 @@ public class Launch1_13 {
 		super.serverLoad(event);
 		if (tpsmod instanceof TPSMod)
 		{
-			TPSMod.commandList.forEach((command) -> {
-				if (io.github.littoil.litlaunch.launchcommon.Command.Side.SERVER.equals(command.side) || io.github.littoil.litlaunch.launchcommon.Command.Side.BOTH.equals(command.side))
-				{
-					//event.getCommandDispatcher();
-					new CommandNew(command, event.getCommandDispatcher());
-				}
-			});
+
 		}
 	}*/
 
