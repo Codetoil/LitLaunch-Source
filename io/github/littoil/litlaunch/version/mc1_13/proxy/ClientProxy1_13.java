@@ -54,16 +54,12 @@ public class ClientProxy1_13 extends CommonClientProxy {
             if (commandNameList.contains(e.getMessage())) {
                 e.setCanceled(true);
                 TPSMod.commandList.forEach((command) -> {
-                    if (e.getMessage().equals(command.name))
+                    if (e.getMessage().equals("/" + command.name))
                     {
                         try {
-                            command.method.invoke(null);
-                        } catch (IllegalAccessException| InvocationTargetException ex)
+                            command.runnable.run();
+                        } catch (Exception ex)
                         {
-                            ex.printStackTrace();
-                        } catch (NullPointerException ex)
-                        {
-                            LaunchTPSMOD.INSTANCE.LOGGER.error("Tried using nonstatic method! Please use static method!");
                             ex.printStackTrace();
                         }
                     }

@@ -3,9 +3,11 @@ package io.github.littoil.tpsmod.commands;
 import io.github.littoil.litlaunch.launchcommon.LaunchTPSMOD;
 
 public class CommandHandler {
-    
-	public static void executeTPS()
+	public static class RunnableTPS implements Runnable
 	{
-		LaunchTPSMOD.INSTANCE.LOGGER.info("test!");
+		@Override
+		public void run() {
+			LaunchTPSMOD.INSTANCE.LOGGER.info("test!");
+		}
 	}
 }

@@ -23,10 +23,9 @@ public class TPSMod implements LitEventHandler.EventListener {
 	{
 		List<Command> internalCommandList = new ArrayList<Command>();
 		try {
-			internalCommandList.add(new Command("/tps", "message.tpsmod.tps.help", CommandHandler.class.getMethod("executeTPS"), Command.Side.BOTH));
-		} catch (NoSuchMethodException e) {
-			e.printStackTrace();
-		} catch (SecurityException e) {
+
+			internalCommandList.add(new Command("/tps", "message.tpsmod.tps.help", new CommandHandler.RunnableTPS(), Command.Side.BOTH));
+		} catch (Exception e) {
 			e.printStackTrace();
 		}
 		return internalCommandList;

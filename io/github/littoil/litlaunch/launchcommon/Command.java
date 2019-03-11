@@ -4,11 +4,11 @@ import java.lang.reflect.Method;
 
 public class Command {
 	public Command() {}
-	public Command(String name, String usage, Method method, Side side)
+	public Command(String name, String usage, Runnable runnable, Side side)
 	{
 		this.name = name;
 		this.usage = usage;
-		this.method = method;
+		this.runnable = runnable;
 		this.side = side;
 	}
 	/**
@@ -22,7 +22,7 @@ public class Command {
 	/**
 	 * the method this command calls when executed.
 	 */
-	public Method method;
+	public Runnable runnable;
 	/**
 	 * Side the command should be registered to. E.g. CLIENT gives a client side command.
 	 */
