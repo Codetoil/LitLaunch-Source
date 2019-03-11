@@ -51,9 +51,10 @@ public class ClientProxy1_13 extends CommonClientProxy {
     {
         if (e.getMessage() != null)
         {
-            if (commandNameList.contains(e.getMessage())) {
+            if (commandNameList.contains(e.getMessage().substring(1))) {
                 e.setCanceled(true);
                 TPSMod.commandList.forEach((command) -> {
+                    LaunchTPSMOD.INSTANCE.LOGGER.info(command.name);
                     if (e.getMessage().equals("/" + command.name))
                     {
                         try {

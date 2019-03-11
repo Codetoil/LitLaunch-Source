@@ -64,7 +64,7 @@ public class TPSMod implements LitEventHandler.EventListener {
 	{
 		LaunchTPSMOD.INSTANCE.LOGGER.info("TPSMod v" + VERSION + " postinitializing");
 	}
-	
+
 	public void serverStart()
 	{
 		LaunchTPSMOD.INSTANCE.LOGGER.info("TPSMod v" + VERSION + " starting server");
