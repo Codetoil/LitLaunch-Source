@@ -1,14 +1,14 @@
 package io.github.littoil.tpsmod.commands;
 
-import io.github.littoil.litlaunch.launchcommon.LaunchTPSMOD;
+import io.github.littoil.litlaunch.launchcommon.LaunchMods;
 
 public class CommandHandler {
 	public static void executeTPS()
 	{
-		LaunchTPSMOD.INSTANCE.LOGGER.info("executed //tps!");
+		LaunchMods.getINSTANCE().getLOGGER().info("executed //tps!");
 	}
 	public static void executeTPSTOALL()
 	{
-		LaunchTPSMOD.INSTANCE.LOGGER.info("executed //tpstoall!");
+		LaunchMods.getINSTANCE().getLOGGER().info("executed //tpstoall!");
 	}
 }

@@ -2,16 +2,14 @@ package io.github.littoil.litlaunch.launchcommon;
 
 import io.github.littoil.litlaunch.launchcommon.events.LitEvent;
 
-import java.awt.*;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
 import java.util.ArrayList;
-import java.util.EventObject;
 import java.util.List;
 
 public class LitEventHandler {
     private List<EventListener> _listeners = new ArrayList<EventListener>();
-    public final static LitEventHandler INSTANCE = new LitEventHandler();
+    public final static LitEventHandler COMMON = new LitEventHandler();
+    public final static LitEventHandler CLIENT = new LitEventHandler();
+    public final static LitEventHandler SERVER = new LitEventHandler();
 
     public LitEventHandler()
     {
@@ -34,7 +32,7 @@ public class LitEventHandler {
 
     public void post(LitEvent event)
     {
-        LaunchTPSMOD.INSTANCE.LOGGER.info("Sent event \"" + event.getType() + "\"");
+        LaunchMods.getINSTANCE().getLOGGER().info("Sent event \"" + event.getType() + "\"");
         this._listeners.forEach((listener) -> {
             listener.RecievedEvent(event);
         });

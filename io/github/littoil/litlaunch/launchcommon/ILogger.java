@@ -1,9 +1,12 @@
 package io.github.littoil.litlaunch.launchcommon;
 
 public interface ILogger {
-	public void debug(Object obj);
-	public void info(Object obj);
-	public void warn(Object obj);
-	public void error(Object obj);
-	public void fatal(Object obj);
+	void debug(Object obj);
+	void info(Object obj);
+	void warn(Object obj);
+	void error(Object obj);
+	void fatal(Object obj);
+
+	Object getInternalLogger();
+	void setInternalLogger(Object logger);
 }

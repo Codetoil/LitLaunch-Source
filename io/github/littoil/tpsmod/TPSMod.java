@@ -4,12 +4,13 @@ import java.util.ArrayList;
 import java.util.List;
 
 import io.github.littoil.litlaunch.launchcommon.Command;
+import io.github.littoil.litlaunch.launchcommon.IMod;
 import io.github.littoil.litlaunch.launchcommon.LitEventHandler;
-import io.github.littoil.litlaunch.launchcommon.LaunchTPSMOD;
+import io.github.littoil.litlaunch.launchcommon.LaunchMods;
 import io.github.littoil.litlaunch.launchcommon.events.LitEvent;
 import io.github.littoil.tpsmod.commands.CommandHandler;
 
-public class TPSMod implements LitEventHandler.EventListener {
+public class TPSMod implements LitEventHandler.EventListener, IMod {
 	public static final String VERSION = "1.2.1";
 
 	public final static List<Command> commandList = newCommandList();
@@ -32,6 +33,11 @@ public class TPSMod implements LitEventHandler.EventListener {
 	}
 
 	@Override
+	public List<Command> getCommandList() {
+		return commandList;
+	}
+
+	@Override
 	public void RecievedEvent(LitEvent event) {
 		switch (event.getType())
 		{
@@ -45,29 +51,29 @@ public class TPSMod implements LitEventHandler.EventListener {
 				postInit();
 				break;
 			case "ServerLoad":
-				serverStart();
+				serverLoad();
 				break;
 		}
 	}
 
 	public void preInit()
 	{
-		LaunchTPSMOD.INSTANCE.LOGGER.info("TPSMod v" + VERSION + " preinitializing");
+		LaunchMods.getINSTANCE().getLOGGER().info("TPSMod v" + VERSION + " preinitializing");
 	}
 	
 	public void Init()
 	{
-		LaunchTPSMOD.INSTANCE.LOGGER.info("TPSMod v" + VERSION + " initializing");
+		LaunchMods.getINSTANCE().getLOGGER().info("TPSMod v" + VERSION + " initializing");
 	}
 	
 	public void postInit()
 	{
-		LaunchTPSMOD.INSTANCE.LOGGER.info("TPSMod v" + VERSION + " postinitializing");
+		LaunchMods.getINSTANCE().getLOGGER().info("TPSMod v" + VERSION + " postinitializing");
 	}
 
-	public void serverStart()
+	public void serverLoad()
 	{
-		LaunchTPSMOD.INSTANCE.LOGGER.info("TPSMod v" + VERSION + " starting server");
+		LaunchMods.getINSTANCE().getLOGGER().info("TPSMod v" + VERSION + " starting server");
 	}
 
 }
