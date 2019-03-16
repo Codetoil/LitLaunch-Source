@@ -4,6 +4,7 @@ be able to have a special branch for non-dev. That's for later though! (or I may
  the code.)
 
 ## install dev enviorment
+**INCOMPLETE, WILL COMPLETE LATER**
 To start, first create a folder named "tpsmod" anywhere, and then clone the master branch into a new folder "tpsmodsrc" within tpsmod with:
 
     git clone "https://github.com/Littoil/TPS-Mod-Source.git" tpsmodsrc
