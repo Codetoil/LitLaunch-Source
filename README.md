@@ -62,3 +62,5 @@ In the discussion pages, you may speak whatever you want, as long as it complies
 The free speach statement can be overriden by Github's own rules if it has any against free speech, though off-topic-ness is still punished.
 
 Thank you and have fun modding!
+
+Discord: https://discord.gg/XgrbTjm
