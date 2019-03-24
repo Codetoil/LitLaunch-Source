@@ -1,7 +1,5 @@
 package io.github.littoil.litlaunch.launchcommon;
 
-import io.github.littoil.litlaunch.version.sponge.LoggerSponge;
-
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -20,7 +18,7 @@ public class LaunchMods {
         try {
             MOD_LIST.forEach((modPath) -> {
                 if (LitClassLoader.classExists(modPath)) {
-                    if (IMod.class.isAssignableFrom(LitClassLoader.getClass(modPath)))
+                    if (isModAnInterface(modPath))
                     {
                         try {
                             modList.add((IMod) LitClassLoader.getClass(modPath).newInstance());
@@ -44,6 +42,16 @@ public class LaunchMods {
         } catch (Exception e) {
             e.printStackTrace();
         }
+    }
+
+    private boolean isModAnInterface(String modPath)
+    {
+        Class<?>[] inters = LitClassLoader.getClass(modPath).getInterfaces();
+        boolean result = false;
+        for (int i = 0; i < inters.length; i++) {
+            result = result || inters[i].getName().equals("io.github.littoil.litlaunch.launchcommon.IMod");
+        }
+        return result;
     }
 
     public static LaunchMods getINSTANCE() {

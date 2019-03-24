@@ -5,7 +5,6 @@ import io.github.littoil.litlaunch.launchforge.*;
 import io.github.littoil.litlaunch.version.mc1_13.proxy.*;
 import io.github.littoil.tpsmod.TPSMod;
 import net.minecraftforge.api.distmarker.*;
-import net.minecraftforge.client.event.ClientChatEvent;
 import net.minecraftforge.common.*;
 import net.minecraftforge.eventbus.api.*;
 import net.minecraftforge.fml.common.*;
@@ -13,29 +12,32 @@ import net.minecraftforge.fml.event.lifecycle.*;
 import net.minecraftforge.fml.event.server.*;
 import net.minecraftforge.fml.javafmlmod.*;
 import net.minecraftforge.fml.loading.*;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 @Mod(LaunchForge.MODID)
-public class Launch1_13 {
+public class Launch1_13 implements ILaunch {
     public static final String VERSION = "1.13-0.0.0.3";
 
     public Launch1_13() {
-		LaunchTPSMOD.INSTANCE.LOGGER = new Logger1_13();
-		if (!setProxy()) {
-			LaunchTPSMOD.INSTANCE.LOGGER.error("Proxies not set!");
-		}
+
+	    LaunchCommon.bootstrap(LogManager.getLogger(LaunchForge.MODID), this, Logger1_13.getInstance());
+	    if (!setProxy()) {
+		    LaunchMods.getINSTANCE().getLOGGER().error("Proxies not set!");
+	    }
 		FMLJavaModLoadingContext.get().getModEventBus().addListener(this::setup);
 		FMLJavaModLoadingContext.get().getModEventBus().addListener(this::setupClient);
 		MinecraftForge.EVENT_BUS.register(this);
 		//FMLJavaModLoadingContext.get().getModEventBus().addListener(this::serverLoad);
-		LaunchTPSMOD.INSTANCE.LOGGER.info("Initialized Launch1_13");
+		LaunchMods.getINSTANCE().getLOGGER().info("Initialized Launch1_13");
 	}
 
 	public boolean setProxy()
 	{
 		boolean result;
-		if (LaunchForge.ccproxy != null)
+		if (LaunchCommon.ccproxy != null)
 		{
-			LaunchTPSMOD.INSTANCE.LOGGER.error("Tried re-setting proxy!");
+			LaunchMods.getINSTANCE().getLOGGER().error("Tried re-setting proxy!");
 			result = false;
 		}
 		else
@@ -43,15 +45,15 @@ public class Launch1_13 {
 			Dist dist = FMLEnvironment.dist;
 			switch (dist) {
 				case CLIENT:
-					LaunchForge.ccproxy = new ClientProxy1_13();
+					LaunchCommon.ccproxy = new ClientProxy1_13();
 					result = true;
 					break;
 				case DEDICATED_SERVER:
-					LaunchForge.ccproxy = new ServerProxy1_13();
+					LaunchCommon.ccproxy = new ServerProxy1_13();
 					result = true;
 					break;
 				default:
-					LaunchTPSMOD.INSTANCE.LOGGER.error("FML is not sided(client vs server). This may not go well!");
+					LaunchMods.getINSTANCE().getLOGGER().error("FML is not sided(client vs server). This may not go well!");
 					result = false;
 					break;
 			}
@@ -60,12 +62,13 @@ public class Launch1_13 {
 	}
 
 	public void setup(final FMLCommonSetupEvent event) {
+
 		LaunchForge.preInit();
 	}
 
 	public void setupClient(final FMLClientSetupEvent event)
 	{
-		LaunchForge.ccproxy.preInit();
+		LaunchCommon.ccproxy.preInit();
 	}
 
 	@SubscribeEvent

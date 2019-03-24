@@ -10,4 +10,5 @@ public interface IMod {
 	public void Init();
 	public void postInit();
 	public void serverLoad();
+	IMod getMainINSTNACE();
 }

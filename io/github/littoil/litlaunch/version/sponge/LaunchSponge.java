@@ -104,11 +104,11 @@ public class LaunchSponge implements ILaunch {
 
 	// Get Private Objects
 
-	static LaunchSponge getLaunchSponge() {
+	public static LaunchSponge getLaunchSponge() {
 		return launchsponge;
 	}
 
-	static Logger getSpongeLogger() {
+	public static Logger getSpongeLogger() {
 		return getLaunchSponge().logger;
 	}
 }

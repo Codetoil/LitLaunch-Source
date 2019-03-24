@@ -1,8 +1,8 @@
 package io.github.littoil.litlaunch.version.mc1_13.proxy;
 
 import io.github.littoil.litlaunch.launchcommon.Command;
-import io.github.littoil.litlaunch.launchcommon.LaunchTPSMOD;
-import io.github.littoil.litlaunch.launchforge.proxy.CommonClientProxy;
+import io.github.littoil.litlaunch.launchcommon.LaunchMods;
+import io.github.littoil.litlaunch.launchcommon.proxy.CommonProxy;
 import io.github.littoil.tpsmod.TPSMod;
 import net.minecraftforge.client.event.ClientChatEvent;
 import net.minecraftforge.common.MinecraftForge;
@@ -12,12 +12,12 @@ import java.lang.reflect.InvocationTargetException;
 import java.util.ArrayList;
 import java.util.List;
 
-public class ClientProxy1_13 extends CommonClientProxy {
+public class ClientProxy1_13 implements CommonProxy {
     private static List<String> commandNameList = new ArrayList<String>();
 
     @Override
     public void preInit() {
-        LOGGER.info("preInitialization!");
+        LaunchMods.getINSTANCE().getLOGGER().info("preInitialization!");
         TPSMod.commandList.forEach((command) -> {
             if (Command.Side.CLIENT.equals(command.side) || Command.Side.BOTH.equals(command.side))
                 commandNameList.add(command.name);
@@ -54,7 +54,7 @@ public class ClientProxy1_13 extends CommonClientProxy {
             if (commandNameList.contains(e.getMessage().substring(1))) {
                 e.setCanceled(true);
                 TPSMod.commandList.forEach((command) -> {
-                    LaunchTPSMOD.INSTANCE.LOGGER.info(command.name);
+                    LaunchMods.getINSTANCE().getLOGGER().info(command.name);
                     if (e.getMessage().equals("/" + command.name))
                     {
 

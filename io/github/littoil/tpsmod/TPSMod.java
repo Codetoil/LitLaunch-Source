@@ -10,14 +10,20 @@ import io.github.littoil.litlaunch.launchcommon.LaunchMods;
 import io.github.littoil.litlaunch.launchcommon.events.LitEvent;
 import io.github.littoil.tpsmod.commands.CommandHandler;
 
-public class TPSMod implements LitEventHandler.EventListener, IMod {
+public class TPSMod implements IMod, LitEventHandler.EventListener {
 	public static final String VERSION = "1.2.1";
 
 	public final static List<Command> commandList = newCommandList();
+	private final static IMod mod = new TPSMod();
 
 	public TPSMod()
 	{
 
+	}
+
+	@Override
+	public IMod getMainINSTNACE() {
+		return mod;
 	}
 
 	private static List<Command> newCommandList()
