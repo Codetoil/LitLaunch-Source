@@ -1,13 +1,17 @@
 package io.github.littoil.litlaunch.version.mc1_7;
 
-import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 import io.github.littoil.litlaunch.launchcommon.ILogger;
 
 public class Logger1_7 implements ILogger {
-	
-	private final Logger LOGGER = LogManager.getLogger();
+
+	private Logger1_7()
+	{
+	}
+
+	private Logger LOGGER;
+	private final static ILogger Instance = new Logger1_7();
 
 	@Override
 	public void info(Object obj) {
@@ -32,6 +36,20 @@ public class Logger1_7 implements ILogger {
 	@Override
 	public void debug(Object obj) {
 		this.LOGGER.debug(obj);
+	}
+
+	public static ILogger getInstance() {
+		return Instance;
+	}
+	public Object getInternalLogger() {
+		return LOGGER;
+	}
+
+	public void setInternalLogger(Object logger) {
+		if (this.LOGGER == null)
+		{
+			this.LOGGER = (Logger) logger;
+		}
 	}
 
 }

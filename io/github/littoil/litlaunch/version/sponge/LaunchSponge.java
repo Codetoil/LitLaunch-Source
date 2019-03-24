@@ -21,7 +21,7 @@ import java.util.List;
 		}
 )
 public class LaunchSponge implements ILaunch {
-	public static final String VERSION = "sponge-0.0.0.3-1.2.1";
+	public static final String VERSION = "sponge-0.0.0.4-2.0";
 
 	/*
 		Fields

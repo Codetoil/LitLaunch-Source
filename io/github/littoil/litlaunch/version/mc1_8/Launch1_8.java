@@ -1,8 +1,9 @@
 package io.github.littoil.litlaunch.version.mc1_8;
 
 import io.github.littoil.litlaunch.launchcommon.Command;
+import io.github.littoil.litlaunch.launchcommon.ILaunch;
 import io.github.littoil.litlaunch.launchcommon.LaunchCommon;
-import io.github.littoil.litlaunch.launchcommon.LaunchTPSMOD;
+import io.github.littoil.litlaunch.launchcommon.LaunchMods;
 import io.github.littoil.litlaunch.launchforge.LaunchForge;
 import io.github.littoil.litlaunch.version.mc1_8.proxy.ClientProxy1_8;
 import io.github.littoil.litlaunch.version.mc1_8.proxy.ServerProxy1_8;
@@ -15,26 +16,27 @@ import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLServerStartingEvent;
 import net.minecraftforge.fml.relauncher.Side;
+import org.apache.logging.log4j.LogManager;
 
 @Mod(modid = LaunchForge.MODID, version = Launch1_8.VERSION)
-public class Launch1_8{
-	public static final String VERSION = "1.8-0.0.0.2";
+public class Launch1_8 implements ILaunch {
+	public static final String VERSION = "1.8-0.0.0.4-2.0";
 
 	public Launch1_8()
 	{
-		LaunchTPSMOD.INSTANCE.LOGGER = new Logger1_8();
+		LaunchCommon.bootstrap(LogManager.getLogger(LaunchForge.MODID), this, Logger1_8.getInstance());
 		if (!setProxy())
 		{
-			LaunchTPSMOD.INSTANCE.LOGGER.error("Proxies not set!");
+			LaunchMods.getINSTANCE().getLOGGER().error("Proxies not set!");
 		}
 	}
 
 	public boolean setProxy()
 	{
 		boolean result;
-		if (LaunchForge.ccproxy != null)
+		if (LaunchCommon.ccproxy != null)
 		{
-			LaunchTPSMOD.INSTANCE.LOGGER.error("Tried re-setting proxy!");
+			LaunchMods.getINSTANCE().getLOGGER().error("Tried re-setting proxy!");
 			result = false;
 		}
 		else
@@ -42,15 +44,15 @@ public class Launch1_8{
 			Side side = FMLCommonHandler.instance().getSide();
 			switch (side) {
 				case CLIENT:
-					LaunchForge.ccproxy = new ClientProxy1_8();
+					LaunchCommon.ccproxy = new ClientProxy1_8();
 					result = true;
 					break;
 				case SERVER:
-					LaunchForge.ccproxy = new ServerProxy1_8();
+					LaunchCommon.ccproxy = new ServerProxy1_8();
 					result = true;
 					break;
 				default:
-					LaunchTPSMOD.INSTANCE.LOGGER.error("FML is not sided(client vs server). This may not go well!");
+					LaunchMods.getINSTANCE().getLOGGER().error("FML is not sided(client vs server). This may not go well!");
 					result = false;
 					break;
 			}
