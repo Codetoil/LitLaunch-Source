@@ -21,7 +21,7 @@ public abstract class LaunchCommon {
 
 	public static boolean bootstrap(Object logger, ILaunch launch, ILogger iLogger)
 	{
-		timeInit = getTimeInSeconds();
+		timeInit = getTimeInSeconds(); // Makes it so that time is readable
 		//Inserting the logger to the logger wrapper!
 		LaunchMods.getINSTANCE().setLOGGER(iLogger);
 		LaunchMods.getINSTANCE().getLOGGER().setInternalLogger(logger);
