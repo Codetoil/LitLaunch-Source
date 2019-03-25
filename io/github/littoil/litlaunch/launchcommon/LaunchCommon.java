@@ -6,6 +6,7 @@ import io.github.littoil.litlaunch.launchcommon.proxy.CommonProxy;
 public abstract class LaunchCommon {
     public static CommonProxy ccproxy;
     private static IGetFields getFields;
+    private static double timeInit = 0.0;
 
 	public static IGetFields getGetFields() {
 		return getFields;
@@ -20,6 +21,7 @@ public abstract class LaunchCommon {
 
 	public static boolean bootstrap(Object logger, ILaunch launch, ILogger iLogger)
 	{
+		timeInit = getTimeInSeconds();
 		//Inserting the logger to the logger wrapper!
 		LaunchMods.getINSTANCE().setLOGGER(iLogger);
 		LaunchMods.getINSTANCE().getLOGGER().setInternalLogger(logger);
@@ -83,6 +85,6 @@ public abstract class LaunchCommon {
 
 	public static double getTimeInSeconds()
 	{
-		return ((double) System.currentTimeMillis()) / 1000.0;
+		return ((double) System.currentTimeMillis()) / 1000.0 - timeInit;
 	}
 }
