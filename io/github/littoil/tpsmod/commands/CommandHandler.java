@@ -10,6 +10,7 @@ public class CommandHandler {
 	{
 		LaunchMods.getINSTANCE().getLOGGER().info("executed //tps!");
 		LaunchMods.getINSTANCE().getLOGGER().info(LaunchCommon.getGetFields().getTotalWorldTime());
+		LaunchMods.getINSTANCE().getLOGGER().info(LaunchCommon.getTimeInSeconds());
 	}
 	public static void executeTPSTOALL()
 	{

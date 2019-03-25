@@ -14,7 +14,7 @@ public class TPSMod implements IMod, LitEventHandler.EventListener {
 	public static final String VERSION = "1.2.1";
 
 	public final static List<Command> commandList = newCommandList();
-	private final static IMod mod = new TPSMod();
+	public final static IMod INSTNACE = new TPSMod();
 
 	public TPSMod()
 	{
@@ -22,7 +22,7 @@ public class TPSMod implements IMod, LitEventHandler.EventListener {
 
 	@Override
 	public IMod getMainINSTNACE() {
-		return mod;
+		return INSTNACE;
 	}
 
 	private static List<Command> newCommandList()
