@@ -18,7 +18,6 @@ public class ClientProxy1_12 implements CommonProxy {
 
     @Override
     public void init() {
-
     }
 
     @Override

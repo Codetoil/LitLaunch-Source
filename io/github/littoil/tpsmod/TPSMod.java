@@ -18,7 +18,6 @@ public class TPSMod implements IMod, LitEventHandler.EventListener {
 
 	public TPSMod()
 	{
-
 	}
 
 	@Override

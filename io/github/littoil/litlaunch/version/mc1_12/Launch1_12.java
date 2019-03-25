@@ -26,9 +26,7 @@ public class Launch1_12 implements ILaunch {
 	public Launch1_12()
 	{
 		LaunchCommon.bootstrap(LogManager.getLogger(LaunchForge.MODID), this, Logger1_12.getInstance());
-		if (!setProxy()) {
-			LaunchMods.getINSTANCE().getLOGGER().error("Proxies not set!");
-		}
+		LaunchCommon.setGetFields(GetFields.INSTANCE);
 	}
 
 	/*
@@ -81,6 +79,7 @@ public class Launch1_12 implements ILaunch {
 	@EventHandler
 	public void postInit(FMLPostInitializationEvent event) {
 		LaunchForge.postInit();
+		//FMLCommonHandler.instance().getMinecraftServerInstance().getEntityWorld().getTotalWorldTime();
 	}
 
 	@EventHandler
