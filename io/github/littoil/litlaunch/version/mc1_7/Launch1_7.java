@@ -20,15 +20,12 @@ import org.apache.logging.log4j.LogManager;
 
 @Mod(modid = LaunchForge.MODID, version = Launch1_7.VERSION)
 public class Launch1_7 implements ILaunch {
-    public static final String VERSION = "1.7-0.0.0.4-2.0";
+    public static final String VERSION = "1.7-0.0.0.5-2.0";
 
     public Launch1_7()
     {
 	    LaunchCommon.bootstrap(LogManager.getLogger(LaunchForge.MODID), this, Logger1_7.getInstance());
-	    if (!setProxy())
-		{
-			LaunchMods.getINSTANCE().getLOGGER().error("Proxies not set!");
-		}
+	    LaunchCommon.setGetFields(GetFields.INSTANCE);
     }
 
     public boolean setProxy()
