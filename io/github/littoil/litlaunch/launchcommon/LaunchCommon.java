@@ -83,6 +83,6 @@ public abstract class LaunchCommon {
 
 	public static double getTimeInSeconds()
 	{
-		return ((double) System.currentTimeMillis()) / 1000000.0;
+		return ((double) System.currentTimeMillis()) / 1000.0;
 	}
 }
