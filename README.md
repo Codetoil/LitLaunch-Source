@@ -12,7 +12,6 @@ To start, open up the command promt/terminal in the tpsmod root and execute with
 
 After that's done, execute this in the same folder for the unique setups required for each version:
 
-
     git clone -b versions "https://github.com/Littoil/TPS-Mod-Source.git" versions
 
 This will create a sub-directory called `versions` inside the root, and inside a folder called forge with many subdirectories
