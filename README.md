@@ -16,7 +16,6 @@ After that's done, execute this in the same folder for the unique setups require
 
 This will create a sub-directory called `versions` inside the root, and inside a folder called forge with many subdirectories
 inside.
-tst
 
 Afterwards, go to the official minecraft forge download page (https://files.minecraftforge.net/maven/net/minecraftforge/forge)
  and select versions 1.7.\*, 1.8.\*, 1.12.\*, and 1.13.\*. Download the mdks for each(called src for 1.7). Don't click
