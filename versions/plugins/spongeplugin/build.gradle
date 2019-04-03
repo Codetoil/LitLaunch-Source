@@ -1,0 +1,32 @@
+plugins {
+    id 'org.spongepowered.plugin' version '0.8.1'
+}
+
+group = pluginGroup
+version = pluginVersion
+
+dependencies {
+    compile 'org.spongepowered:spongeapi:7.1.0-SNAPSHOT'
+    implementation 'org.jetbrains:annotations:15.0'
+}
+
+sponge.plugin.id = pluginId
+
+sourceSets {
+    main {
+        java {
+            srcDir "../../../tpsmodsrc"
+            exclude 'io/github/littoil/litlaunch/version/mc1_7'
+            exclude 'io/github/littoil/litlaunch/version/mc1_8'
+            exclude 'io/github/littoil/litlaunch/version/mc1_12'
+            exclude 'io/github/littoil/litlaunch/version/mc1_13'
+        }
+        resources {
+            srcDir "../../../tpsmodsrc"
+            exclude 'io/github/littoil/litlaunch/version/mc1_7'
+            exclude 'io/github/littoil/litlaunch/version/mc1_8'
+            exclude 'io/github/littoil/litlaunch/version/mc1_12'
+            exclude 'io/github/littoil/litlaunch/version/mc1_13'
+        }
+    }
+}
