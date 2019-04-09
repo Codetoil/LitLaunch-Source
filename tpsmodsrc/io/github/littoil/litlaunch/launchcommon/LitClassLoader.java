@@ -5,33 +5,56 @@ import java.lang.reflect.Method;
 import java.util.Arrays;
 
 public class LitClassLoader {
-    public static ClassLoader classLoader = ClassLoader.getSystemClassLoader();
-    public static boolean classExists(String nameClass)
+    public ClassLoader classLoader;
+
+    public void setClassLoader(ClassLoader classLoader) {
+        if (this.classLoader == null)
+        {
+            LaunchMods.getINSTANCE().getLOGGER().info("Setting classloader to: " + classLoader);
+            this.classLoader = classLoader;
+        }
+        else
+        {
+            LaunchMods.getINSTANCE().getLOGGER().info("Classloader is final");
+        }
+    }
+
+    public boolean classExists(String nameClass)
     {
         boolean result;
+        if (classLoader == null)
+        {
+            LaunchMods.getINSTANCE().getLOGGER().info("ClassLoader not set!");
+        }
         try {
             classLoader.loadClass(nameClass);
             result = true;
-        } catch (ClassNotFoundException e)
+        } catch (Throwable e)
         {
+            e.printStackTrace();
             result = false;
         }
         return result;
     }
 
-    public static Class<?> getClass(String className)
+    public Class<?> getClass(String className)
     {
         Class<?> classOut;
+        if (classLoader == null)
+        {
+            LaunchMods.getINSTANCE().getLOGGER().info("ClassLoader not set!");
+        }
         try {
             classOut = classLoader.loadClass(className);
-        } catch (ClassNotFoundException e)
+        } catch (Throwable e)
         {
+            e.printStackTrace();
             classOut = null;
         }
         return classOut;
     }
 
-    public static Method getMethodOfClass(Class<?> classIn, String methodName, Class<?>... paramTypes)
+    public Method getMethodOfClass(Class<?> classIn, String methodName, Class<?>... paramTypes)
     {
         for (Method method : classIn.getMethods())
         {
@@ -48,7 +71,7 @@ public class LitClassLoader {
         return null;
     }
 
-    public static Constructor<?> getConstructorOfClass(Class<?> classIn, Class<?>... paramTypes)
+    public Constructor<?> getConstructorOfClass(Class<?> classIn, Class<?>... paramTypes)
     {
         LaunchMods.getINSTANCE().getLOGGER().info(Arrays.asList(classIn.getConstructors()));
         for (Constructor<?> constructor : classIn.getConstructors())
@@ -63,7 +86,7 @@ public class LitClassLoader {
         return null;
     }
 
-    public static boolean areClassListsEqual(Class<?>[] classList1, Class<?>[] classList2)
+    public boolean areClassListsEqual(Class<?>[] classList1, Class<?>[] classList2)
     {
         boolean result = true;
         if (classList1.length == classList2.length)

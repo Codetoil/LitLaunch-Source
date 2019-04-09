@@ -64,29 +64,32 @@ public class TPSMod implements IMod, LitEventHandler.EventListener {
 
 	public void RecievedEvent(LitEvent event, LaunchMods launchMods)
 	{
-		String eventType = event.getType();
-		launchMods.getLOGGER().debug("Got event \"" + eventType + "\"");
-		switch (Enum.valueOf(TPSMod.Events.class, eventType)) {
-			case Construction:
-				construction();
-				break;
-			case PreInit:
-				preInit();
-				break;
-			case Init:
-				Init();
-				break;
-			case PostInit:
-				postInit();
-				break;
-			case ServerLoad:
-				serverLoad();
-				break;
-			case updateTPS:
-				break;
-			case checkIFTWTDrop:
-				break;
+		launchMods.getLOGGER().debug("Got event: " + event);
+		try {
+			switch (Enum.valueOf(TPSMod.Events.class, event.getType())) {
+				case Construction:
+					construction();
+					break;
+				case PreInit:
+					preInit();
+					break;
+				case Init:
+					Init();
+					break;
+				case PostInit:
+					postInit();
+					break;
+				case ServerLoad:
+					serverLoad();
+					break;
+				default:
+					break;
+			}
+		} catch(IllegalArgumentException e)
+		{
+			LaunchMods.getINSTANCE().getLOGGER().debug("Unknown event " + event.toString());
 		}
+
 	}
 
 	public void construction()

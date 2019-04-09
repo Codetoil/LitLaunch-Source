@@ -2,6 +2,7 @@ package io.github.littoil.litlaunch.launchcommon.events;
 
 import io.github.littoil.litlaunch.launchcommon.LaunchMods;
 
+import java.util.Arrays;
 import java.util.EventObject;
 
 public class LitEvent extends EventObject {
@@ -49,4 +50,9 @@ public class LitEvent extends EventObject {
     public Object[] getData() {
         return data;
     }
+
+	@Override
+	public String toString() {
+		return "LitEvent: \"" + type + "\" with data " + Arrays.toString(data) + " from source \"" + source + "\"";
+	}
 }
