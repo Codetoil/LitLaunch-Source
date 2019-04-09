@@ -23,7 +23,7 @@ public class Launch1_12 implements ILaunch {
 	public static final String VERSION = "1.12-0.0.0.5-2.0";
 
 
-	public Launch1_12()
+	public Launch1_12() throws Throwable
 	{
 		LaunchCommon.bootstrap(LogManager.getLogger(LaunchForge.MODID), this, Logger1_12.getInstance());
 		LaunchCommon.setGetFields(GetFields.INSTANCE);

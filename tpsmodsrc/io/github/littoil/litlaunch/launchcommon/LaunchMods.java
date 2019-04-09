@@ -2,8 +2,6 @@ package io.github.littoil.litlaunch.launchcommon;
 
 import io.github.littoil.litlaunch.launchcommon.events.LitEvent;
 import io.github.littoil.litlaunch.launchcommon.exceptions.FailedBootstrapException;
-import joptsimple.internal.Objects;
-import scala.tools.nsc.transform.patmat.Solving;
 
 import java.lang.reflect.Constructor;
 import java.lang.reflect.Method;
