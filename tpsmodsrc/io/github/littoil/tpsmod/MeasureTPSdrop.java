@@ -3,7 +3,6 @@ package io.github.littoil.tpsmod;
 import io.github.littoil.litlaunch.launchcommon.LaunchCommon;
 import io.github.littoil.litlaunch.launchcommon.LaunchMods;
 import io.github.littoil.litlaunch.launchcommon.LitEventHandler;
-import io.github.littoil.litlaunch.launchcommon.ThreadLogged;
 import io.github.littoil.litlaunch.launchcommon.events.LitEvent;
 
 public class MeasureTPSdrop implements LitEventHandler.EventListener {
@@ -19,9 +18,9 @@ public class MeasureTPSdrop implements LitEventHandler.EventListener {
 	{
 	}
 
-	public void seeIfTWTHasDropped()
+	public void seeIfTWTHasDropped(int dimension)
 	{
-		totalWorldTime = LaunchCommon.getGetFields().getTotalWorldTime();
+		totalWorldTime = LaunchCommon.getGetFields().getTotalWorldTime(dimension);
 		timeNow = LaunchCommon.getTimeInSeconds();
 		if (timeNow - previousMeasureTime > maxTimeWait || totalWorldTime < totalWorldTimePrev)
 		{
@@ -36,7 +35,7 @@ public class MeasureTPSdrop implements LitEventHandler.EventListener {
 		LaunchMods.getINSTANCE().getLOGGER().info(event.getType());
 		if (event.getType().equals("checkIFTWTDrop"))
 		{
-			seeIfTWTHasDropped();
+			seeIfTWTHasDropped((Integer) event.getData()[0]);
 		}
 	}
 

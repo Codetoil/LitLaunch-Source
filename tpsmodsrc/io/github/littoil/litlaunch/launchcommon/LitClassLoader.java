@@ -1,13 +1,11 @@
 package io.github.littoil.litlaunch.launchcommon;
 
-import net.minecraft.launchwrapper.Launch;
-
 import java.lang.reflect.Constructor;
 import java.lang.reflect.Method;
 import java.util.Arrays;
 
 public class LitClassLoader {
-    public static ClassLoader classLoader = Launch.classLoader;
+    public static ClassLoader classLoader = ClassLoader.getSystemClassLoader();
     public static boolean classExists(String nameClass)
     {
         boolean result;

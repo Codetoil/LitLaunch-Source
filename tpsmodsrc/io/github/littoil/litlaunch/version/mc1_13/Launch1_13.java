@@ -13,21 +13,20 @@ import net.minecraftforge.fml.event.server.*;
 import net.minecraftforge.fml.javafmlmod.*;
 import net.minecraftforge.fml.loading.*;
 import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
 
 @Mod(LaunchForge.MODID)
 public class Launch1_13 implements ILaunch {
     public static final String VERSION = "1.13-0.0.0.4-2.0";
 
-    public Launch1_13() {
+    public Launch1_13() throws Throwable
+    {
 
 	    LaunchCommon.bootstrap(LogManager.getLogger(LaunchForge.MODID), this, Logger1_13.getInstance());
-	    if (!setProxy()) {
-		    LaunchMods.getINSTANCE().getLOGGER().error("Proxies not set!");
-	    }
+	    LaunchCommon.setGetFields(GetFields.INSTANCE);
 		FMLJavaModLoadingContext.get().getModEventBus().addListener(this::setup);
 		FMLJavaModLoadingContext.get().getModEventBus().addListener(this::setupClient);
 		MinecraftForge.EVENT_BUS.register(this);
+		MinecraftForge.EVENT_BUS.register(EventHandler.class);
 		//FMLJavaModLoadingContext.get().getModEventBus().addListener(this::serverLoad);
 		LaunchMods.getINSTANCE().getLOGGER().info("Initialized Launch1_13");
 	}
@@ -77,38 +76,9 @@ public class Launch1_13 implements ILaunch {
 		TPSMod.commandList.forEach((command) -> {
 			if (io.github.littoil.litlaunch.launchcommon.Command.Side.SERVER.equals(command.side) || io.github.littoil.litlaunch.launchcommon.Command.Side.BOTH.equals(command.side))
 			{
-				new CommandNew((Command) command, event.getCommandDispatcher());
+				new CommandNew(command, event.getCommandDispatcher());
 			}
 		});
 	}
-
-
-
-    /*private void setup(final FMLCommonSetupEvent event) {
-		super.preInit(event);
-	}
-	
-	private void setupClient(final FMLClientSetupEvent event) {
-		if (tpsmod instanceof TPSMod)
-		{
-			TPSMod.commandList.forEach((command) -> {
-				if (io.github.littoil.litlaunch.launchcommon.Command.Side.CLIENT.equals(command.side) || io.github.littoil.litlaunch.launchcommon.Command.Side.BOTH.equals(command.side))
-				{
-					LOGGER.error("Error: Cannot register command " + command.name + "as client side as it doesn't seem to be supported yet!");
-				}
-					
-					//net.minecraftforge.client.ClientCommandHandler.instance.registerCommand(new CommandNew(command));
-			});
-		}
-	}
-
-	@SubscribeEvent
-	public void serverLoad1_13(FMLServerStartingEvent event) {
-		super.serverLoad(event);
-		if (tpsmod instanceof TPSMod)
-		{
-
-		}
-	}*/
 
 }

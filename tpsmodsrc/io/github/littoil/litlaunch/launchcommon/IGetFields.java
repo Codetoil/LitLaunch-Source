@@ -1,5 +1,5 @@
 package io.github.littoil.litlaunch.launchcommon;
 
 public interface IGetFields {
-	long getTotalWorldTime();
+	long getTotalWorldTime(int dimension);
 }
