@@ -1,7 +1,6 @@
 package io.github.littoil.litlaunch.launchcommon;
 
 import io.github.littoil.litlaunch.launchcommon.events.LitEvent;
-import io.github.littoil.litlaunch.launchcommon.exceptions.FailedBootstrapException;
 import io.github.littoil.litlaunch.launchcommon.proxy.CommonProxy;
 
 public abstract class LaunchCommon {

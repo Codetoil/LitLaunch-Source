@@ -8,6 +8,7 @@ import io.github.littoil.litlaunch.launchforge.LaunchForge;
 import io.github.littoil.litlaunch.version.mc1_12.proxy.ClientProxy1_12;
 import io.github.littoil.litlaunch.version.mc1_12.proxy.ServerProxy1_12;
 import io.github.littoil.tpsmod.TPSMod;
+import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.fml.common.FMLCommonHandler;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
@@ -68,6 +69,7 @@ public class Launch1_12 implements ILaunch {
 
 	@EventHandler
 	public void preInit(FMLPreInitializationEvent event) {
+		MinecraftForge.EVENT_BUS.register(io.github.littoil.litlaunch.version.mc1_12.EventHandler.class);
 		LaunchForge.preInit();
 	}
 
