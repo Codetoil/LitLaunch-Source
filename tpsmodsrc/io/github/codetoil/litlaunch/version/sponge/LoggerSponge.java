@@ -1,7 +1,7 @@
-package io.github.littoil.litlaunch.version.sponge;
+package io.github.codetoil.litlaunch.version.sponge;
 
 import com.google.inject.Inject;
-import io.github.littoil.litlaunch.launchcommon.ILogger;
+import io.github.codetoil.litlaunch.launchcommon.ILogger;
 import org.slf4j.Logger;
 
 public class LoggerSponge implements ILogger {

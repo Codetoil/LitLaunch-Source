@@ -1,8 +1,12 @@
-package io.github.littoil.litlaunch.version.mc1_7;
+/*
+ * Copyright Codetoil (c) 2019
+ */
+
+package io.github.codetoil.litlaunch.version.mc1_7;
 
 import org.apache.logging.log4j.Logger;
 
-import io.github.littoil.litlaunch.launchcommon.ILogger;
+import io.github.codetoil.litlaunch.backend.ILogger;
 
 public class Logger1_7 implements ILogger {
 
@@ -36,6 +40,12 @@ public class Logger1_7 implements ILogger {
 	@Override
 	public void debug(Object obj) {
 		this.LOGGER.debug(obj);
+	}
+
+	@Override
+	public void trace(Object obj)
+	{
+		this.LOGGER.trace(obj);
 	}
 
 	public static ILogger getInstance() {

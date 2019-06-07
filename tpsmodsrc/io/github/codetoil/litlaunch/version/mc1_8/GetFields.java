@@ -1,6 +1,6 @@
-package io.github.littoil.litlaunch.version.mc1_8;
+package io.github.codetoil.litlaunch.version.mc1_8;
 
-import io.github.littoil.litlaunch.launchcommon.IGetFields;
+import io.github.codetoil.litlaunch.launchcommon.IGetFields;
 import net.minecraft.client.Minecraft;
 import net.minecraft.world.World;
 import net.minecraftforge.fml.common.FMLCommonHandler;

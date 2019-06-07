@@ -1,10 +1,14 @@
-package io.github.littoil.litlaunch.version.mc1_7.proxy;
+/*
+ * Copyright Codetoil (c) 2019
+ */
 
-import io.github.littoil.litlaunch.launchcommon.Command;
-import io.github.littoil.litlaunch.launchcommon.LaunchMods;
-import io.github.littoil.litlaunch.launchcommon.proxy.CommonProxy;
-import io.github.littoil.litlaunch.version.mc1_7.CommandNew;
-import io.github.littoil.tpsmod.TPSMod;
+package io.github.codetoil.litlaunch.version.mc1_7.proxy;
+
+import io.github.codetoil.litlaunch.api.Command;
+import io.github.codetoil.litlaunch.api.LaunchMods;
+import io.github.codetoil.litlaunch.api.CommonProxy;
+import io.github.codetoil.litlaunch.version.mc1_7.CommandNew;
+import io.github.codetoil.tpsmod.TPSMod;
 
     public class ClientProxy1_7 implements CommonProxy
     {

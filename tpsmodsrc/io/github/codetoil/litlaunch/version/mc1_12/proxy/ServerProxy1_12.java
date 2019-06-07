@@ -1,3 +1,7 @@
+/*
+ * Copyright (c) Codetoil 2019
+ */
+
 package io.github.codetoil.litlaunch.version.mc1_12.proxy;
 
 import io.github.codetoil.litlaunch.launchcommon.proxy.CommonProxy;

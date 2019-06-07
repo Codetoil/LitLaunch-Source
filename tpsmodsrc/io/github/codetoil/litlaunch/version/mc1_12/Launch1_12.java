@@ -1,10 +1,10 @@
+/*
+ * Copyright (c) Codetoil 2019
+ */
+
 package io.github.codetoil.litlaunch.version.mc1_12;
 
-import io.github.codetoil.litlaunch.launchcommon.Command;
-import io.github.codetoil.litlaunch.launchcommon.ILaunch;
-import io.github.codetoil.litlaunch.launchcommon.LaunchCommon;
-import io.github.codetoil.litlaunch.launchcommon.LaunchMods;
-import io.github.codetoil.litlaunch.launchforge.LaunchForge;
+import io.github.codetoil.litlaunch.launchcommon.*;
 import io.github.codetoil.litlaunch.version.mc1_12.proxy.ClientProxy1_12;
 import io.github.codetoil.litlaunch.version.mc1_12.proxy.ServerProxy1_12;
 import io.github.codetoil.tpsmod.TPSMod;
@@ -20,24 +20,17 @@ import net.minecraftforge.fml.relauncher.Side;
 import org.apache.logging.log4j.LogManager;
 
 @Mod(modid = LaunchForge.MODID, version = Launch1_12.VERSION)
-public class Launch1_12 implements ILaunch {
-	public static final String VERSION = "1.12-0.0.0.6";
+public class Launch1_12 implements ILaunch
+{
+	public static final String VERSION = MinecraftForge.MC_VERSION + "-" + LaunchCommon.VERSION;
 
-	public Launch1_12() throws Throwable
+	public Launch1_12()
 	{
-		if (FMLCommonHandler.instance().getSide().isClient())
-		{
+		if (FMLCommonHandler.instance().getSide().isClient()) {
 			LaunchCommon.setSide(Command.Side.CLIENT);
-		}
-		else if (FMLCommonHandler.instance().getSide().isServer())
-		{
+		} else if (FMLCommonHandler.instance().getSide().isServer()) {
 			LaunchCommon.setSide(Command.Side.SERVER);
 		}
-		else
-		{
-			//Should never be reached
-		}
-		LaunchCommon.bootstrap(LogManager.getLogger(LaunchForge.MODID), this, Logger1_12.getInstance());
 		LaunchCommon.setGetFields(GetFields.INSTANCE);
 	}
 
@@ -48,13 +41,10 @@ public class Launch1_12 implements ILaunch {
 	public boolean setProxy()
 	{
 		boolean result;
-		if (LaunchCommon.getCcproxy() != null)
-		{
-			LaunchMods.getINSTANCE().getLOGGER().error("Tried re-setting proxy!");
+		if (LaunchCommon.getCcproxy() != null) {
+			LaunchMods.error("Tried re-setting proxy!");
 			result = false;
-		}
-		else
-		{
+		} else {
 			Side side = FMLCommonHandler.instance().getSide();
 			switch (side) {
 				case CLIENT:
@@ -66,7 +56,7 @@ public class Launch1_12 implements ILaunch {
 					result = true;
 					break;
 				default:
-					LaunchMods.getINSTANCE().getLOGGER().error("FML is not sided(client vs server). This may not go well!");
+					LaunchMods.error("FML is not sided(client vs server). This should not happen!");
 					result = false;
 					break;
 			}
@@ -79,24 +69,29 @@ public class Launch1_12 implements ILaunch {
 	 */
 
 	@EventHandler
-	public void preInit(FMLPreInitializationEvent event) {
+	public void preInit(FMLPreInitializationEvent event) throws Throwable
+	{
+		LaunchCommon.bootstrap(LogManager.getLogger(LaunchForge.MODID), this, Logger1_12.getInstance(), event.getSuggestedConfigurationFile());
 		MinecraftForge.EVENT_BUS.register(io.github.codetoil.litlaunch.version.mc1_12.EventHandler.class);
 		LaunchForge.preInit();
 	}
 
 	@EventHandler
-	public void init(FMLInitializationEvent event) {
+	public void init(FMLInitializationEvent event)
+	{
 		LaunchForge.init();
 	}
 
 	@EventHandler
-	public void postInit(FMLPostInitializationEvent event) {
+	public void postInit(FMLPostInitializationEvent event)
+	{
 		LaunchForge.postInit();
 		//FMLCommonHandler.instance().getMinecraftServerInstance().getEntityWorld().getTotalWorldTime();
 	}
 
 	@EventHandler
-	public void serverLoad(FMLServerStartingEvent event) {
+	public void serverLoad(FMLServerStartingEvent event)
+	{
 		LaunchForge.serverLoad();
 		for (Command command : TPSMod.commandList) {
 			if (Command.Side.SERVER.equals(command.side) || Command.Side.BOTH.equals(command.side))

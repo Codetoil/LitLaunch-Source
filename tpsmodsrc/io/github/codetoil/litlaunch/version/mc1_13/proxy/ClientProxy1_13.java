@@ -1,14 +1,13 @@
-package io.github.littoil.litlaunch.version.mc1_13.proxy;
+package io.github.codetoil.litlaunch.version.mc1_13.proxy;
 
-import io.github.littoil.litlaunch.launchcommon.Command;
-import io.github.littoil.litlaunch.launchcommon.LaunchMods;
-import io.github.littoil.litlaunch.launchcommon.proxy.CommonProxy;
-import io.github.littoil.tpsmod.TPSMod;
+import io.github.codetoil.litlaunch.launchcommon.Command;
+import io.github.codetoil.litlaunch.launchcommon.LaunchMods;
+import io.github.codetoil.litlaunch.launchcommon.proxy.CommonProxy;
+import io.github.codetoil.tpsmod.TPSMod;
 import net.minecraftforge.client.event.ClientChatEvent;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 
-import java.lang.reflect.InvocationTargetException;
 import java.util.ArrayList;
 import java.util.List;
 

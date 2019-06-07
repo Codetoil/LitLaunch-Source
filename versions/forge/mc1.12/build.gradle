@@ -9,11 +9,15 @@ buildscript {
     }
 }
 apply plugin: 'net.minecraftforge.gradle.forge'
+/*
+ * Copyright (c) Codetoil 2019
+ */
+
 //Only edit below this line, the above code adds and enables the necessary things for Forge to be setup.
 
 
-version = "1.2.1"
-group = "io.github.littoil" // http://maven.apache.org/guides/mini/guide-naming-conventions.html
+version = "2.0"
+group = "io.github.codetoil" // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = "tpsmod"
 
 sourceCompatibility = targetCompatibility = '1.8' // Need this here so eclipse task generates correctly.
@@ -81,17 +85,17 @@ sourceSets {
     main {
         java {
             srcDir "../../../tpsmodsrc"
-            exclude 'io/github/littoil/litlaunch/version/mc1_7'
-            exclude 'io/github/littoil/litlaunch/version/mc1_8'
-            exclude 'io/github/littoil/litlaunch/version/mc1_13'
-            exclude 'io/github/littoil/litlaunch/version/sponge'
+            exclude 'io/github/codetoil/litlaunch/version/mc1_7'
+            exclude 'io/github/codetoil/litlaunch/version/mc1_8'
+            exclude 'io/github/codetoil/litlaunch/version/mc1_13'
+            exclude 'io/github/codetoil/litlaunch/version/sponge'
         }
         resources {
             srcDir "../../../tpsmodsrc"
-            exclude 'io/github/littoil/litlaunch/version/mc1_7'
-            exclude 'io/github/littoil/litlaunch/version/mc1_8'
-            exclude 'io/github/littoil/litlaunch/version/mc1_13'
-            exclude 'io/github/littoil/litlaunch/version/sponge'
+            exclude 'io/github/codetoil/litlaunch/version/mc1_7'
+            exclude 'io/github/codetoil/litlaunch/version/mc1_8'
+            exclude 'io/github/codetoil/litlaunch/version/mc1_13'
+            exclude 'io/github/codetoil/litlaunch/version/sponge'
         }
     }
 }

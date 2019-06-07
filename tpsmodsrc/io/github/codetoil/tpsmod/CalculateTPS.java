@@ -1,26 +1,56 @@
+/*
+ * Copyright Codetoil (c) 2019
+ */
+
 package io.github.codetoil.tpsmod;
 
-import io.github.codetoil.litlaunch.launchcommon.LaunchMods;
-import io.github.codetoil.litlaunch.launchcommon.LitEventHandler;
-import io.github.codetoil.litlaunch.launchcommon.events.LitEvent;
+import io.github.codetoil.litlaunch.FrontEnd;
+import io.github.codetoil.litlaunch.backend.LaunchCommon;
+import io.github.codetoil.litlaunch.event.LitEventHandler;
+import io.github.codetoil.litlaunch.event.LitEvent;
 
-public class CalculateTPS implements LitEventHandler.EventListener {
+public class CalculateTPS implements LitEventHandler.EventListener
+{
 	private final int Dimension;
+	private long previousTotalWorldTime;
+	private double previousMeasureTime;
+	private double TPS;
+
 	public CalculateTPS(int Dimension)
 	{
 		this.Dimension = Dimension;
 	}
-	public void RecievedEvent(LitEvent event) {
-		if (event.getType().equals("updateTPS"))
-		{
+
+	public void ReceivedEvent(LitEvent event)
+	{
+		if (event.getType().equals("updateTPS")) {
 			if (event.getData()[2].equals(this.Dimension)) {
-				LaunchMods.getINSTANCE().getLOGGER().info("Update TPS for dimension " + Dimension);
+				updateTPS();
 			}
 		}
 	}
 
+	private void updateTPS()
+	{
+		//LaunchMods.debug("Update TPS for dimension " + Dimension);
+		long totalworldtime = FrontEnd.GET_FIELDS().getTotalWorldTime(this.Dimension);
+		double MeasureTime = LaunchCommon.getTimeInSeconds();
+		if (MeasureTime - previousMeasureTime != 0) {
+			TPS = (totalworldtime - previousTotalWorldTime) / (MeasureTime - previousMeasureTime);
+			previousMeasureTime = MeasureTime;
+			previousTotalWorldTime = totalworldtime;
+		}
+		//LaunchMods.debug(TPS);
+	}
+
 	@Override
-	public LitEventHandler.EventListener getMainInstance() {
+	public LitEventHandler.EventListener getListener()
+	{
 		return this;
+	}
+
+	public double getTPS()
+	{
+		return TPS;
 	}
 }

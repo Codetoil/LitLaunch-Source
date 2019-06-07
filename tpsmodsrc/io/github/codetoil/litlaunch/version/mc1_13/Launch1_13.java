@@ -1,9 +1,9 @@
-package io.github.littoil.litlaunch.version.mc1_13;
+package io.github.codetoil.litlaunch.version.mc1_13;
 
-import io.github.littoil.litlaunch.launchcommon.*;
-import io.github.littoil.litlaunch.launchforge.*;
-import io.github.littoil.litlaunch.version.mc1_13.proxy.*;
-import io.github.littoil.tpsmod.TPSMod;
+import io.github.codetoil.litlaunch.launchcommon.*;
+import io.github.codetoil.litlaunch.launchforge.*;
+import io.github.codetoil.litlaunch.version.mc1_13.proxy.*;
+import io.github.codetoil.tpsmod.TPSMod;
 import net.minecraftforge.api.distmarker.*;
 import net.minecraftforge.common.*;
 import net.minecraftforge.eventbus.api.*;
@@ -74,7 +74,7 @@ public class Launch1_13 implements ILaunch {
 	public void serverLoad(FMLServerStartingEvent event) {
 		LaunchForge.serverLoad();
 		TPSMod.commandList.forEach((command) -> {
-			if (io.github.littoil.litlaunch.launchcommon.Command.Side.SERVER.equals(command.side) || io.github.littoil.litlaunch.launchcommon.Command.Side.BOTH.equals(command.side))
+			if (io.github.codetoil.litlaunch.launchcommon.Command.Side.SERVER.equals(command.side) || io.github.codetoil.litlaunch.launchcommon.Command.Side.BOTH.equals(command.side))
 			{
 				new CommandNew(command, event.getCommandDispatcher());
 			}

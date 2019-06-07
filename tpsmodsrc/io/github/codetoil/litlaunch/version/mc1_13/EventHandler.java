@@ -1,7 +1,7 @@
-package io.github.littoil.litlaunch.version.mc1_13;
+package io.github.codetoil.litlaunch.version.mc1_13;
 
-import io.github.littoil.litlaunch.launchcommon.LitEventHandler;
-import io.github.littoil.litlaunch.launchcommon.events.LitEvent;
+import io.github.codetoil.litlaunch.launchcommon.LitEventHandler;
+import io.github.codetoil.litlaunch.launchcommon.events.LitEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.gameevent.TickEvent;
 

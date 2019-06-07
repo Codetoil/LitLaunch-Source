@@ -1,8 +1,8 @@
-package io.github.littoil.litlaunch.version.mc1_13;
+package io.github.codetoil.litlaunch.version.mc1_13;
 
 import org.apache.logging.log4j.Logger;
 
-import io.github.littoil.litlaunch.launchcommon.ILogger;
+import io.github.codetoil.litlaunch.launchcommon.ILogger;
 
 public class Logger1_13 implements ILogger {
 

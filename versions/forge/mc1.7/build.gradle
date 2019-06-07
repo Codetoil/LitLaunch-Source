@@ -19,8 +19,10 @@ buildscript {
 
 apply plugin: 'forge'
 
-version = "1.2.1"
-group= "io.github.littoil" // http://maven.apache.org/guides/mini/guide-naming-conventions.html
+version = "2.0"
+group= "io.github.codetoil" /*
+ * Copyright Codetoil (c) 2019
+ */ // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = "tpsmod"
 
 minecraft {
@@ -71,17 +73,19 @@ sourceSets {
     main {
         java {
             srcDir "../../../tpsmodsrc"
-            exclude 'io/github/littoil/litlaunch/version/mc1_13'
-            exclude 'io/github/littoil/litlaunch/version/mc1_8'
-            exclude 'io/github/littoil/litlaunch/version/mc1_12'
-            exclude 'io/github/littoil/litlaunch/version/sponge'
+            srcDir "../../../tpsmodsrc-1.2/main/java"
+            exclude 'io/github/codetoil/litlaunch/version/mc1_13'
+            exclude 'io/github/codetoil/litlaunch/version/mc1_8'
+            exclude 'io/github/codetoil/litlaunch/version/mc1_12'
+            exclude 'io/github/codetoil/litlaunch/version/sponge'
         }
         resources {
             srcDir "../../../tpsmodsrc"
-            exclude 'io/github/littoil/litlaunch/version/mc1_13'
-            exclude 'io/github/littoil/litlaunch/version/mc1_8'
-            exclude 'io/github/littoil/litlaunch/version/mc1_12'
-            exclude 'io/github/littoil/litlaunch/version/sponge'
+            srcDir "../../../tpsmodsrc-1.2/main/resources"
+            exclude 'io/github/codetoil/litlaunch/version/mc1_13'
+            exclude 'io/github/codetoil/litlaunch/version/mc1_8'
+            exclude 'io/github/codetoil/litlaunch/version/mc1_12'
+            exclude 'io/github/codetoil/litlaunch/version/sponge'
         }
     }
 }

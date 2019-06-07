@@ -1,6 +1,6 @@
-package io.github.littoil.litlaunch.version.mc1_13;
+package io.github.codetoil.litlaunch.version.mc1_13;
 
-import io.github.littoil.litlaunch.launchcommon.IGetFields;
+import io.github.codetoil.litlaunch.launchcommon.IGetFields;
 import net.minecraft.world.dimension.DimensionType;
 import net.minecraftforge.fml.server.ServerLifecycleHooks;
 

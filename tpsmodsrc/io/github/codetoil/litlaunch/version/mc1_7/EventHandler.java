@@ -1,17 +1,25 @@
-package io.github.littoil.litlaunch.version.mc1_7;
+/*
+ * Copyright Codetoil (c) 2019
+ */
+
+package io.github.codetoil.litlaunch.version.mc1_7;
 
 import cpw.mods.fml.common.eventhandler.SubscribeEvent;
-import cpw.mods.fml.common.gameevent.TickEvent;
-import io.github.littoil.litlaunch.launchcommon.LitEventHandler;
-import io.github.littoil.litlaunch.launchcommon.events.LitEvent;
+import cpw.mods.fml.common.gameevent.TickEvent.ClientTickEvent;
+import cpw.mods.fml.common.gameevent.TickEvent.Phase;
+import cpw.mods.fml.relauncher.Side;
+import cpw.mods.fml.relauncher.SideOnly;
+import io.github.codetoil.litlaunch.event.LitEvent;
+import io.github.codetoil.litlaunch.event.LitEventHandler;
 
-public class EventHandler {
+public class EventHandler
+{
 	@SubscribeEvent
-	public void onTick(TickEvent.WorldTickEvent event)
+	@SideOnly(Side.CLIENT)
+	public void onTick(ClientTickEvent event)
 	{
-		if (event.phase.equals(TickEvent.Phase.END))
-		{
-			LitEventHandler.COMMON.post(new LitEvent(this, "onTick", event.world.provider.dimensionId));
+		if (event.phase.equals(Phase.END)) {
+			LitEventHandler.COMMON.post(new LitEvent(EventHandler.class, "onTick"), true);
 		}
 	}
 }

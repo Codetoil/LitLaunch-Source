@@ -1,9 +1,9 @@
-package io.github.littoil.litlaunch.version.mc1_8;
+package io.github.codetoil.litlaunch.version.mc1_8;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import io.github.littoil.litlaunch.launchcommon.Command;
+import io.github.codetoil.litlaunch.launchcommon.Command;
 import net.minecraft.command.CommandException;
 import net.minecraft.command.ICommand;
 import net.minecraft.command.ICommandSender;

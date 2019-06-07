@@ -1,14 +1,13 @@
-package io.github.littoil.litlaunch.version.mc1_8;
+package io.github.codetoil.litlaunch.version.mc1_8;
 
-import io.github.littoil.litlaunch.launchcommon.Command;
-import io.github.littoil.litlaunch.launchcommon.ILaunch;
-import io.github.littoil.litlaunch.launchcommon.LaunchCommon;
-import io.github.littoil.litlaunch.launchcommon.LaunchMods;
-import io.github.littoil.litlaunch.launchcommon.exceptions.FailedBootstrapException;
-import io.github.littoil.litlaunch.launchforge.LaunchForge;
-import io.github.littoil.litlaunch.version.mc1_8.proxy.ClientProxy1_8;
-import io.github.littoil.litlaunch.version.mc1_8.proxy.ServerProxy1_8;
-import io.github.littoil.tpsmod.TPSMod;
+import io.github.codetoil.litlaunch.launchcommon.Command;
+import io.github.codetoil.litlaunch.launchcommon.ILaunch;
+import io.github.codetoil.litlaunch.launchcommon.LaunchCommon;
+import io.github.codetoil.litlaunch.launchcommon.LaunchMods;
+import io.github.codetoil.litlaunch.launchforge.LaunchForge;
+import io.github.codetoil.litlaunch.version.mc1_8.proxy.ClientProxy1_8;
+import io.github.codetoil.litlaunch.version.mc1_8.proxy.ServerProxy1_8;
+import io.github.codetoil.tpsmod.TPSMod;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.fml.common.FMLCommonHandler;
 import net.minecraftforge.fml.common.Mod;
@@ -61,7 +60,7 @@ public class Launch1_8 implements ILaunch {
 
 	@EventHandler
 	public void preInit(FMLPreInitializationEvent event) {
-		MinecraftForge.EVENT_BUS.register(io.github.littoil.litlaunch.version.mc1_8.EventHandler.class);
+		MinecraftForge.EVENT_BUS.register(io.github.codetoil.litlaunch.version.mc1_8.EventHandler.class);
 		LaunchForge.preInit();
 	}
 

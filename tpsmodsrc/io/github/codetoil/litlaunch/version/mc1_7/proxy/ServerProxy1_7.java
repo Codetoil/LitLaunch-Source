@@ -1,7 +1,11 @@
-package io.github.littoil.litlaunch.version.mc1_7.proxy;
+/*
+ * Copyright Codetoil (c) 2019
+ */
+
+package io.github.codetoil.litlaunch.version.mc1_7.proxy;
 
 
-import io.github.littoil.litlaunch.launchcommon.proxy.CommonProxy;
+import io.github.codetoil.litlaunch.api.CommonProxy;
 
 public class ServerProxy1_7 implements CommonProxy {
     @Override

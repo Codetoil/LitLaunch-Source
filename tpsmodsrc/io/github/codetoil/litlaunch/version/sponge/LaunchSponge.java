@@ -1,15 +1,12 @@
-package io.github.littoil.litlaunch.version.sponge;
+package io.github.codetoil.litlaunch.version.sponge;
 
 import com.google.inject.Inject;
-import io.github.littoil.litlaunch.launchcommon.*;
-import io.github.littoil.litlaunch.version.sponge.proxy.ServerProxySponge;
+import io.github.codetoil.litlaunch.launchcommon.*;
+import io.github.codetoil.litlaunch.version.sponge.proxy.ServerProxySponge;
 import org.slf4j.Logger;
 import org.spongepowered.api.event.game.state.*;
 import org.spongepowered.api.event.Listener;
 import org.spongepowered.api.plugin.Plugin;
-
-import java.util.ArrayList;
-import java.util.List;
 
 @Plugin(
 		id = "tpsmod",

@@ -1,6 +1,6 @@
-package io.github.littoil.litlaunch.version.mc1_8.proxy;
+package io.github.codetoil.litlaunch.version.mc1_8.proxy;
 
-import io.github.littoil.litlaunch.launchcommon.proxy.CommonProxy;
+import io.github.codetoil.litlaunch.launchcommon.proxy.CommonProxy;
 
 public class ServerProxy1_8 implements CommonProxy {
     @Override

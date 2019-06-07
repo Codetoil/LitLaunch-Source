@@ -1,10 +1,10 @@
-package io.github.littoil.litlaunch.version.sponge.proxy;
+package io.github.codetoil.litlaunch.version.sponge.proxy;
 
-import io.github.littoil.litlaunch.launchcommon.LaunchMods;
-import io.github.littoil.litlaunch.launchcommon.LitEventHandler;
-import io.github.littoil.litlaunch.launchcommon.events.LitEvent;
-import io.github.littoil.litlaunch.launchcommon.proxy.CommonProxy;
-//import io.github.littoil.litlaunch.version.sponge.CommandNew;
+import io.github.codetoil.litlaunch.launchcommon.LaunchMods;
+import io.github.codetoil.litlaunch.launchcommon.LitEventHandler;
+import io.github.codetoil.litlaunch.launchcommon.events.LitEvent;
+import io.github.codetoil.litlaunch.launchcommon.proxy.CommonProxy;
+//import io.github.codetoil.litlaunch.version.sponge.CommandNew;
 
 public class ClientProxySponge implements CommonProxy {
     @Override

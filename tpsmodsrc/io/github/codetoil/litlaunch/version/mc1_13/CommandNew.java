@@ -1,10 +1,8 @@
-package io.github.littoil.litlaunch.version.mc1_13;
-
-import java.lang.reflect.InvocationTargetException;
+package io.github.codetoil.litlaunch.version.mc1_13;
 
 import com.mojang.brigadier.CommandDispatcher;
 
-import io.github.littoil.litlaunch.launchcommon.Command;
+import io.github.codetoil.litlaunch.launchcommon.Command;
 import net.minecraft.command.CommandSource;
 import net.minecraft.command.Commands;
 

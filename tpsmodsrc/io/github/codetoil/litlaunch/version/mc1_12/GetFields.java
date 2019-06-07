@@ -1,3 +1,7 @@
+/*
+ * Copyright (c) Codetoil 2019
+ */
+
 package io.github.codetoil.litlaunch.version.mc1_12;
 
 import io.github.codetoil.litlaunch.launchcommon.IGetFields;
@@ -7,17 +11,22 @@ import net.minecraft.world.DimensionType;
 import net.minecraft.world.World;
 import net.minecraft.world.WorldProvider;
 import net.minecraftforge.common.DimensionManager;
+import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
 
-public class GetFields implements IGetFields {
+public class GetFields implements IGetFields
+{
 	public static final IGetFields INSTANCE = new GetFields();
 
-	private GetFields(){}
+	private GetFields()
+	{
+	}
 
 	@Override
 	@SideOnly(Side.CLIENT)
-	public synchronized long getTotalWorldTime(int dimension) {
+	public synchronized long getTotalWorldTime(int dimension)
+	{
 		long result;
 		try {
 			World world = DimensionManager.getWorld(dimension);
@@ -26,44 +35,54 @@ public class GetFields implements IGetFields {
 				world = Minecraft.getMinecraft().world;
 				if (world != null) {
 					WorldProvider provider = world.provider;
-					if (provider != null)
-					{
+					if (provider != null) {
 						if (world.provider.getDimension() == dimension) {
 							result = world.getTotalWorldTime();
-						}
-						else
-						{
+						} else {
 							result = -1;
-							//LaunchMods.getINSTANCE().getLOGGER().error("Dimension " + dimension + " is not loaded!");
+							//LaunchMods.error("Dimension " + dimension + " is not loaded!");
 							// This dimension is not loaded
 						}
-					}
-					else
-					{
+					} else {
 						result = -1;
-						LaunchMods.getINSTANCE().getLOGGER().error("World provider for Client world could not be loaded!");
+						LaunchMods.error("World provider for Client world could not be loaded!");
 						// world provider cannot be loaded
 					}
-				}
-				else
-				{
+				} else {
 					result = -1;
-					//LaunchMods.getINSTANCE().getLOGGER().error("Client World Doesn't Exist!");
-				    // world cannot be loaded
+					//LaunchMods.error("Client World Doesn't Exist!");
+					// world cannot be loaded
 				}
-			}
-			else
-			{
+			} else {
 				result = world.getTotalWorldTime();
 			}
-		} catch (Throwable e)
-		{
+		}
+		catch (Throwable e) {
 			result = -1;
-			LaunchMods.getINSTANCE().getLOGGER().error("Something went wrong!");
+			LaunchMods.error("Something went wrong!");
 			e.printStackTrace();
 		}
 
 		return result;
+	}
+
+	@Override
+	@SideOnly(Side.CLIENT)
+	public int getDimPlayer()
+	{
+		return Minecraft.getMinecraft().player.dimension;
+	}
+
+	@Override
+	public int[] getDimsAvailable()
+	{
+		DimensionType[] dims = DimensionType.values();
+		int[] dimIDs = new int[dims.length];
+		int j = 0;
+		for (DimensionType dim : dims) {
+			dimIDs[j++] = dim.getId();
+		}
+		return dimIDs;
 	}
 
 	public int getDimAmount()
@@ -72,20 +91,8 @@ public class GetFields implements IGetFields {
 	}
 
 	@Override
-	public int[] getDimsAvailable() {
-		DimensionType[] dims = DimensionType.values();
-		int[] dimIDs = new int[dims.length];
-		int j = 0;
-		for (DimensionType dim : dims)
-		{
-			dimIDs[j++] = dim.getId();
-		}
-		return dimIDs;
-	}
-
-	@Override
-	@SideOnly(Side.CLIENT)
-	public int getDimPlayer() {
-		return Minecraft.getMinecraft().player.dimension;
+	public String getVERSION()
+	{
+		return MinecraftForge.MC_VERSION;
 	}
 }
