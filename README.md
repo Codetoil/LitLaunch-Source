@@ -3,8 +3,8 @@ This is the source to the TPS Mod. This is currently only the dev source, sorry!
 be able to have a special branch for non-dev. That's for later though! (or I may put it as a release if that includes
  the code.)
 
-## install dev enviorment
-**INCOMPLETE, WILL COMPLETE LATER**<br><br>
+## Installing development enviorment
+**OUTDATED**<br><br>
 To start, create a new folder, further more called the tpsmod root This will be the workspace directory of the project. 
 To start, open up the command promt/terminal in the tpsmod root and execute within the folder to get the main code:
 
