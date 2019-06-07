@@ -80,7 +80,7 @@ Once reviewed, the pull request might be accepted or declined based on whether t
 
 -All changes in the code must not change anything gameplaywise. Again, I'm not making this mod a cheat mod!
 
-###This is not an inclusive list and I may have rules not written down here.
+### This is not an inclusive list and I may have rules not written down here.
 
 ## Free speech - But keep on topic.
 In the discussion pages, you may speak whatever you want, as long as it complies to the topic. This allows for naughty language in the discussion pages. People who are off topic may be punished though, so stay on topic!
