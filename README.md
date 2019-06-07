@@ -4,7 +4,7 @@ be able to have a special branch for non-dev. That's for later though! (or I may
  the code.)
 
 ## Installing development enviorment
-# OUTDATED
+### OUTDATED
 <br><br>
 To start, create a new folder, further more called the tpsmod root This will be the workspace directory of the project. 
 To start, open up the command promt/terminal in the tpsmod root and execute within the folder to get the main code:
