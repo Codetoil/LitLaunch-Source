@@ -1,29 +1,36 @@
 buildscript {
     repositories {
-        mavenCentral()
+        //mavenCentral()
         maven {
-            name = "forge"
-            url = "http://files.minecraftforge.net/maven"
+            name = "local"
+            url = "file:///D:\\Files\\ForgeDataOffline"
         }
-        maven {
-            name = "sonatype"
-            url = "https://oss.sonatype.org/content/repositories/snapshots/"
-        }
+        //maven {
+        //    name = "sonatype"
+        //    url = "https://oss.sonatype.org/content/repositories/snapshots/"
+        //}
     }
     dependencies {
         classpath 'net.minecraftforge.gradle:ForgeGradle:1.2-SNAPSHOT'
     }
 }
 
-
+repositories {
+    maven {
+        name = "local"
+        url = "file:///D:\\Files\\ForgeDataOffline"
+    }
+}
 
 apply plugin: 'forge'
 
-version = "2.0"
-group= "io.github.codetoil" /*
+version = "0.0.2.0"
+group= "io.github.codetoil" 
+/*
  * Copyright Codetoil (c) 2019
- */ // http://maven.apache.org/guides/mini/guide-naming-conventions.html
-archivesBaseName = "tpsmod"
+ */
+// http://maven.apache.org/guides/mini/guide-naming-conventions.html
+archivesBaseName = "litlaunch"
 
 minecraft {
     version = "1.7.10-10.13.4.1614-1.7.10"
@@ -72,16 +79,16 @@ processResources
 sourceSets {
     main {
         java {
-            srcDir "../../../tpsmodsrc"
-            srcDir "../../../tpsmodsrc-1.2/main/java"
+            srcDir "../../../litlaunchsrc"
+            //srcDir "../../../tpsmodsrc-1.2/main/java"
             exclude 'io/github/codetoil/litlaunch/version/mc1_13'
             exclude 'io/github/codetoil/litlaunch/version/mc1_8'
             exclude 'io/github/codetoil/litlaunch/version/mc1_12'
             exclude 'io/github/codetoil/litlaunch/version/sponge'
         }
         resources {
-            srcDir "../../../tpsmodsrc"
-            srcDir "../../../tpsmodsrc-1.2/main/resources"
+            srcDir "../../../litlaunchsrc"
+            //srcDir "../../../tpsmodsrc-1.2/main/resources"
             exclude 'io/github/codetoil/litlaunch/version/mc1_13'
             exclude 'io/github/codetoil/litlaunch/version/mc1_8'
             exclude 'io/github/codetoil/litlaunch/version/mc1_12'

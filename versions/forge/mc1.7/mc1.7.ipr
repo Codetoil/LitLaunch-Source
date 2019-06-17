@@ -1,0 +1,610 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="mc1.7.api" target="1.8" />
+      <module name="mc1.7.main" target="1.8" />
+      <module name="mc1.7.test" target="1.8" />
+      <module name="mc1.7.tpsmod" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="createEmptyContentRootDirectories" value="true" />
+        <option name="delegatedBuild" value="false" />
+        <option name="distributionType" value="LOCAL" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleHome" value="D:/gradle/wrapper/dists/gradle-2.6-bin/7og9jkn1p1nxjafu1htp0hhvc/gradle-2.6" />
+        <option name="gradleJvm" value="#JAVA_HOME" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+          </set>
+        </option>
+        <option name="testRunner" value="CHOOSE_PER_TEST" />
+        <option name="useAutoImport" value="true" />
+        <option name="useQualifiedModuleNames" value="true" />
+      </GradleProjectSettings>
+    </option>
+  </component>
+  <component name="InspectionProjectProfileManager">
+    <profile version="1.0">
+      <option name="myName" value="Project Default" />
+    </profile>
+    <version value="1.0" />
+  </component>
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/mc1.7.iml" filepath="$PROJECT_DIR$/mc1.7.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mc1.7.api.iml" filepath="$PROJECT_DIR$/mc1.7.api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mc1.7.main.iml" filepath="$PROJECT_DIR$/mc1.7.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mc1.7.test.iml" filepath="$PROJECT_DIR$/mc1.7.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tpsmod/tpsmod.iml" filepath="$PROJECT_DIR$/tpsmod/tpsmod.iml" />
+    </modules>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="false" project-jdk-name="8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/classes" />
+  </component>
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/../../.." vcs="Git" />
+  </component>
+  <component name="libraryTable">
+    <library name="Gradle: :forgeSrc:1.7.10-10.13.4.1614-1.7.10">
+      <CLASSES>
+        <root url="jar://D:/gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.4.1614-1.7.10/forgeSrc-1.7.10-10.13.4.1614-1.7.10.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://D:/gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.4.1614-1.7.10/forgeSrc-1.7.10-10.13.4.1614-1.7.10-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: com.google.code.findbugs:jsr305:1.3.9">
+      <CLASSES>
+        <root url="file://$APPLICATION_HOME_DIR$/bin/Could not resolve com.google.code.findbugs:jsr305:1.3.9." />
+        <root url="jar://$PROJECT_DIR$/../../../../../ForgeDataOffline/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: com.google.code.gson:gson:2.2.4">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/../../../../../ForgeDataOffline/com/google/code/gson/gson/2.2.4/gson-2.2.4.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$PROJECT_DIR$/../../../../../ForgeDataOffline/com/google/code/gson/gson/2.2.4/gson-2.2.4-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$PROJECT_DIR$/../../../../../ForgeDataOffline/com/google/code/gson/gson/2.2.4/gson-2.2.4-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: com.google.guava:guava:17.0">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/../../../../../ForgeDataOffline/com/google/guava/guava/17.0/guava-17.0.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$PROJECT_DIR$/../../../../../ForgeDataOffline/com/google/guava/guava/17.0/guava-17.0-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$PROJECT_DIR$/../../../../../ForgeDataOffline/com/google/guava/guava/17.0/guava-17.0-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: com.ibm.icu:icu4j-core-mojang:51.2">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/../../../../../ForgeDataOffline/com/ibm/icu/icu4j-core-mojang/51.2/icu4j-core-mojang-51.2.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$PROJECT_DIR$/../../../../../ForgeDataOffline/com/ibm/icu/icu4j-core-mojang/51.2/icu4j-core-mojang-51.2-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: com.mojang:authlib:1.5.16">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/../../../../../ForgeDataOffline/com/mojang/authlib/1.5.16/authlib-1.5.16.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$PROJECT_DIR$/../../../../../ForgeDataOffline/com/mojang/authlib/1.5.16/authlib-1.5.16-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: com.mojang:realms:1.3.5">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/../../../../../ForgeDataOffline/com/mojang/realms/1.3.5/realms-1.3.5.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: com.paulscode:codecjorbis:20101023">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/../../../../../ForgeDataOffline/com/paulscode/codecjorbis/20101023/codecjorbis-20101023.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$PROJECT_DIR$/../../../../../ForgeDataOffline/com/paulscode/codecjorbis/20101023/codecjorbis-20101023-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: com.paulscode:codecwav:20101023">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/../../../../../ForgeDataOffline/com/paulscode/codecwav/20101023/codecwav-20101023.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$PROJECT_DIR$/../../../../../ForgeDataOffline/com/paulscode/codecwav/20101023/codecwav-20101023-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: com.paulscode:libraryjavasound:20101123">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/../../../../../ForgeDataOffline/com/paulscode/libraryjavasound/20101123/libraryjavasound-20101123.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$PROJECT_DIR$/../../../../../ForgeDataOffline/com/paulscode/libraryjavasound/20101123/libraryjavasound-20101123-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: com.paulscode:librarylwjglopenal:20100824">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/../../../../../ForgeDataOffline/com/paulscode/librarylwjglopenal/20100824/librarylwjglopenal-20100824.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$PROJECT_DIR$/../../../../../ForgeDataOffline/com/paulscode/librarylwjglopenal/20100824/librarylwjglopenal-20100824-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: com.paulscode:soundsystem:20120107">
+      <CLASSES>
+        <root url="file://$PROJECT_DIR$/Could not resolve com.paulscode:soundsystem:20120107." />
+        <root url="jar://$PROJECT_DIR$/../../../../../ForgeDataOffline/com/paulscode/soundsystem/20120107/soundsystem-20120107.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$PROJECT_DIR$/../../../../../ForgeDataOffline/com/paulscode/soundsystem/20120107/soundsystem-20120107-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: com.typesafe.akka:akka-actor_2.11:2.3.3">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/../../../../../ForgeDataOffline/com/typesafe/akka/akka-actor_2.11/2.3.3/akka-actor_2.11-2.3.3.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$PROJECT_DIR$/../../../../../ForgeDataOffline/com/typesafe/akka/akka-actor_2.11/2.3.3/akka-actor_2.11-2.3.3-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$PROJECT_DIR$/../../../../../ForgeDataOffline/com/typesafe/akka/akka-actor_2.11/2.3.3/akka-actor_2.11-2.3.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: com.typesafe:config:1.2.1">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/../../../../../ForgeDataOffline/com/typesafe/config/1.2.1/config-1.2.1.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$PROJECT_DIR$/../../../../../ForgeDataOffline/com/typesafe/config/1.2.1/config-1.2.1-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$PROJECT_DIR$/../../../../../ForgeDataOffline/com/typesafe/config/1.2.1/config-1.2.1-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: commons-codec:commons-codec:1.9">
+      <CLASSES>
+        <root url="file://$APPLICATION_HOME_DIR$/bin/Could not resolve commons-codec:commons-codec:1.9." />
+        <root url="jar://$PROJECT_DIR$/../../../../../ForgeDataOffline/commons-codec/commons-codec/1.9/commons-codec-1.9.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$PROJECT_DIR$/../../../../../ForgeDataOffline/commons-codec/commons-codec/1.9/commons-codec-1.9-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$PROJECT_DIR$/../../../../../ForgeDataOffline/commons-codec/commons-codec/1.9/commons-codec-1.9-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: commons-io:commons-io:2.4">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/../../../../../ForgeDataOffline/commons-io/commons-io/2.4/commons-io-2.4.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$PROJECT_DIR$/../../../../../ForgeDataOffline/commons-io/commons-io/2.4/commons-io-2.4-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$PROJECT_DIR$/../../../../../ForgeDataOffline/commons-io/commons-io/2.4/commons-io-2.4-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: commons-logging:commons-logging:1.1.3">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/../../../../../ForgeDataOffline/commons-logging/commons-logging/1.1.3/commons-logging-1.1.3.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$PROJECT_DIR$/../../../../../ForgeDataOffline/commons-logging/commons-logging/1.1.3/commons-logging-1.1.3-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$PROJECT_DIR$/../../../../../ForgeDataOffline/commons-logging/commons-logging/1.1.3/commons-logging-1.1.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: io.netty:netty-all:4.0.10.Final">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/../../../../../ForgeDataOffline/io/netty/netty-all/4.0.10.Final/netty-all-4.0.10.Final.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$PROJECT_DIR$/../../../../../ForgeDataOffline/io/netty/netty-all/4.0.10.Final/netty-all-4.0.10.Final-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$PROJECT_DIR$/../../../../../ForgeDataOffline/io/netty/netty-all/4.0.10.Final/netty-all-4.0.10.Final-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: java3d:vecmath:1.3.1">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/../../../../../ForgeDataOffline/java3d/vecmath/1.3.1/vecmath-1.3.1.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: lzma:lzma:0.0.1">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/../../../../../ForgeDataOffline/lzma/lzma/0.0.1/lzma-0.0.1.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: net.java.jinput:jinput-platform:natives-linux:2.0.5">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/../../../../../ForgeDataOffline/net/java/jinput/jinput-platform/2.0.5/jinput-platform-2.0.5-natives-linux.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: net.java.jinput:jinput-platform:natives-osx:2.0.5">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/../../../../../ForgeDataOffline/net/java/jinput/jinput-platform/2.0.5/jinput-platform-2.0.5-natives-osx.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: net.java.jinput:jinput-platform:natives-windows:2.0.5">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/../../../../../ForgeDataOffline/net/java/jinput/jinput-platform/2.0.5/jinput-platform-2.0.5-natives-windows.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: net.java.jinput:jinput:2.0.5">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/../../../../../ForgeDataOffline/net/java/jinput/jinput/2.0.5/jinput-2.0.5.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$PROJECT_DIR$/../../../../../ForgeDataOffline/net/java/jinput/jinput/2.0.5/jinput-2.0.5-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$PROJECT_DIR$/../../../../../ForgeDataOffline/net/java/jinput/jinput/2.0.5/jinput-2.0.5-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: net.java.jutils:jutils:1.0.0">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/../../../../../ForgeDataOffline/net/java/jutils/jutils/1.0.0/jutils-1.0.0.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$PROJECT_DIR$/../../../../../ForgeDataOffline/net/java/jutils/jutils/1.0.0/jutils-1.0.0-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$PROJECT_DIR$/../../../../../ForgeDataOffline/net/java/jutils/jutils/1.0.0/jutils-1.0.0-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: net.minecraft:launchwrapper:1.12">
+      <CLASSES>
+        <root url="file://$PROJECT_DIR$/Could not resolve net.minecraft:launchwrapper:1.12." />
+        <root url="jar://$PROJECT_DIR$/../../../../../ForgeDataOffline/net/minecraft/launchwrapper/1.12/launchwrapper-1.12.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$PROJECT_DIR$/../../../../../ForgeDataOffline/net/minecraft/launchwrapper/1.12/launchwrapper-1.12-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: net.sf.jopt-simple:jopt-simple:4.5">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/../../../../../ForgeDataOffline/net/sf/jopt-simple/jopt-simple/4.5/jopt-simple-4.5.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$PROJECT_DIR$/../../../../../ForgeDataOffline/net/sf/jopt-simple/jopt-simple/4.5/jopt-simple-4.5-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$PROJECT_DIR$/../../../../../ForgeDataOffline/net/sf/jopt-simple/jopt-simple/4.5/jopt-simple-4.5-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: net.sf.trove4j:trove4j:3.0.3">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/../../../../../ForgeDataOffline/net/sf/trove4j/trove4j/3.0.3/trove4j-3.0.3.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$PROJECT_DIR$/../../../../../ForgeDataOffline/net/sf/trove4j/trove4j/3.0.3/trove4j-3.0.3-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$PROJECT_DIR$/../../../../../ForgeDataOffline/net/sf/trove4j/trove4j/3.0.3/trove4j-3.0.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.apache.commons:commons-compress:1.8.1">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/../../../../../ForgeDataOffline/org/apache/commons/commons-compress/1.8.1/commons-compress-1.8.1.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$PROJECT_DIR$/../../../../../ForgeDataOffline/org/apache/commons/commons-compress/1.8.1/commons-compress-1.8.1-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$PROJECT_DIR$/../../../../../ForgeDataOffline/org/apache/commons/commons-compress/1.8.1/commons-compress-1.8.1-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.apache.commons:commons-lang3:3.3.2">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/../../../../../ForgeDataOffline/org/apache/commons/commons-lang3/3.3.2/commons-lang3-3.3.2.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$PROJECT_DIR$/../../../../../ForgeDataOffline/org/apache/commons/commons-lang3/3.3.2/commons-lang3-3.3.2-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$PROJECT_DIR$/../../../../../ForgeDataOffline/org/apache/commons/commons-lang3/3.3.2/commons-lang3-3.3.2-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.apache.httpcomponents:httpclient:4.3.3">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/../../../../../ForgeDataOffline/org/apache/httpcomponents/httpclient/4.3.3/httpclient-4.3.3.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$PROJECT_DIR$/../../../../../ForgeDataOffline/org/apache/httpcomponents/httpclient/4.3.3/httpclient-4.3.3-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$PROJECT_DIR$/../../../../../ForgeDataOffline/org/apache/httpcomponents/httpclient/4.3.3/httpclient-4.3.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.apache.httpcomponents:httpcore:4.3.2">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/../../../../../ForgeDataOffline/org/apache/httpcomponents/httpcore/4.3.2/httpcore-4.3.2.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$PROJECT_DIR$/../../../../../ForgeDataOffline/org/apache/httpcomponents/httpcore/4.3.2/httpcore-4.3.2-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$PROJECT_DIR$/../../../../../ForgeDataOffline/org/apache/httpcomponents/httpcore/4.3.2/httpcore-4.3.2-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.apache.logging.log4j:log4j-api:2.0-beta9">
+      <CLASSES>
+        <root url="file://$APPLICATION_HOME_DIR$/bin/Could not resolve org.apache.logging.log4j:log4j-api:2.0-beta9." />
+        <root url="jar://$PROJECT_DIR$/../../../../../ForgeDataOffline/org/apache/logging/log4j/log4j-api/2.0-beta9/log4j-api-2.0-beta9.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$PROJECT_DIR$/../../../../../ForgeDataOffline/org/apache/logging/log4j/log4j-api/2.0-beta9/log4j-api-2.0-beta9-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$PROJECT_DIR$/../../../../../ForgeDataOffline/org/apache/logging/log4j/log4j-api/2.0-beta9/log4j-api-2.0-beta9-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.apache.logging.log4j:log4j-core:2.0-beta9">
+      <CLASSES>
+        <root url="file://$APPLICATION_HOME_DIR$/bin/Could not resolve org.apache.logging.log4j:log4j-core:2.0-beta9." />
+        <root url="jar://$PROJECT_DIR$/../../../../../ForgeDataOffline/org/apache/logging/log4j/log4j-core/2.0-beta9/log4j-core-2.0-beta9.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$PROJECT_DIR$/../../../../../ForgeDataOffline/org/apache/logging/log4j/log4j-core/2.0-beta9/log4j-core-2.0-beta9-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$PROJECT_DIR$/../../../../../ForgeDataOffline/org/apache/logging/log4j/log4j-core/2.0-beta9/log4j-core-2.0-beta9-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.lwjgl.lwjgl:lwjgl-platform:natives-linux:2.9.1">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/../../../../../ForgeDataOffline/org/lwjgl/lwjgl/lwjgl-platform/2.9.1/lwjgl-platform-2.9.1-natives-linux.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: org.lwjgl.lwjgl:lwjgl-platform:natives-osx:2.9.1">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/../../../../../ForgeDataOffline/org/lwjgl/lwjgl/lwjgl-platform/2.9.1/lwjgl-platform-2.9.1-natives-osx.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: org.lwjgl.lwjgl:lwjgl-platform:natives-windows:2.9.1">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/../../../../../ForgeDataOffline/org/lwjgl/lwjgl/lwjgl-platform/2.9.1/lwjgl-platform-2.9.1-natives-windows.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: org.lwjgl.lwjgl:lwjgl:2.9.1">
+      <CLASSES>
+        <root url="file://$APPLICATION_HOME_DIR$/bin/Could not resolve org.lwjgl.lwjgl:lwjgl:2.9.1." />
+        <root url="jar://$PROJECT_DIR$/../../../../../ForgeDataOffline/org/lwjgl/lwjgl/lwjgl/2.9.1/lwjgl-2.9.1.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$PROJECT_DIR$/../../../../../ForgeDataOffline/org/lwjgl/lwjgl/lwjgl/2.9.1/lwjgl-2.9.1-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$PROJECT_DIR$/../../../../../ForgeDataOffline/org/lwjgl/lwjgl/lwjgl/2.9.1/lwjgl-2.9.1-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.lwjgl.lwjgl:lwjgl_util:2.9.1">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/../../../../../ForgeDataOffline/org/lwjgl/lwjgl/lwjgl_util/2.9.1/lwjgl_util-2.9.1.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$PROJECT_DIR$/../../../../../ForgeDataOffline/org/lwjgl/lwjgl/lwjgl_util/2.9.1/lwjgl_util-2.9.1-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$PROJECT_DIR$/../../../../../ForgeDataOffline/org/lwjgl/lwjgl/lwjgl_util/2.9.1/lwjgl_util-2.9.1-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.ow2.asm:asm-debug-all:5.0.3">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/../../../../../ForgeDataOffline/org/ow2/asm/asm-debug-all/5.0.3/asm-debug-all-5.0.3.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$PROJECT_DIR$/../../../../../ForgeDataOffline/org/ow2/asm/asm-debug-all/5.0.3/asm-debug-all-5.0.3-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$PROJECT_DIR$/../../../../../ForgeDataOffline/org/ow2/asm/asm-debug-all/5.0.3/asm-debug-all-5.0.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.scala-lang.modules:scala-parser-combinators_2.11:1.0.1">
+      <CLASSES>
+        <root url="file://$PROJECT_DIR$/Could not resolve org.scala-lang.modules:scala-parser-combinators_2.11:1.0.1." />
+        <root url="jar://$PROJECT_DIR$/../../../../../ForgeDataOffline/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.1/scala-parser-combinators_2.11-1.0.1.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$PROJECT_DIR$/../../../../../ForgeDataOffline/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.1/scala-parser-combinators_2.11-1.0.1-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$PROJECT_DIR$/../../../../../ForgeDataOffline/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.1/scala-parser-combinators_2.11-1.0.1-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.scala-lang.modules:scala-xml_2.11:1.0.2">
+      <CLASSES>
+        <root url="file://$PROJECT_DIR$/Could not resolve org.scala-lang.modules:scala-xml_2.11:1.0.2." />
+        <root url="jar://$PROJECT_DIR$/../../../../../ForgeDataOffline/org/scala-lang/modules/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$PROJECT_DIR$/../../../../../ForgeDataOffline/org/scala-lang/modules/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$PROJECT_DIR$/../../../../../ForgeDataOffline/org/scala-lang/modules/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.scala-lang.plugins:scala-continuations-library_2.11:1.0.2">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/../../../../../ForgeDataOffline/org/scala-lang/plugins/scala-continuations-library_2.11/1.0.2/scala-continuations-library_2.11-1.0.2.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$PROJECT_DIR$/../../../../../ForgeDataOffline/org/scala-lang/plugins/scala-continuations-library_2.11/1.0.2/scala-continuations-library_2.11-1.0.2-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$PROJECT_DIR$/../../../../../ForgeDataOffline/org/scala-lang/plugins/scala-continuations-library_2.11/1.0.2/scala-continuations-library_2.11-1.0.2-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.scala-lang.plugins:scala-continuations-plugin_2.11.1:1.0.2">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/../../../../../ForgeDataOffline/org/scala-lang/plugins/scala-continuations-plugin_2.11.1/1.0.2/scala-continuations-plugin_2.11.1-1.0.2.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$PROJECT_DIR$/../../../../../ForgeDataOffline/org/scala-lang/plugins/scala-continuations-plugin_2.11.1/1.0.2/scala-continuations-plugin_2.11.1-1.0.2-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$PROJECT_DIR$/../../../../../ForgeDataOffline/org/scala-lang/plugins/scala-continuations-plugin_2.11.1/1.0.2/scala-continuations-plugin_2.11.1-1.0.2-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.scala-lang:scala-actors-migration_2.11:1.1.0">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/../../../../../ForgeDataOffline/org/scala-lang/scala-actors-migration_2.11/1.1.0/scala-actors-migration_2.11-1.1.0.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$PROJECT_DIR$/../../../../../ForgeDataOffline/org/scala-lang/scala-actors-migration_2.11/1.1.0/scala-actors-migration_2.11-1.1.0-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$PROJECT_DIR$/../../../../../ForgeDataOffline/org/scala-lang/scala-actors-migration_2.11/1.1.0/scala-actors-migration_2.11-1.1.0-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.scala-lang:scala-actors:2.11.0">
+      <CLASSES>
+        <root url="file://$PROJECT_DIR$/Could not resolve org.scala-lang:scala-actors:2.11.0." />
+        <root url="jar://$PROJECT_DIR$/../../../../../ForgeDataOffline/org/scala-lang/scala-actors/2.11.0/scala-actors-2.11.0.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$PROJECT_DIR$/../../../../../ForgeDataOffline/org/scala-lang/scala-actors/2.11.0/scala-actors-2.11.0-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$PROJECT_DIR$/../../../../../ForgeDataOffline/org/scala-lang/scala-actors/2.11.0/scala-actors-2.11.0-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.scala-lang:scala-compiler:2.11.1">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/../../../../../ForgeDataOffline/org/scala-lang/scala-compiler/2.11.1/scala-compiler-2.11.1.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$PROJECT_DIR$/../../../../../ForgeDataOffline/org/scala-lang/scala-compiler/2.11.1/scala-compiler-2.11.1-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$PROJECT_DIR$/../../../../../ForgeDataOffline/org/scala-lang/scala-compiler/2.11.1/scala-compiler-2.11.1-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.scala-lang:scala-library:2.11.1">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/../../../../../ForgeDataOffline/org/scala-lang/scala-library/2.11.1/scala-library-2.11.1.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$PROJECT_DIR$/../../../../../ForgeDataOffline/org/scala-lang/scala-library/2.11.1/scala-library-2.11.1-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$PROJECT_DIR$/../../../../../ForgeDataOffline/org/scala-lang/scala-library/2.11.1/scala-library-2.11.1-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.scala-lang:scala-parser-combinators_2.11:1.0.1">
+      <CLASSES>
+        <root url="file://$PROJECT_DIR$/Could not resolve org.scala-lang:scala-parser-combinators_2.11:1.0.1." />
+        <root url="jar://$PROJECT_DIR$/../../../../../ForgeDataOffline/org/scala-lang/scala-parser-combinators_2.11/1.0.1/scala-parser-combinators_2.11-1.0.1.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: org.scala-lang:scala-reflect:2.11.1">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/../../../../../ForgeDataOffline/org/scala-lang/scala-reflect/2.11.1/scala-reflect-2.11.1.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$PROJECT_DIR$/../../../../../ForgeDataOffline/org/scala-lang/scala-reflect/2.11.1/scala-reflect-2.11.1-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$PROJECT_DIR$/../../../../../ForgeDataOffline/org/scala-lang/scala-reflect/2.11.1/scala-reflect-2.11.1-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.scala-lang:scala-swing_2.11:1.0.1">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/../../../../../ForgeDataOffline/org/scala-lang/scala-swing_2.11/1.0.1/scala-swing_2.11-1.0.1.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: org.scala-lang:scala-xml_2.11:1.0.2">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/../../../../../ForgeDataOffline/org/scala-lang/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: tv.twitch:twitch-external-platform:natives-windows-32:4.5">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/../../../../../ForgeDataOffline/tv/twitch/twitch-external-platform/4.5/twitch-external-platform-4.5-natives-windows-32.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: tv.twitch:twitch-external-platform:natives-windows-64:4.5">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/../../../../../ForgeDataOffline/tv/twitch/twitch-external-platform/4.5/twitch-external-platform-4.5-natives-windows-64.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: tv.twitch:twitch-platform:natives-osx:5.16">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/../../../../../ForgeDataOffline/tv/twitch/twitch-platform/5.16/twitch-platform-5.16-natives-osx.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: tv.twitch:twitch-platform:natives-windows-32:5.16">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/../../../../../ForgeDataOffline/tv/twitch/twitch-platform/5.16/twitch-platform-5.16-natives-windows-32.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: tv.twitch:twitch-platform:natives-windows-64:5.16">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/../../../../../ForgeDataOffline/tv/twitch/twitch-platform/5.16/twitch-platform-5.16-natives-windows-64.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: tv.twitch:twitch:5.16">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/../../../../../ForgeDataOffline/tv/twitch/twitch/5.16/twitch-5.16.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+  </component>
+</project>
