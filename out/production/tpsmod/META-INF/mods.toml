@@ -1,0 +1,11 @@
+modLoader="javafml" #mandatory
+loaderVersion="[24,)" #mandatory
+displayURL="https://github.com/Littoil/TPS-Mod" #optional
+authors="Littoil" #optional
+[[mods]] #mandatory
+modId="tpsmod" #mandatory
+version="v1.2.1" #mandatory
+displayName="TPS Mod" #mandatory
+description='''
+Allows you to find the tps of any server without anything installed server side! Find tps with //tps
+'''

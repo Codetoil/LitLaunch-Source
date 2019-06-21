@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="minecraft">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/SpongeForge/SpongeCommon/.gradle/minecraft/minecraft_server-1.12.2-PROJECT(SpongeCommon)-decompFixed.jar!/" />
+      <root url="jar://$PROJECT_DIR$/SpongeForge/SpongeCommon/.gradle/minecraft/minecraft_serverSrc-1.12.2-PROJECT(SpongeCommon)-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/SpongeForge/SpongeCommon/.gradle/minecraft/minecraft_server-1.12.2-PROJECT(SpongeCommon)-decomp.jar!/" />
+      <root url="jar://$PROJECT_DIR$/SpongeForge/SpongeCommon/.gradle/minecraft/minecraft_serverSrc-1.12.2-PROJECT(SpongeCommon).jar!/" />
+      <root url="jar://$PROJECT_DIR$/SpongeForge/SpongeCommon/.gradle/minecraft/minecraft_server-1.12.2-PROJECT(SpongeCommon)-srgBin.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

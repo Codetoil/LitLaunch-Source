@@ -1,0 +1,4 @@
+modLoader="javafml" #mandatory
+loaderVersion="[24,)" #mandatory
+issueTrackerURL="" #optional
+displayURL="https://github.com/Littoil/TPS-Mod" #optional

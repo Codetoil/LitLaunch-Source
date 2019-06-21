@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module version="4">
+  <component name="FacetManager">
+    <facet type="minecraft" name="Minecraft">
+      <configuration>
+        <autoDetectTypes>
+          <platformType>MCP</platformType>
+        </autoDetectTypes>
+      </configuration>
+    </facet>
+  </component>
+  <component name="McpModuleSettings">
+    <option name="mappingFiles">
+      <set>
+        <option value="D:\gradle\caches\minecraft\net\minecraftforge\forge\1.7.10-10.13.4.1614-1.7.10\srgs\mcp-notch.srg" />
+        <option value="D:\gradle\caches\minecraft\net\minecraftforge\forge\1.7.10-10.13.4.1614-1.7.10\srgs\notch-mcp.srg" />
+        <option value="D:\gradle\caches\minecraft\net\minecraftforge\forge\1.7.10-10.13.4.1614-1.7.10\srgs\srg.exc" />
+        <option value="D:\gradle\caches\minecraft\net\minecraftforge\forge\1.7.10-10.13.4.1614-1.7.10\srgs\notch-srg.srg" />
+        <option value="D:\gradle\caches\minecraft\net\minecraftforge\forge\1.7.10-10.13.4.1614-1.7.10\srgs\mcp.exc" />
+        <option value="D:\gradle\caches\minecraft\net\minecraftforge\forge\1.7.10-10.13.4.1614-1.7.10\srgs\mcp-srg.srg" />
+      </set>
+    </option>
+    <option name="mcpVersion" value="null_-1" />
+    <option name="minecraftVersion" value="1.7.10" />
+  </component>
+</module>

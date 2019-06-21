@@ -1,0 +1,16 @@
+[
+{
+  "modid": "tpsmod",
+  "name": "TPS Mod",
+  "description": "Allows you to find the tps of any server without anything installed server side! Find tps with //tps",
+  "version": "1.2.1",
+  "mcversion": "1.7.2-1.8.9",
+  "url": "https://github.com/Littoil/TPS-Mod",
+  "updateUrl": "",
+  "authorList": ["Littoil"],
+  "credits": "",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

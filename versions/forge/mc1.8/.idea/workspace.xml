@@ -1,0 +1,1098 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="tpsmod:jar" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6812a1af-11f8-4ecb-8693-a6c2016714c5" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/.gradle/" />
+    <ignored path="$PROJECT_DIR$/build/" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="ErrorTreeViewConfiguration">
+    <option name="autoscrollToSource" value="true" />
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="true" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="mc1.8" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="mc1.8" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="mc1.8" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="mc1.8" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="forgegradle" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="mc1.8" type="f1a62948:ProjectNode" />
+                <item name="Run Configurations" type="7b0102dc:RunConfigurationsNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="mc1.8" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../../../tpsmodsrc/src/io/github/codetoil/tpsmod/TPSMod.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="20" column="54" selection-start-line="20" selection-start-column="54" selection-end-line="20" selection-end-column="54" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../../tpsmodsrc/src/io/github/codetoil/tpsmod/MeasureTPSdrop.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../../tpsmodsrc/src/io/github/codetoil/tpsmod/CalculateTPS.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="64">
+              <caret line="10" column="58" selection-start-line="10" selection-start-column="58" selection-end-line="10" selection-end-column="58" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../../litlaunchsrc/mcmod.info">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../../litlaunchsrc/META-INF/mods.toml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../../litlaunchsrc/io/github/codetoil/litlaunch/backend/LaunchCommon.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="14" column="51" selection-start-line="14" selection-start-column="51" selection-end-line="14" selection-end-column="51" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="297">
+              <caret line="48" column="20" lean-forward="true" selection-start-line="48" selection-start-column="20" selection-end-line="48" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>class</find>
+      <find>death</find>
+      <find>reset</find>
+      <find>onDeath</find>
+      <find>super.onUpdate()</find>
+      <find>onEntity</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/../../../tpsmodsrc/README.md" />
+        <option value="$PROJECT_DIR$/../../../tpsmodsrc/io/github/littoil/litlaunch/version/mc1_8/proxy/ClientProxy1_8.java" />
+        <option value="$PROJECT_DIR$/../../../tpsmodsrc/io/github/littoil/litlaunch/version/mc1_8/CommandNew.java" />
+        <option value="$PROJECT_DIR$/../../../tpsmodsrc/io/github/littoil/litlaunch/version/mc1_12/GetFields.java" />
+        <option value="$PROJECT_DIR$/../../../tpsmodsrc/io/github/littoil/litlaunch/launchcommon/ThreadLogged.java" />
+        <option value="$PROJECT_DIR$/../../../tpsmodsrc/io/github/littoil/litlaunch/launchcommon/IMod.java" />
+        <option value="$PROJECT_DIR$/../../../tpsmodsrc/io/github/littoil/litlaunch/launchcommon/exceptions/FailedBootstrapException.java" />
+        <option value="$PROJECT_DIR$/../../../tpsmodsrc/io/github/littoil/litlaunch/launchcommon/LaunchCommon.java" />
+        <option value="$PROJECT_DIR$/../../../tpsmodsrc/io/github/littoil/litlaunch/launchcommon/events/LitEvent.java" />
+        <option value="$PROJECT_DIR$/../../../tpsmodsrc/io/github/littoil/litlaunch/launchcommon/LaunchMods.java" />
+        <option value="$PROJECT_DIR$/../../../tpsmodsrc/io/github/littoil/litlaunch/launchcommon/LitClassLoader.java" />
+        <option value="$PROJECT_DIR$/../../../tpsmodsrc/io/github/littoil/litlaunch/version/mc1_8/GetFields.java" />
+        <option value="$PROJECT_DIR$/../../../tpsmodsrc/io/github/littoil/tpsmod/CalculateTPS.java" />
+        <option value="$PROJECT_DIR$/../../../tpsmodsrc/io/github/littoil/tpsmod/MeasureTPSdrop.java" />
+        <option value="$PROJECT_DIR$/../../../tpsmodsrc/io/github/littoil/tpsmod/TPSMod.java" />
+        <option value="$PROJECT_DIR$/../../../tpsmodsrc/io/github/littoil/litlaunch/launchcommon/LitEventHandler.java" />
+        <option value="$PROJECT_DIR$/../../../tpsmodsrc/io/github/littoil/litlaunch/version/mc1_8/EventHandler.java" />
+        <option value="$PROJECT_DIR$/../../../tpsmodsrc/io/github/littoil/litlaunch/version/mc1_8/Launch1_8.java" />
+        <option value="$PROJECT_DIR$/src/main/java/tst.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/examplemod/ExampleMod.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/examplemod/LitWorldAccess.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/examplemod/tst.java" />
+        <option value="$PROJECT_DIR$/../../../litlaunchsrc/io/github/codetoil/litlaunch/version/mc1_8/GetFields.java" />
+        <option value="$PROJECT_DIR$/../../../litlaunchsrc/io/github/codetoil/litlaunch/version/mc1_8/DoThing.java" />
+        <option value="$PROJECT_DIR$/../../../litlaunchsrc/io/github/codetoil/litlaunch/version/mc1_8/proxy/ClientProxy1_8.java" />
+        <option value="$PROJECT_DIR$/../../../litlaunchsrc/io/github/codetoil/litlaunch/version/mc1_8/CommandNew.java" />
+        <option value="$PROJECT_DIR$/../../../litlaunchsrc/io/github/codetoil/litlaunch/version/mc1_8/proxy/ServerProxy1_8.java" />
+        <option value="$PROJECT_DIR$/../../../litlaunchsrc/io/github/codetoil/litlaunch/version/mc1_8/Logger1_8.java" />
+        <option value="$PROJECT_DIR$/../../../litlaunchsrc/io/github/codetoil/litlaunch/version/mc1_8/EventHandler.java" />
+        <option value="$PROJECT_DIR$/../../../litlaunchsrc/io/github/codetoil/litlaunch/version/mc1_7/EventHandler.java" />
+        <option value="$PROJECT_DIR$/../../../litlaunchsrc/io/github/codetoil/litlaunch/version/mc1_8/Launch1_8.java" />
+        <option value="$PROJECT_DIR$/../../../tpsmodsrc/src/io/github/codetoil/tpsmod/CalculateTPS.java" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/../../../tpsmodsrc/src/io/github/codetoil/tpsmod/TPSMod.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="2289" />
+    <option name="y" value="16" />
+    <option name="width" value="973" />
+    <option name="height" value="847" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="mc1.8" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mc1.8" type="9c53a853:ProjectViewModuleGroupNode" />
+            </path>
+            <path>
+              <item name="mc1.8" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mc1.8" type="9c53a853:ProjectViewModuleGroupNode" />
+              <item name="main" type="409dc1c3:GradleTreeStructureProvider$GradleProjectViewModuleNode" />
+            </path>
+            <path>
+              <item name="mc1.8" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mc1.8" type="9c53a853:ProjectViewModuleGroupNode" />
+              <item name="main" type="409dc1c3:GradleTreeStructureProvider$GradleProjectViewModuleNode" />
+              <item name="litlaunchsrc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mc1.8" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mc1.8" type="9c53a853:ProjectViewModuleGroupNode" />
+              <item name="main" type="409dc1c3:GradleTreeStructureProvider$GradleProjectViewModuleNode" />
+              <item name="litlaunchsrc" type="462c0819:PsiDirectoryNode" />
+              <item name="litlaunch" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mc1.8" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mc1.8" type="9c53a853:ProjectViewModuleGroupNode" />
+              <item name="main" type="409dc1c3:GradleTreeStructureProvider$GradleProjectViewModuleNode" />
+              <item name="litlaunchsrc" type="462c0819:PsiDirectoryNode" />
+              <item name="litlaunch" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mc1.8" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mc1.8" type="9c53a853:ProjectViewModuleGroupNode" />
+              <item name="main" type="409dc1c3:GradleTreeStructureProvider$GradleProjectViewModuleNode" />
+              <item name="litlaunchsrc" type="462c0819:PsiDirectoryNode" />
+              <item name="litlaunch" type="462c0819:PsiDirectoryNode" />
+              <item name="backend" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mc1.8" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mc1.8" type="9c53a853:ProjectViewModuleGroupNode" />
+              <item name="main" type="409dc1c3:GradleTreeStructureProvider$GradleProjectViewModuleNode" />
+              <item name="litlaunchsrc" type="462c0819:PsiDirectoryNode" />
+              <item name="litlaunch" type="462c0819:PsiDirectoryNode" />
+              <item name="version" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mc1.8" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mc1.8" type="9c53a853:ProjectViewModuleGroupNode" />
+              <item name="main" type="409dc1c3:GradleTreeStructureProvider$GradleProjectViewModuleNode" />
+              <item name="litlaunchsrc" type="462c0819:PsiDirectoryNode" />
+              <item name="litlaunch" type="462c0819:PsiDirectoryNode" />
+              <item name="version" type="462c0819:PsiDirectoryNode" />
+              <item name="mc1_7" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mc1.8" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mc1.8" type="9c53a853:ProjectViewModuleGroupNode" />
+              <item name="main" type="409dc1c3:GradleTreeStructureProvider$GradleProjectViewModuleNode" />
+              <item name="litlaunchsrc" type="462c0819:PsiDirectoryNode" />
+              <item name="litlaunch" type="462c0819:PsiDirectoryNode" />
+              <item name="version" type="462c0819:PsiDirectoryNode" />
+              <item name="mc1_7" type="462c0819:PsiDirectoryNode" />
+              <item name="proxy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mc1.8" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mc1.8" type="9c53a853:ProjectViewModuleGroupNode" />
+              <item name="main" type="409dc1c3:GradleTreeStructureProvider$GradleProjectViewModuleNode" />
+              <item name="litlaunchsrc" type="462c0819:PsiDirectoryNode" />
+              <item name="litlaunch" type="462c0819:PsiDirectoryNode" />
+              <item name="version" type="462c0819:PsiDirectoryNode" />
+              <item name="mc1_8" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mc1.8" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mc1.8" type="9c53a853:ProjectViewModuleGroupNode" />
+              <item name="main" type="409dc1c3:GradleTreeStructureProvider$GradleProjectViewModuleNode" />
+              <item name="litlaunchsrc" type="462c0819:PsiDirectoryNode" />
+              <item name="litlaunch" type="462c0819:PsiDirectoryNode" />
+              <item name="version" type="462c0819:PsiDirectoryNode" />
+              <item name="mc1_8" type="462c0819:PsiDirectoryNode" />
+              <item name="proxy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mc1.8" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mc1.8" type="9c53a853:ProjectViewModuleGroupNode" />
+              <item name="main" type="409dc1c3:GradleTreeStructureProvider$GradleProjectViewModuleNode" />
+              <item name="litlaunchsrc" type="462c0819:PsiDirectoryNode" />
+              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mc1.8" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mc1.8" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="mc1.8" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mc1.8" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="run" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mc1.8" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mc1.8" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="run" type="462c0819:PsiDirectoryNode" />
+              <item name="mods" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mc1.8" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mc1.8" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mc1.8" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mc1.8" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="mc1.8" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mc1.8" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mc1.8" type="b2602c69:ProjectViewProjectNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mc1.8" type="b2602c69:ProjectViewProjectNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="tpsmod" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556493632910" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../mc1.12" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.38273045" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Files\ME_MODS\tpsmod\litlaunchsrc\io\github\codetoil\litlaunch\version\mc1_8" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Minecraft Server">
+    <configuration default="true" type="AndroidJUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Minecraft Client" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="Java 8.201" />
+      <option name="MAIN_CLASS_NAME" value="GradleStart" />
+      <module name="mc1.8.main" />
+      <option name="PROGRAM_PARAMETERS" value="--username LittoilDev" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/run" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="tpsmod:jar" />
+        </option>
+      </method>
+    </configuration>
+    <configuration name="Minecraft Server" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="GradleStartServer" />
+      <module name="mc1.8.main" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/run" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="tpsmod:jar" />
+        </option>
+      </method>
+    </configuration>
+    <configuration name="mc1.8 [build]" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" value="" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2">
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="tpsmod:jar" />
+        </option>
+      </method>
+    </configuration>
+    <configuration name="mc1.8 [genIntellijRuns]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="genIntellijRuns" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="mc1.8 [setupDecompWorkspace]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="setupDecompWorkspace" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Application.Minecraft Client" />
+      <item itemvalue="Application.Minecraft Server" />
+      <item itemvalue="Gradle.mc1.8 [build]" />
+      <item itemvalue="Gradle.mc1.8 [genIntellijRuns]" />
+      <item itemvalue="Gradle.mc1.8 [setupDecompWorkspace]" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.mc1.8 [setupDecompWorkspace]" />
+        <item itemvalue="Gradle.mc1.8 [genIntellijRuns]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6812a1af-11f8-4ecb-8693-a6c2016714c5" name="Default Changelist" comment="" />
+      <created>1553515433385</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1553515433385</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1912" y="-8" width="1616" height="886" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49819493" visible="true" weight="0.23136246" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" sideWeight="0.50180507" side_tool="true" weight="0.23720682" />
+      <window_info anchor="bottom" id="Messages" order="0" sideWeight="0.49871466" weight="0.32802126" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.49678662" visible="true" weight="0.38778222" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.3997833" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" weight="0.32936078" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="sbt-shell-toolwindow" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32936078" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50321335" side_tool="true" visible="true" weight="0.38778222" />
+      <window_info anchor="bottom" id="Build" order="12" sideWeight="0.49871466" weight="0.26294822" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" weight="0.32995737" />
+      <window_info anchor="right" id="Gradle" order="5" visible="true" weight="0.094473004" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="sbt" order="9" />
+    </layout>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../../../tpsmodsrc/io/github/littoil/litlaunch/launchcommon/LitEventHandler.java</url>
+          <line>53</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../../../tpsmodsrc/io/github/littoil/litlaunch/launchcommon/LitEventHandler.java</url>
+          <line>51</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../../../tpsmodsrc/io/github/littoil/litlaunch/launchcommon/LitEventHandler.java</url>
+          <line>50</line>
+          <properties />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../../../tpsmodsrc/io/github/littoil/litlaunch/launchcommon/LitEventHandler.java</url>
+          <line>27</line>
+          <properties />
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../../../tpsmodsrc/io/github/littoil/litlaunch/launchcommon/LitClassLoader.java</url>
+          <line>75</line>
+          <properties />
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../../../tpsmodsrc/io/github/littoil/litlaunch/launchcommon/LitClassLoader.java</url>
+          <line>78</line>
+          <properties />
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../../../tpsmodsrc/io/github/littoil/litlaunch/launchcommon/LitClassLoader.java</url>
+          <line>80</line>
+          <properties />
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../../../tpsmodsrc/io/github/littoil/litlaunch/launchcommon/LitClassLoader.java</url>
+          <line>76</line>
+          <properties />
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../../../tpsmodsrc/io/github/littoil/litlaunch/launchcommon/LitClassLoader.java</url>
+          <line>79</line>
+          <properties />
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../../../tpsmodsrc/io/github/littoil/litlaunch/launchcommon/LitClassLoader.java</url>
+          <line>82</line>
+          <properties />
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../../../tpsmodsrc/io/github/littoil/litlaunch/launchcommon/LitClassLoader.java</url>
+          <line>85</line>
+          <properties />
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../../../tpsmodsrc/io/github/littoil/litlaunch/launchcommon/LaunchMods.java</url>
+          <line>32</line>
+          <properties />
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../../../tpsmodsrc/io/github/littoil/litlaunch/launchcommon/LaunchMods.java</url>
+          <line>30</line>
+          <properties />
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../../../tpsmodsrc/io/github/littoil/litlaunch/launchcommon/LaunchMods.java</url>
+          <line>33</line>
+          <properties />
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../../../tpsmodsrc/io/github/littoil/litlaunch/launchcommon/LaunchMods.java</url>
+          <line>28</line>
+          <properties />
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../../../tpsmodsrc/io/github/littoil/litlaunch/launchcommon/LaunchMods.java</url>
+          <line>31</line>
+          <properties />
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../../../tpsmodsrc/io/github/littoil/litlaunch/launchcommon/LitEventHandler.java</url>
+          <line>49</line>
+          <properties />
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../../../tpsmodsrc/io/github/littoil/litlaunch/launchcommon/LitEventHandler.java</url>
+          <line>26</line>
+          <properties />
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/../../../tpsmodsrc/io/github/littoil/litlaunch/launchcommon/LitEventHandler.java</url>
+          <line>47</line>
+          <properties class="io.github.littoil.litlaunch.launchcommon.LitEventHandler" method="post">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/../../../tpsmodsrc/io/github/littoil/litlaunch/launchcommon/LitEventHandler.java</url>
+          <line>24</line>
+          <properties class="io.github.littoil.litlaunch.launchcommon.LitEventHandler" method="addListener">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateCodeFragment">
+      <expression>
+        <expression-string>LaunchMods.INSTANCE</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>new Class&lt;?&gt;[]{TPSMod.class, classOfMod}</expression-string>
+        <language-id>JAVA</language-id>
+        <custom-info>io.github.littoil.tpsmod.TPSMod</custom-info>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>{TPSMod.class, classOfMod}</expression-string>
+        <language-id>JAVA</language-id>
+        <custom-info>io.github.littoil.tpsmod.TPSMod</custom-info>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>TPSMod.class.getMethod(&quot;RecievedEvent&quot;, new Class[]{LitEvent.class})</expression-string>
+        <language-id>JAVA</language-id>
+        <custom-info>io.github.littoil.tpsmod.TPSMod</custom-info>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>TPSMod.class.getMethod(&quot;RecievedEvent&quot;)</expression-string>
+        <language-id>JAVA</language-id>
+        <custom-info>io.github.littoil.tpsmod.TPSMod</custom-info>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>classOfMod.getMethod(&quot;RecievedEvent&quot;)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>classOfMod.getMethod(&quot;RecievedEvent&quot;, new Class&lt;?&gt;[]{LitEvent.class})</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>classOfMod.getMethod(&quot;RecievedEvent&quot;, new Class[]{LitEvent.class})</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>classOfMod.getMethod(&quot;RecievedEvent&quot;, new Class[]{LitEvent.class, LaunchMods.class})</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.8.9-11.15.1.1722/stable/20/forgeSrc-1.8.9-11.15.1.1722-sources.jar!/net/minecraft/client/multiplayer/ChunkProviderClient.java" />
+    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.8.9-11.15.1.1722/stable/20/forgeSrc-1.8.9-11.15.1.1722-sources.jar!/net/minecraft/server/MinecraftServer.java" />
+    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.8.9-11.15.1.1722/stable/20/forgeSrc-1.8.9-11.15.1.1722-sources.jar!/net/minecraftforge/fml/common/FMLCommonHandler.java" />
+    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.8.9-11.15.1.1722/stable/20/forgeSrc-1.8.9-11.15.1.1722-sources.jar!/net/minecraft/client/Minecraft.java" />
+    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.8.9-11.15.1.1722/stable/20/forgeSrc-1.8.9-11.15.1.1722-sources.jar!/net/minecraft/client/entity/EntityOtherPlayerMP.java" />
+    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.8.9-11.15.1.1722/stable/20/forgeSrc-1.8.9-11.15.1.1722-sources.jar!/net/minecraftforge/fml/common/gameevent/TickEvent.java" />
+    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.8.9-11.15.1.1722/stable/20/forgeSrc-1.8.9-11.15.1.1722-sources.jar!/net/minecraft/entity/Entity.java" />
+    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.8.9-11.15.1.1722/stable/20/forgeSrc-1.8.9-11.15.1.1722-sources.jar!/net/minecraft/client/renderer/RenderGlobal.java" />
+    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.8.9-11.15.1.1722/stable/20/forgeSrc-1.8.9-11.15.1.1722-sources.jar!/net/minecraft/scoreboard/Scoreboard.java" />
+    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.8.9-11.15.1.1722/stable/20/forgeSrc-1.8.9-11.15.1.1722-sources.jar!/net/minecraft/entity/EntityTracker.java" />
+    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.8.9-11.15.1.1722/stable/20/forgeSrc-1.8.9-11.15.1.1722-sources.jar!/net/minecraft/world/World.java" />
+    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.8.9-11.15.1.1722/stable/20/forgeSrc-1.8.9-11.15.1.1722-sources.jar!/net/minecraft/client/multiplayer/WorldClient.java" />
+    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.8.9-11.15.1.1722/stable/20/forgeSrc-1.8.9-11.15.1.1722-sources.jar!/net/minecraft/world/IWorldAccess.java" />
+    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.8.9-11.15.1.1722/stable/20/forgeSrc-1.8.9-11.15.1.1722-sources.jar!/net/minecraft/world/WorldManager.java" />
+    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.8.9-11.15.1.1722/stable/20/forgeSrc-1.8.9-11.15.1.1722-sources.jar!/net/minecraft/entity/EntityLivingBase.java" />
+    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.8.9-11.15.1.1722/stable/20/forgeSrc-1.8.9-11.15.1.1722-sources.jar!/net/minecraft/entity/player/EntityPlayer.java" />
+    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.8.9-11.15.1.1722/stable/20/forgeSrc-1.8.9-11.15.1.1722-sources.jar!/net/minecraft/entity/ai/EntityAIOwnerHurtTarget.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/examplemod/LitWorldAccess.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/examplemod/ExampleMod.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/examplemod/tst.java" />
+    <entry file="file://$PROJECT_DIR$/build.gradle-">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-354" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/sources/main/java/io/github/codetoil/litlaunch/version/mc1_12/proxy/ClientProxy1_12.java" />
+    <entry file="file://$PROJECT_DIR$/build/sources/main/java/io/github/codetoil/litlaunch/event/LitEventHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="20" column="72" selection-start-line="20" selection-start-column="72" selection-end-line="20" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/sources/main/java/io/github/codetoil/litlaunch/api/LaunchMods.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="20" column="68" selection-start-line="20" selection-start-column="68" selection-end-line="20" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/sources/main/java/io/github/codetoil/litlaunch/version/mc1_8/CommandNew.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="48" selection-start-line="2" selection-start-column="48" selection-end-line="2" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../litlaunchsrc/io/github/codetoil/litlaunch/version/mc1_7/Logger1_7.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#1208#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../litlaunchsrc/io/github/codetoil/litlaunch/version/mc1_7/Launch1_7.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="127" column="5" lean-forward="true" selection-start-line="31" selection-start-column="4" selection-end-line="127" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#4057#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../litlaunchsrc/io/github/codetoil/litlaunch/version/mc1_7/GetFields.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" lean-forward="true" selection-end-line="91" />
+          <folding>
+            <element signature="e#0#2257#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../litlaunchsrc/io/github/codetoil/litlaunch/version/mc1_8/GetFields.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="92" selection-start-line="17" selection-start-column="92" selection-end-line="17" selection-end-column="92" />
+          <folding>
+            <element signature="e#0#2257#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../litlaunchsrc/io/github/codetoil/litlaunch/version/mc1_7/DoThing.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#1847#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../litlaunchsrc/io/github/codetoil/litlaunch/version/mc1_8/DoThing.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="44" column="14" selection-start-line="44" selection-start-column="14" selection-end-line="44" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../litlaunchsrc/io/github/codetoil/litlaunch/version/mc1_7/proxy/ClientProxy1_7.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="497">
+          <caret line="42" column="5" selection-start-line="16" selection-start-column="4" selection-end-line="42" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#1444#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../litlaunchsrc/io/github/codetoil/litlaunch/version/mc1_8/proxy/ClientProxy1_8.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-187">
+          <caret line="5" column="61" selection-start-line="5" selection-start-column="61" selection-end-line="5" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../litlaunchsrc/io/github/codetoil/litlaunch/version/mc1_7/CommandNew.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="395">
+          <caret line="63" column="35" selection-start-line="63" selection-start-column="35" selection-end-line="63" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#1276#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../litlaunchsrc/io/github/codetoil/litlaunch/version/mc1_8/CommandNew.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-421">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../litlaunchsrc/io/github/codetoil/litlaunch/version/mc1_7/proxy/ServerProxy1_7.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#376#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../litlaunchsrc/io/github/codetoil/litlaunch/version/mc1_8/proxy/ServerProxy1_8.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="57" selection-start-column="57" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/sources/main/java/io/github/codetoil/litlaunch/version/mc1_8/EventHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="48" selection-start-line="2" selection-start-column="48" selection-end-line="2" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../litlaunchsrc/io/github/codetoil/litlaunch/version/mc1_7/EventHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="30" column="85" selection-start-line="30" selection-start-column="85" selection-end-line="30" selection-end-column="85" />
+          <folding>
+            <element signature="e#0#969#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/sources/main/java/io/github/codetoil/litlaunch/version/mc1_8/Launch1_8.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#4098#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../litlaunchsrc/io/github/codetoil/litlaunch/version/mc1_8/EventHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="337">
+          <caret line="25" column="87" selection-start-line="25" selection-start-column="87" selection-end-line="25" selection-end-column="87" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../litlaunchsrc/io/github/codetoil/litlaunch/version/mc1_8/Launch1_8.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="99" column="21" selection-start-line="99" selection-start-column="21" selection-end-line="99" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../litlaunchsrc/io/github/codetoil/litlaunch/api/LaunchMods.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../litlaunchsrc/io/github/codetoil/litlaunch/version/mc1_8/Logger1_8.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="344">
+          <caret line="62" column="33" selection-start-line="62" selection-start-column="33" selection-end-line="62" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#780#781#0" expanded="true" />
+            <element signature="e#790#791#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../tpsmodsrc/src/io/github/codetoil/tpsmod/CalculateTPS.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="10" column="58" selection-start-line="10" selection-start-column="58" selection-end-line="10" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../litlaunchsrc/mcmod.info">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../litlaunchsrc/META-INF/mods.toml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../litlaunchsrc/io/github/codetoil/litlaunch/backend/LaunchCommon.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="14" column="51" selection-start-line="14" selection-start-column="51" selection-end-line="14" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="48" column="20" lean-forward="true" selection-start-line="48" selection-start-column="20" selection-end-line="48" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../tpsmodsrc/src/io/github/codetoil/tpsmod/MeasureTPSdrop.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../tpsmodsrc/src/io/github/codetoil/tpsmod/TPSMod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="20" column="54" selection-start-line="20" selection-start-column="54" selection-end-line="20" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="gradleExecuteTaskHistory">
+    <option value="" />
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>tpsmod:jar</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.38273045" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Minecraft (mc1.8.main)|Minecraft</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.38273045" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.38273045" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.38273045" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>tpsmod</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.38273045" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Gradle: com.google.code.findbugs:jsr305:2.0.1</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.38273045" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

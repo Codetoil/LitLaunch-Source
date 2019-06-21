@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.jdt.launching.localJavaApplication">
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+<listEntry value="/1.12.2-Forge-Mod-TPS"/>
+</listAttribute>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+<listEntry value="4"/>
+</listAttribute>
+<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="GradleStart"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROGRAM_ARGUMENTS" value="--username ianthisawesomee@gmail.com --password AnthMine%3579"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="1.12.2-Forge-Mod-TPS"/>
+<stringAttribute key="org.eclipse.jdt.launching.VM_ARGUMENTS" value="-DFORGE_FORCE_FRAME_RECALC=true -Dlog4j.configurationFile=C:\Users\ianth\Documents\ME_MODS\1.7-Forge-Mod-TPS\debugLevel.xml"/>
+<stringAttribute key="org.eclipse.jdt.launching.WORKING_DIRECTORY" value="C:\Users\ianth\Documents\ME_MODS\1.12.2-Forge-Mod-TPS\run"/>
+</launchConfiguration>

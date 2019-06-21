@@ -1,0 +1,39 @@
+This mapping 'stable_20' was designed for MC 1.8.8! Use at your own peril.This mapping 'stable_20' was designed for MC 1.8.8! Use at your own peril.
+
+Version string 'forge-mc1.8.9-v0.0.2.2' does not match SemVer specification 
+You should try SemVer : http://semver.org/
+:deobfCompileDummyTask
+:deobfProvidedDummyTask
+:sourceApiJava UP-TO-DATE
+:compileApiJava UP-TO-DATE
+:processApiResources UP-TO-DATE
+:apiClasses UP-TO-DATE
+:sourceMainJava UP-TO-DATE
+:compileJavaNote: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:processResources UP-TO-DATE
+:classes
+:jar
+:sourceTestJava UP-TO-DATE
+:compileTestJava UP-TO-DATE
+:processTestResources UP-TO-DATE
+:testClasses UP-TO-DATE
+:test UP-TO-DATE
+:extractMcpData SKIPPED
+:extractMcpMappings SKIPPED
+:getVersionJson
+:extractUserdev UP-TO-DATE
+:genSrgs SKIPPED
+:reobfJar
+:extractRangemapReplacedMain
+D:\Files\ME_MODS\tpsmod\versions\forge\mc1.8\build\sources\main\java
+:retromapReplacedMain UP-TO-DATE
+:sourceJar UP-TO-DATE
+:assemble
+:check UP-TO-DATE
+:build
+
+BUILD SUCCESSFUL
+
+Total time: 5.928 secs

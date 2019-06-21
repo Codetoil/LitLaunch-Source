@@ -1,0 +1,12 @@
+package io.github.littoil.litlaunch.version.mc1_12;
+
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
+import io.github.littoil.litlaunch.launchcommon.ILogger;
+
+public class Logger1_12 implements ILogger {
+	
+	private final Logger LOGGER = LogManager.getLogger();
+
+}

@@ -1,0 +1,25 @@
+Symbol range map extraction starting
+Processing 23 files
+processing io\github\codetoil\litlaunch\FrontEnd.java
+processing io\github\codetoil\litlaunch\api\Command.java
+processing io\github\codetoil\litlaunch\api\CommonProxy.java
+processing io\github\codetoil\litlaunch\api\IDoThing.java
+processing io\github\codetoil\litlaunch\api\IGetFields.java
+processing io\github\codetoil\litlaunch\api\IMod.java
+processing io\github\codetoil\litlaunch\api\LaunchMods.java
+processing io\github\codetoil\litlaunch\api\ThreadLogged.java
+processing io\github\codetoil\litlaunch\backend\ILaunch.java
+processing io\github\codetoil\litlaunch\backend\ILogger.java
+processing io\github\codetoil\litlaunch\backend\LaunchCommon.java
+processing io\github\codetoil\litlaunch\backend\LitClassLoader.java
+processing io\github\codetoil\litlaunch\event\LitEvent.java
+processing io\github\codetoil\litlaunch\event\LitEventHandler.java
+processing io\github\codetoil\litlaunch\exceptions\FailedBootstrapException.java
+processing io\github\codetoil\litlaunch\version\mc1_8\CommandNew.java
+processing io\github\codetoil\litlaunch\version\mc1_8\DoThing.java
+processing io\github\codetoil\litlaunch\version\mc1_8\EventHandler.java
+processing io\github\codetoil\litlaunch\version\mc1_8\GetFields.java
+processing io\github\codetoil\litlaunch\version\mc1_8\Launch1_8.java
+processing io\github\codetoil\litlaunch\version\mc1_8\Logger1_8.java
+processing io\github\codetoil\litlaunch\version\mc1_8\proxy\ClientProxy1_8.java
+processing io\github\codetoil\litlaunch\version\mc1_8\proxy\ServerProxy1_8.java

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="net.minecraftforge.common.MinecraftForge"/>
+<fullyQualifiedTypeName name="net.minecraft.server.MinecraftServer"/>
+<fullyQualifiedTypeName name="net.minecraft.client.Minecraft"/>
+<fullyQualifiedTypeName name="io.github.littoil.litlaunch.launchcommon.LaunchCommon"/>
+<fullyQualifiedTypeName name="io.github.littoil.tpsmod.TPSMod"/>
+<fullyQualifiedTypeName name="io.github.littoil.litlaunch.launchforge.LaunchForge"/>
+</qualifiedTypeNameHistroy>
