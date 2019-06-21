@@ -7,6 +7,7 @@ package io.github.codetoil.litlaunch.version.mc1_7;
 import cpw.mods.fml.common.eventhandler.SubscribeEvent;
 import cpw.mods.fml.common.gameevent.TickEvent.ClientTickEvent;
 import cpw.mods.fml.common.gameevent.TickEvent.Phase;
+import cpw.mods.fml.common.network.FMLNetworkEvent;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
 import io.github.codetoil.litlaunch.event.LitEvent;
@@ -21,5 +22,12 @@ public class EventHandler
 		if (event.phase.equals(Phase.END)) {
 			LitEventHandler.COMMON.post(new LitEvent(EventHandler.class, "onTick"), true);
 		}
+	}
+
+	@SubscribeEvent
+	@SideOnly(Side.CLIENT)
+	public void ServerConnect(FMLNetworkEvent.ClientConnectedToServerEvent event)
+	{
+		LitEventHandler.COMMON.post(new LitEvent(EventHandler.class, "ServerConnect"));
 	}
 }

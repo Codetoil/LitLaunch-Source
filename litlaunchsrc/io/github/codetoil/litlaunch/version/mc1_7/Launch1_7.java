@@ -49,7 +49,7 @@ public class Launch1_7 implements ILaunch
 	{
 		boolean result;
 		if (LaunchCommon.getCcproxy() != null) {
-			LaunchMods.getINSTANCE().getLOGGER().error("Tried re-setting proxy!");
+			LaunchMods.error("Tried re-setting proxy!");
 			result = false;
 		} else {
 			Side side = FMLCommonHandler.instance().getSide();
@@ -63,7 +63,7 @@ public class Launch1_7 implements ILaunch
 					result = true;
 					break;
 				default:
-					LaunchMods.getINSTANCE().getLOGGER().error("FML is not sided(client vs server). This should not happen!");
+					LaunchMods.error("FML is not sided(client vs server). This should not happen!");
 					result = false;
 					break;
 			}

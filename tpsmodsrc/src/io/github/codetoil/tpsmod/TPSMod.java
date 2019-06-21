@@ -7,6 +7,7 @@ package io.github.codetoil.tpsmod;
 import io.github.codetoil.litlaunch.FrontEnd;
 import io.github.codetoil.litlaunch.api.Command;
 import io.github.codetoil.litlaunch.api.IMod;
+import io.github.codetoil.litlaunch.backend.LaunchCommon;
 import io.github.codetoil.litlaunch.event.LitEvent;
 import io.github.codetoil.litlaunch.event.LitEventHandler;
 import io.github.codetoil.tpsmod.commands.CommandHandler;
@@ -17,11 +18,12 @@ import java.util.List;
 
 public class TPSMod implements IMod, LitEventHandler.EventListener
 {
-	public static final String VERSION = "2.0";
+	public static final String VERSION = "2.0.1 Beta 1";
 
 	public final static List<Command> commandList = newCommandList();
 	public final static Object INSTNACE = new TPSMod();
 	private static MeasureTPSdrop[] independentDimensionTPSMeasures;
+	public static double initialLoadTime;
 
 	public TPSMod()
 	{
@@ -83,6 +85,11 @@ public class TPSMod implements IMod, LitEventHandler.EventListener
 	{
 		FrontEnd.info("TPSMod v" + VERSION + " starting server");
 	}
+	public void connectedToServer()
+	{
+		FrontEnd.info("TPSMod v" + VERSION + " connected to server");
+		TPSMod.initialLoadTime = LaunchCommon.getTimeInSeconds();
+	}
 
 	@Override
 	public IMod getModINSTANCE()
@@ -110,6 +117,9 @@ public class TPSMod implements IMod, LitEventHandler.EventListener
 				case ServerLoad:
 					serverLoad();
 					break;
+				case ServerConnect:
+					connectedToServer();
+					break;
 				default:
 					break;
 			}
@@ -131,6 +141,7 @@ public class TPSMod implements IMod, LitEventHandler.EventListener
 		PreInit(),
 		Init(),
 		PostInit(),
-		ServerLoad();
+		ServerLoad(),
+		ServerConnect()
 	}
 }

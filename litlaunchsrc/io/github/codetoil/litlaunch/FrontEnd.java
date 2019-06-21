@@ -96,6 +96,8 @@ public class FrontEnd
 		LOGGER().error(obj);
 	}
 
+	public static void verbose(Object obj) {LOGGER().verbose(obj);}
+
 	public static List<Class<?>> MODS_LOADED()
 	{
 		return LaunchMods.validMods;

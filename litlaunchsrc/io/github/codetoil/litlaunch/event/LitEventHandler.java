@@ -70,8 +70,8 @@ public class LitEventHandler
 	{
 		if (!isSpammy) {
 			FrontEnd.trace("Sent Event: " + event.toString());
-		} else if (FrontEnd.IS_LITLAUNCH_VERBOSE()) {
-			FrontEnd.trace("Sent Event (Verbose): " + event.toString());
+		} else {
+			FrontEnd.verbose("Sent Event (Verbose): " + event.toString());
 		}
 	}
 

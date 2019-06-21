@@ -59,9 +59,9 @@ public class LitClassLoader
 	public Method getMethodOfClass(Class<?> classIn, String methodName, Class<?>... paramTypes)
 	{
 		for (Method method : classIn.getMethods()) {
+			LaunchMods.trace(method);
+			LaunchMods.trace(method.getName());
 			if (methodName.equals(method.getName())) {
-				//LaunchMods.info(Arrays.asList(method.getParameterTypes()));
-				//LaunchMods.info(Arrays.asList(paramTypes));
 				if (areClassListsEqual(method.getParameterTypes(), paramTypes)) {
 					return method;
 				}

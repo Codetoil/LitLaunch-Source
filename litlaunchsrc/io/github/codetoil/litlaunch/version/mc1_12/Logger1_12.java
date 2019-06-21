@@ -4,7 +4,8 @@
 
 package io.github.codetoil.litlaunch.version.mc1_12;
 
-import io.github.codetoil.litlaunch.launchcommon.ILogger;
+import io.github.codetoil.litlaunch.backend.ILogger;
+import io.github.codetoil.litlaunch.backend.LaunchCommon;
 import org.apache.logging.log4j.Logger;
 
 public class Logger1_12 implements ILogger
@@ -56,6 +57,15 @@ public class Logger1_12 implements ILogger
 	public void trace(Object obj)
 	{
 		this.LOGGER.trace(obj);
+	}
+
+	@Override
+	public void verbose(Object obj)
+	{
+		if (LaunchCommon.isVerbose())
+		{
+			this.LOGGER.trace(obj);
+		}
 	}
 
 	public Object getInternalLogger()

@@ -16,11 +16,34 @@ public class CommandHandler
 {
 	public static void executeTPS()
 	{
-		//LaunchMods.info("executed //tps!");
-		double TPS = getTPS();
-		String TPS_STR = formatTPS(TPS);
-		LaunchCommon.getDoThing().notifyPlayer("[TPS Mod] " + TPS_STR + " tps", IDoThing.Color.YELLOW);
-		//LaunchMods.info("TPS: " + TPS_STR);
+		if (LaunchCommon.getTimeInSeconds() - TPSMod.initialLoadTime > 5.0)
+		{
+			//LaunchMods.info("executed //tps!");
+			double TPS = getTPS();
+			String TPS_STR = formatTPS(TPS);
+			LaunchCommon.getDoThing().notifyPlayer("[TPS Mod] " + TPS_STR + " tps", IDoThing.Color.YELLOW);
+			//LaunchMods.info("TPS: " + TPS_STR);
+		}
+		else
+		{
+			LaunchCommon.getDoThing().notifyPlayer("The TPS Mod v" + TPSMod.VERSION + " is still loading. Please wait...", IDoThing.Color.RED);
+		}
+	}
+
+	public static void executeTPSTOALL()
+	{
+		if (LaunchCommon.getTimeInSeconds() - TPSMod.initialLoadTime > 5.0)
+		{
+			//LaunchMods.info("executed //tpstoall!");
+			double TPS = getTPS();
+			String TPS_STR = formatTPS(TPS);
+			LaunchCommon.getDoThing().sendAsChatMessage("The TPS Mod v" + TPSMod.VERSION + " has measured the tps to be " + TPS_STR + " ticks per second");
+			//LaunchMods.info("TPS: " + TPS_STR);
+		}
+		else
+		{
+			LaunchCommon.getDoThing().notifyPlayer("The TPS Mod v" + TPSMod.VERSION + " is still loading. Please wait...", IDoThing.Color.RED);
+		}
 	}
 
 	private static double getTPS()
@@ -41,14 +64,5 @@ public class CommandHandler
 		DecimalFormat df = new DecimalFormat("#.##");
 		df.setRoundingMode(RoundingMode.CEILING);
 		return df.format(TPS);
-	}
-
-	public static void executeTPSTOALL()
-	{
-		//LaunchMods.info("executed //tpstoall!");
-		double TPS = getTPS();
-		String TPS_STR = formatTPS(TPS);
-		LaunchCommon.getDoThing().sendAsChatMessage("The TPS Mod v" + TPSMod.VERSION + " has measured the tps to be " + TPS_STR + " ticks per second");
-		//LaunchMods.info("TPS: " + TPS_STR);
 	}
 }

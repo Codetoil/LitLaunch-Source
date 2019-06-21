@@ -18,6 +18,12 @@ public interface ILogger
 
 	void trace(Object obj);
 
+	/**
+	 * Only prints if the "verbose" flag is enabled
+	 * @param obj
+	 */
+	void verbose(Object obj);
+
 	Object getInternalLogger();
 
 	void setInternalLogger(Object logger);

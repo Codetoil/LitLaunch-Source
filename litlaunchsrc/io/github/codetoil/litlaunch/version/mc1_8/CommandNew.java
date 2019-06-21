@@ -1,6 +1,6 @@
 package io.github.codetoil.litlaunch.version.mc1_8;
 
-import io.github.codetoil.litlaunch.launchcommon.Command;
+import io.github.codetoil.litlaunch.api.Command;
 import net.minecraft.command.CommandException;
 import net.minecraft.command.ICommand;
 import net.minecraft.command.ICommandSender;

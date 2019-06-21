@@ -4,8 +4,8 @@
 
 package io.github.codetoil.litlaunch.version.mc1_12;
 
-import io.github.codetoil.litlaunch.launchcommon.IGetFields;
-import io.github.codetoil.litlaunch.launchcommon.LaunchMods;
+import io.github.codetoil.litlaunch.api.IGetFields;
+import io.github.codetoil.litlaunch.api.LaunchMods;
 import net.minecraft.client.Minecraft;
 import net.minecraft.world.DimensionType;
 import net.minecraft.world.World;
@@ -17,7 +17,7 @@ import net.minecraftforge.fml.relauncher.SideOnly;
 
 public class GetFields implements IGetFields
 {
-	public static final IGetFields INSTANCE = new GetFields();
+	public static final IGetFields INSTANCE = new io.github.codetoil.litlaunch.version.mc1_12.GetFields();
 
 	private GetFields()
 	{
@@ -76,18 +76,13 @@ public class GetFields implements IGetFields
 	@Override
 	public int[] getDimsAvailable()
 	{
-		DimensionType[] dims = DimensionType.values();
+		Integer[] dims = DimensionManager.getStaticDimensionIDs();
 		int[] dimIDs = new int[dims.length];
 		int j = 0;
-		for (DimensionType dim : dims) {
-			dimIDs[j++] = dim.getId();
+		for (Integer dim : dims) {
+			dimIDs[j++] = dim;
 		}
 		return dimIDs;
-	}
-
-	public int getDimAmount()
-	{
-		return DimensionType.values().length;
 	}
 
 	@Override

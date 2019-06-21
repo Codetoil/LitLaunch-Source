@@ -4,7 +4,7 @@
 
 package io.github.codetoil.litlaunch.version.mc1_12.proxy;
 
-import io.github.codetoil.litlaunch.launchcommon.proxy.CommonProxy;
+import io.github.codetoil.litlaunch.api.CommonProxy;
 
 public class ServerProxy1_12 implements CommonProxy
 {

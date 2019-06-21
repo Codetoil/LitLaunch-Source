@@ -47,7 +47,7 @@ public class LaunchMods
 						trace("Classloader could not find mod \"" + modPath + "\"!");
 					}
 				} else {
-					trace("mod \"" + modPath + "\" does not exist! please make sure the class is in the classpath!");
+					trace("mod \"" + modPath + "\" does not exist within the classloader! either the mod has already been loaded with a different classloader, or the mod does not exist at all");
 				}
 			}
 		}
@@ -93,8 +93,7 @@ public class LaunchMods
 					Method getModINSTANCE = getINSTANCE().litClassLoader.getMethodOfClass(possibility, "getModINSTANCE");
 					if (getListener != null && getModINSTANCE != null) {
 						Object oListener = getListener.invoke(randomINSTANCE);
-						Object oMod = getModINSTANCE.invoke(randomINSTANCE);
-						if (oListener instanceof LitEventHandler.EventListener && oMod instanceof IMod) {
+						if (oListener instanceof LitEventHandler.EventListener) {
 							trace("Mod \"" + possibility.getName() + "\" is valid! Adding to valid mod list and adding listener!");
 							validMods.add(possibility);
 							// Step 2a : Convert oListener to EventListener class
@@ -215,5 +214,9 @@ public class LaunchMods
 	public static void fatal(Object object)
 	{
 		getLOGGER().fatal(object);
+	}
+
+	public static void verbose(Object object) {
+		getLOGGER().verbose(object);
 	}
 }
