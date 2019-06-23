@@ -1,7 +1,5 @@
 # TPS Mod Source
-This is the source to the TPS Mod. This is currently only the dev source, sorry! Once the new update is released, I may 
-be able to have a special branch for non-dev. That's for later though! (or I may put it as a release if that includes
- the code.)
+This is the source to the TPS Mod. This is the source to the v1.x line of tpsmod.
 
 ## Installing development enviorment
 ### OUTDATED
