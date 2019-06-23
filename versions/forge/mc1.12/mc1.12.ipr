@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ArtifactManager">
     <artifact type="jar" name="tpsmod:jar">
-      <output-path>$PROJECT_DIR$/run/mods</output-path>
-      <root id="archive" name="tpsmod-2.0.1-Beta-1.jar">
+      <output-path>$PROJECT_DIR$/../../../../tpsmodrun/mc1.12/mods_litlaunch</output-path>
+      <root id="archive" name="tpsmod-2.0.1-Beta-2-Build-12.jar">
         <element id="module-output" name="tpsmod" />
       </root>
     </artifact>
@@ -217,10 +217,10 @@
   </component>
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/io.github.codetoil.mc1.12.iml" filepath="$PROJECT_DIR$/io.github.codetoil.mc1.12.iml" />
       <module fileurl="file://$PROJECT_DIR$/io.github.codetoil.mc1.12.api.iml" filepath="$PROJECT_DIR$/io.github.codetoil.mc1.12.api.iml" />
       <module fileurl="file://$PROJECT_DIR$/io.github.codetoil.mc1.12.main.iml" filepath="$PROJECT_DIR$/io.github.codetoil.mc1.12.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/io.github.codetoil.mc1.12.test.iml" filepath="$PROJECT_DIR$/io.github.codetoil.mc1.12.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mc1.12.iml" filepath="$PROJECT_DIR$/mc1.12.iml" />
       <module fileurl="file://$PROJECT_DIR$/tpsmod/tpsmod.iml" filepath="$PROJECT_DIR$/tpsmod/tpsmod.iml" />
     </modules>
   </component>

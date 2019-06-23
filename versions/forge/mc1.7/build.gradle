@@ -24,7 +24,7 @@ repositories {
 
 apply plugin: 'forge'
 
-version = "forge-mc1.7.10-v0.0.2.2"
+version = "forge-mc1.7.10-v0.0.3.5"
 group= "io.github.codetoil" 
 /*
  * Copyright Codetoil (c) 2019
@@ -81,18 +81,18 @@ sourceSets {
         java {
             srcDir "../../../litlaunchsrc"
             //srcDir "../../../tpsmodsrc-1.2/main/java"
-            exclude 'io/github/codetoil/litlaunch/version/mc1_13'
-            exclude 'io/github/codetoil/litlaunch/version/mc1_8'
-            exclude 'io/github/codetoil/litlaunch/version/mc1_12'
-            exclude 'io/github/codetoil/litlaunch/version/sponge'
+            exclude 'io/github/codetoil/litlaunch/_native/mc1_13'
+            exclude 'io/github/codetoil/litlaunch/_native/mc1_8'
+            exclude 'io/github/codetoil/litlaunch/_native/mc1_12'
+            exclude 'io/github/codetoil/litlaunch/_native/sponge'
         }
         resources {
             srcDir "../../../litlaunchsrc"
             //srcDir "../../../tpsmodsrc-1.2/main/resources"
-            exclude 'io/github/codetoil/litlaunch/version/mc1_13'
-            exclude 'io/github/codetoil/litlaunch/version/mc1_8'
-            exclude 'io/github/codetoil/litlaunch/version/mc1_12'
-            exclude 'io/github/codetoil/litlaunch/version/sponge'
+            exclude 'io/github/codetoil/litlaunch/_native/mc1_13'
+            exclude 'io/github/codetoil/litlaunch/_native/mc1_8'
+            exclude 'io/github/codetoil/litlaunch/_native/mc1_12'
+            exclude 'io/github/codetoil/litlaunch/_native/sponge'
         }
     }
 }

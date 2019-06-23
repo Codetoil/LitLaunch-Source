@@ -4,11 +4,10 @@
 
 package io.github.codetoil.tpsmod;
 
-import io.github.codetoil.litlaunch.FrontEnd;
-import io.github.codetoil.litlaunch.api.LaunchMods;
-import io.github.codetoil.litlaunch.backend.LaunchCommon;
-import io.github.codetoil.litlaunch.event.LitEvent;
-import io.github.codetoil.litlaunch.event.LitEventHandler;
+import io.github.codetoil.litlaunch.api.FrontEnd;
+import io.github.codetoil.litlaunch.core.LaunchCommon;
+import io.github.codetoil.litlaunch.core.event.LitEvent;
+import io.github.codetoil.litlaunch.core.event.LitEventHandler;
 
 public class MeasureTPSdrop implements LitEventHandler.EventListener
 {
@@ -23,7 +22,7 @@ public class MeasureTPSdrop implements LitEventHandler.EventListener
 		this.dimension = dimension;
 		calculateTPS = new CalculateTPS(dimension);
 		LitEventHandler.COMMON.addListener(this);
-		LitEventHandler.COMMON.addListener(calculateTPS);
+		TPSMod.EVENTS.addListener(calculateTPS);
 	}
 
 	public static double getMaxTimeWait()
@@ -43,7 +42,7 @@ public class MeasureTPSdrop implements LitEventHandler.EventListener
 	public void ReceivedEvent(LitEvent event)
 	{
 		//LaunchMods.trace(event.getType());
-		if (event.getType().equals("onTick")) {
+		if (event.getType().equals("clientTick") || event.getType().equals("serverTick")) {
 			seeIfTWTHasDropped();
 		}
 	}
@@ -59,7 +58,7 @@ public class MeasureTPSdrop implements LitEventHandler.EventListener
 			FrontEnd.verbose("Delta Tick: " + DeltaTick);
 		}
 		if (DeltaTick < 0 || timeNow - previousMeasureTime > maxTimeWait) {
-			LitEventHandler.COMMON.post(new LitEvent(this, "updateTPS", totalWorldTime, timeNow, dimension), true);
+			TPSMod.EVENTS.post(new LitEvent(this, "updateTPS", totalWorldTime, timeNow, dimension), true);
 			previousMeasureTime = timeNow;
 		}
 		totalWorldTimePrevTick = totalWorldTime;

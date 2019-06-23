@@ -1,24 +1,307 @@
 :compileApiJava UP-TO-DATE
 :processApiResources UP-TO-DATE
 :apiClasses UP-TO-DATE
-:sourceMainJava UP-TO-DATE
-:compileJava UP-TO-DATE
-:processResources UP-TO-DATE
-:classes UP-TO-DATE
-:jar
-:compileTestJava UP-TO-DATE
-:processTestResources UP-TO-DATE
-:testClasses UP-TO-DATE
-:test UP-TO-DATE
-:extractMcpData UP-TO-DATE
-:getVersionJson
-:extractUserDev UP-TO-DATE
-:genSrgs SKIPPED
-:reobf
-:assemble
-:check UP-TO-DATE
-:build
+:sourceMainJava
+:compileJavaD:\Files\ME_MODS\tpsmod\versions\forge\mc1.7\build\sources\java\io\github\codetoil\litlaunch\_native\mc1_7\EventHandler.java:13: error: package io.github.codetoil.litlaunch.event does not exist
+import io.github.codetoil.litlaunch.event.LitEvent;
+                                         ^
+D:\Files\ME_MODS\tpsmod\versions\forge\mc1.7\build\sources\java\io\github\codetoil\litlaunch\_native\mc1_7\EventHandler.java:14: error: package io.github.codetoil.litlaunch.event does not exist
+import io.github.codetoil.litlaunch.event.LitEventHandler;
+                                         ^
+D:\Files\ME_MODS\tpsmod\versions\forge\mc1.7\build\sources\java\io\github\codetoil\litlaunch\_native\mc1_7\GetFields.java:10: error: cannot find symbol
+import io.github.codetoil.litlaunch.api.LaunchMods;
+                                       ^
+  symbol:   class LaunchMods
+  location: package io.github.codetoil.litlaunch.api
+D:\Files\ME_MODS\tpsmod\versions\forge\mc1.7\build\sources\java\io\github\codetoil\litlaunch\_native\mc1_7\Launch1_7.java:16: error: cannot find symbol
+import io.github.codetoil.litlaunch.api.LaunchMods;
+                                       ^
+  symbol:   class LaunchMods
+  location: package io.github.codetoil.litlaunch.api
+D:\Files\ME_MODS\tpsmod\versions\forge\mc1.7\build\sources\java\io\github\codetoil\litlaunch\_native\mc1_7\Launch1_7.java:17: error: package io.github.codetoil.litlaunch.backend does not exist
+import io.github.codetoil.litlaunch.backend.ILaunch;
+                                           ^
+D:\Files\ME_MODS\tpsmod\versions\forge\mc1.7\build\sources\java\io\github\codetoil\litlaunch\_native\mc1_7\Launch1_7.java:18: error: package io.github.codetoil.litlaunch.backend does not exist
+import io.github.codetoil.litlaunch.backend.LaunchCommon;
+                                           ^
+D:\Files\ME_MODS\tpsmod\versions\forge\mc1.7\build\sources\java\io\github\codetoil\litlaunch\_native\mc1_7\Launch1_7.java:19: error: package io.github.codetoil.litlaunch.exceptions does not exist
+import io.github.codetoil.litlaunch.exceptions.FailedBootstrapException;
+                                              ^
+D:\Files\ME_MODS\tpsmod\versions\forge\mc1.7\build\sources\java\io\github\codetoil\litlaunch\_native\mc1_7\Launch1_7.java:30: error: cannot find symbol
+public class Launch1_7 implements ILaunch
+                                  ^
+  symbol: class ILaunch
+D:\Files\ME_MODS\tpsmod\versions\forge\mc1.7\build\sources\java\io\github\codetoil\litlaunch\_native\mc1_7\Logger1_7.java:7: error: package io.github.codetoil.litlaunch.backend does not exist
+import io.github.codetoil.litlaunch.backend.ILogger;
+                                           ^
+D:\Files\ME_MODS\tpsmod\versions\forge\mc1.7\build\sources\java\io\github\codetoil\litlaunch\_native\mc1_7\Logger1_7.java:8: error: package io.github.codetoil.litlaunch.backend does not exist
+import io.github.codetoil.litlaunch.backend.LaunchCommon;
+                                           ^
+D:\Files\ME_MODS\tpsmod\versions\forge\mc1.7\build\sources\java\io\github\codetoil\litlaunch\_native\mc1_7\Logger1_7.java:11: error: cannot find symbol
+public class Logger1_7 implements ILogger
+                                  ^
+  symbol: class ILogger
+D:\Files\ME_MODS\tpsmod\versions\forge\mc1.7\build\sources\java\io\github\codetoil\litlaunch\_native\mc1_7\Logger1_7.java:14: error: cannot find symbol
+	private final static ILogger Instance = new Logger1_7();
+	                     ^
+  symbol:   class ILogger
+  location: class Logger1_7
+D:\Files\ME_MODS\tpsmod\versions\forge\mc1.7\build\sources\java\io\github\codetoil\litlaunch\_native\mc1_7\Logger1_7.java:21: error: cannot find symbol
+	public static ILogger getInstance()
+	              ^
+  symbol:   class ILogger
+  location: class Logger1_7
+D:\Files\ME_MODS\tpsmod\versions\forge\mc1.7\build\sources\java\io\github\codetoil\litlaunch\_native\mc1_7\proxy\ClientProxy1_7.java:8: error: cannot find symbol
+import io.github.codetoil.litlaunch.api.CommonProxy;
+                                       ^
+  symbol:   class CommonProxy
+  location: package io.github.codetoil.litlaunch.api
+D:\Files\ME_MODS\tpsmod\versions\forge\mc1.7\build\sources\java\io\github\codetoil\litlaunch\_native\mc1_7\proxy\ClientProxy1_7.java:9: error: cannot find symbol
+import io.github.codetoil.litlaunch.api.LaunchMods;
+                                       ^
+  symbol:   class LaunchMods
+  location: package io.github.codetoil.litlaunch.api
+D:\Files\ME_MODS\tpsmod\versions\forge\mc1.7\build\sources\java\io\github\codetoil\litlaunch\_native\mc1_7\proxy\ClientProxy1_7.java:15: error: cannot find symbol
+public class ClientProxy1_7 implements CommonProxy
+                                       ^
+  symbol: class CommonProxy
+D:\Files\ME_MODS\tpsmod\versions\forge\mc1.7\build\sources\java\io\github\codetoil\litlaunch\_native\mc1_7\proxy\ServerProxy1_7.java:8: error: cannot find symbol
+import io.github.codetoil.litlaunch.api.CommonProxy;
+                                       ^
+  symbol:   class CommonProxy
+  location: package io.github.codetoil.litlaunch.api
+D:\Files\ME_MODS\tpsmod\versions\forge\mc1.7\build\sources\java\io\github\codetoil\litlaunch\_native\mc1_7\proxy\ServerProxy1_7.java:10: error: cannot find symbol
+public class ServerProxy1_7 implements CommonProxy
+                                       ^
+  symbol: class CommonProxy
+D:\Files\ME_MODS\tpsmod\versions\forge\mc1.7\build\sources\java\io\github\codetoil\litlaunch\_native\mc1_7\Launch1_7.java:29: error: cannot find symbol
+@Mod(modid = LaunchCommon.MODID, version = LaunchCommon.VERSION)
+             ^
+  symbol: variable LaunchCommon
+D:\Files\ME_MODS\tpsmod\versions\forge\mc1.7\build\sources\java\io\github\codetoil\litlaunch\_native\mc1_7\Launch1_7.java:29: error: cannot find symbol
+@Mod(modid = LaunchCommon.MODID, version = LaunchCommon.VERSION)
+                                           ^
+  symbol: variable LaunchCommon
+D:\Files\ME_MODS\tpsmod\versions\forge\mc1.7\build\sources\java\io\github\codetoil\litlaunch\_native\mc1_7\CommandNew.java:50: error: cannot find symbol
+			comm.runnable.run();
+			    ^
+  symbol:   variable runnable
+  location: variable comm of type Command
+D:\Files\ME_MODS\tpsmod\versions\forge\mc1.7\build\sources\java\io\github\codetoil\litlaunch\_native\mc1_7\DoThing.java:15: error: DoThing is not abstract and does not override abstract method notifyServer(String,Color,boolean,boolean,boolean,boolean,boolean) in IDoThing
+public class DoThing implements IDoThing
+       ^
+D:\Files\ME_MODS\tpsmod\versions\forge\mc1.7\build\sources\java\io\github\codetoil\litlaunch\_native\mc1_7\EventHandler.java:23: error: cannot find symbol
+			LitEventHandler.COMMON.post(new LitEvent(EventHandler.class, "onTick"), true);
+			                                ^
+  symbol:   class LitEvent
+  location: class EventHandler
+D:\Files\ME_MODS\tpsmod\versions\forge\mc1.7\build\sources\java\io\github\codetoil\litlaunch\_native\mc1_7\EventHandler.java:23: error: package LitEventHandler does not exist
+			LitEventHandler.COMMON.post(new LitEvent(EventHandler.class, "onTick"), true);
+			               ^
+D:\Files\ME_MODS\tpsmod\versions\forge\mc1.7\build\sources\java\io\github\codetoil\litlaunch\_native\mc1_7\EventHandler.java:31: error: cannot find symbol
+		LitEventHandler.COMMON.post(new LitEvent(EventHandler.class, "ServerConnect"));
+		                                ^
+  symbol:   class LitEvent
+  location: class EventHandler
+D:\Files\ME_MODS\tpsmod\versions\forge\mc1.7\build\sources\java\io\github\codetoil\litlaunch\_native\mc1_7\EventHandler.java:31: error: package LitEventHandler does not exist
+		LitEventHandler.COMMON.post(new LitEvent(EventHandler.class, "ServerConnect"));
+		               ^
+D:\Files\ME_MODS\tpsmod\versions\forge\mc1.7\build\sources\java\io\github\codetoil\litlaunch\_native\mc1_7\GetFields.java:16: error: GetFields is not abstract and does not override abstract method getDimRunning() in IGetFields
+public class GetFields implements IGetFields
+       ^
+D:\Files\ME_MODS\tpsmod\versions\forge\mc1.7\build\sources\java\io\github\codetoil\litlaunch\_native\mc1_7\GetFields.java:46: error: cannot find symbol
+						LaunchMods.error("World provider for Client world could not be loaded!");
+						^
+  symbol:   variable LaunchMods
+  location: class GetFields
+D:\Files\ME_MODS\tpsmod\versions\forge\mc1.7\build\sources\java\io\github\codetoil\litlaunch\_native\mc1_7\GetFields.java:60: error: cannot find symbol
+			LaunchMods.error("Something went wrong!");
+			^
+  symbol:   variable LaunchMods
+  location: class GetFields
+D:\Files\ME_MODS\tpsmod\versions\forge\mc1.7\build\sources\java\io\github\codetoil\litlaunch\_native\mc1_7\GetFields.java:67: error: method does not override or implement a method from a supertype
+	@Override
+	^
+D:\Files\ME_MODS\tpsmod\versions\forge\mc1.7\build\sources\java\io\github\codetoil\litlaunch\_native\mc1_7\Launch1_7.java:32: error: cannot find symbol
+	public static final String VERSION = MinecraftForge.MC_VERSION + "-" + LaunchCommon.VERSION;
+	                                                                       ^
+  symbol:   variable LaunchCommon
+  location: class Launch1_7
+D:\Files\ME_MODS\tpsmod\versions\forge\mc1.7\build\sources\java\io\github\codetoil\litlaunch\_native\mc1_7\Launch1_7.java:38: error: cannot find symbol
+			LaunchCommon.setSide(Command.Side.CLIENT);
+			^
+  symbol:   variable LaunchCommon
+  location: class Launch1_7
+D:\Files\ME_MODS\tpsmod\versions\forge\mc1.7\build\sources\java\io\github\codetoil\litlaunch\_native\mc1_7\Launch1_7.java:40: error: cannot find symbol
+			LaunchCommon.setSide(Command.Side.SERVER);
+			^
+  symbol:   variable LaunchCommon
+  location: class Launch1_7
+D:\Files\ME_MODS\tpsmod\versions\forge\mc1.7\build\sources\java\io\github\codetoil\litlaunch\_native\mc1_7\Launch1_7.java:42: error: cannot find symbol
+			throw new FailedBootstrapException("FML IS NOT SIDED!");
+			          ^
+  symbol:   class FailedBootstrapException
+  location: class Launch1_7
+D:\Files\ME_MODS\tpsmod\versions\forge\mc1.7\build\sources\java\io\github\codetoil\litlaunch\_native\mc1_7\Launch1_7.java:44: error: cannot find symbol
+		LaunchCommon.setDoThing(DoThing.INSTANCE);
+		^
+  symbol:   variable LaunchCommon
+  location: class Launch1_7
+D:\Files\ME_MODS\tpsmod\versions\forge\mc1.7\build\sources\java\io\github\codetoil\litlaunch\_native\mc1_7\Launch1_7.java:45: error: cannot find symbol
+		LaunchCommon.setGetFields(GetFields.INSTANCE);
+		^
+  symbol:   variable LaunchCommon
+  location: class Launch1_7
+D:\Files\ME_MODS\tpsmod\versions\forge\mc1.7\build\sources\java\io\github\codetoil\litlaunch\_native\mc1_7\Launch1_7.java:51: error: cannot find symbol
+		if (LaunchCommon.getCcproxy() != null) {
+		    ^
+  symbol:   variable LaunchCommon
+  location: class Launch1_7
+D:\Files\ME_MODS\tpsmod\versions\forge\mc1.7\build\sources\java\io\github\codetoil\litlaunch\_native\mc1_7\Launch1_7.java:52: error: cannot find symbol
+			LaunchMods.error("Tried re-setting proxy!");
+			^
+  symbol:   variable LaunchMods
+  location: class Launch1_7
+D:\Files\ME_MODS\tpsmod\versions\forge\mc1.7\build\sources\java\io\github\codetoil\litlaunch\_native\mc1_7\Launch1_7.java:58: error: cannot find symbol
+					LaunchCommon.setCcproxy(new ClientProxy1_7());
+					^
+  symbol:   variable LaunchCommon
+  location: class Launch1_7
+D:\Files\ME_MODS\tpsmod\versions\forge\mc1.7\build\sources\java\io\github\codetoil\litlaunch\_native\mc1_7\Launch1_7.java:62: error: cannot find symbol
+					LaunchCommon.setCcproxy(new ServerProxy1_7());
+					^
+  symbol:   variable LaunchCommon
+  location: class Launch1_7
+D:\Files\ME_MODS\tpsmod\versions\forge\mc1.7\build\sources\java\io\github\codetoil\litlaunch\_native\mc1_7\Launch1_7.java:66: error: cannot find symbol
+					LaunchMods.error("FML is not sided(client vs server). This should not happen!");
+					^
+  symbol:   variable LaunchMods
+  location: class Launch1_7
+D:\Files\ME_MODS\tpsmod\versions\forge\mc1.7\build\sources\java\io\github\codetoil\litlaunch\_native\mc1_7\Launch1_7.java:78: error: cannot find symbol
+			LaunchCommon.bootstrap(LogManager.getLogger(LaunchCommon.MODID), this, Logger1_7.getInstance(), event.getSuggestedConfigurationFile());
+			                                            ^
+  symbol:   variable LaunchCommon
+  location: class Launch1_7
+D:\Files\ME_MODS\tpsmod\versions\forge\mc1.7\build\sources\java\io\github\codetoil\litlaunch\_native\mc1_7\Launch1_7.java:78: error: cannot find symbol
+			LaunchCommon.bootstrap(LogManager.getLogger(LaunchCommon.MODID), this, Logger1_7.getInstance(), event.getSuggestedConfigurationFile());
+			^
+  symbol:   variable LaunchCommon
+  location: class Launch1_7
+D:\Files\ME_MODS\tpsmod\versions\forge\mc1.7\build\sources\java\io\github\codetoil\litlaunch\_native\mc1_7\Launch1_7.java:81: error: cannot find symbol
+			FailedBootstrapException lFailedBootstrapException = new FailedBootstrapException();
+			^
+  symbol:   class FailedBootstrapException
+  location: class Launch1_7
+D:\Files\ME_MODS\tpsmod\versions\forge\mc1.7\build\sources\java\io\github\codetoil\litlaunch\_native\mc1_7\Launch1_7.java:81: error: cannot find symbol
+			FailedBootstrapException lFailedBootstrapException = new FailedBootstrapException();
+			                                                         ^
+  symbol:   class FailedBootstrapException
+  location: class Launch1_7
+D:\Files\ME_MODS\tpsmod\versions\forge\mc1.7\build\sources\java\io\github\codetoil\litlaunch\_native\mc1_7\Launch1_7.java:85: error: cannot find symbol
+		LaunchCommon.preInit();
+		^
+  symbol:   variable LaunchCommon
+  location: class Launch1_7
+D:\Files\ME_MODS\tpsmod\versions\forge\mc1.7\build\sources\java\io\github\codetoil\litlaunch\_native\mc1_7\Launch1_7.java:91: error: cannot find symbol
+		LaunchCommon.init();
+		^
+  symbol:   variable LaunchCommon
+  location: class Launch1_7
+D:\Files\ME_MODS\tpsmod\versions\forge\mc1.7\build\sources\java\io\github\codetoil\litlaunch\_native\mc1_7\Launch1_7.java:99: error: cannot find symbol
+		LaunchCommon.postInit();
+		^
+  symbol:   variable LaunchCommon
+  location: class Launch1_7
+D:\Files\ME_MODS\tpsmod\versions\forge\mc1.7\build\sources\java\io\github\codetoil\litlaunch\_native\mc1_7\Launch1_7.java:105: error: cannot find symbol
+		LaunchCommon.serverLoad();
+		^
+  symbol:   variable LaunchCommon
+  location: class Launch1_7
+D:\Files\ME_MODS\tpsmod\versions\forge\mc1.7\build\sources\java\io\github\codetoil\litlaunch\_native\mc1_7\Launch1_7.java:106: error: package LaunchMods does not exist
+		LaunchMods.validMods.forEach((modClass) -> {
+		          ^
+D:\Files\ME_MODS\tpsmod\versions\forge\mc1.7\build\sources\java\io\github\codetoil\litlaunch\_native\mc1_7\Launch1_7.java:119: error: cannot find symbol
+					LaunchMods.error("Mod " + modClass + " does not have a method named \"commandList\". This is neccesary for the api to work though. Skipping!");
+					^
+  symbol:   variable LaunchMods
+  location: class Launch1_7
+D:\Files\ME_MODS\tpsmod\versions\forge\mc1.7\build\sources\java\io\github\codetoil\litlaunch\_native\mc1_7\Logger1_7.java:26: error: method does not override or implement a method from a supertype
+	@Override
+	^
+D:\Files\ME_MODS\tpsmod\versions\forge\mc1.7\build\sources\java\io\github\codetoil\litlaunch\_native\mc1_7\Logger1_7.java:32: error: method does not override or implement a method from a supertype
+	@Override
+	^
+D:\Files\ME_MODS\tpsmod\versions\forge\mc1.7\build\sources\java\io\github\codetoil\litlaunch\_native\mc1_7\Logger1_7.java:38: error: method does not override or implement a method from a supertype
+	@Override
+	^
+D:\Files\ME_MODS\tpsmod\versions\forge\mc1.7\build\sources\java\io\github\codetoil\litlaunch\_native\mc1_7\Logger1_7.java:44: error: method does not override or implement a method from a supertype
+	@Override
+	^
+D:\Files\ME_MODS\tpsmod\versions\forge\mc1.7\build\sources\java\io\github\codetoil\litlaunch\_native\mc1_7\Logger1_7.java:50: error: method does not override or implement a method from a supertype
+	@Override
+	^
+D:\Files\ME_MODS\tpsmod\versions\forge\mc1.7\build\sources\java\io\github\codetoil\litlaunch\_native\mc1_7\Logger1_7.java:56: error: method does not override or implement a method from a supertype
+	@Override
+	^
+D:\Files\ME_MODS\tpsmod\versions\forge\mc1.7\build\sources\java\io\github\codetoil\litlaunch\_native\mc1_7\Logger1_7.java:62: error: method does not override or implement a method from a supertype
+	@Override
+	^
+D:\Files\ME_MODS\tpsmod\versions\forge\mc1.7\build\sources\java\io\github\codetoil\litlaunch\_native\mc1_7\Logger1_7.java:65: error: cannot find symbol
+		if (LaunchCommon.isVerbose())
+		    ^
+  symbol:   variable LaunchCommon
+  location: class Logger1_7
+D:\Files\ME_MODS\tpsmod\versions\forge\mc1.7\build\sources\java\io\github\codetoil\litlaunch\_native\mc1_7\proxy\ClientProxy1_7.java:17: error: method does not override or implement a method from a supertype
+	@Override
+	^
+D:\Files\ME_MODS\tpsmod\versions\forge\mc1.7\build\sources\java\io\github\codetoil\litlaunch\_native\mc1_7\proxy\ClientProxy1_7.java:20: error: cannot find symbol
+		LaunchMods.info("preInitialization!");
+		^
+  symbol:   variable LaunchMods
+  location: class ClientProxy1_7
+D:\Files\ME_MODS\tpsmod\versions\forge\mc1.7\build\sources\java\io\github\codetoil\litlaunch\_native\mc1_7\proxy\ClientProxy1_7.java:21: error: package LaunchMods does not exist
+		LaunchMods.validMods.forEach((modClass) -> {
+		          ^
+D:\Files\ME_MODS\tpsmod\versions\forge\mc1.7\build\sources\java\io\github\codetoil\litlaunch\_native\mc1_7\proxy\ClientProxy1_7.java:34: error: cannot find symbol
+					LaunchMods.error("Mod " + modClass + " does not have a method named \"commandList\". This is neccesary for the api to work though. Skipping!");
+					^
+  symbol:   variable LaunchMods
+  location: class ClientProxy1_7
+D:\Files\ME_MODS\tpsmod\versions\forge\mc1.7\build\sources\java\io\github\codetoil\litlaunch\_native\mc1_7\proxy\ClientProxy1_7.java:45: error: method does not override or implement a method from a supertype
+	@Override
+	^
+D:\Files\ME_MODS\tpsmod\versions\forge\mc1.7\build\sources\java\io\github\codetoil\litlaunch\_native\mc1_7\proxy\ClientProxy1_7.java:51: error: method does not override or implement a method from a supertype
+	@Override
+	^
+D:\Files\ME_MODS\tpsmod\versions\forge\mc1.7\build\sources\java\io\github\codetoil\litlaunch\_native\mc1_7\proxy\ClientProxy1_7.java:57: error: method does not override or implement a method from a supertype
+	@Override
+	^
+D:\Files\ME_MODS\tpsmod\versions\forge\mc1.7\build\sources\java\io\github\codetoil\litlaunch\_native\mc1_7\proxy\ServerProxy1_7.java:12: error: method does not override or implement a method from a supertype
+	@Override
+	^
+D:\Files\ME_MODS\tpsmod\versions\forge\mc1.7\build\sources\java\io\github\codetoil\litlaunch\_native\mc1_7\proxy\ServerProxy1_7.java:18: error: method does not override or implement a method from a supertype
+	@Override
+	^
+D:\Files\ME_MODS\tpsmod\versions\forge\mc1.7\build\sources\java\io\github\codetoil\litlaunch\_native\mc1_7\proxy\ServerProxy1_7.java:24: error: method does not override or implement a method from a supertype
+	@Override
+	^
+D:\Files\ME_MODS\tpsmod\versions\forge\mc1.7\build\sources\java\io\github\codetoil\litlaunch\_native\mc1_7\proxy\ServerProxy1_7.java:30: error: method does not override or implement a method from a supertype
+	@Override
+	^
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+70 errors
+ FAILED
 
-BUILD SUCCESSFUL
+FAILURE: Build failed with an exception.
 
-Total time: 3.065 secs
+* What went wrong:
+Execution failed for task ':compileJava'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output.
+
+BUILD FAILED
+
+Total time: 2.906 secs

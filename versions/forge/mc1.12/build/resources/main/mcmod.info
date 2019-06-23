@@ -3,7 +3,7 @@
   "modid": "examplemod",
   "name": "Example Mod",
   "description": "Example placeholder mod.",
-  "version": "forge-mc1.12.2-v0.0.2.2",
+  "version": "forge-mc1.12.2-v0.0.3.5",
   "mcversion": "1.12.2",
   "url": "",
   "updateUrl": "",

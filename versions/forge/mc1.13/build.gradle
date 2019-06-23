@@ -135,17 +135,17 @@ sourceSets {
     main {
         java {
             srcDir "../../../litlaunchsrc"
-            exclude 'io/github/codetoil/litlaunch/version/mc1_7'
-            exclude 'io/github/codetoil/litlaunch/version/mc1_8'
-            exclude 'io/github/codetoil/litlaunch/version/mc1_12'
-            exclude 'io/github/codetoil/litlaunch/version/sponge'
+            exclude 'io/github/codetoil/litlaunch/_native/mc1_7'
+            exclude 'io/github/codetoil/litlaunch/_native/mc1_8'
+            exclude 'io/github/codetoil/litlaunch/_native/mc1_12'
+            exclude 'io/github/codetoil/litlaunch/_native/sponge'
         }
         resources {
             srcDir "../../../litlaunchsrc"
-            exclude 'io/github/codetoil/litlaunch/version/mc1_7'
-            exclude 'io/github/codetoil/litlaunch/version/mc1_8'
-            exclude 'io/github/codetoil/litlaunch/version/mc1_12'
-            exclude 'io/github/codetoil/litlaunch/version/sponge'
+            exclude 'io/github/codetoil/litlaunch/_native/mc1_7'
+            exclude 'io/github/codetoil/litlaunch/_native/mc1_8'
+            exclude 'io/github/codetoil/litlaunch/_native/mc1_12'
+            exclude 'io/github/codetoil/litlaunch/_native/sponge'
         }
     }
 }

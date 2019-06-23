@@ -4,11 +4,10 @@
 
 package io.github.codetoil.tpsmod;
 
-import io.github.codetoil.litlaunch.FrontEnd;
-import io.github.codetoil.litlaunch.api.LaunchMods;
-import io.github.codetoil.litlaunch.backend.LaunchCommon;
-import io.github.codetoil.litlaunch.event.LitEvent;
-import io.github.codetoil.litlaunch.event.LitEventHandler;
+import io.github.codetoil.litlaunch.api.FrontEnd;
+import io.github.codetoil.litlaunch.core.LaunchCommon;
+import io.github.codetoil.litlaunch.core.event.LitEvent;
+import io.github.codetoil.litlaunch.core.event.LitEventHandler;
 
 public class CalculateTPS implements LitEventHandler.EventListener
 {
@@ -33,7 +32,7 @@ public class CalculateTPS implements LitEventHandler.EventListener
 
 	private void updateTPS()
 	{
-		LaunchMods.debug("Update TPS for dimension " + Dimension);
+		FrontEnd.debug("Update TPS for dimension " + Dimension);
 		long totalworldtime = FrontEnd.GET_FIELDS().getTotalWorldTime(this.Dimension);
 		double MeasureTime = LaunchCommon.getTimeInSeconds();
 		if (MeasureTime - previousMeasureTime != 0) {
@@ -41,9 +40,9 @@ public class CalculateTPS implements LitEventHandler.EventListener
 			previousMeasureTime = MeasureTime;
 			previousTotalWorldTime = totalworldtime;
 		}
-		LaunchMods.debug(totalworldtime);
-		LaunchMods.debug(MeasureTime);
-		LaunchMods.debug(TPS);
+		FrontEnd.debug(totalworldtime);
+		FrontEnd.debug(MeasureTime);
+		FrontEnd.debug(TPS);
 	}
 
 	@Override

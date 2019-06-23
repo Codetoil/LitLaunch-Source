@@ -4,6 +4,9 @@
 
 package io.github.codetoil.litlaunch.api;
 
+import java.util.List;
+import java.util.function.Consumer;
+
 public class Command
 {
 	/**
@@ -14,12 +17,14 @@ public class Command
 	 * Usage of the command.
 	 */
 	public String usage;
+
 	/**
 	 * the method this command calls when executed.
+	 * Is of the form of a Consumer with one input, a List of Strings, those strings being the arguments to the command entered in chat.
 	 */
-	public Runnable runnable;
+	public Consumer<List<String>> methodToRun;
 	/**
-	 * Side the command should be registered to. E.g. CLIENT gives a client side command.
+	 * Side the command should be registered to. e.g. CLIENT gives a client side command.
 	 */
 	public Side side;
 
@@ -27,11 +32,11 @@ public class Command
 	{
 	}
 
-	public Command(String name, String usage, Runnable runnable, Side side)
+	public Command(String name, String usage, Consumer<List<String>> methodToRun, Side side)
 	{
 		this.name = name;
 		this.usage = usage;
-		this.runnable = runnable;
+		this.methodToRun = methodToRun;
 		this.side = side;
 	}
 
