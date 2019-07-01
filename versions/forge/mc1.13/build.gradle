@@ -14,7 +14,7 @@ apply plugin: 'eclipse'
 apply plugin: 'maven-publish'
 
 
-version = "forge-mc1.13.2-v0.0.2.2"
+version = "forge-mc1.13.2-v0.0.3.7"
 group = "io.github.codetoil" // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = "litlaunch"
 

@@ -20,7 +20,7 @@ plugins {
     id "net.minecraftforge.gradle.forge" version "2.0.2"
 }
 */
-version = "forge-mc1.8.9-v0.0.2.2"
+version = "forge-mc1.8.9-v0.0.3.5"
 group= "io.github.codetoil" // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = "litlaunch"
 
@@ -87,17 +87,17 @@ sourceSets {
         main {
             java {
                 srcDir "../../../litlaunchsrc"
-                exclude 'io/github/codetoil/litlaunch/version/mc1_7'
-                exclude 'io/github/codetoil/litlaunch/version/mc1_13'
-                exclude 'io/github/codetoil/litlaunch/version/mc1_12'
-                exclude 'io/github/codetoil/litlaunch/version/sponge'
+                exclude 'io/github/codetoil/litlaunch/_native/mc1_7'
+                exclude 'io/github/codetoil/litlaunch/_native/mc1_13'
+                exclude 'io/github/codetoil/litlaunch/_native/mc1_12'
+                exclude 'io/github/codetoil/litlaunch/_native/sponge'
             }
             resources {
                 srcDir "../../../litlaunchsrc"
-                exclude 'io/github/codetoil/litlaunch/version/mc1_7'
-                exclude 'io/github/codetoil/litlaunch/version/mc1_13'
-                exclude 'io/github/codetoil/litlaunch/version/mc1_12'
-                exclude 'io/github/codetoil/litlaunch/version/sponge'
+                exclude 'io/github/codetoil/litlaunch/_native/mc1_7'
+                exclude 'io/github/codetoil/litlaunch/_native/mc1_13'
+                exclude 'io/github/codetoil/litlaunch/_native/mc1_12'
+                exclude 'io/github/codetoil/litlaunch/_native/sponge'
             }
         }
     }

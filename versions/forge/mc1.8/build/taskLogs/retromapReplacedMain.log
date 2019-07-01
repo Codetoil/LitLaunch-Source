@@ -33387,74 +33387,395 @@ RENAME MAP: param net/minecraft/world/storage/WorldInfo/WorldInfo (Lnet/minecraf
 RENAME MAP: param net/minecraft/world/storage/WorldInfo/WorldInfo (Lnet/minecraft/world/WorldSettings;Ljava/lang/String;)V 0 -> p_i2158_1_
 RENAME MAP: param net/minecraft/world/storage/WorldInfo/WorldInfo (Lnet/minecraft/world/WorldSettings;Ljava/lang/String;)V 1 -> p_i2158_2_
 RENAME MAP: param net/minecraft/world/storage/WorldInfo/WorldInfo (Lnet/minecraft/world/storage/WorldInfo;)V 0 -> p_i2159_1_
-Start Processing: io\github\codetoil\litlaunch\FrontEnd.java
-Warning: io\github\codetoil\litlaunch\FrontEnd.java has CRLF line endings; consider switching to LF
-[method, io/github/codetoil/litlaunch/FrontEnd/MINECRAFT_VERSION, ()Ljava/lang/String;]
-[method, io/github/codetoil/litlaunch/backend/LaunchCommon/getGetFields, ()Lio/github/codetoil/litlaunch/api/IGetFields;]
-[method, io/github/codetoil/litlaunch/api/IGetFields/getVERSION, ()Ljava/lang/String;]
-[method, io/github/codetoil/litlaunch/FrontEnd/ACTIVE_PROXY, ()Lio/github/codetoil/litlaunch/api/CommonProxy;]
-[method, io/github/codetoil/litlaunch/backend/LaunchCommon/getCcproxy, ()Lio/github/codetoil/litlaunch/api/CommonProxy;]
-[method, io/github/codetoil/litlaunch/FrontEnd/GET_FIELDS, ()Lio/github/codetoil/litlaunch/api/IGetFields;]
-[method, io/github/codetoil/litlaunch/backend/LaunchCommon/getGetFields, ()Lio/github/codetoil/litlaunch/api/IGetFields;]
-[method, io/github/codetoil/litlaunch/FrontEnd/DO_THING_OBJECT, ()Lio/github/codetoil/litlaunch/api/IDoThing;]
-[method, io/github/codetoil/litlaunch/backend/LaunchCommon/getDoThing, ()Lio/github/codetoil/litlaunch/api/IDoThing;]
-[method, io/github/codetoil/litlaunch/FrontEnd/IS_LITLAUNCH_VERBOSE, ()Z]
-[method, io/github/codetoil/litlaunch/backend/LaunchCommon/isVerbose, ()Ljava/lang/Boolean;]
-[method, io/github/codetoil/litlaunch/FrontEnd/INITIAL_TIME_FOR_MEASURING_TIME, ()D]
-[method, io/github/codetoil/litlaunch/backend/LaunchCommon/getTimeInit, ()D]
-[method, io/github/codetoil/litlaunch/FrontEnd/SIDE, ()Lio/github/codetoil/litlaunch/api/Command$Side;]
-[method, io/github/codetoil/litlaunch/backend/LaunchCommon/getSide, ()Lio/github/codetoil/litlaunch/api/Command$Side;]
-[method, io/github/codetoil/litlaunch/FrontEnd/LAUNCHMODS, ()Lio/github/codetoil/litlaunch/api/LaunchMods;]
-[method, io/github/codetoil/litlaunch/api/LaunchMods/getINSTANCE, ()Lio/github/codetoil/litlaunch/api/LaunchMods;]
-[method, io/github/codetoil/litlaunch/FrontEnd/debug, (Ljava/lang/Object;)V]
-[method, io/github/codetoil/litlaunch/FrontEnd/LOGGER, ()Lio/github/codetoil/litlaunch/backend/ILogger;]
-[method, io/github/codetoil/litlaunch/backend/ILogger/debug, (Ljava/lang/Object;)V]
-[method, io/github/codetoil/litlaunch/FrontEnd/LOGGER, ()Lio/github/codetoil/litlaunch/backend/ILogger;]
-[method, io/github/codetoil/litlaunch/api/LaunchMods/getLOGGER, ()Lio/github/codetoil/litlaunch/backend/ILogger;]
-[method, io/github/codetoil/litlaunch/FrontEnd/info, (Ljava/lang/Object;)V]
-[method, io/github/codetoil/litlaunch/FrontEnd/LOGGER, ()Lio/github/codetoil/litlaunch/backend/ILogger;]
-[method, io/github/codetoil/litlaunch/backend/ILogger/info, (Ljava/lang/Object;)V]
-[method, io/github/codetoil/litlaunch/FrontEnd/trace, (Ljava/lang/Object;)V]
-[method, io/github/codetoil/litlaunch/FrontEnd/LOGGER, ()Lio/github/codetoil/litlaunch/backend/ILogger;]
-[method, io/github/codetoil/litlaunch/backend/ILogger/trace, (Ljava/lang/Object;)V]
-[method, io/github/codetoil/litlaunch/FrontEnd/warn, (Ljava/lang/Object;)V]
-[method, io/github/codetoil/litlaunch/FrontEnd/LOGGER, ()Lio/github/codetoil/litlaunch/backend/ILogger;]
-[method, io/github/codetoil/litlaunch/backend/ILogger/warn, (Ljava/lang/Object;)V]
-[method, io/github/codetoil/litlaunch/FrontEnd/fatal, (Ljava/lang/Object;)V]
-[method, io/github/codetoil/litlaunch/FrontEnd/LOGGER, ()Lio/github/codetoil/litlaunch/backend/ILogger;]
-[method, io/github/codetoil/litlaunch/backend/ILogger/fatal, (Ljava/lang/Object;)V]
-[method, io/github/codetoil/litlaunch/FrontEnd/error, (Ljava/lang/Object;)V]
-[method, io/github/codetoil/litlaunch/FrontEnd/LOGGER, ()Lio/github/codetoil/litlaunch/backend/ILogger;]
-[method, io/github/codetoil/litlaunch/backend/ILogger/error, (Ljava/lang/Object;)V]
-[method, io/github/codetoil/litlaunch/FrontEnd/verbose, (Ljava/lang/Object;)V]
-[method, io/github/codetoil/litlaunch/FrontEnd/LOGGER, ()Lio/github/codetoil/litlaunch/backend/ILogger;]
-[method, io/github/codetoil/litlaunch/backend/ILogger/verbose, (Ljava/lang/Object;)V]
-[method, io/github/codetoil/litlaunch/FrontEnd/MODS_LOADED, ()Ljava/util/List;]
-[method, io/github/codetoil/litlaunch/FrontEnd/CLASSLOADER, ()Lio/github/codetoil/litlaunch/backend/LitClassLoader;]
-[method, io/github/codetoil/litlaunch/api/LaunchMods/getINSTANCE, ()Lio/github/codetoil/litlaunch/api/LaunchMods;]
-[method, io/github/codetoil/litlaunch/FrontEnd/COMMON_NO_SPAM_EVENT_HANDLER, ()Lio/github/codetoil/litlaunch/event/LitEventHandler;]
+Start Processing: io\github\codetoil\litlaunch\_native\mc1_8\CommandNew.java
+Warning: io\github\codetoil\litlaunch\_native\mc1_8\CommandNew.java has CRLF line endings; consider switching to LF
+[method, io/github/codetoil/litlaunch/_native/mc1_8/CommandNew/CommandNew, ()V]
+FOUND CONSTR method io/github/codetoil/litlaunch/_native/mc1_8/CommandNew/CommandNew ()V io/github/codetoil/litlaunch/_native/mc1_8/CommandNew
+[method, io/github/codetoil/litlaunch/_native/mc1_8/CommandNew/CommandNew, (Lio/github/codetoil/litlaunch/api/Command;)V]
+FOUND CONSTR method io/github/codetoil/litlaunch/_native/mc1_8/CommandNew/CommandNew (Lio/github/codetoil/litlaunch/api/Command;)V io/github/codetoil/litlaunch/_native/mc1_8/CommandNew
+Rename method net/minecraft/command/ICommand/getCommandName ()Ljava/lang/String;[516,530]::getCommandName->func_71517_b
+Rename method net/minecraft/command/ICommand/getCommandUsage (Lnet/minecraft/command/ICommandSender;)Ljava/lang/String;[584,599]::getCommandUsage->func_71518_a
+Rename class net/minecraft/command/ICommandSender[597,611]::ICommandSender->ICommandSender
+Rename method net/minecraft/command/ICommand/getCommandAliases ()Ljava/util/List;[676,693]::getCommandAliases->func_71514_a
+Rename method net/minecraft/command/ICommand/processCommand (Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V[750,764]::processCommand->func_71515_b
+Rename class net/minecraft/command/ICommandSender[763,777]::ICommandSender->ICommandSender
+[method, java/util/Arrays/asList, ([Ljava/lang/Object;)Ljava/util/List;]
+[method, java/util/function/Consumer/accept, (Ljava/lang/Object;)V]
+[method, java/lang/Throwable/printStackTrace, ()V]
+Rename method net/minecraft/command/ICommand/canCommandSenderUseCommand (Lnet/minecraft/command/ICommandSender;)Z[992,1018]::canCommandSenderUseCommand->func_71519_b
+Rename class net/minecraft/command/ICommandSender[1005,1019]::ICommandSender->ICommandSender
+Rename method net/minecraft/command/ICommand/addTabCompletionOptions (Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;Lnet/minecraft/util/BlockPos;)Ljava/util/List;[1086,1109]::addTabCompletionOptions->func_180525_a
+Rename class net/minecraft/command/ICommandSender[1100,1114]::ICommandSender->ICommandSender
+Rename class net/minecraft/util/BlockPos[1138,1146]::BlockPos->BlockPos
+[method, java/lang/Comparable/compareTo, (Ljava/lang/Object;)I]
+Rename class net/minecraft/command/ICommand[1220,1228]::ICommand->ICommand
+[method, java/lang/Comparable/compareTo, (Ljava/lang/Object;)I]
+Rename method net/minecraft/command/ICommand/getCommandName ()Ljava/lang/String;[1271,1285]::getCommandName->func_71517_b
+Rename method net/minecraft/command/ICommand/isUsernameIndex ([Ljava/lang/String;I)Z[1319,1334]::isUsernameIndex->func_82358_a
+Import: net.minecraft.command.ICommand
+Import: net.minecraft.command.ICommandSender
+Import: net.minecraft.util.BlockPos
 Adding 0 imports
-End  Processing: io\github\codetoil\litlaunch\FrontEnd.java
+End  Processing: io\github\codetoil\litlaunch\_native\mc1_8\CommandNew.java
+
+Start Processing: io\github\codetoil\litlaunch\_native\mc1_8\DoThing.java
+Warning: io\github\codetoil\litlaunch\_native\mc1_8\DoThing.java has CRLF line endings; consider switching to LF
+[method, io/github/codetoil/litlaunch/_native/mc1_8/DoThing/DoThing, ()V]
+FOUND CONSTR method io/github/codetoil/litlaunch/_native/mc1_8/DoThing/DoThing ()V io/github/codetoil/litlaunch/_native/mc1_8/DoThing
+[method, io/github/codetoil/litlaunch/api/IDoThing/sendAsClientChatMessage, (Ljava/lang/String;)V]
+Rename class net/minecraft/client/Minecraft[738,747]::Minecraft->Minecraft
+Rename method net/minecraft/client/Minecraft/getMinecraft ()Lnet/minecraft/client/Minecraft;[748,760]::getMinecraft->func_71410_x
+Rename field net/minecraft/client/Minecraft/thePlayer[763,772]::thePlayer->field_71439_g
+Rename method net/minecraft/client/entity/EntityPlayerSP/sendChatMessage (Ljava/lang/String;)V[777,792]::sendChatMessage->func_71165_d
+[method, io/github/codetoil/litlaunch/api/IDoThing/sendAsServerChatMessage, (Ljava/lang/String;)V]
+No rename for class net/minecraftforge/fml/common/FMLCommonHandler
+[method, net/minecraftforge/fml/common/FMLCommonHandler/instance, ()Lnet/minecraftforge/fml/common/FMLCommonHandler;]
+No rename for method net/minecraftforge/fml/common/FMLCommonHandler/instance ()Lnet/minecraftforge/fml/common/FMLCommonHandler;
+[method, net/minecraftforge/fml/common/FMLCommonHandler/getMinecraftServerInstance, ()Lnet/minecraft/server/MinecraftServer;]
+No rename for method net/minecraftforge/fml/common/FMLCommonHandler/getMinecraftServerInstance ()Lnet/minecraft/server/MinecraftServer;
+Rename method net/minecraft/server/MinecraftServer/getConfigurationManager ()Lnet/minecraft/server/management/ServerConfigurationManager;[954,977]::getConfigurationManager->func_71203_ab
+Rename method net/minecraft/server/management/ServerConfigurationManager/sendChatMsg (Lnet/minecraft/util/IChatComponent;)V[970,981]::sendChatMsg->func_148539_a
+Rename class net/minecraft/util/ChatComponentText[988,1005]::ChatComponentText->ChatComponentText
+[method, io/github/codetoil/litlaunch/api/IDoThing/sendAsChatMessage, (Ljava/lang/String;)V]
+No rename for class net/minecraftforge/fml/common/FMLCommonHandler
+[method, net/minecraftforge/fml/common/FMLCommonHandler/instance, ()Lnet/minecraftforge/fml/common/FMLCommonHandler;]
+No rename for method net/minecraftforge/fml/common/FMLCommonHandler/instance ()Lnet/minecraftforge/fml/common/FMLCommonHandler;
+[method, net/minecraftforge/fml/common/FMLCommonHandler/getSide, ()Lnet/minecraftforge/fml/relauncher/Side;]
+No rename for method net/minecraftforge/fml/common/FMLCommonHandler/getSide ()Lnet/minecraftforge/fml/relauncher/Side;
+[method, net/minecraftforge/fml/relauncher/Side/isClient, ()Z]
+No rename for method net/minecraftforge/fml/relauncher/Side/isClient ()Z
+[method, io/github/codetoil/litlaunch/api/IDoThing/sendAsClientChatMessage, (Ljava/lang/String;)V]
+[method, io/github/codetoil/litlaunch/api/IDoThing/sendAsServerChatMessage, (Ljava/lang/String;)V]
+[method, io/github/codetoil/litlaunch/api/IDoThing/notifyPlayer, (Ljava/lang/String;)V]
+[method, io/github/codetoil/litlaunch/api/IDoThing/notifyPlayer, (Ljava/lang/String;Lio/github/codetoil/litlaunch/api/IDoThing$Color;)V]
+[method, io/github/codetoil/litlaunch/api/IDoThing/notifyPlayer, (Ljava/lang/String;Lio/github/codetoil/litlaunch/api/IDoThing$Color;)V]
+[method, io/github/codetoil/litlaunch/api/IDoThing/notifyPlayer, (Ljava/lang/String;Lio/github/codetoil/litlaunch/api/IDoThing$Color;ZZZZZ)V]
+[method, io/github/codetoil/litlaunch/api/IDoThing/notifyPlayer, (Ljava/lang/String;Lio/github/codetoil/litlaunch/api/IDoThing$Color;ZZZZZ)V]
+Rename class net/minecraft/client/Minecraft[1725,1734]::Minecraft->Minecraft
+Rename method net/minecraft/client/Minecraft/getMinecraft ()Lnet/minecraft/client/Minecraft;[1735,1747]::getMinecraft->func_71410_x
+Rename field net/minecraft/client/Minecraft/thePlayer[1750,1759]::thePlayer->field_71439_g
+Rename method net/minecraft/command/ICommandSender/addChatMessage (Lnet/minecraft/util/IChatComponent;)V[1764,1778]::addChatMessage->func_145747_a
+Rename class net/minecraft/util/ChatComponentText[1782,1799]::ChatComponentText->ChatComponentText
+Rename method net/minecraft/util/IChatComponent/setChatStyle (Lnet/minecraft/util/ChatStyle;)Lnet/minecraft/util/IChatComponent;[1809,1821]::setChatStyle->func_150255_a
+[method, io/github/codetoil/litlaunch/_native/mc1_8/DoThing/getStyle, (Lio/github/codetoil/litlaunch/api/IDoThing$Color;ZZZZZ)Lnet/minecraft/util/ChatStyle;]
+[method, io/github/codetoil/litlaunch/api/IDoThing/notifyServer, (Ljava/lang/String;)V]
+[method, io/github/codetoil/litlaunch/api/IDoThing/notifyServer, (Ljava/lang/String;Lio/github/codetoil/litlaunch/api/IDoThing$Color;)V]
+[method, io/github/codetoil/litlaunch/api/IDoThing/notifyServer, (Ljava/lang/String;Lio/github/codetoil/litlaunch/api/IDoThing$Color;)V]
+[method, io/github/codetoil/litlaunch/api/IDoThing/notifyServer, (Ljava/lang/String;Lio/github/codetoil/litlaunch/api/IDoThing$Color;ZZZZZ)V]
+[method, io/github/codetoil/litlaunch/api/IDoThing/notifyServer, (Ljava/lang/String;Lio/github/codetoil/litlaunch/api/IDoThing$Color;ZZZZZ)V]
+[method, io/github/codetoil/litlaunch/core/LaunchCommon/info, (Ljava/lang/Object;)V]
+Rename class net/minecraft/util/ChatComponentText[2421,2438]::ChatComponentText->ChatComponentText
+Rename method net/minecraft/util/IChatComponent/setChatStyle (Lnet/minecraft/util/ChatStyle;)Lnet/minecraft/util/IChatComponent;[2448,2460]::setChatStyle->func_150255_a
+[method, io/github/codetoil/litlaunch/_native/mc1_8/DoThing/getStyle, (Lio/github/codetoil/litlaunch/api/IDoThing$Color;ZZZZZ)Lnet/minecraft/util/ChatStyle;]
+Rename method net/minecraft/util/IChatComponent/getFormattedText ()Ljava/lang/String;[2544,2560]::getFormattedText->func_150254_d
+[method, io/github/codetoil/litlaunch/api/IDoThing/notifyUser, (Ljava/lang/String;)V]
+[method, io/github/codetoil/litlaunch/api/IDoThing/notifyUser, (Ljava/lang/String;Lio/github/codetoil/litlaunch/api/IDoThing$Color;)V]
+[method, io/github/codetoil/litlaunch/api/IDoThing/notifyUser, (Ljava/lang/String;Lio/github/codetoil/litlaunch/api/IDoThing$Color;)V]
+[method, io/github/codetoil/litlaunch/api/IDoThing/notifyUser, (Ljava/lang/String;Lio/github/codetoil/litlaunch/api/IDoThing$Color;ZZZZZ)V]
+[method, io/github/codetoil/litlaunch/api/IDoThing/notifyUser, (Ljava/lang/String;Lio/github/codetoil/litlaunch/api/IDoThing$Color;ZZZZZ)V]
+No rename for class net/minecraftforge/fml/common/FMLCommonHandler
+[method, net/minecraftforge/fml/common/FMLCommonHandler/instance, ()Lnet/minecraftforge/fml/common/FMLCommonHandler;]
+No rename for method net/minecraftforge/fml/common/FMLCommonHandler/instance ()Lnet/minecraftforge/fml/common/FMLCommonHandler;
+[method, net/minecraftforge/fml/common/FMLCommonHandler/getSide, ()Lnet/minecraftforge/fml/relauncher/Side;]
+No rename for method net/minecraftforge/fml/common/FMLCommonHandler/getSide ()Lnet/minecraftforge/fml/relauncher/Side;
+[method, net/minecraftforge/fml/relauncher/Side/isClient, ()Z]
+No rename for method net/minecraftforge/fml/relauncher/Side/isClient ()Z
+[method, io/github/codetoil/litlaunch/api/IDoThing/notifyPlayer, (Ljava/lang/String;Lio/github/codetoil/litlaunch/api/IDoThing$Color;ZZZZZ)V]
+[method, io/github/codetoil/litlaunch/api/IDoThing/notifyServer, (Ljava/lang/String;Lio/github/codetoil/litlaunch/api/IDoThing$Color;ZZZZZ)V]
+Rename class net/minecraft/util/ChatStyle[3256,3265]::ChatStyle->ChatStyle
+[method, io/github/codetoil/litlaunch/_native/mc1_8/DoThing/getStyle, (Lio/github/codetoil/litlaunch/api/IDoThing$Color;ZZZZZ)Lnet/minecraft/util/ChatStyle;]
+Rename class net/minecraft/util/ChatStyle[3398,3407]::ChatStyle->ChatStyle
+Rename class net/minecraft/util/ChatStyle[3425,3434]::ChatStyle->ChatStyle
+Rename method net/minecraft/util/ChatStyle/setBold (Ljava/lang/Boolean;)Lnet/minecraft/util/ChatStyle;[3456,3463]::setBold->func_150227_a
+Rename method net/minecraft/util/ChatStyle/setItalic (Ljava/lang/Boolean;)Lnet/minecraft/util/ChatStyle;[3483,3492]::setItalic->func_150217_b
+Rename method net/minecraft/util/ChatStyle/setUnderlined (Ljava/lang/Boolean;)Lnet/minecraft/util/ChatStyle;[3512,3525]::setUnderlined->func_150228_d
+Rename method net/minecraft/util/ChatStyle/setObfuscated (Ljava/lang/Boolean;)Lnet/minecraft/util/ChatStyle;[3545,3558]::setObfuscated->func_150237_e
+Rename method net/minecraft/util/ChatStyle/setStrikethrough (Ljava/lang/Boolean;)Lnet/minecraft/util/ChatStyle;[3578,3594]::setStrikethrough->func_150225_c
+Rename class net/minecraft/util/EnumChatFormatting[3614,3632]::EnumChatFormatting->EnumChatFormatting
+Rename class net/minecraft/util/EnumChatFormatting[3645,3663]::EnumChatFormatting->EnumChatFormatting
+Rename method net/minecraft/util/EnumChatFormatting/getValueByName (Ljava/lang/String;)Lnet/minecraft/util/EnumChatFormatting;[3664,3678]::getValueByName->func_96300_b
+[method, java/lang/Enum/name, ()Ljava/lang/String;]
+Rename method net/minecraft/util/ChatStyle/setColor (Lnet/minecraft/util/EnumChatFormatting;)Lnet/minecraft/util/ChatStyle;[3719,3727]::setColor->func_150238_a
+Import: net.minecraft.client.Minecraft
+Import: net.minecraft.util.ChatComponentText
+Import: net.minecraft.util.ChatStyle
+Import: net.minecraft.util.EnumChatFormatting
+Adding 0 imports
+End  Processing: io\github\codetoil\litlaunch\_native\mc1_8\DoThing.java
+
+Start Processing: io\github\codetoil\litlaunch\_native\mc1_8\EventHandler.java
+Warning: io\github\codetoil\litlaunch\_native\mc1_8\EventHandler.java has CRLF line endings; consider switching to LF
+[method, io/github/codetoil/litlaunch/_native/mc1_8/EventHandler/onClientTick, (Lnet/minecraftforge/fml/common/gameevent/TickEvent$ClientTickEvent;)V]
+No rename for class net/minecraftforge/fml/common/gameevent/TickEvent/ClientTickEvent
+No rename for field net/minecraftforge/fml/common/gameevent/TickEvent/phase
+[method, java/lang/Enum/equals, (Ljava/lang/Object;)Z]
+No rename for class net/minecraftforge/fml/common/gameevent/TickEvent/Phase
+No rename for field net/minecraftforge/fml/common/gameevent/TickEvent/Phase/END
+[method, io/github/codetoil/litlaunch/core/event/LitEventHandler/post, (Lio/github/codetoil/litlaunch/core/event/LitEvent;Z)V]
+[method, io/github/codetoil/litlaunch/_native/mc1_8/EventHandler/onServerTick, (Lnet/minecraftforge/fml/common/gameevent/TickEvent$ServerTickEvent;)V]
+No rename for class net/minecraftforge/fml/common/gameevent/TickEvent/ServerTickEvent
+No rename for field net/minecraftforge/fml/common/gameevent/TickEvent/phase
+[method, java/lang/Enum/equals, (Ljava/lang/Object;)Z]
+No rename for class net/minecraftforge/fml/common/gameevent/TickEvent/Phase
+No rename for field net/minecraftforge/fml/common/gameevent/TickEvent/Phase/END
+[method, io/github/codetoil/litlaunch/core/event/LitEventHandler/post, (Lio/github/codetoil/litlaunch/core/event/LitEvent;Z)V]
+[method, io/github/codetoil/litlaunch/_native/mc1_8/EventHandler/ServerConnect, (Lnet/minecraftforge/fml/common/network/FMLNetworkEvent$ClientConnectedToServerEvent;)V]
+No rename for class net/minecraftforge/fml/common/network/FMLNetworkEvent/ClientConnectedToServerEvent
+[method, io/github/codetoil/litlaunch/core/event/LitEventHandler/post, (Lio/github/codetoil/litlaunch/core/event/LitEvent;)V]
+Adding 0 imports
+End  Processing: io\github\codetoil\litlaunch\_native\mc1_8\EventHandler.java
+
+Start Processing: io\github\codetoil\litlaunch\_native\mc1_8\GetFields.java
+Warning: io\github\codetoil\litlaunch\_native\mc1_8\GetFields.java has CRLF line endings; consider switching to LF
+[method, io/github/codetoil/litlaunch/_native/mc1_8/GetFields/GetFields, ()V]
+FOUND CONSTR method io/github/codetoil/litlaunch/_native/mc1_8/GetFields/GetFields ()V io/github/codetoil/litlaunch/_native/mc1_8/GetFields
+[method, io/github/codetoil/litlaunch/api/IGetFields/getTotalWorldTime, (I)J]
+Rename class net/minecraft/world/World[846,851]::World->World
+No rename for class net/minecraftforge/common/DimensionManager
+[method, net/minecraftforge/common/DimensionManager/getWorld, (I)Lnet/minecraft/world/WorldServer;]
+No rename for method net/minecraftforge/common/DimensionManager/getWorld (I)Lnet/minecraft/world/WorldServer;
+No rename for class net/minecraftforge/fml/common/FMLCommonHandler
+[method, net/minecraftforge/fml/common/FMLCommonHandler/instance, ()Lnet/minecraftforge/fml/common/FMLCommonHandler;]
+No rename for method net/minecraftforge/fml/common/FMLCommonHandler/instance ()Lnet/minecraftforge/fml/common/FMLCommonHandler;
+[method, net/minecraftforge/fml/common/FMLCommonHandler/getSide, ()Lnet/minecraftforge/fml/relauncher/Side;]
+No rename for method net/minecraftforge/fml/common/FMLCommonHandler/getSide ()Lnet/minecraftforge/fml/relauncher/Side;
+[method, net/minecraftforge/fml/relauncher/Side/isClient, ()Z]
+No rename for method net/minecraftforge/fml/relauncher/Side/isClient ()Z
+[method, io/github/codetoil/litlaunch/_native/mc1_8/GetFields/getWorldClient, ()Lnet/minecraft/world/World;]
+Rename class net/minecraft/world/WorldProvider[1097,1110]::WorldProvider->WorldProvider
+Rename field net/minecraft/world/World/provider[1128,1136]::provider->field_73011_w
+Rename field net/minecraft/world/World/provider[1188,1196]::provider->field_73011_w
+Rename method net/minecraft/world/WorldProvider/getDimensionId ()I[1202,1216]::getDimensionId->func_177502_q
+Rename method net/minecraft/world/World/getTotalWorldTime ()J[1256,1273]::getTotalWorldTime->func_82737_E
+[method, io/github/codetoil/litlaunch/api/FrontEnd/error, (Ljava/lang/Object;)V]
+Rename method net/minecraft/world/World/getTotalWorldTime ()J[1587,1604]::getTotalWorldTime->func_82737_E
+[method, io/github/codetoil/litlaunch/api/FrontEnd/error, (Ljava/lang/Object;)V]
+[method, java/lang/Throwable/printStackTrace, ()V]
+Rename class net/minecraft/world/World[1768,1773]::World->World
+[method, io/github/codetoil/litlaunch/_native/mc1_8/GetFields/getWorldClient, ()Lnet/minecraft/world/World;]
+Rename class net/minecraft/client/Minecraft[1803,1812]::Minecraft->Minecraft
+Rename method net/minecraft/client/Minecraft/getMinecraft ()Lnet/minecraft/client/Minecraft;[1813,1825]::getMinecraft->func_71410_x
+Rename field net/minecraft/client/Minecraft/theWorld[1828,1836]::theWorld->field_71441_e
+[method, io/github/codetoil/litlaunch/api/IGetFields/getDimRunning, ()I]
+Rename class net/minecraft/client/Minecraft[1922,1931]::Minecraft->Minecraft
+Rename method net/minecraft/client/Minecraft/getMinecraft ()Lnet/minecraft/client/Minecraft;[1932,1944]::getMinecraft->func_71410_x
+Rename field net/minecraft/client/Minecraft/thePlayer[1947,1956]::thePlayer->field_71439_g
+Rename field net/minecraft/entity/Entity/dimension[1961,1970]::dimension->field_71093_bK
+[method, io/github/codetoil/litlaunch/api/IGetFields/getDimsAvailable, ()[I]
+No rename for class net/minecraftforge/common/DimensionManager
+[method, net/minecraftforge/common/DimensionManager/getStaticDimensionIDs, ()[Ljava/lang/Integer;]
+No rename for method net/minecraftforge/common/DimensionManager/getStaticDimensionIDs ()[Ljava/lang/Integer;
+[method, io/github/codetoil/litlaunch/api/IGetFields/getVERSION, ()Ljava/lang/String;]
+No rename for class net/minecraftforge/common/MinecraftForge
+No rename for field net/minecraftforge/common/MinecraftForge/MC_VERSION
+Import: net.minecraft.client.Minecraft
+Import: net.minecraft.world.World
+Import: net.minecraft.world.WorldProvider
+Adding 0 imports
+End  Processing: io\github\codetoil\litlaunch\_native\mc1_8\GetFields.java
+
+Start Processing: io\github\codetoil\litlaunch\_native\mc1_8\Launch1_8.java
+Warning: io\github\codetoil\litlaunch\_native\mc1_8\Launch1_8.java has CRLF line endings; consider switching to LF
+No rename for class net/minecraftforge/common/MinecraftForge
+No rename for field net/minecraftforge/common/MinecraftForge/MC_VERSION
+[method, io/github/codetoil/litlaunch/_native/mc1_8/Launch1_8/Launch1_8, ()V]
+FOUND CONSTR method io/github/codetoil/litlaunch/_native/mc1_8/Launch1_8/Launch1_8 ()V io/github/codetoil/litlaunch/_native/mc1_8/Launch1_8
+No rename for class net/minecraftforge/fml/common/FMLCommonHandler
+[method, net/minecraftforge/fml/common/FMLCommonHandler/instance, ()Lnet/minecraftforge/fml/common/FMLCommonHandler;]
+No rename for method net/minecraftforge/fml/common/FMLCommonHandler/instance ()Lnet/minecraftforge/fml/common/FMLCommonHandler;
+[method, net/minecraftforge/fml/common/FMLCommonHandler/getSide, ()Lnet/minecraftforge/fml/relauncher/Side;]
+No rename for method net/minecraftforge/fml/common/FMLCommonHandler/getSide ()Lnet/minecraftforge/fml/relauncher/Side;
+[method, net/minecraftforge/fml/relauncher/Side/isClient, ()Z]
+No rename for method net/minecraftforge/fml/relauncher/Side/isClient ()Z
+[method, io/github/codetoil/litlaunch/core/LaunchCommon/setSide, (Lio/github/codetoil/litlaunch/api/Command$Side;)V]
+No rename for class net/minecraftforge/fml/common/FMLCommonHandler
+[method, net/minecraftforge/fml/common/FMLCommonHandler/instance, ()Lnet/minecraftforge/fml/common/FMLCommonHandler;]
+No rename for method net/minecraftforge/fml/common/FMLCommonHandler/instance ()Lnet/minecraftforge/fml/common/FMLCommonHandler;
+[method, net/minecraftforge/fml/common/FMLCommonHandler/getSide, ()Lnet/minecraftforge/fml/relauncher/Side;]
+No rename for method net/minecraftforge/fml/common/FMLCommonHandler/getSide ()Lnet/minecraftforge/fml/relauncher/Side;
+[method, net/minecraftforge/fml/relauncher/Side/isServer, ()Z]
+No rename for method net/minecraftforge/fml/relauncher/Side/isServer ()Z
+[method, io/github/codetoil/litlaunch/core/LaunchCommon/setSide, (Lio/github/codetoil/litlaunch/api/Command$Side;)V]
+[method, io/github/codetoil/litlaunch/core/LaunchCommon/setDoThing, (Lio/github/codetoil/litlaunch/api/IDoThing;)V]
+[method, io/github/codetoil/litlaunch/core/LaunchCommon/setGetFields, (Lio/github/codetoil/litlaunch/api/IGetFields;)V]
+[method, io/github/codetoil/litlaunch/core/LaunchCommon/bootstrap, (Ljava/lang/Object;Lio/github/codetoil/litlaunch/core/ILaunch;Lio/github/codetoil/litlaunch/core/ILogger;)V]
+[method, org/apache/logging/log4j/LogManager/getLogger, (Ljava/lang/String;)Lorg/apache/logging/log4j/Logger;]
+[method, io/github/codetoil/litlaunch/_native/mc1_8/Logger1_8/getInstance, ()Lio/github/codetoil/litlaunch/core/ILogger;]
+[method, java/lang/Throwable/initCause, (Ljava/lang/Throwable;)Ljava/lang/Throwable;]
+[method, io/github/codetoil/litlaunch/core/ILaunch/setProxy, ()Z]
+[method, io/github/codetoil/litlaunch/core/LaunchCommon/getCcproxy, ()Lio/github/codetoil/litlaunch/core/CommonProxy;]
+[method, io/github/codetoil/litlaunch/api/FrontEnd/error, (Ljava/lang/Object;)V]
+No rename for class net/minecraftforge/fml/relauncher/Side
+No rename for class net/minecraftforge/fml/common/FMLCommonHandler
+[method, net/minecraftforge/fml/common/FMLCommonHandler/instance, ()Lnet/minecraftforge/fml/common/FMLCommonHandler;]
+No rename for method net/minecraftforge/fml/common/FMLCommonHandler/instance ()Lnet/minecraftforge/fml/common/FMLCommonHandler;
+[method, net/minecraftforge/fml/common/FMLCommonHandler/getSide, ()Lnet/minecraftforge/fml/relauncher/Side;]
+No rename for method net/minecraftforge/fml/common/FMLCommonHandler/getSide ()Lnet/minecraftforge/fml/relauncher/Side;
+No rename for field net/minecraftforge/fml/relauncher/Side/CLIENT
+[method, io/github/codetoil/litlaunch/core/LaunchCommon/setCcproxy, (Lio/github/codetoil/litlaunch/core/CommonProxy;)V]
+No rename for field net/minecraftforge/fml/relauncher/Side/SERVER
+[method, io/github/codetoil/litlaunch/core/LaunchCommon/setCcproxy, (Lio/github/codetoil/litlaunch/core/CommonProxy;)V]
+[method, io/github/codetoil/litlaunch/api/FrontEnd/error, (Ljava/lang/Object;)V]
+[method, io/github/codetoil/litlaunch/_native/mc1_8/Launch1_8/preInit, (Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V]
+No rename for class net/minecraftforge/fml/common/event/FMLPreInitializationEvent
+[method, io/github/codetoil/litlaunch/core/LaunchCommon/preInit, ()V]
+[method, io/github/codetoil/litlaunch/_native/mc1_8/Launch1_8/init, (Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V]
+No rename for class net/minecraftforge/fml/common/event/FMLInitializationEvent
+[method, io/github/codetoil/litlaunch/core/LaunchCommon/init, ()V]
+No rename for class net/minecraftforge/common/MinecraftForge
+No rename for field net/minecraftforge/common/MinecraftForge/EVENT_BUS
+[method, net/minecraftforge/fml/common/eventhandler/EventBus/register, (Ljava/lang/Object;)V]
+No rename for method net/minecraftforge/fml/common/eventhandler/EventBus/register (Ljava/lang/Object;)V
+[method, io/github/codetoil/litlaunch/_native/mc1_8/Launch1_8/postInit, (Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V]
+No rename for class net/minecraftforge/fml/common/event/FMLPostInitializationEvent
+[method, io/github/codetoil/litlaunch/core/LaunchCommon/postInit, ()V]
+[method, io/github/codetoil/litlaunch/_native/mc1_8/Launch1_8/serverLoad, (Lnet/minecraftforge/fml/common/event/FMLServerStartingEvent;)V]
+No rename for class net/minecraftforge/fml/common/event/FMLServerStartingEvent
+Adding 0 imports
+End  Processing: io\github\codetoil\litlaunch\_native\mc1_8\Launch1_8.java
+
+Start Processing: io\github\codetoil\litlaunch\_native\mc1_8\Logger1_8.java
+Warning: io\github\codetoil\litlaunch\_native\mc1_8\Logger1_8.java has CRLF line endings; consider switching to LF
+[method, io/github/codetoil/litlaunch/_native/mc1_8/Logger1_8/Logger1_8, ()V]
+FOUND CONSTR method io/github/codetoil/litlaunch/_native/mc1_8/Logger1_8/Logger1_8 ()V io/github/codetoil/litlaunch/_native/mc1_8/Logger1_8
+[method, io/github/codetoil/litlaunch/_native/mc1_8/Logger1_8/getInstance, ()Lio/github/codetoil/litlaunch/core/ILogger;]
+[method, io/github/codetoil/litlaunch/core/ILogger/debug, (Ljava/lang/Object;)V]
+[method, org/apache/logging/log4j/Logger/debug, (Ljava/lang/Object;)V]
+[method, io/github/codetoil/litlaunch/core/ILogger/info, (Ljava/lang/Object;)V]
+[method, org/apache/logging/log4j/Logger/info, (Ljava/lang/Object;)V]
+[method, io/github/codetoil/litlaunch/core/ILogger/warn, (Ljava/lang/Object;)V]
+[method, org/apache/logging/log4j/Logger/warn, (Ljava/lang/Object;)V]
+[method, io/github/codetoil/litlaunch/core/ILogger/error, (Ljava/lang/Object;)V]
+[method, org/apache/logging/log4j/Logger/error, (Ljava/lang/Object;)V]
+[method, io/github/codetoil/litlaunch/core/ILogger/fatal, (Ljava/lang/Object;)V]
+[method, org/apache/logging/log4j/Logger/fatal, (Ljava/lang/Object;)V]
+[method, io/github/codetoil/litlaunch/core/ILogger/trace, (Ljava/lang/Object;)V]
+[method, org/apache/logging/log4j/Logger/trace, (Ljava/lang/Object;)V]
+[method, io/github/codetoil/litlaunch/core/ILogger/verbose, (Ljava/lang/Object;)V]
+[method, io/github/codetoil/litlaunch/core/LaunchCommon/isVerbose, ()Ljava/lang/Boolean;]
+[method, org/apache/logging/log4j/Logger/trace, (Ljava/lang/Object;)V]
+[method, io/github/codetoil/litlaunch/core/ILogger/getInternalLogger, ()Ljava/lang/Object;]
+[method, io/github/codetoil/litlaunch/core/ILogger/setInternalLogger, (Ljava/lang/Object;)V]
+Adding 0 imports
+End  Processing: io\github\codetoil\litlaunch\_native\mc1_8\Logger1_8.java
+
+Start Processing: io\github\codetoil\litlaunch\_native\mc1_8\proxy\ClientProxy1_8.java
+Warning: io\github\codetoil\litlaunch\_native\mc1_8\proxy\ClientProxy1_8.java has CRLF line endings; consider switching to LF
+[method, io/github/codetoil/litlaunch/core/CommonProxy/setGamePath, ()V]
+[method, io/github/codetoil/litlaunch/api/FrontEnd/info, (Ljava/lang/Object;)V]
+[method, io/github/codetoil/litlaunch/core/LaunchCommon/setGamePath, (Ljava/nio/file/Path;)V]
+Rename class net/minecraft/client/Minecraft[808,817]::Minecraft->Minecraft
+Rename method net/minecraft/client/Minecraft/getMinecraft ()Lnet/minecraft/client/Minecraft;[818,830]::getMinecraft->func_71410_x
+Rename field net/minecraft/client/Minecraft/mcDataDir[833,842]::mcDataDir->field_71412_D
+[method, java/io/File/toPath, ()Ljava/nio/file/Path;]
+[method, io/github/codetoil/litlaunch/core/CommonProxy/construction, ()V]
+[method, io/github/codetoil/litlaunch/api/FrontEnd/info, (Ljava/lang/Object;)V]
+[method, io/github/codetoil/litlaunch/core/CommonProxy/preInit, ()V]
+[method, io/github/codetoil/litlaunch/core/CommonProxy/init, ()V]
+[method, io/github/codetoil/litlaunch/api/FrontEnd/info, (Ljava/lang/Object;)V]
+[method, io/github/codetoil/litlaunch/core/CommonProxy/postInit, ()V]
+[method, io/github/codetoil/litlaunch/api/FrontEnd/info, (Ljava/lang/Object;)V]
+[method, io/github/codetoil/litlaunch/core/CommonProxy/serverLoad, ()V]
+[method, io/github/codetoil/litlaunch/api/FrontEnd/info, (Ljava/lang/Object;)V]
+Import: net.minecraft.client.Minecraft
+Adding 0 imports
+End  Processing: io\github\codetoil\litlaunch\_native\mc1_8\proxy\ClientProxy1_8.java
+
+Start Processing: io\github\codetoil\litlaunch\_native\mc1_8\proxy\ServerProxy1_8.java
+Warning: io\github\codetoil\litlaunch\_native\mc1_8\proxy\ServerProxy1_8.java has CRLF line endings; consider switching to LF
+[method, io/github/codetoil/litlaunch/core/CommonProxy/setGamePath, ()V]
+[method, io/github/codetoil/litlaunch/api/FrontEnd/info, (Ljava/lang/Object;)V]
+[method, io/github/codetoil/litlaunch/core/LaunchCommon/setGamePath, (Ljava/nio/file/Path;)V]
+No rename for class net/minecraftforge/fml/common/FMLCommonHandler
+[method, net/minecraftforge/fml/common/FMLCommonHandler/instance, ()Lnet/minecraftforge/fml/common/FMLCommonHandler;]
+No rename for method net/minecraftforge/fml/common/FMLCommonHandler/instance ()Lnet/minecraftforge/fml/common/FMLCommonHandler;
+[method, net/minecraftforge/fml/common/FMLCommonHandler/getMinecraftServerInstance, ()Lnet/minecraft/server/MinecraftServer;]
+No rename for method net/minecraftforge/fml/common/FMLCommonHandler/getMinecraftServerInstance ()Lnet/minecraft/server/MinecraftServer;
+Rename method net/minecraft/server/MinecraftServer/getFile (Ljava/lang/String;)Ljava/io/File;[569,576]::getFile->func_71209_f
+[method, java/io/File/toPath, ()Ljava/nio/file/Path;]
+[method, io/github/codetoil/litlaunch/core/CommonProxy/construction, ()V]
+[method, io/github/codetoil/litlaunch/api/FrontEnd/info, (Ljava/lang/Object;)V]
+[method, io/github/codetoil/litlaunch/core/CommonProxy/preInit, ()V]
+[method, io/github/codetoil/litlaunch/api/FrontEnd/info, (Ljava/lang/Object;)V]
+[method, io/github/codetoil/litlaunch/core/CommonProxy/init, ()V]
+[method, io/github/codetoil/litlaunch/api/FrontEnd/info, (Ljava/lang/Object;)V]
+[method, io/github/codetoil/litlaunch/core/CommonProxy/postInit, ()V]
+[method, io/github/codetoil/litlaunch/api/FrontEnd/info, (Ljava/lang/Object;)V]
+[method, io/github/codetoil/litlaunch/core/CommonProxy/serverLoad, ()V]
+[method, io/github/codetoil/litlaunch/api/FrontEnd/info, (Ljava/lang/Object;)V]
+Adding 0 imports
+End  Processing: io\github\codetoil\litlaunch\_native\mc1_8\proxy\ServerProxy1_8.java
+
+Start Processing: io\github\codetoil\litlaunch\_native\package-info.java
+Warning: io\github\codetoil\litlaunch\_native\package-info.java has CRLF line endings; consider switching to LF
+End  Processing: io\github\codetoil\litlaunch\_native\package-info.java
 
 Start Processing: io\github\codetoil\litlaunch\api\Command.java
 Warning: io\github\codetoil\litlaunch\api\Command.java has CRLF line endings; consider switching to LF
 [method, io/github/codetoil/litlaunch/api/Command/Command, ()V]
 FOUND CONSTR method io/github/codetoil/litlaunch/api/Command/Command ()V io/github/codetoil/litlaunch/api/Command
-[method, io/github/codetoil/litlaunch/api/Command/Command, (Ljava/lang/String;Ljava/lang/String;Ljava/lang/Runnable;Lio/github/codetoil/litlaunch/api/Command$Side;)V]
-FOUND CONSTR method io/github/codetoil/litlaunch/api/Command/Command (Ljava/lang/String;Ljava/lang/String;Ljava/lang/Runnable;Lio/github/codetoil/litlaunch/api/Command$Side;)V io/github/codetoil/litlaunch/api/Command
+[method, io/github/codetoil/litlaunch/api/Command/Command, (Ljava/lang/String;Ljava/lang/String;Ljava/util/function/Consumer;Lio/github/codetoil/litlaunch/api/Command$Side;)V]
+FOUND CONSTR method io/github/codetoil/litlaunch/api/Command/Command (Ljava/lang/String;Ljava/lang/String;Ljava/util/function/Consumer;Lio/github/codetoil/litlaunch/api/Command$Side;)V io/github/codetoil/litlaunch/api/Command
+Adding 0 imports
 End  Processing: io\github\codetoil\litlaunch\api\Command.java
 
-Start Processing: io\github\codetoil\litlaunch\api\CommonProxy.java
-Warning: io\github\codetoil\litlaunch\api\CommonProxy.java has CRLF line endings; consider switching to LF
-[method, io/github/codetoil/litlaunch/api/CommonProxy/preInit, ()V]
-[method, io/github/codetoil/litlaunch/api/CommonProxy/init, ()V]
-[method, io/github/codetoil/litlaunch/api/CommonProxy/postInit, ()V]
-[method, io/github/codetoil/litlaunch/api/CommonProxy/serverLoad, ()V]
-End  Processing: io\github\codetoil\litlaunch\api\CommonProxy.java
+Start Processing: io\github\codetoil\litlaunch\api\FrontEnd.java
+Warning: io\github\codetoil\litlaunch\api\FrontEnd.java has CRLF line endings; consider switching to LF
+[method, io/github/codetoil/litlaunch/api/FrontEnd/MINECRAFT_VERSION, ()Ljava/lang/String;]
+[method, io/github/codetoil/litlaunch/core/LaunchCommon/getGetFields, ()Lio/github/codetoil/litlaunch/api/IGetFields;]
+[method, io/github/codetoil/litlaunch/api/IGetFields/getVERSION, ()Ljava/lang/String;]
+[method, io/github/codetoil/litlaunch/api/FrontEnd/ACTIVE_PROXY, ()Lio/github/codetoil/litlaunch/core/CommonProxy;]
+[method, io/github/codetoil/litlaunch/core/LaunchCommon/getCcproxy, ()Lio/github/codetoil/litlaunch/core/CommonProxy;]
+[method, io/github/codetoil/litlaunch/api/FrontEnd/GET_FIELDS, ()Lio/github/codetoil/litlaunch/api/IGetFields;]
+[method, io/github/codetoil/litlaunch/core/LaunchCommon/getGetFields, ()Lio/github/codetoil/litlaunch/api/IGetFields;]
+[method, io/github/codetoil/litlaunch/api/FrontEnd/DO_THING_OBJECT, ()Lio/github/codetoil/litlaunch/api/IDoThing;]
+[method, io/github/codetoil/litlaunch/core/LaunchCommon/getDoThing, ()Lio/github/codetoil/litlaunch/api/IDoThing;]
+[method, io/github/codetoil/litlaunch/api/FrontEnd/IS_LITLAUNCH_VERBOSE, ()Z]
+[method, io/github/codetoil/litlaunch/core/LaunchCommon/isVerbose, ()Ljava/lang/Boolean;]
+[method, io/github/codetoil/litlaunch/api/FrontEnd/INITIAL_TIME_FOR_MEASURING_TIME, ()D]
+[method, io/github/codetoil/litlaunch/core/LaunchCommon/getTimeInit, ()D]
+[method, io/github/codetoil/litlaunch/api/FrontEnd/SIDE, ()Lio/github/codetoil/litlaunch/api/Command$Side;]
+[method, io/github/codetoil/litlaunch/core/LaunchCommon/getSide, ()Lio/github/codetoil/litlaunch/api/Command$Side;]
+[method, io/github/codetoil/litlaunch/api/FrontEnd/debug, (Ljava/lang/Object;)V]
+[method, io/github/codetoil/litlaunch/api/FrontEnd/LOGGER, ()Lio/github/codetoil/litlaunch/core/ILogger;]
+[method, io/github/codetoil/litlaunch/core/ILogger/debug, (Ljava/lang/Object;)V]
+[method, io/github/codetoil/litlaunch/api/FrontEnd/LOGGER, ()Lio/github/codetoil/litlaunch/core/ILogger;]
+[method, io/github/codetoil/litlaunch/core/LaunchCommon/getLOGGER, ()Lio/github/codetoil/litlaunch/core/ILogger;]
+[method, io/github/codetoil/litlaunch/api/FrontEnd/info, (Ljava/lang/Object;)V]
+[method, io/github/codetoil/litlaunch/api/FrontEnd/LOGGER, ()Lio/github/codetoil/litlaunch/core/ILogger;]
+[method, io/github/codetoil/litlaunch/core/ILogger/info, (Ljava/lang/Object;)V]
+[method, io/github/codetoil/litlaunch/api/FrontEnd/trace, (Ljava/lang/Object;)V]
+[method, io/github/codetoil/litlaunch/api/FrontEnd/LOGGER, ()Lio/github/codetoil/litlaunch/core/ILogger;]
+[method, io/github/codetoil/litlaunch/core/ILogger/trace, (Ljava/lang/Object;)V]
+[method, io/github/codetoil/litlaunch/api/FrontEnd/warn, (Ljava/lang/Object;)V]
+[method, io/github/codetoil/litlaunch/api/FrontEnd/LOGGER, ()Lio/github/codetoil/litlaunch/core/ILogger;]
+[method, io/github/codetoil/litlaunch/core/ILogger/warn, (Ljava/lang/Object;)V]
+[method, io/github/codetoil/litlaunch/api/FrontEnd/fatal, (Ljava/lang/Object;)V]
+[method, io/github/codetoil/litlaunch/api/FrontEnd/LOGGER, ()Lio/github/codetoil/litlaunch/core/ILogger;]
+[method, io/github/codetoil/litlaunch/core/ILogger/fatal, (Ljava/lang/Object;)V]
+[method, io/github/codetoil/litlaunch/api/FrontEnd/error, (Ljava/lang/Object;)V]
+[method, io/github/codetoil/litlaunch/api/FrontEnd/LOGGER, ()Lio/github/codetoil/litlaunch/core/ILogger;]
+[method, io/github/codetoil/litlaunch/core/ILogger/error, (Ljava/lang/Object;)V]
+[method, io/github/codetoil/litlaunch/api/FrontEnd/verbose, (Ljava/lang/Object;)V]
+[method, io/github/codetoil/litlaunch/api/FrontEnd/LOGGER, ()Lio/github/codetoil/litlaunch/core/ILogger;]
+[method, io/github/codetoil/litlaunch/core/ILogger/verbose, (Ljava/lang/Object;)V]
+[method, io/github/codetoil/litlaunch/api/FrontEnd/MODS_LOADED, ()Ljava/util/List;]
+[method, io/github/codetoil/litlaunch/api/FrontEnd/CLASSLOADER, ()Lio/github/codetoil/litlaunch/modloader/LitClassLoader;]
+[method, io/github/codetoil/litlaunch/api/FrontEnd/COMMON_NO_SPAM_EVENT_HANDLER, ()Lio/github/codetoil/litlaunch/core/event/LitEventHandler;]
+Adding 0 imports
+End  Processing: io\github\codetoil\litlaunch\api\FrontEnd.java
 
 Start Processing: io\github\codetoil\litlaunch\api\IDoThing.java
 Warning: io\github\codetoil\litlaunch\api\IDoThing.java has CRLF line endings; consider switching to LF
+[method, io/github/codetoil/litlaunch/api/IDoThing/sendAsClientChatMessage, (Ljava/lang/String;)V]
+[method, io/github/codetoil/litlaunch/api/IDoThing/sendAsServerChatMessage, (Ljava/lang/String;)V]
 [method, io/github/codetoil/litlaunch/api/IDoThing/sendAsChatMessage, (Ljava/lang/String;)V]
+[method, io/github/codetoil/litlaunch/api/IDoThing/notifyUser, (Ljava/lang/String;)V]
+[method, io/github/codetoil/litlaunch/api/IDoThing/notifyUser, (Ljava/lang/String;Lio/github/codetoil/litlaunch/api/IDoThing$Color;)V]
+[method, io/github/codetoil/litlaunch/api/IDoThing/notifyUser, (Ljava/lang/String;Lio/github/codetoil/litlaunch/api/IDoThing$Color;ZZZZZ)V]
+[method, io/github/codetoil/litlaunch/api/IDoThing/notifyServer, (Ljava/lang/String;)V]
+[method, io/github/codetoil/litlaunch/api/IDoThing/notifyServer, (Ljava/lang/String;Lio/github/codetoil/litlaunch/api/IDoThing$Color;)V]
+[method, io/github/codetoil/litlaunch/api/IDoThing/notifyServer, (Ljava/lang/String;Lio/github/codetoil/litlaunch/api/IDoThing$Color;ZZZZZ)V]
 [method, io/github/codetoil/litlaunch/api/IDoThing/notifyPlayer, (Ljava/lang/String;)V]
 [method, io/github/codetoil/litlaunch/api/IDoThing/notifyPlayer, (Ljava/lang/String;Lio/github/codetoil/litlaunch/api/IDoThing$Color;)V]
 [method, io/github/codetoil/litlaunch/api/IDoThing/notifyPlayer, (Ljava/lang/String;Lio/github/codetoil/litlaunch/api/IDoThing$Color;ZZZZZ)V]
@@ -33463,7 +33784,7 @@ End  Processing: io\github\codetoil\litlaunch\api\IDoThing.java
 Start Processing: io\github\codetoil\litlaunch\api\IGetFields.java
 Warning: io\github\codetoil\litlaunch\api\IGetFields.java has CRLF line endings; consider switching to LF
 [method, io/github/codetoil/litlaunch/api/IGetFields/getTotalWorldTime, (I)J]
-[method, io/github/codetoil/litlaunch/api/IGetFields/getDimPlayer, ()I]
+[method, io/github/codetoil/litlaunch/api/IGetFields/getDimRunning, ()I]
 [method, io/github/codetoil/litlaunch/api/IGetFields/getDimsAvailable, ()[I]
 [method, io/github/codetoil/litlaunch/api/IGetFields/getVERSION, ()Ljava/lang/String;]
 End  Processing: io\github\codetoil\litlaunch\api\IGetFields.java
@@ -33480,544 +33801,364 @@ Warning: io\github\codetoil\litlaunch\api\IMod.java has CRLF line endings; consi
 Adding 0 imports
 End  Processing: io\github\codetoil\litlaunch\api\IMod.java
 
-Start Processing: io\github\codetoil\litlaunch\api\LaunchMods.java
-Warning: io\github\codetoil\litlaunch\api\LaunchMods.java has CRLF line endings; consider switching to LF
-[method, io/github/codetoil/litlaunch/api/LaunchMods/LaunchMods, ()V]
-FOUND CONSTR method io/github/codetoil/litlaunch/api/LaunchMods/LaunchMods ()V io/github/codetoil/litlaunch/api/LaunchMods
-[method, io/github/codetoil/litlaunch/api/LaunchMods/locateMods, ()Z]
-[method, io/github/codetoil/litlaunch/api/LaunchMods/trace, (Ljava/lang/Object;)V]
-[method, io/github/codetoil/litlaunch/api/LaunchMods/getINSTANCE, ()Lio/github/codetoil/litlaunch/api/LaunchMods;]
-[method, io/github/codetoil/litlaunch/backend/LitClassLoader/setClassLoader, (Ljava/lang/ClassLoader;)V]
-[method, java/lang/Class/getClassLoader, ()Ljava/lang/ClassLoader;]
-[method, io/github/codetoil/litlaunch/api/LaunchMods/trace, (Ljava/lang/Object;)V]
-[method, io/github/codetoil/litlaunch/api/LaunchMods/getINSTANCE, ()Lio/github/codetoil/litlaunch/api/LaunchMods;]
-[method, io/github/codetoil/litlaunch/backend/LitClassLoader/classExists, (Ljava/lang/String;)Z]
-[method, io/github/codetoil/litlaunch/api/LaunchMods/getINSTANCE, ()Lio/github/codetoil/litlaunch/api/LaunchMods;]
-[method, io/github/codetoil/litlaunch/backend/LitClassLoader/getClass, (Ljava/lang/String;)Ljava/lang/Class;]
-[method, io/github/codetoil/litlaunch/api/LaunchMods/trace, (Ljava/lang/Object;)V]
-[method, java/util/Collection/add, (Ljava/lang/Object;)Z]
-[method, io/github/codetoil/litlaunch/api/LaunchMods/trace, (Ljava/lang/Object;)V]
-[method, io/github/codetoil/litlaunch/api/LaunchMods/trace, (Ljava/lang/Object;)V]
-[method, java/lang/Throwable/printStackTrace, ()V]
-[method, java/util/Collection/size, ()I]
-[method, io/github/codetoil/litlaunch/api/LaunchMods/trace, (Ljava/lang/Object;)V]
-[method, io/github/codetoil/litlaunch/api/LaunchMods/getLOGGER, ()Lio/github/codetoil/litlaunch/backend/ILogger;]
-[method, io/github/codetoil/litlaunch/backend/ILogger/trace, (Ljava/lang/Object;)V]
-[method, io/github/codetoil/litlaunch/api/LaunchMods/getINSTANCE, ()Lio/github/codetoil/litlaunch/api/LaunchMods;]
-[method, io/github/codetoil/litlaunch/api/LaunchMods/getLOGGER, ()Lio/github/codetoil/litlaunch/backend/ILogger;]
-[method, io/github/codetoil/litlaunch/api/LaunchMods/setLOGGER, (Lio/github/codetoil/litlaunch/backend/ILogger;)V]
-[method, io/github/codetoil/litlaunch/api/LaunchMods/validateMods, ()Z]
-[method, io/github/codetoil/litlaunch/api/LaunchMods/trace, (Ljava/lang/Object;)V]
-[method, java/lang/Class/newInstance, ()Ljava/lang/Object;]
-[method, io/github/codetoil/litlaunch/api/LaunchMods/getINSTANCE, ()Lio/github/codetoil/litlaunch/api/LaunchMods;]
-[method, io/github/codetoil/litlaunch/backend/LitClassLoader/getMethodOfClass, (Ljava/lang/Class;Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;]
-[method, io/github/codetoil/litlaunch/api/LaunchMods/getINSTANCE, ()Lio/github/codetoil/litlaunch/api/LaunchMods;]
-[method, io/github/codetoil/litlaunch/backend/LitClassLoader/getMethodOfClass, (Ljava/lang/Class;Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;]
-[method, java/lang/reflect/Method/invoke, (Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;]
-[method, io/github/codetoil/litlaunch/api/LaunchMods/trace, (Ljava/lang/Object;)V]
-[method, java/lang/Class/getName, ()Ljava/lang/String;]
-[method, java/util/Collection/add, (Ljava/lang/Object;)Z]
-[method, io/github/codetoil/litlaunch/event/LitEventHandler/addListener, (Lio/github/codetoil/litlaunch/event/LitEventHandler$EventListener;)V]
-[method, io/github/codetoil/litlaunch/api/LaunchMods/trace, (Ljava/lang/Object;)V]
-[method, java/lang/Class/getName, ()Ljava/lang/String;]
-[method, io/github/codetoil/litlaunch/api/LaunchMods/trace, (Ljava/lang/Object;)V]
-[method, java/lang/Class/getName, ()Ljava/lang/String;]
-[method, io/github/codetoil/litlaunch/api/LaunchMods/trace, (Ljava/lang/Object;)V]
-[method, java/lang/Class/getName, ()Ljava/lang/String;]
-[method, java/lang/Throwable/printStackTrace, ()V]
-[method, io/github/codetoil/litlaunch/api/LaunchMods/readModList, (Ljava/io/File;)Z]
-[method, io/github/codetoil/litlaunch/api/LaunchMods/trace, (Ljava/lang/Object;)V]
+Start Processing: io\github\codetoil\litlaunch\core\CommonProxy.java
+Warning: io\github\codetoil\litlaunch\core\CommonProxy.java has CRLF line endings; consider switching to LF
+[method, io/github/codetoil/litlaunch/core/CommonProxy/setGamePath, ()V]
+[method, io/github/codetoil/litlaunch/core/CommonProxy/construction, ()V]
+[method, io/github/codetoil/litlaunch/core/CommonProxy/preInit, ()V]
+[method, io/github/codetoil/litlaunch/core/CommonProxy/init, ()V]
+[method, io/github/codetoil/litlaunch/core/CommonProxy/postInit, ()V]
+[method, io/github/codetoil/litlaunch/core/CommonProxy/serverLoad, ()V]
+End  Processing: io\github\codetoil\litlaunch\core\CommonProxy.java
+
+Start Processing: io\github\codetoil\litlaunch\core\ConfigFile.java
+Warning: io\github\codetoil\litlaunch\core\ConfigFile.java has CRLF line endings; consider switching to LF
+[method, io/github/codetoil/litlaunch/core/ConfigFile/readConfig, (Ljava/io/File;)Z]
+[method, io/github/codetoil/litlaunch/api/FrontEnd/trace, (Ljava/lang/Object;)V]
 [method, java/io/File/exists, ()Z]
 [method, java/util/Properties/load, (Ljava/io/InputStream;)V]
 [method, java/util/Properties/getProperty, (Ljava/lang/String;)Ljava/lang/String;]
-[method, io/github/codetoil/litlaunch/api/LaunchMods/trace, (Ljava/lang/Object;)V]
+[method, io/github/codetoil/litlaunch/api/FrontEnd/trace, (Ljava/lang/Object;)V]
 [method, java/lang/Boolean/valueOf, (Ljava/lang/String;)Ljava/lang/Boolean;]
-[method, io/github/codetoil/litlaunch/api/LaunchMods/trace, (Ljava/lang/Object;)V]
-[method, io/github/codetoil/litlaunch/backend/LaunchCommon/setVerbose, (Z)V]
-[method, io/github/codetoil/litlaunch/api/LaunchMods/trace, (Ljava/lang/Object;)V]
-[method, io/github/codetoil/litlaunch/backend/LaunchCommon/isVerbose, ()Ljava/lang/Boolean;]
-[method, java/util/Properties/getProperty, (Ljava/lang/String;)Ljava/lang/String;]
-[method, java/lang/Long/parseUnsignedLong, (Ljava/lang/String;)J]
-[method, io/github/codetoil/litlaunch/api/LaunchMods/trace, (Ljava/lang/Object;)V]
-[method, java/util/Properties/getProperty, (Ljava/lang/String;)Ljava/lang/String;]
-[method, io/github/codetoil/litlaunch/api/LaunchMods/trace, (Ljava/lang/Object;)V]
-[method, java/util/Collection/add, (Ljava/lang/Object;)Z]
-[method, io/github/codetoil/litlaunch/api/LaunchMods/error, (Ljava/lang/Object;)V]
-[method, java/lang/Throwable/printStackTrace, ()V]
-[method, io/github/codetoil/litlaunch/api/LaunchMods/error, (Ljava/lang/Object;)V]
-[method, io/github/codetoil/litlaunch/api/LaunchMods/setDefaultModList, (Ljava/io/File;)V]
-[method, io/github/codetoil/litlaunch/api/LaunchMods/error, (Ljava/lang/Object;)V]
-[method, io/github/codetoil/litlaunch/api/LaunchMods/setDefaultModList, (Ljava/io/File;)V]
-[method, io/github/codetoil/litlaunch/api/LaunchMods/setDefaultModList, (Ljava/io/File;)V]
+[method, io/github/codetoil/litlaunch/api/FrontEnd/trace, (Ljava/lang/Object;)V]
+[method, io/github/codetoil/litlaunch/core/LaunchCommon/setVerbose, (Z)V]
+[method, io/github/codetoil/litlaunch/api/FrontEnd/trace, (Ljava/lang/Object;)V]
+[method, io/github/codetoil/litlaunch/core/LaunchCommon/isVerbose, ()Ljava/lang/Boolean;]
+[method, io/github/codetoil/litlaunch/api/FrontEnd/error, (Ljava/lang/Object;)V]
+[method, io/github/codetoil/litlaunch/core/ConfigFile/setDefaultConfigFile, (Ljava/io/File;)V]
+[method, io/github/codetoil/litlaunch/core/ConfigFile/setDefaultConfigFile, (Ljava/io/File;)V]
 [method, java/io/File/createNewFile, ()Z]
-[method, java/util/Properties/setProperty, (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/Object;]
-[method, java/util/Properties/setProperty, (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/Object;]
 [method, java/util/Properties/setProperty, (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/Object;]
 [method, java/util/Properties/store, (Ljava/io/OutputStream;Ljava/lang/String;)V]
 [method, java/io/File/exists, ()Z]
-[method, io/github/codetoil/litlaunch/api/LaunchMods/readModList, (Ljava/io/File;)Z]
-[method, io/github/codetoil/litlaunch/api/LaunchMods/isModAnInterface, (Ljava/lang/String;)Z]
-[method, io/github/codetoil/litlaunch/api/LaunchMods/getINSTANCE, ()Lio/github/codetoil/litlaunch/api/LaunchMods;]
-[method, io/github/codetoil/litlaunch/backend/LitClassLoader/getClass, (Ljava/lang/String;)Ljava/lang/Class;]
-[method, java/lang/Class/getInterfaces, ()[Ljava/lang/Class;]
-[method, java/lang/Class/getName, ()Ljava/lang/String;]
-[method, java/lang/String/equals, (Ljava/lang/Object;)Z]
-[method, io/github/codetoil/litlaunch/api/LaunchMods/debug, (Ljava/lang/Object;)V]
-[method, io/github/codetoil/litlaunch/api/LaunchMods/getLOGGER, ()Lio/github/codetoil/litlaunch/backend/ILogger;]
-[method, io/github/codetoil/litlaunch/backend/ILogger/debug, (Ljava/lang/Object;)V]
-[method, io/github/codetoil/litlaunch/api/LaunchMods/info, (Ljava/lang/Object;)V]
-[method, io/github/codetoil/litlaunch/api/LaunchMods/getLOGGER, ()Lio/github/codetoil/litlaunch/backend/ILogger;]
-[method, io/github/codetoil/litlaunch/backend/ILogger/info, (Ljava/lang/Object;)V]
-[method, io/github/codetoil/litlaunch/api/LaunchMods/warn, (Ljava/lang/Object;)V]
-[method, io/github/codetoil/litlaunch/api/LaunchMods/getLOGGER, ()Lio/github/codetoil/litlaunch/backend/ILogger;]
-[method, io/github/codetoil/litlaunch/backend/ILogger/warn, (Ljava/lang/Object;)V]
-[method, io/github/codetoil/litlaunch/api/LaunchMods/error, (Ljava/lang/Object;)V]
-[method, io/github/codetoil/litlaunch/api/LaunchMods/getLOGGER, ()Lio/github/codetoil/litlaunch/backend/ILogger;]
-[method, io/github/codetoil/litlaunch/backend/ILogger/error, (Ljava/lang/Object;)V]
-[method, io/github/codetoil/litlaunch/api/LaunchMods/fatal, (Ljava/lang/Object;)V]
-[method, io/github/codetoil/litlaunch/api/LaunchMods/getLOGGER, ()Lio/github/codetoil/litlaunch/backend/ILogger;]
-[method, io/github/codetoil/litlaunch/backend/ILogger/fatal, (Ljava/lang/Object;)V]
-[method, io/github/codetoil/litlaunch/api/LaunchMods/verbose, (Ljava/lang/Object;)V]
-[method, io/github/codetoil/litlaunch/api/LaunchMods/getLOGGER, ()Lio/github/codetoil/litlaunch/backend/ILogger;]
-[method, io/github/codetoil/litlaunch/backend/ILogger/verbose, (Ljava/lang/Object;)V]
+[method, io/github/codetoil/litlaunch/core/ConfigFile/readConfig, (Ljava/io/File;)Z]
 Adding 0 imports
-End  Processing: io\github\codetoil\litlaunch\api\LaunchMods.java
+End  Processing: io\github\codetoil\litlaunch\core\ConfigFile.java
 
-Start Processing: io\github\codetoil\litlaunch\api\ThreadLogged.java
-Warning: io\github\codetoil\litlaunch\api\ThreadLogged.java has CRLF line endings; consider switching to LF
-[method, io/github/codetoil/litlaunch/api/ThreadLogged/ThreadLogged, (Ljava/lang/String;)V]
-FOUND CONSTR method io/github/codetoil/litlaunch/api/ThreadLogged/ThreadLogged (Ljava/lang/String;)V io/github/codetoil/litlaunch/api/ThreadLogged
+Start Processing: io\github\codetoil\litlaunch\core\ILaunch.java
+Warning: io\github\codetoil\litlaunch\core\ILaunch.java has CRLF line endings; consider switching to LF
+[method, io/github/codetoil/litlaunch/core/ILaunch/setProxy, ()Z]
+End  Processing: io\github\codetoil\litlaunch\core\ILaunch.java
+
+Start Processing: io\github\codetoil\litlaunch\core\ILogger.java
+Warning: io\github\codetoil\litlaunch\core\ILogger.java has CRLF line endings; consider switching to LF
+[method, io/github/codetoil/litlaunch/core/ILogger/debug, (Ljava/lang/Object;)V]
+[method, io/github/codetoil/litlaunch/core/ILogger/info, (Ljava/lang/Object;)V]
+[method, io/github/codetoil/litlaunch/core/ILogger/warn, (Ljava/lang/Object;)V]
+[method, io/github/codetoil/litlaunch/core/ILogger/error, (Ljava/lang/Object;)V]
+[method, io/github/codetoil/litlaunch/core/ILogger/fatal, (Ljava/lang/Object;)V]
+[method, io/github/codetoil/litlaunch/core/ILogger/trace, (Ljava/lang/Object;)V]
+[method, io/github/codetoil/litlaunch/core/ILogger/verbose, (Ljava/lang/Object;)V]
+[method, io/github/codetoil/litlaunch/core/ILogger/getInternalLogger, ()Ljava/lang/Object;]
+[method, io/github/codetoil/litlaunch/core/ILogger/setInternalLogger, (Ljava/lang/Object;)V]
+End  Processing: io\github\codetoil\litlaunch\core\ILogger.java
+
+Start Processing: io\github\codetoil\litlaunch\core\LaunchCommon.java
+Warning: io\github\codetoil\litlaunch\core\LaunchCommon.java has CRLF line endings; consider switching to LF
+[method, io/github/codetoil/litlaunch/core/LaunchCommon/getTimeInit, ()D]
+[method, io/github/codetoil/litlaunch/core/LaunchCommon/setVerbose, (Z)V]
+[method, io/github/codetoil/litlaunch/core/LaunchCommon/getLOGGER, ()Lio/github/codetoil/litlaunch/core/ILogger;]
+[method, io/github/codetoil/litlaunch/core/LaunchCommon/setLOGGER, (Lio/github/codetoil/litlaunch/core/ILogger;)V]
+[method, io/github/codetoil/litlaunch/core/LaunchCommon/getGetFields, ()Lio/github/codetoil/litlaunch/api/IGetFields;]
+[method, io/github/codetoil/litlaunch/core/LaunchCommon/setGetFields, (Lio/github/codetoil/litlaunch/api/IGetFields;)V]
+[method, io/github/codetoil/litlaunch/core/LaunchCommon/getDoThing, ()Lio/github/codetoil/litlaunch/api/IDoThing;]
+[method, io/github/codetoil/litlaunch/core/LaunchCommon/setDoThing, (Lio/github/codetoil/litlaunch/api/IDoThing;)V]
+[method, io/github/codetoil/litlaunch/core/LaunchCommon/getSide, ()Lio/github/codetoil/litlaunch/api/Command$Side;]
+[method, io/github/codetoil/litlaunch/core/LaunchCommon/setSide, (Lio/github/codetoil/litlaunch/api/Command$Side;)V]
+[method, io/github/codetoil/litlaunch/core/LaunchCommon/bootstrap, (Ljava/lang/Object;Lio/github/codetoil/litlaunch/core/ILaunch;Lio/github/codetoil/litlaunch/core/ILogger;)V]
+[method, io/github/codetoil/litlaunch/core/LaunchCommon/getTimeInSeconds, ()D]
+[method, io/github/codetoil/litlaunch/core/LaunchCommon/setLOGGER, (Lio/github/codetoil/litlaunch/core/ILogger;)V]
+[method, io/github/codetoil/litlaunch/core/LaunchCommon/getLOGGER, ()Lio/github/codetoil/litlaunch/core/ILogger;]
+[method, io/github/codetoil/litlaunch/core/ILogger/setInternalLogger, (Ljava/lang/Object;)V]
+[method, io/github/codetoil/litlaunch/core/LaunchCommon/info, (Ljava/lang/Object;)V]
+[method, io/github/codetoil/litlaunch/core/ILaunch/setProxy, ()Z]
+[method, io/github/codetoil/litlaunch/core/LaunchCommon/debug, (Ljava/lang/Object;)V]
+[method, io/github/codetoil/litlaunch/core/LaunchCommon/error, (Ljava/lang/Object;)V]
+[method, java/lang/Throwable/printStackTrace, ()V]
+[method, io/github/codetoil/litlaunch/core/LaunchCommon/getCcproxy, ()Lio/github/codetoil/litlaunch/core/CommonProxy;]
+[method, io/github/codetoil/litlaunch/core/CommonProxy/setGamePath, ()V]
+[method, io/github/codetoil/litlaunch/core/LaunchCommon/info, (Ljava/lang/Object;)V]
+[method, io/github/codetoil/litlaunch/core/LaunchCommon/getGamePath, ()Ljava/nio/file/Path;]
+[method, java/nio/file/Path/resolve, (Ljava/lang/String;)Ljava/nio/file/Path;]
+[method, java/nio/file/Path/toFile, ()Ljava/io/File;]
+[method, io/github/codetoil/litlaunch/core/LaunchCommon/info, (Ljava/lang/Object;)V]
+[method, io/github/codetoil/litlaunch/core/ConfigFile/readConfig, (Ljava/io/File;)Z]
+[method, io/github/codetoil/litlaunch/core/LaunchCommon/info, (Ljava/lang/Object;)V]
+[method, io/github/codetoil/litlaunch/modloader/ModFinder/locateMods, ()V]
+[method, io/github/codetoil/litlaunch/modloader/ModFinder/validateMods, ()Z]
+[method, io/github/codetoil/litlaunch/core/LaunchCommon/info, (Ljava/lang/Object;)V]
+[method, io/github/codetoil/litlaunch/core/LaunchCommon/isVerbose, ()Ljava/lang/Boolean;]
+[method, io/github/codetoil/litlaunch/core/LaunchCommon/warn, (Ljava/lang/Object;)V]
+[method, io/github/codetoil/litlaunch/core/event/LitEventHandler/post, (Lio/github/codetoil/litlaunch/core/event/LitEvent;)V]
+[method, io/github/codetoil/litlaunch/core/LaunchCommon/getCcproxy, ()Lio/github/codetoil/litlaunch/core/CommonProxy;]
+[method, io/github/codetoil/litlaunch/core/CommonProxy/construction, ()V]
+[method, io/github/codetoil/litlaunch/core/LaunchCommon/getTimeInSeconds, ()D]
+[method, java/lang/System/currentTimeMillis, ()J]
+[method, io/github/codetoil/litlaunch/core/LaunchCommon/isVerbose, ()Ljava/lang/Boolean;]
+[method, io/github/codetoil/litlaunch/core/LaunchCommon/preInit, ()V]
+[method, io/github/codetoil/litlaunch/core/event/LitEventHandler/post, (Lio/github/codetoil/litlaunch/core/event/LitEvent;)V]
+[method, io/github/codetoil/litlaunch/core/LaunchCommon/getCcproxy, ()Lio/github/codetoil/litlaunch/core/CommonProxy;]
+[method, io/github/codetoil/litlaunch/core/CommonProxy/preInit, ()V]
+[method, io/github/codetoil/litlaunch/core/LaunchCommon/getCcproxy, ()Lio/github/codetoil/litlaunch/core/CommonProxy;]
+[method, io/github/codetoil/litlaunch/core/LaunchCommon/setCcproxy, (Lio/github/codetoil/litlaunch/core/CommonProxy;)V]
+[method, io/github/codetoil/litlaunch/core/LaunchCommon/info, (Ljava/lang/Object;)V]
+[method, io/github/codetoil/litlaunch/core/LaunchCommon/init, ()V]
+[method, io/github/codetoil/litlaunch/core/event/LitEventHandler/post, (Lio/github/codetoil/litlaunch/core/event/LitEvent;)V]
+[method, io/github/codetoil/litlaunch/core/event/LitEventHandler/post, (Lio/github/codetoil/litlaunch/core/event/LitEvent;Z)V]
+[method, io/github/codetoil/litlaunch/core/LaunchCommon/getCcproxy, ()Lio/github/codetoil/litlaunch/core/CommonProxy;]
+[method, io/github/codetoil/litlaunch/core/CommonProxy/init, ()V]
+[method, io/github/codetoil/litlaunch/core/LaunchCommon/postInit, ()V]
+[method, io/github/codetoil/litlaunch/core/event/LitEventHandler/post, (Lio/github/codetoil/litlaunch/core/event/LitEvent;)V]
+[method, io/github/codetoil/litlaunch/core/LaunchCommon/getCcproxy, ()Lio/github/codetoil/litlaunch/core/CommonProxy;]
+[method, io/github/codetoil/litlaunch/core/CommonProxy/postInit, ()V]
+[method, io/github/codetoil/litlaunch/core/LaunchCommon/serverLoad, ()V]
+[method, io/github/codetoil/litlaunch/core/event/LitEventHandler/post, (Lio/github/codetoil/litlaunch/core/event/LitEvent;)V]
+[method, io/github/codetoil/litlaunch/core/LaunchCommon/getCcproxy, ()Lio/github/codetoil/litlaunch/core/CommonProxy;]
+[method, io/github/codetoil/litlaunch/core/CommonProxy/serverLoad, ()V]
+[method, io/github/codetoil/litlaunch/core/LaunchCommon/getGamePath, ()Ljava/nio/file/Path;]
+[method, io/github/codetoil/litlaunch/core/LaunchCommon/setGamePath, (Ljava/nio/file/Path;)V]
+[method, io/github/codetoil/litlaunch/core/LaunchCommon/debug, (Ljava/lang/Object;)V]
+[method, io/github/codetoil/litlaunch/core/LaunchCommon/getLOGGER, ()Lio/github/codetoil/litlaunch/core/ILogger;]
+[method, io/github/codetoil/litlaunch/core/ILogger/debug, (Ljava/lang/Object;)V]
+[method, io/github/codetoil/litlaunch/core/LaunchCommon/info, (Ljava/lang/Object;)V]
+[method, io/github/codetoil/litlaunch/core/LaunchCommon/getLOGGER, ()Lio/github/codetoil/litlaunch/core/ILogger;]
+[method, io/github/codetoil/litlaunch/core/ILogger/info, (Ljava/lang/Object;)V]
+[method, io/github/codetoil/litlaunch/core/LaunchCommon/warn, (Ljava/lang/Object;)V]
+[method, io/github/codetoil/litlaunch/core/LaunchCommon/getLOGGER, ()Lio/github/codetoil/litlaunch/core/ILogger;]
+[method, io/github/codetoil/litlaunch/core/ILogger/warn, (Ljava/lang/Object;)V]
+[method, io/github/codetoil/litlaunch/core/LaunchCommon/error, (Ljava/lang/Object;)V]
+[method, io/github/codetoil/litlaunch/core/LaunchCommon/getLOGGER, ()Lio/github/codetoil/litlaunch/core/ILogger;]
+[method, io/github/codetoil/litlaunch/core/ILogger/error, (Ljava/lang/Object;)V]
+[method, io/github/codetoil/litlaunch/core/LaunchCommon/fatal, (Ljava/lang/Object;)V]
+[method, io/github/codetoil/litlaunch/core/LaunchCommon/getLOGGER, ()Lio/github/codetoil/litlaunch/core/ILogger;]
+[method, io/github/codetoil/litlaunch/core/ILogger/fatal, (Ljava/lang/Object;)V]
+[method, io/github/codetoil/litlaunch/core/LaunchCommon/verbose, (Ljava/lang/Object;)V]
+[method, io/github/codetoil/litlaunch/core/LaunchCommon/getLOGGER, ()Lio/github/codetoil/litlaunch/core/ILogger;]
+[method, io/github/codetoil/litlaunch/core/ILogger/verbose, (Ljava/lang/Object;)V]
+[method, io/github/codetoil/litlaunch/core/LaunchCommon/trace, (Ljava/lang/Object;)V]
+[method, io/github/codetoil/litlaunch/core/LaunchCommon/getLOGGER, ()Lio/github/codetoil/litlaunch/core/ILogger;]
+[method, io/github/codetoil/litlaunch/core/ILogger/trace, (Ljava/lang/Object;)V]
+Adding 0 imports
+End  Processing: io\github\codetoil\litlaunch\core\LaunchCommon.java
+
+Start Processing: io\github\codetoil\litlaunch\core\ThreadLogged.java
+Warning: io\github\codetoil\litlaunch\core\ThreadLogged.java has CRLF line endings; consider switching to LF
+[method, io/github/codetoil/litlaunch/core/ThreadLogged/ThreadLogged, (Ljava/lang/String;)V]
+FOUND CONSTR method io/github/codetoil/litlaunch/core/ThreadLogged/ThreadLogged (Ljava/lang/String;)V io/github/codetoil/litlaunch/core/ThreadLogged
 [method, java/lang/Thread/setUncaughtExceptionHandler, (Ljava/lang/Thread$UncaughtExceptionHandler;)V]
 [method, java/lang/Thread/UncaughtExceptionHandler/uncaughtException, (Ljava/lang/Thread;Ljava/lang/Throwable;)V]
-[method, io/github/codetoil/litlaunch/api/ThreadLogged/printExitThreadMessage, ()V]
-[method, io/github/codetoil/litlaunch/api/ThreadLogged/printExitThreadDueToExceptionMessage, (Ljava/lang/Throwable;)V]
+[method, io/github/codetoil/litlaunch/core/ThreadLogged/printExitThreadMessage, ()V]
+[method, io/github/codetoil/litlaunch/core/ThreadLogged/printExitThreadDueToExceptionMessage, (Ljava/lang/Throwable;)V]
 [method, java/lang/Throwable/getLocalizedMessage, ()Ljava/lang/String;]
 [method, java/lang/Throwable/addSuppressed, (Ljava/lang/Throwable;)V]
-[method, io/github/codetoil/litlaunch/api/ThreadLogged/printExitThreadMessage, ()V]
-[method, io/github/codetoil/litlaunch/api/LaunchMods/debug, (Ljava/lang/Object;)V]
-[method, io/github/codetoil/litlaunch/api/ThreadLogged/printExitThreadDueToExceptionMessage, (Ljava/lang/Throwable;)V]
-[method, io/github/codetoil/litlaunch/api/LaunchMods/error, (Ljava/lang/Object;)V]
+[method, io/github/codetoil/litlaunch/core/ThreadLogged/printExitThreadMessage, ()V]
+[method, io/github/codetoil/litlaunch/api/FrontEnd/debug, (Ljava/lang/Object;)V]
+[method, io/github/codetoil/litlaunch/core/ThreadLogged/printExitThreadDueToExceptionMessage, (Ljava/lang/Throwable;)V]
+[method, io/github/codetoil/litlaunch/api/FrontEnd/error, (Ljava/lang/Object;)V]
 [method, java/lang/Thread/getName, ()Ljava/lang/String;]
 [method, java/lang/Object/toString, ()Ljava/lang/String;]
 [method, java/lang/Throwable/printStackTrace, ()V]
 [method, java/lang/Thread/start, ()V]
-[method, io/github/codetoil/litlaunch/api/ThreadLogged/logThread, ()V]
+[method, io/github/codetoil/litlaunch/core/ThreadLogged/logThread, ()V]
 [method, java/lang/Thread/start, ()V]
-[method, io/github/codetoil/litlaunch/api/ThreadLogged/logThread, ()V]
-[method, io/github/codetoil/litlaunch/api/LaunchMods/debug, (Ljava/lang/Object;)V]
+[method, io/github/codetoil/litlaunch/core/ThreadLogged/logThread, ()V]
+[method, io/github/codetoil/litlaunch/api/FrontEnd/debug, (Ljava/lang/Object;)V]
 [method, java/lang/Runnable/run, ()V]
-[method, io/github/codetoil/litlaunch/api/ThreadLogged/runCode, ()V]
-[method, io/github/codetoil/litlaunch/api/LaunchMods/debug, (Ljava/lang/Object;)V]
-[method, io/github/codetoil/litlaunch/api/ThreadLogged/printExitThreadDueToExceptionMessage, (Ljava/lang/Throwable;)V]
-[method, io/github/codetoil/litlaunch/api/ThreadLogged/printExitThreadMessage, ()V]
-[method, io/github/codetoil/litlaunch/api/ThreadLogged/runCode, ()V]
-[method, io/github/codetoil/litlaunch/api/ThreadLogged/exitThread, ()V]
-[method, io/github/codetoil/litlaunch/api/ThreadLogged/ThreadInterrupedException/ThreadInterrupedException, ()V]
-FOUND CONSTR method io/github/codetoil/litlaunch/api/ThreadLogged/ThreadInterrupedException/ThreadInterrupedException ()V io/github/codetoil/litlaunch/api/ThreadLogged/ThreadInterrupedException
-[method, io/github/codetoil/litlaunch/api/ThreadLogged/ThreadInterrupedException/ThreadInterrupedException, (Ljava/lang/String;)V]
-FOUND CONSTR method io/github/codetoil/litlaunch/api/ThreadLogged/ThreadInterrupedException/ThreadInterrupedException (Ljava/lang/String;)V io/github/codetoil/litlaunch/api/ThreadLogged/ThreadInterrupedException
-End  Processing: io\github\codetoil\litlaunch\api\ThreadLogged.java
-
-Start Processing: io\github\codetoil\litlaunch\backend\ILaunch.java
-Warning: io\github\codetoil\litlaunch\backend\ILaunch.java has CRLF line endings; consider switching to LF
-[method, io/github/codetoil/litlaunch/backend/ILaunch/setProxy, ()Z]
-End  Processing: io\github\codetoil\litlaunch\backend\ILaunch.java
-
-Start Processing: io\github\codetoil\litlaunch\backend\ILogger.java
-Warning: io\github\codetoil\litlaunch\backend\ILogger.java has CRLF line endings; consider switching to LF
-[method, io/github/codetoil/litlaunch/backend/ILogger/debug, (Ljava/lang/Object;)V]
-[method, io/github/codetoil/litlaunch/backend/ILogger/info, (Ljava/lang/Object;)V]
-[method, io/github/codetoil/litlaunch/backend/ILogger/warn, (Ljava/lang/Object;)V]
-[method, io/github/codetoil/litlaunch/backend/ILogger/error, (Ljava/lang/Object;)V]
-[method, io/github/codetoil/litlaunch/backend/ILogger/fatal, (Ljava/lang/Object;)V]
-[method, io/github/codetoil/litlaunch/backend/ILogger/trace, (Ljava/lang/Object;)V]
-[method, io/github/codetoil/litlaunch/backend/ILogger/verbose, (Ljava/lang/Object;)V]
-[method, io/github/codetoil/litlaunch/backend/ILogger/getInternalLogger, ()Ljava/lang/Object;]
-[method, io/github/codetoil/litlaunch/backend/ILogger/setInternalLogger, (Ljava/lang/Object;)V]
-End  Processing: io\github\codetoil\litlaunch\backend\ILogger.java
-
-Start Processing: io\github\codetoil\litlaunch\backend\LaunchCommon.java
-Warning: io\github\codetoil\litlaunch\backend\LaunchCommon.java has CRLF line endings; consider switching to LF
-[method, io/github/codetoil/litlaunch/backend/LaunchCommon/getTimeInit, ()D]
-[method, io/github/codetoil/litlaunch/backend/LaunchCommon/setVerbose, (Z)V]
-[method, io/github/codetoil/litlaunch/backend/LaunchCommon/getGetFields, ()Lio/github/codetoil/litlaunch/api/IGetFields;]
-[method, io/github/codetoil/litlaunch/backend/LaunchCommon/setGetFields, (Lio/github/codetoil/litlaunch/api/IGetFields;)V]
-[method, io/github/codetoil/litlaunch/backend/LaunchCommon/getDoThing, ()Lio/github/codetoil/litlaunch/api/IDoThing;]
-[method, io/github/codetoil/litlaunch/backend/LaunchCommon/setDoThing, (Lio/github/codetoil/litlaunch/api/IDoThing;)V]
-[method, io/github/codetoil/litlaunch/backend/LaunchCommon/getSide, ()Lio/github/codetoil/litlaunch/api/Command$Side;]
-[method, io/github/codetoil/litlaunch/backend/LaunchCommon/setSide, (Lio/github/codetoil/litlaunch/api/Command$Side;)V]
-[method, io/github/codetoil/litlaunch/backend/LaunchCommon/bootstrap, (Ljava/lang/Object;Lio/github/codetoil/litlaunch/backend/ILaunch;Lio/github/codetoil/litlaunch/backend/ILogger;Ljava/io/File;)V]
-[method, io/github/codetoil/litlaunch/backend/LaunchCommon/getTimeInSeconds, ()D]
-[method, io/github/codetoil/litlaunch/api/LaunchMods/setLOGGER, (Lio/github/codetoil/litlaunch/backend/ILogger;)V]
-[method, io/github/codetoil/litlaunch/api/LaunchMods/getLOGGER, ()Lio/github/codetoil/litlaunch/backend/ILogger;]
-[method, io/github/codetoil/litlaunch/backend/ILogger/setInternalLogger, (Ljava/lang/Object;)V]
-[method, io/github/codetoil/litlaunch/api/LaunchMods/info, (Ljava/lang/Object;)V]
-[method, io/github/codetoil/litlaunch/backend/ILaunch/setProxy, ()Z]
-[method, io/github/codetoil/litlaunch/api/LaunchMods/debug, (Ljava/lang/Object;)V]
-[method, io/github/codetoil/litlaunch/api/LaunchMods/error, (Ljava/lang/Object;)V]
-[method, java/lang/Throwable/printStackTrace, ()V]
-[method, io/github/codetoil/litlaunch/api/LaunchMods/info, (Ljava/lang/Object;)V]
-[method, io/github/codetoil/litlaunch/api/LaunchMods/readModList, (Ljava/io/File;)Z]
-[method, io/github/codetoil/litlaunch/api/LaunchMods/info, (Ljava/lang/Object;)V]
-[method, io/github/codetoil/litlaunch/api/LaunchMods/locateMods, ()Z]
-[method, io/github/codetoil/litlaunch/api/LaunchMods/validateMods, ()Z]
-[method, io/github/codetoil/litlaunch/api/LaunchMods/info, (Ljava/lang/Object;)V]
-[method, io/github/codetoil/litlaunch/backend/LaunchCommon/isVerbose, ()Ljava/lang/Boolean;]
-[method, io/github/codetoil/litlaunch/api/LaunchMods/warn, (Ljava/lang/Object;)V]
-[method, io/github/codetoil/litlaunch/event/LitEventHandler/post, (Lio/github/codetoil/litlaunch/event/LitEvent;)V]
-[method, io/github/codetoil/litlaunch/backend/LaunchCommon/getTimeInSeconds, ()D]
-[method, java/lang/System/currentTimeMillis, ()J]
-[method, io/github/codetoil/litlaunch/backend/LaunchCommon/isVerbose, ()Ljava/lang/Boolean;]
-[method, io/github/codetoil/litlaunch/backend/LaunchCommon/preInit, ()V]
-[method, io/github/codetoil/litlaunch/event/LitEventHandler/post, (Lio/github/codetoil/litlaunch/event/LitEvent;)V]
-[method, io/github/codetoil/litlaunch/backend/LaunchCommon/getCcproxy, ()Lio/github/codetoil/litlaunch/api/CommonProxy;]
-[method, io/github/codetoil/litlaunch/api/CommonProxy/preInit, ()V]
-[method, io/github/codetoil/litlaunch/backend/LaunchCommon/getCcproxy, ()Lio/github/codetoil/litlaunch/api/CommonProxy;]
-[method, io/github/codetoil/litlaunch/backend/LaunchCommon/setCcproxy, (Lio/github/codetoil/litlaunch/api/CommonProxy;)V]
-[method, io/github/codetoil/litlaunch/api/LaunchMods/info, (Ljava/lang/Object;)V]
-[method, io/github/codetoil/litlaunch/backend/LaunchCommon/init, ()V]
-[method, io/github/codetoil/litlaunch/event/LitEventHandler/post, (Lio/github/codetoil/litlaunch/event/LitEvent;)V]
-[method, io/github/codetoil/litlaunch/event/LitEventHandler/post, (Lio/github/codetoil/litlaunch/event/LitEvent;Z)V]
-[method, io/github/codetoil/litlaunch/backend/LaunchCommon/getCcproxy, ()Lio/github/codetoil/litlaunch/api/CommonProxy;]
-[method, io/github/codetoil/litlaunch/api/CommonProxy/init, ()V]
-[method, io/github/codetoil/litlaunch/backend/LaunchCommon/postInit, ()V]
-[method, io/github/codetoil/litlaunch/event/LitEventHandler/post, (Lio/github/codetoil/litlaunch/event/LitEvent;)V]
-[method, io/github/codetoil/litlaunch/backend/LaunchCommon/getCcproxy, ()Lio/github/codetoil/litlaunch/api/CommonProxy;]
-[method, io/github/codetoil/litlaunch/api/CommonProxy/postInit, ()V]
-[method, io/github/codetoil/litlaunch/backend/LaunchCommon/serverLoad, ()V]
-[method, io/github/codetoil/litlaunch/event/LitEventHandler/post, (Lio/github/codetoil/litlaunch/event/LitEvent;)V]
-[method, io/github/codetoil/litlaunch/backend/LaunchCommon/getCcproxy, ()Lio/github/codetoil/litlaunch/api/CommonProxy;]
-[method, io/github/codetoil/litlaunch/api/CommonProxy/serverLoad, ()V]
+[method, io/github/codetoil/litlaunch/core/ThreadLogged/runCode, ()V]
+[method, io/github/codetoil/litlaunch/api/FrontEnd/debug, (Ljava/lang/Object;)V]
+[method, io/github/codetoil/litlaunch/core/ThreadLogged/printExitThreadDueToExceptionMessage, (Ljava/lang/Throwable;)V]
+[method, io/github/codetoil/litlaunch/core/ThreadLogged/printExitThreadMessage, ()V]
+[method, io/github/codetoil/litlaunch/core/ThreadLogged/runCode, ()V]
+[method, io/github/codetoil/litlaunch/core/ThreadLogged/exitThread, ()V]
+[method, io/github/codetoil/litlaunch/core/ThreadLogged/ThreadInterrupedException/ThreadInterrupedException, ()V]
+FOUND CONSTR method io/github/codetoil/litlaunch/core/ThreadLogged/ThreadInterrupedException/ThreadInterrupedException ()V io/github/codetoil/litlaunch/core/ThreadLogged/ThreadInterrupedException
+[method, io/github/codetoil/litlaunch/core/ThreadLogged/ThreadInterrupedException/ThreadInterrupedException, (Ljava/lang/String;)V]
+FOUND CONSTR method io/github/codetoil/litlaunch/core/ThreadLogged/ThreadInterrupedException/ThreadInterrupedException (Ljava/lang/String;)V io/github/codetoil/litlaunch/core/ThreadLogged/ThreadInterrupedException
 Adding 0 imports
-End  Processing: io\github\codetoil\litlaunch\backend\LaunchCommon.java
+End  Processing: io\github\codetoil\litlaunch\core\ThreadLogged.java
 
-Start Processing: io\github\codetoil\litlaunch\backend\LitClassLoader.java
-Warning: io\github\codetoil\litlaunch\backend\LitClassLoader.java has CRLF line endings; consider switching to LF
-[method, io/github/codetoil/litlaunch/backend/LitClassLoader/setClassLoader, (Ljava/lang/ClassLoader;)V]
-[method, io/github/codetoil/litlaunch/api/LaunchMods/info, (Ljava/lang/Object;)V]
-[method, io/github/codetoil/litlaunch/api/LaunchMods/info, (Ljava/lang/Object;)V]
-[method, io/github/codetoil/litlaunch/backend/LitClassLoader/classExists, (Ljava/lang/String;)Z]
-[method, io/github/codetoil/litlaunch/api/LaunchMods/info, (Ljava/lang/Object;)V]
-[method, java/lang/ClassLoader/loadClass, (Ljava/lang/String;)Ljava/lang/Class;]
-[method, io/github/codetoil/litlaunch/backend/LitClassLoader/getClass, (Ljava/lang/String;)Ljava/lang/Class;]
-[method, io/github/codetoil/litlaunch/api/LaunchMods/info, (Ljava/lang/Object;)V]
-[method, java/lang/ClassLoader/loadClass, (Ljava/lang/String;)Ljava/lang/Class;]
-[method, java/lang/Throwable/printStackTrace, ()V]
-[method, io/github/codetoil/litlaunch/backend/LitClassLoader/getMethodOfClass, (Ljava/lang/Class;Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;]
-[method, java/lang/Class/getMethods, ()[Ljava/lang/reflect/Method;]
-[method, io/github/codetoil/litlaunch/api/LaunchMods/trace, (Ljava/lang/Object;)V]
-[method, io/github/codetoil/litlaunch/api/LaunchMods/trace, (Ljava/lang/Object;)V]
-[method, java/lang/reflect/Member/getName, ()Ljava/lang/String;]
-[method, java/lang/String/equals, (Ljava/lang/Object;)Z]
-[method, java/lang/reflect/Member/getName, ()Ljava/lang/String;]
-[method, io/github/codetoil/litlaunch/backend/LitClassLoader/areClassListsEqual, ([Ljava/lang/Class;[Ljava/lang/Class;)Z]
-[method, java/lang/reflect/Executable/getParameterTypes, ()[Ljava/lang/Class;]
-[method, io/github/codetoil/litlaunch/backend/LitClassLoader/areClassListsEqual, ([Ljava/lang/Class;[Ljava/lang/Class;)Z]
-[method, java/lang/Class/getName, ()Ljava/lang/String;]
-[method, java/lang/String/equals, (Ljava/lang/Object;)Z]
-[method, java/lang/Class/getName, ()Ljava/lang/String;]
-[method, io/github/codetoil/litlaunch/backend/LitClassLoader/getConstructorOfClass, (Ljava/lang/Class;[Ljava/lang/Class;)Ljava/lang/reflect/Constructor;]
-[method, io/github/codetoil/litlaunch/api/LaunchMods/info, (Ljava/lang/Object;)V]
-[method, java/util/Arrays/asList, ([Ljava/lang/Object;)Ljava/util/List;]
-[method, java/lang/Class/getConstructors, ()[Ljava/lang/reflect/Constructor;]
-[method, java/lang/Class/getConstructors, ()[Ljava/lang/reflect/Constructor;]
-[method, io/github/codetoil/litlaunch/backend/LitClassLoader/areClassListsEqual, ([Ljava/lang/Class;[Ljava/lang/Class;)Z]
-[method, java/lang/reflect/Executable/getParameterTypes, ()[Ljava/lang/Class;]
-Adding 0 imports
-End  Processing: io\github\codetoil\litlaunch\backend\LitClassLoader.java
-
-Start Processing: io\github\codetoil\litlaunch\event\LitEvent.java
-Warning: io\github\codetoil\litlaunch\event\LitEvent.java has CRLF line endings; consider switching to LF
-[method, io/github/codetoil/litlaunch/event/LitEvent/LitEvent, (Ljava/lang/Object;)V]
-FOUND CONSTR method io/github/codetoil/litlaunch/event/LitEvent/LitEvent (Ljava/lang/Object;)V io/github/codetoil/litlaunch/event/LitEvent
-[method, io/github/codetoil/litlaunch/event/LitEvent/LitEvent, (Ljava/lang/Object;Ljava/lang/String;[Ljava/lang/Object;)V]
-FOUND CONSTR method io/github/codetoil/litlaunch/event/LitEvent/LitEvent (Ljava/lang/Object;Ljava/lang/String;[Ljava/lang/Object;)V io/github/codetoil/litlaunch/event/LitEvent
-[method, io/github/codetoil/litlaunch/event/LitEvent/getType, ()Ljava/lang/String;]
-[method, io/github/codetoil/litlaunch/event/LitEvent/setType, (Ljava/lang/String;)V]
-[method, io/github/codetoil/litlaunch/api/LaunchMods/warn, (Ljava/lang/Object;)V]
-[method, io/github/codetoil/litlaunch/event/LitEvent/getData, ()[Ljava/lang/Object;]
-[method, io/github/codetoil/litlaunch/event/LitEvent/setData, ([Ljava/lang/Object;)V]
-[method, io/github/codetoil/litlaunch/api/LaunchMods/warn, (Ljava/lang/Object;)V]
+Start Processing: io\github\codetoil\litlaunch\core\event\LitEvent.java
+Warning: io\github\codetoil\litlaunch\core\event\LitEvent.java has CRLF line endings; consider switching to LF
+[method, io/github/codetoil/litlaunch/core/event/LitEvent/LitEvent, (Ljava/lang/Object;)V]
+FOUND CONSTR method io/github/codetoil/litlaunch/core/event/LitEvent/LitEvent (Ljava/lang/Object;)V io/github/codetoil/litlaunch/core/event/LitEvent
+[method, io/github/codetoil/litlaunch/core/event/LitEvent/LitEvent, (Ljava/lang/Object;Ljava/lang/String;[Ljava/lang/Object;)V]
+FOUND CONSTR method io/github/codetoil/litlaunch/core/event/LitEvent/LitEvent (Ljava/lang/Object;Ljava/lang/String;[Ljava/lang/Object;)V io/github/codetoil/litlaunch/core/event/LitEvent
+[method, io/github/codetoil/litlaunch/core/event/LitEvent/getType, ()Ljava/lang/String;]
+[method, io/github/codetoil/litlaunch/core/event/LitEvent/setType, (Ljava/lang/String;)V]
+[method, io/github/codetoil/litlaunch/api/FrontEnd/warn, (Ljava/lang/Object;)V]
+[method, io/github/codetoil/litlaunch/core/event/LitEvent/getData, ()[Ljava/lang/Object;]
+[method, io/github/codetoil/litlaunch/core/event/LitEvent/setData, ([Ljava/lang/Object;)V]
+[method, io/github/codetoil/litlaunch/api/FrontEnd/warn, (Ljava/lang/Object;)V]
 [method, java/lang/Object/toString, ()Ljava/lang/String;]
 [method, java/util/Arrays/toString, ([Ljava/lang/Object;)Ljava/lang/String;]
 Adding 0 imports
-End  Processing: io\github\codetoil\litlaunch\event\LitEvent.java
+End  Processing: io\github\codetoil\litlaunch\core\event\LitEvent.java
 
-Start Processing: io\github\codetoil\litlaunch\event\LitEventHandler.java
-Warning: io\github\codetoil\litlaunch\event\LitEventHandler.java has CRLF line endings; consider switching to LF
-[method, io/github/codetoil/litlaunch/event/LitEventHandler/LitEventHandler, ()V]
-FOUND CONSTR method io/github/codetoil/litlaunch/event/LitEventHandler/LitEventHandler ()V io/github/codetoil/litlaunch/event/LitEventHandler
-[method, io/github/codetoil/litlaunch/event/LitEventHandler/updateListenersFromQueue, ()V]
-[method, io/github/codetoil/litlaunch/event/LitEventHandler/updateListenersFromQueue, ()V]
+Start Processing: io\github\codetoil\litlaunch\core\event\LitEventHandler.java
+Warning: io\github\codetoil\litlaunch\core\event\LitEventHandler.java has CRLF line endings; consider switching to LF
+[method, io/github/codetoil/litlaunch/core/event/LitEventHandler/LitEventHandler, ()V]
+FOUND CONSTR method io/github/codetoil/litlaunch/core/event/LitEventHandler/LitEventHandler ()V io/github/codetoil/litlaunch/core/event/LitEventHandler
+[method, io/github/codetoil/litlaunch/core/event/LitEventHandler/updateListenersFromQueue, ()V]
+[method, io/github/codetoil/litlaunch/core/event/LitEventHandler/updateListenersFromQueue, ()V]
 [method, java/util/Collection/isEmpty, ()Z]
 [method, java/util/Queue/poll, ()Ljava/lang/Object;]
-[method, io/github/codetoil/litlaunch/api/LaunchMods/info, (Ljava/lang/Object;)V]
+[method, io/github/codetoil/litlaunch/api/FrontEnd/info, (Ljava/lang/Object;)V]
 [method, java/lang/Object/toString, ()Ljava/lang/String;]
 [method, java/util/Collection/add, (Ljava/lang/Object;)Z]
 [method, java/util/Collection/isEmpty, ()Z]
 [method, java/util/Queue/poll, ()Ljava/lang/Object;]
-[method, io/github/codetoil/litlaunch/api/LaunchMods/info, (Ljava/lang/Object;)V]
+[method, io/github/codetoil/litlaunch/api/FrontEnd/info, (Ljava/lang/Object;)V]
 [method, java/lang/Object/toString, ()Ljava/lang/String;]
 [method, java/util/Collection/remove, (Ljava/lang/Object;)Z]
-[method, io/github/codetoil/litlaunch/event/LitEventHandler/addListener, (Lio/github/codetoil/litlaunch/event/LitEventHandler$EventListener;)V]
+[method, io/github/codetoil/litlaunch/core/event/LitEventHandler/addListener, (Lio/github/codetoil/litlaunch/core/event/LitEventHandler$EventListener;)V]
 [method, java/util/Queue/offer, (Ljava/lang/Object;)Z]
-[method, io/github/codetoil/litlaunch/event/LitEventHandler/removeListener, (Lio/github/codetoil/litlaunch/event/LitEventHandler$EventListener;)V]
+[method, io/github/codetoil/litlaunch/core/event/LitEventHandler/removeListener, (Lio/github/codetoil/litlaunch/core/event/LitEventHandler$EventListener;)V]
 [method, java/util/Queue/offer, (Ljava/lang/Object;)Z]
-[method, io/github/codetoil/litlaunch/event/LitEventHandler/post, (Lio/github/codetoil/litlaunch/event/LitEvent;)V]
-[method, io/github/codetoil/litlaunch/event/LitEventHandler/post, (Lio/github/codetoil/litlaunch/event/LitEvent;Z)V]
-[method, io/github/codetoil/litlaunch/event/LitEventHandler/post, (Lio/github/codetoil/litlaunch/event/LitEvent;Z)V]
-[method, io/github/codetoil/litlaunch/event/LitEventHandler/updateListenersFromQueue, ()V]
-[method, io/github/codetoil/litlaunch/event/LitEventHandler/logEVENT, (Lio/github/codetoil/litlaunch/event/LitEvent;Z)V]
-[method, io/github/codetoil/litlaunch/event/LitEventHandler/EventListener/ReceivedEvent, (Lio/github/codetoil/litlaunch/event/LitEvent;)V]
-[method, io/github/codetoil/litlaunch/event/LitEventHandler/logEVENT, (Lio/github/codetoil/litlaunch/event/LitEvent;Z)V]
-[method, io/github/codetoil/litlaunch/FrontEnd/trace, (Ljava/lang/Object;)V]
+[method, io/github/codetoil/litlaunch/core/event/LitEventHandler/post, (Lio/github/codetoil/litlaunch/core/event/LitEvent;)V]
+[method, io/github/codetoil/litlaunch/core/event/LitEventHandler/post, (Lio/github/codetoil/litlaunch/core/event/LitEvent;Z)V]
+[method, io/github/codetoil/litlaunch/core/event/LitEventHandler/post, (Lio/github/codetoil/litlaunch/core/event/LitEvent;Z)V]
+[method, io/github/codetoil/litlaunch/core/event/LitEventHandler/updateListenersFromQueue, ()V]
+[method, io/github/codetoil/litlaunch/core/event/LitEventHandler/logEVENT, (Lio/github/codetoil/litlaunch/core/event/LitEvent;Z)V]
+[method, io/github/codetoil/litlaunch/core/event/LitEventHandler/EventListener/ReceivedEvent, (Lio/github/codetoil/litlaunch/core/event/LitEvent;)V]
+[method, io/github/codetoil/litlaunch/core/event/LitEventHandler/logEVENT, (Lio/github/codetoil/litlaunch/core/event/LitEvent;Z)V]
+[method, io/github/codetoil/litlaunch/api/FrontEnd/trace, (Ljava/lang/Object;)V]
 [method, java/lang/Object/toString, ()Ljava/lang/String;]
-[method, io/github/codetoil/litlaunch/FrontEnd/verbose, (Ljava/lang/Object;)V]
+[method, io/github/codetoil/litlaunch/api/FrontEnd/verbose, (Ljava/lang/Object;)V]
 [method, java/lang/Object/toString, ()Ljava/lang/String;]
-[method, io/github/codetoil/litlaunch/event/LitEventHandler/EventListener/ReceivedEvent, (Lio/github/codetoil/litlaunch/event/LitEvent;)V]
-[method, io/github/codetoil/litlaunch/event/LitEventHandler/EventListener/getListener, ()Lio/github/codetoil/litlaunch/event/LitEventHandler$EventListener;]
+[method, io/github/codetoil/litlaunch/core/event/LitEventHandler/EventListener/ReceivedEvent, (Lio/github/codetoil/litlaunch/core/event/LitEvent;)V]
+[method, io/github/codetoil/litlaunch/core/event/LitEventHandler/EventListener/getListener, ()Lio/github/codetoil/litlaunch/core/event/LitEventHandler$EventListener;]
 Adding 0 imports
-End  Processing: io\github\codetoil\litlaunch\event\LitEventHandler.java
+End  Processing: io\github\codetoil\litlaunch\core\event\LitEventHandler.java
 
-Start Processing: io\github\codetoil\litlaunch\exceptions\FailedBootstrapException.java
-Warning: io\github\codetoil\litlaunch\exceptions\FailedBootstrapException.java has CRLF line endings; consider switching to LF
-[method, io/github/codetoil/litlaunch/exceptions/FailedBootstrapException/FailedBootstrapException, ()V]
-FOUND CONSTR method io/github/codetoil/litlaunch/exceptions/FailedBootstrapException/FailedBootstrapException ()V io/github/codetoil/litlaunch/exceptions/FailedBootstrapException
-[method, io/github/codetoil/litlaunch/exceptions/FailedBootstrapException/FailedBootstrapException, (Ljava/lang/String;)V]
-FOUND CONSTR method io/github/codetoil/litlaunch/exceptions/FailedBootstrapException/FailedBootstrapException (Ljava/lang/String;)V io/github/codetoil/litlaunch/exceptions/FailedBootstrapException
-[method, io/github/codetoil/litlaunch/exceptions/FailedBootstrapException/FailedBootstrapException, (Ljava/lang/String;Ljava/lang/Throwable;)V]
-FOUND CONSTR method io/github/codetoil/litlaunch/exceptions/FailedBootstrapException/FailedBootstrapException (Ljava/lang/String;Ljava/lang/Throwable;)V io/github/codetoil/litlaunch/exceptions/FailedBootstrapException
-End  Processing: io\github\codetoil\litlaunch\exceptions\FailedBootstrapException.java
+Start Processing: io\github\codetoil\litlaunch\core\exceptions\FailedBootstrapException.java
+Warning: io\github\codetoil\litlaunch\core\exceptions\FailedBootstrapException.java has CRLF line endings; consider switching to LF
+[method, io/github/codetoil/litlaunch/core/exceptions/FailedBootstrapException/FailedBootstrapException, ()V]
+FOUND CONSTR method io/github/codetoil/litlaunch/core/exceptions/FailedBootstrapException/FailedBootstrapException ()V io/github/codetoil/litlaunch/core/exceptions/FailedBootstrapException
+[method, io/github/codetoil/litlaunch/core/exceptions/FailedBootstrapException/FailedBootstrapException, (Ljava/lang/String;)V]
+FOUND CONSTR method io/github/codetoil/litlaunch/core/exceptions/FailedBootstrapException/FailedBootstrapException (Ljava/lang/String;)V io/github/codetoil/litlaunch/core/exceptions/FailedBootstrapException
+[method, io/github/codetoil/litlaunch/core/exceptions/FailedBootstrapException/FailedBootstrapException, (Ljava/lang/String;Ljava/lang/Throwable;)V]
+FOUND CONSTR method io/github/codetoil/litlaunch/core/exceptions/FailedBootstrapException/FailedBootstrapException (Ljava/lang/String;Ljava/lang/Throwable;)V io/github/codetoil/litlaunch/core/exceptions/FailedBootstrapException
+End  Processing: io\github\codetoil\litlaunch\core\exceptions\FailedBootstrapException.java
 
-Start Processing: io\github\codetoil\litlaunch\version\mc1_8\CommandNew.java
-Warning: io\github\codetoil\litlaunch\version\mc1_8\CommandNew.java has CRLF line endings; consider switching to LF
-[method, io/github/codetoil/litlaunch/version/mc1_8/CommandNew/CommandNew, ()V]
-FOUND CONSTR method io/github/codetoil/litlaunch/version/mc1_8/CommandNew/CommandNew ()V io/github/codetoil/litlaunch/version/mc1_8/CommandNew
-[method, io/github/codetoil/litlaunch/version/mc1_8/CommandNew/CommandNew, (Lio/github/codetoil/litlaunch/api/Command;)V]
-FOUND CONSTR method io/github/codetoil/litlaunch/version/mc1_8/CommandNew/CommandNew (Lio/github/codetoil/litlaunch/api/Command;)V io/github/codetoil/litlaunch/version/mc1_8/CommandNew
-Rename method net/minecraft/command/ICommand/getCommandName ()Ljava/lang/String;[499,513]::getCommandName->func_71517_b
-Rename method net/minecraft/command/ICommand/getCommandUsage (Lnet/minecraft/command/ICommandSender;)Ljava/lang/String;[572,587]::getCommandUsage->func_71518_a
-Rename class net/minecraft/command/ICommandSender[585,599]::ICommandSender->ICommandSender
-Rename method net/minecraft/command/ICommand/getCommandAliases ()Ljava/util/List;[672,689]::getCommandAliases->func_71514_a
-Rename method net/minecraft/command/ICommand/processCommand (Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V[752,766]::processCommand->func_71515_b
-Rename class net/minecraft/command/ICommandSender[765,779]::ICommandSender->ICommandSender
-Rename class net/minecraft/command/CommandException[810,826]::CommandException->CommandException
-[method, java/lang/Runnable/run, ()V]
+Start Processing: io\github\codetoil\litlaunch\modloader\LitClassLoader.java
+Warning: io\github\codetoil\litlaunch\modloader\LitClassLoader.java has CRLF line endings; consider switching to LF
+[method, io/github/codetoil/litlaunch/modloader/LitClassLoader/setClassLoader, (Ljava/lang/ClassLoader;)V]
+[method, io/github/codetoil/litlaunch/api/FrontEnd/info, (Ljava/lang/Object;)V]
+[method, io/github/codetoil/litlaunch/api/FrontEnd/info, (Ljava/lang/Object;)V]
+[method, io/github/codetoil/litlaunch/modloader/LitClassLoader/classExists, (Ljava/lang/String;)Z]
+[method, io/github/codetoil/litlaunch/api/FrontEnd/info, (Ljava/lang/Object;)V]
+[method, java/lang/ClassLoader/loadClass, (Ljava/lang/String;)Ljava/lang/Class;]
+[method, io/github/codetoil/litlaunch/modloader/LitClassLoader/getClass, (Ljava/lang/String;)Ljava/lang/Class;]
+[method, io/github/codetoil/litlaunch/api/FrontEnd/info, (Ljava/lang/Object;)V]
+[method, java/lang/ClassLoader/loadClass, (Ljava/lang/String;)Ljava/lang/Class;]
 [method, java/lang/Throwable/printStackTrace, ()V]
-Rename method net/minecraft/command/ICommand/canCommandSenderUseCommand (Lnet/minecraft/command/ICommandSender;)Z[949,975]::canCommandSenderUseCommand->func_71519_b
-Rename class net/minecraft/command/ICommandSender[962,976]::ICommandSender->ICommandSender
-Rename method net/minecraft/command/ICommand/isUsernameIndex ([Ljava/lang/String;I)Z[1034,1049]::isUsernameIndex->func_82358_a
-Rename method net/minecraft/command/ICommand/addTabCompletionOptions (Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;Lnet/minecraft/util/BlockPos;)Ljava/util/List;[1128,1151]::addTabCompletionOptions->func_180525_a
-Rename class net/minecraft/command/ICommandSender[1142,1156]::ICommandSender->ICommandSender
-Rename class net/minecraft/util/BlockPos[1180,1188]::BlockPos->BlockPos
-[method, java/lang/Comparable/compareTo, (Ljava/lang/Object;)I]
-Rename class net/minecraft/command/ICommand[1268,1276]::ICommand->ICommand
-Import: net.minecraft.command.CommandException
-Import: net.minecraft.command.ICommand
-Import: net.minecraft.command.ICommandSender
-Import: net.minecraft.util.BlockPos
+[method, io/github/codetoil/litlaunch/modloader/LitClassLoader/getMethodOfClass, (Ljava/lang/Class;Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;]
+[method, java/lang/Class/getMethods, ()[Ljava/lang/reflect/Method;]
+[method, io/github/codetoil/litlaunch/api/FrontEnd/trace, (Ljava/lang/Object;)V]
+[method, io/github/codetoil/litlaunch/api/FrontEnd/trace, (Ljava/lang/Object;)V]
+[method, java/lang/reflect/Member/getName, ()Ljava/lang/String;]
+[method, java/lang/String/equals, (Ljava/lang/Object;)Z]
+[method, java/lang/reflect/Member/getName, ()Ljava/lang/String;]
+[method, io/github/codetoil/litlaunch/modloader/LitClassLoader/areClassListsEqual, ([Ljava/lang/Class;[Ljava/lang/Class;)Z]
+[method, java/lang/reflect/Executable/getParameterTypes, ()[Ljava/lang/Class;]
+[method, io/github/codetoil/litlaunch/modloader/LitClassLoader/areClassListsEqual, ([Ljava/lang/Class;[Ljava/lang/Class;)Z]
+[method, java/lang/Class/getName, ()Ljava/lang/String;]
+[method, java/lang/String/equals, (Ljava/lang/Object;)Z]
+[method, java/lang/Class/getName, ()Ljava/lang/String;]
+[method, io/github/codetoil/litlaunch/modloader/LitClassLoader/getConstructorOfClass, (Ljava/lang/Class;[Ljava/lang/Class;)Ljava/lang/reflect/Constructor;]
+[method, io/github/codetoil/litlaunch/api/FrontEnd/info, (Ljava/lang/Object;)V]
+[method, java/util/Arrays/asList, ([Ljava/lang/Object;)Ljava/util/List;]
+[method, java/lang/Class/getConstructors, ()[Ljava/lang/reflect/Constructor;]
+[method, java/lang/Class/getConstructors, ()[Ljava/lang/reflect/Constructor;]
+[method, io/github/codetoil/litlaunch/modloader/LitClassLoader/areClassListsEqual, ([Ljava/lang/Class;[Ljava/lang/Class;)Z]
+[method, java/lang/reflect/Executable/getParameterTypes, ()[Ljava/lang/Class;]
 Adding 0 imports
-End  Processing: io\github\codetoil\litlaunch\version\mc1_8\CommandNew.java
+End  Processing: io\github\codetoil\litlaunch\modloader\LitClassLoader.java
 
-Start Processing: io\github\codetoil\litlaunch\version\mc1_8\DoThing.java
-Warning: io\github\codetoil\litlaunch\version\mc1_8\DoThing.java has CRLF line endings; consider switching to LF
-[method, io/github/codetoil/litlaunch/version/mc1_8/DoThing/DoThing, ()V]
-FOUND CONSTR method io/github/codetoil/litlaunch/version/mc1_8/DoThing/DoThing ()V io/github/codetoil/litlaunch/version/mc1_8/DoThing
-[method, io/github/codetoil/litlaunch/api/IDoThing/sendAsChatMessage, (Ljava/lang/String;)V]
-Rename class net/minecraft/client/Minecraft[621,630]::Minecraft->Minecraft
-Rename method net/minecraft/client/Minecraft/getMinecraft ()Lnet/minecraft/client/Minecraft;[631,643]::getMinecraft->func_71410_x
-Rename field net/minecraft/client/Minecraft/thePlayer[646,655]::thePlayer->field_71439_g
-Rename method net/minecraft/client/entity/EntityPlayerSP/sendChatMessage (Ljava/lang/String;)V[660,675]::sendChatMessage->func_71165_d
-[method, io/github/codetoil/litlaunch/api/IDoThing/notifyPlayer, (Ljava/lang/String;)V]
-[method, io/github/codetoil/litlaunch/api/IDoThing/notifyPlayer, (Ljava/lang/String;Lio/github/codetoil/litlaunch/api/IDoThing$Color;)V]
-[method, io/github/codetoil/litlaunch/api/IDoThing/notifyPlayer, (Ljava/lang/String;Lio/github/codetoil/litlaunch/api/IDoThing$Color;)V]
-[method, io/github/codetoil/litlaunch/api/IDoThing/notifyPlayer, (Ljava/lang/String;Lio/github/codetoil/litlaunch/api/IDoThing$Color;ZZZZZ)V]
-[method, io/github/codetoil/litlaunch/api/IDoThing/notifyPlayer, (Ljava/lang/String;Lio/github/codetoil/litlaunch/api/IDoThing$Color;ZZZZZ)V]
-Rename class net/minecraft/client/Minecraft[1175,1184]::Minecraft->Minecraft
-Rename method net/minecraft/client/Minecraft/getMinecraft ()Lnet/minecraft/client/Minecraft;[1185,1197]::getMinecraft->func_71410_x
-Rename field net/minecraft/client/Minecraft/thePlayer[1200,1209]::thePlayer->field_71439_g
-Rename method net/minecraft/command/ICommandSender/addChatMessage (Lnet/minecraft/util/IChatComponent;)V[1214,1228]::addChatMessage->func_145747_a
-Rename class net/minecraft/util/ChatComponentText[1232,1249]::ChatComponentText->ChatComponentText
-Rename method net/minecraft/util/IChatComponent/setChatStyle (Lnet/minecraft/util/ChatStyle;)Lnet/minecraft/util/IChatComponent;[1259,1271]::setChatStyle->func_150255_a
-[method, io/github/codetoil/litlaunch/version/mc1_8/DoThing/getStyle, (Lio/github/codetoil/litlaunch/api/IDoThing$Color;ZZZZZ)Lnet/minecraft/util/ChatStyle;]
-Rename class net/minecraft/util/ChatStyle[1370,1379]::ChatStyle->ChatStyle
-[method, io/github/codetoil/litlaunch/version/mc1_8/DoThing/getStyle, (Lio/github/codetoil/litlaunch/api/IDoThing$Color;ZZZZZ)Lnet/minecraft/util/ChatStyle;]
-Rename class net/minecraft/util/ChatStyle[1512,1521]::ChatStyle->ChatStyle
-Rename class net/minecraft/util/ChatStyle[1539,1548]::ChatStyle->ChatStyle
-Rename method net/minecraft/util/ChatStyle/setBold (Ljava/lang/Boolean;)Lnet/minecraft/util/ChatStyle;[1570,1577]::setBold->func_150227_a
-Rename method net/minecraft/util/ChatStyle/setItalic (Ljava/lang/Boolean;)Lnet/minecraft/util/ChatStyle;[1597,1606]::setItalic->func_150217_b
-Rename method net/minecraft/util/ChatStyle/setUnderlined (Ljava/lang/Boolean;)Lnet/minecraft/util/ChatStyle;[1626,1639]::setUnderlined->func_150228_d
-Rename method net/minecraft/util/ChatStyle/setObfuscated (Ljava/lang/Boolean;)Lnet/minecraft/util/ChatStyle;[1659,1672]::setObfuscated->func_150237_e
-Rename method net/minecraft/util/ChatStyle/setStrikethrough (Ljava/lang/Boolean;)Lnet/minecraft/util/ChatStyle;[1692,1708]::setStrikethrough->func_150225_c
-Rename class net/minecraft/util/EnumChatFormatting[1728,1746]::EnumChatFormatting->EnumChatFormatting
-Rename class net/minecraft/util/EnumChatFormatting[1759,1777]::EnumChatFormatting->EnumChatFormatting
-Rename method net/minecraft/util/EnumChatFormatting/getValueByName (Ljava/lang/String;)Lnet/minecraft/util/EnumChatFormatting;[1778,1792]::getValueByName->func_96300_b
-[method, java/lang/Enum/name, ()Ljava/lang/String;]
-Rename method net/minecraft/util/ChatStyle/setColor (Lnet/minecraft/util/EnumChatFormatting;)Lnet/minecraft/util/ChatStyle;[1833,1841]::setColor->func_150238_a
-Import: net.minecraft.client.Minecraft
-Import: net.minecraft.util.ChatComponentText
-Import: net.minecraft.util.ChatStyle
-Import: net.minecraft.util.EnumChatFormatting
-Adding 0 imports
-End  Processing: io\github\codetoil\litlaunch\version\mc1_8\DoThing.java
-
-Start Processing: io\github\codetoil\litlaunch\version\mc1_8\EventHandler.java
-Warning: io\github\codetoil\litlaunch\version\mc1_8\EventHandler.java has CRLF line endings; consider switching to LF
-[method, io/github/codetoil/litlaunch/version/mc1_8/EventHandler/onTick, (Lnet/minecraftforge/fml/common/gameevent/TickEvent$ClientTickEvent;)V]
-No rename for class net/minecraftforge/fml/common/gameevent/TickEvent/ClientTickEvent
-No rename for field net/minecraftforge/fml/common/gameevent/TickEvent/phase
-[method, java/lang/Enum/equals, (Ljava/lang/Object;)Z]
-No rename for class net/minecraftforge/fml/common/gameevent/TickEvent/Phase
-No rename for field net/minecraftforge/fml/common/gameevent/TickEvent/Phase/END
-[method, io/github/codetoil/litlaunch/event/LitEventHandler/post, (Lio/github/codetoil/litlaunch/event/LitEvent;Z)V]
-[method, io/github/codetoil/litlaunch/version/mc1_8/EventHandler/ServerConnect, (Lnet/minecraftforge/fml/common/network/FMLNetworkEvent$ClientConnectedToServerEvent;)V]
-No rename for class net/minecraftforge/fml/common/network/FMLNetworkEvent/ClientConnectedToServerEvent
-[method, io/github/codetoil/litlaunch/event/LitEventHandler/post, (Lio/github/codetoil/litlaunch/event/LitEvent;)V]
-Adding 0 imports
-End  Processing: io\github\codetoil\litlaunch\version\mc1_8\EventHandler.java
-
-Start Processing: io\github\codetoil\litlaunch\version\mc1_8\GetFields.java
-Warning: io\github\codetoil\litlaunch\version\mc1_8\GetFields.java has CRLF line endings; consider switching to LF
-[method, io/github/codetoil/litlaunch/version/mc1_8/GetFields/GetFields, ()V]
-FOUND CONSTR method io/github/codetoil/litlaunch/version/mc1_8/GetFields/GetFields ()V io/github/codetoil/litlaunch/version/mc1_8/GetFields
-[method, io/github/codetoil/litlaunch/api/IGetFields/getTotalWorldTime, (I)J]
-Rename class net/minecraft/world/World[751,756]::World->World
-No rename for class net/minecraftforge/common/DimensionManager
-[method, net/minecraftforge/common/DimensionManager/getWorld, (I)Lnet/minecraft/world/WorldServer;]
-No rename for method net/minecraftforge/common/DimensionManager/getWorld (I)Lnet/minecraft/world/WorldServer;
-Rename class net/minecraft/client/Minecraft[902,911]::Minecraft->Minecraft
-Rename method net/minecraft/client/Minecraft/getMinecraft ()Lnet/minecraft/client/Minecraft;[912,924]::getMinecraft->func_71410_x
-Rename field net/minecraft/client/Minecraft/theWorld[927,935]::theWorld->field_71441_e
-Rename class net/minecraft/world/WorldProvider[972,985]::WorldProvider->WorldProvider
-Rename field net/minecraft/world/World/provider[1003,1011]::provider->field_73011_w
-Rename field net/minecraft/world/World/provider[1063,1071]::provider->field_73011_w
-Rename method net/minecraft/world/WorldProvider/getDimensionId ()I[1077,1091]::getDimensionId->func_177502_q
-Rename method net/minecraft/world/World/getTotalWorldTime ()J[1131,1148]::getTotalWorldTime->func_82737_E
-[method, io/github/codetoil/litlaunch/api/LaunchMods/error, (Ljava/lang/Object;)V]
-Rename method net/minecraft/world/World/getTotalWorldTime ()J[1618,1635]::getTotalWorldTime->func_82737_E
-[method, io/github/codetoil/litlaunch/api/LaunchMods/error, (Ljava/lang/Object;)V]
+Start Processing: io\github\codetoil\litlaunch\modloader\ModFinder.java
+Warning: io\github\codetoil\litlaunch\modloader\ModFinder.java has CRLF line endings; consider switching to LF
+[method, io/github/codetoil/litlaunch/modloader/ModFinder/locateMods, ()V]
+[method, io/github/codetoil/litlaunch/api/FrontEnd/info, (Ljava/lang/Object;)V]
+[method, io/github/codetoil/litlaunch/core/LaunchCommon/getGamePath, ()Ljava/nio/file/Path;]
+[method, java/nio/file/Path/resolve, (Ljava/lang/String;)Ljava/nio/file/Path;]
+[method, io/github/codetoil/litlaunch/api/FrontEnd/trace, (Ljava/lang/Object;)V]
+[method, java/nio/file/Path/toFile, ()Ljava/io/File;]
+[method, java/io/File/isDirectory, ()Z]
+[method, java/nio/file/Path/toFile, ()Ljava/io/File;]
+[method, java/io/File/listFiles, ()[Ljava/io/File;]
+[method, io/github/codetoil/litlaunch/api/FrontEnd/trace, (Ljava/lang/Object;)V]
+[method, java/util/Arrays/toString, ([Ljava/lang/Object;)Ljava/lang/String;]
+[method, io/github/codetoil/litlaunch/api/FrontEnd/trace, (Ljava/lang/Object;)V]
+[method, java/io/File/isFile, ()Z]
+[method, io/github/codetoil/litlaunch/modloader/ModFinder/testIfMod, (Ljava/io/File;)Z]
+[method, io/github/codetoil/litlaunch/modloader/ModFinder/testIfMod, (Ljava/io/File;)Z]
+[method, io/github/codetoil/litlaunch/api/FrontEnd/debug, (Ljava/lang/Object;)V]
+[method, java/util/zip/ZipFile/entries, ()Ljava/util/Enumeration;]
+[method, java/io/File/getAbsolutePath, ()Ljava/lang/String;]
+[method, java/net/URLClassLoader/newInstance, ([Ljava/net/URL;Ljava/lang/ClassLoader;)Ljava/net/URLClassLoader;]
+[method, java/lang/Class/getClassLoader, ()Ljava/lang/ClassLoader;]
+[method, io/github/codetoil/litlaunch/api/FrontEnd/trace, (Ljava/lang/Object;)V]
+[method, java/lang/Class/getClassLoader, ()Ljava/lang/ClassLoader;]
+[method, io/github/codetoil/litlaunch/api/FrontEnd/trace, (Ljava/lang/Object;)V]
+[method, java/util/Enumeration/hasMoreElements, ()Z]
+[method, java/util/Enumeration/nextElement, ()Ljava/lang/Object;]
+[method, io/github/codetoil/litlaunch/api/FrontEnd/trace, (Ljava/lang/Object;)V]
+[method, java/util/zip/ZipEntry/isDirectory, ()Z]
+[method, java/util/zip/ZipEntry/getName, ()Ljava/lang/String;]
+[method, java/lang/String/endsWith, (Ljava/lang/String;)Z]
+[method, io/github/codetoil/litlaunch/modloader/ModFinder/testIfModClass, (Ljava/util/jar/JarEntry;Ljava/lang/ClassLoader;)Z]
+[method, io/github/codetoil/litlaunch/api/FrontEnd/trace, (Ljava/lang/Object;)V]
+[method, io/github/codetoil/litlaunch/api/FrontEnd/error, (Ljava/lang/Object;)V]
 [method, java/lang/Throwable/printStackTrace, ()V]
-[method, io/github/codetoil/litlaunch/api/IGetFields/getDimPlayer, ()I]
-Rename class net/minecraft/client/Minecraft[1853,1883]::net.minecraft.client.Minecraft->net.minecraft.client.Minecraft
-New Key: class net
-Rename method net/minecraft/client/Minecraft/getMinecraft ()Lnet/minecraft/client/Minecraft;[1884,1896]::getMinecraft->func_71410_x
-Rename field net/minecraft/client/Minecraft/thePlayer[1899,1908]::thePlayer->field_71439_g
-Rename field net/minecraft/entity/Entity/dimension[1913,1922]::dimension->field_71093_bK
-[method, io/github/codetoil/litlaunch/api/IGetFields/getDimsAvailable, ()[I]
-No rename for class net/minecraftforge/common/DimensionManager
-[method, net/minecraftforge/common/DimensionManager/getStaticDimensionIDs, ()[Ljava/lang/Integer;]
-No rename for method net/minecraftforge/common/DimensionManager/getStaticDimensionIDs ()[Ljava/lang/Integer;
-[method, io/github/codetoil/litlaunch/api/IGetFields/getVERSION, ()Ljava/lang/String;]
-No rename for class net/minecraftforge/common/MinecraftForge
-No rename for field net/minecraftforge/common/MinecraftForge/MC_VERSION
-Import: net.minecraft.client.Minecraft
-Import: net.minecraft.world.World
-Import: net.minecraft.world.WorldProvider
+[method, java/lang/Throwable/printStackTrace, ()V]
+[method, io/github/codetoil/litlaunch/modloader/ModFinder/testIfModClass, (Ljava/util/jar/JarEntry;Ljava/lang/ClassLoader;)Z]
+[method, java/util/zip/ZipEntry/getName, ()Ljava/lang/String;]
+[method, java/lang/String/substring, (II)Ljava/lang/String;]
+[method, java/util/zip/ZipEntry/getName, ()Ljava/lang/String;]
+[method, java/lang/CharSequence/length, ()I]
+[method, java/lang/String/replace, (CC)Ljava/lang/String;]
+[method, java/lang/ClassLoader/loadClass, (Ljava/lang/String;)Ljava/lang/Class;]
+[method, java/lang/ref/Reference/get, ()Ljava/lang/Object;]
+[method, java/lang/ref/Reference/get, ()Ljava/lang/Object;]
+[method, java/lang/Class/getInterfaces, ()[Ljava/lang/Class;]
+[method, io/github/codetoil/litlaunch/api/FrontEnd/debug, (Ljava/lang/Object;)V]
+[method, java/lang/Class/getName, ()Ljava/lang/String;]
+[method, java/lang/String/equals, (Ljava/lang/Object;)Z]
+[method, java/lang/Class/getName, ()Ljava/lang/String;]
+[method, io/github/codetoil/litlaunch/api/FrontEnd/trace, (Ljava/lang/Object;)V]
+[method, java/lang/Class/getName, ()Ljava/lang/String;]
+[method, java/lang/String/equals, (Ljava/lang/Object;)Z]
+[method, java/lang/Class/getName, ()Ljava/lang/String;]
+[method, io/github/codetoil/litlaunch/api/FrontEnd/trace, (Ljava/lang/Object;)V]
+[method, io/github/codetoil/litlaunch/api/FrontEnd/trace, (Ljava/lang/Object;)V]
+[method, java/util/Collection/add, (Ljava/lang/Object;)Z]
+[method, java/lang/ref/Reference/get, ()Ljava/lang/Object;]
+[method, io/github/codetoil/litlaunch/api/FrontEnd/trace, (Ljava/lang/Object;)V]
+[method, io/github/codetoil/litlaunch/modloader/ModFinder/validateMods, ()Z]
+[method, io/github/codetoil/litlaunch/api/FrontEnd/trace, (Ljava/lang/Object;)V]
+[method, java/lang/Class/newInstance, ()Ljava/lang/Object;]
+[method, io/github/codetoil/litlaunch/modloader/LitClassLoader/getMethodOfClass, (Ljava/lang/Class;Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;]
+[method, io/github/codetoil/litlaunch/modloader/LitClassLoader/getMethodOfClass, (Ljava/lang/Class;Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;]
+[method, java/lang/reflect/Method/invoke, (Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;]
+[method, io/github/codetoil/litlaunch/api/FrontEnd/trace, (Ljava/lang/Object;)V]
+[method, java/lang/Class/getName, ()Ljava/lang/String;]
+[method, java/util/Collection/add, (Ljava/lang/Object;)Z]
+[method, io/github/codetoil/litlaunch/core/event/LitEventHandler/addListener, (Lio/github/codetoil/litlaunch/core/event/LitEventHandler$EventListener;)V]
+[method, io/github/codetoil/litlaunch/api/FrontEnd/trace, (Ljava/lang/Object;)V]
+[method, java/lang/Class/getName, ()Ljava/lang/String;]
+[method, io/github/codetoil/litlaunch/api/FrontEnd/trace, (Ljava/lang/Object;)V]
+[method, java/lang/Class/getName, ()Ljava/lang/String;]
+[method, io/github/codetoil/litlaunch/api/FrontEnd/trace, (Ljava/lang/Object;)V]
+[method, java/lang/Class/getName, ()Ljava/lang/String;]
+[method, java/lang/Throwable/printStackTrace, ()V]
 Adding 0 imports
-End  Processing: io\github\codetoil\litlaunch\version\mc1_8\GetFields.java
+End  Processing: io\github\codetoil\litlaunch\modloader\ModFinder.java
 
-Start Processing: io\github\codetoil\litlaunch\version\mc1_8\Launch1_8.java
-Warning: io\github\codetoil\litlaunch\version\mc1_8\Launch1_8.java has CRLF line endings; consider switching to LF
-No rename for class net/minecraftforge/common/MinecraftForge
-No rename for field net/minecraftforge/common/MinecraftForge/MC_VERSION
-[method, io/github/codetoil/litlaunch/version/mc1_8/Launch1_8/Launch1_8, ()V]
-FOUND CONSTR method io/github/codetoil/litlaunch/version/mc1_8/Launch1_8/Launch1_8 ()V io/github/codetoil/litlaunch/version/mc1_8/Launch1_8
-No rename for class net/minecraftforge/fml/common/FMLCommonHandler
-[method, net/minecraftforge/fml/common/FMLCommonHandler/instance, ()Lnet/minecraftforge/fml/common/FMLCommonHandler;]
-No rename for method net/minecraftforge/fml/common/FMLCommonHandler/instance ()Lnet/minecraftforge/fml/common/FMLCommonHandler;
-[method, net/minecraftforge/fml/common/FMLCommonHandler/getSide, ()Lnet/minecraftforge/fml/relauncher/Side;]
-No rename for method net/minecraftforge/fml/common/FMLCommonHandler/getSide ()Lnet/minecraftforge/fml/relauncher/Side;
-[method, net/minecraftforge/fml/relauncher/Side/isClient, ()Z]
-No rename for method net/minecraftforge/fml/relauncher/Side/isClient ()Z
-[method, io/github/codetoil/litlaunch/backend/LaunchCommon/setSide, (Lio/github/codetoil/litlaunch/api/Command$Side;)V]
-No rename for class net/minecraftforge/fml/common/FMLCommonHandler
-[method, net/minecraftforge/fml/common/FMLCommonHandler/instance, ()Lnet/minecraftforge/fml/common/FMLCommonHandler;]
-No rename for method net/minecraftforge/fml/common/FMLCommonHandler/instance ()Lnet/minecraftforge/fml/common/FMLCommonHandler;
-[method, net/minecraftforge/fml/common/FMLCommonHandler/getSide, ()Lnet/minecraftforge/fml/relauncher/Side;]
-No rename for method net/minecraftforge/fml/common/FMLCommonHandler/getSide ()Lnet/minecraftforge/fml/relauncher/Side;
-[method, net/minecraftforge/fml/relauncher/Side/isServer, ()Z]
-No rename for method net/minecraftforge/fml/relauncher/Side/isServer ()Z
-[method, io/github/codetoil/litlaunch/backend/LaunchCommon/setSide, (Lio/github/codetoil/litlaunch/api/Command$Side;)V]
-[method, io/github/codetoil/litlaunch/backend/LaunchCommon/setDoThing, (Lio/github/codetoil/litlaunch/api/IDoThing;)V]
-[method, io/github/codetoil/litlaunch/backend/LaunchCommon/setGetFields, (Lio/github/codetoil/litlaunch/api/IGetFields;)V]
-[method, io/github/codetoil/litlaunch/backend/ILaunch/setProxy, ()Z]
-[method, io/github/codetoil/litlaunch/backend/LaunchCommon/getCcproxy, ()Lio/github/codetoil/litlaunch/api/CommonProxy;]
-[method, io/github/codetoil/litlaunch/api/LaunchMods/error, (Ljava/lang/Object;)V]
-No rename for class net/minecraftforge/fml/relauncher/Side
-No rename for class net/minecraftforge/fml/common/FMLCommonHandler
-[method, net/minecraftforge/fml/common/FMLCommonHandler/instance, ()Lnet/minecraftforge/fml/common/FMLCommonHandler;]
-No rename for method net/minecraftforge/fml/common/FMLCommonHandler/instance ()Lnet/minecraftforge/fml/common/FMLCommonHandler;
-[method, net/minecraftforge/fml/common/FMLCommonHandler/getSide, ()Lnet/minecraftforge/fml/relauncher/Side;]
-No rename for method net/minecraftforge/fml/common/FMLCommonHandler/getSide ()Lnet/minecraftforge/fml/relauncher/Side;
-No rename for field net/minecraftforge/fml/relauncher/Side/CLIENT
-[method, io/github/codetoil/litlaunch/backend/LaunchCommon/setCcproxy, (Lio/github/codetoil/litlaunch/api/CommonProxy;)V]
-No rename for field net/minecraftforge/fml/relauncher/Side/SERVER
-[method, io/github/codetoil/litlaunch/backend/LaunchCommon/setCcproxy, (Lio/github/codetoil/litlaunch/api/CommonProxy;)V]
-[method, io/github/codetoil/litlaunch/api/LaunchMods/error, (Ljava/lang/Object;)V]
-[method, io/github/codetoil/litlaunch/version/mc1_8/Launch1_8/preInit, (Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V]
-No rename for class net/minecraftforge/fml/common/event/FMLPreInitializationEvent
-[method, io/github/codetoil/litlaunch/backend/LaunchCommon/bootstrap, (Ljava/lang/Object;Lio/github/codetoil/litlaunch/backend/ILaunch;Lio/github/codetoil/litlaunch/backend/ILogger;Ljava/io/File;)V]
-[method, org/apache/logging/log4j/LogManager/getLogger, (Ljava/lang/String;)Lorg/apache/logging/log4j/Logger;]
-[method, io/github/codetoil/litlaunch/version/mc1_8/Logger1_8/getInstance, ()Lio/github/codetoil/litlaunch/backend/ILogger;]
-[method, net/minecraftforge/fml/common/event/FMLPreInitializationEvent/getSuggestedConfigurationFile, ()Ljava/io/File;]
-No rename for method net/minecraftforge/fml/common/event/FMLPreInitializationEvent/getSuggestedConfigurationFile ()Ljava/io/File;
-[method, java/lang/Throwable/initCause, (Ljava/lang/Throwable;)Ljava/lang/Throwable;]
-[method, io/github/codetoil/litlaunch/backend/LaunchCommon/preInit, ()V]
-[method, io/github/codetoil/litlaunch/version/mc1_8/Launch1_8/init, (Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V]
-No rename for class net/minecraftforge/fml/common/event/FMLInitializationEvent
-[method, io/github/codetoil/litlaunch/backend/LaunchCommon/init, ()V]
-No rename for class net/minecraftforge/common/MinecraftForge
-No rename for field net/minecraftforge/common/MinecraftForge/EVENT_BUS
-[method, net/minecraftforge/fml/common/eventhandler/EventBus/register, (Ljava/lang/Object;)V]
-No rename for method net/minecraftforge/fml/common/eventhandler/EventBus/register (Ljava/lang/Object;)V
-[method, io/github/codetoil/litlaunch/version/mc1_8/Launch1_8/postInit, (Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V]
-No rename for class net/minecraftforge/fml/common/event/FMLPostInitializationEvent
-[method, io/github/codetoil/litlaunch/backend/LaunchCommon/postInit, ()V]
-[method, io/github/codetoil/litlaunch/version/mc1_8/Launch1_8/serverLoad, (Lnet/minecraftforge/fml/common/event/FMLServerStartingEvent;)V]
-No rename for class net/minecraftforge/fml/common/event/FMLServerStartingEvent
-Adding 0 imports
-End  Processing: io\github\codetoil\litlaunch\version\mc1_8\Launch1_8.java
-
-Start Processing: io\github\codetoil\litlaunch\version\mc1_8\Logger1_8.java
-Warning: io\github\codetoil\litlaunch\version\mc1_8\Logger1_8.java has CRLF line endings; consider switching to LF
-[method, io/github/codetoil/litlaunch/version/mc1_8/Logger1_8/Logger1_8, ()V]
-FOUND CONSTR method io/github/codetoil/litlaunch/version/mc1_8/Logger1_8/Logger1_8 ()V io/github/codetoil/litlaunch/version/mc1_8/Logger1_8
-[method, io/github/codetoil/litlaunch/version/mc1_8/Logger1_8/getInstance, ()Lio/github/codetoil/litlaunch/backend/ILogger;]
-[method, io/github/codetoil/litlaunch/backend/ILogger/info, (Ljava/lang/Object;)V]
-[method, org/apache/logging/log4j/Logger/info, (Ljava/lang/Object;)V]
-[method, io/github/codetoil/litlaunch/backend/ILogger/warn, (Ljava/lang/Object;)V]
-[method, org/apache/logging/log4j/Logger/warn, (Ljava/lang/Object;)V]
-[method, io/github/codetoil/litlaunch/backend/ILogger/error, (Ljava/lang/Object;)V]
-[method, org/apache/logging/log4j/Logger/error, (Ljava/lang/Object;)V]
-[method, io/github/codetoil/litlaunch/backend/ILogger/fatal, (Ljava/lang/Object;)V]
-[method, org/apache/logging/log4j/Logger/fatal, (Ljava/lang/Object;)V]
-[method, io/github/codetoil/litlaunch/backend/ILogger/debug, (Ljava/lang/Object;)V]
-[method, org/apache/logging/log4j/Logger/debug, (Ljava/lang/Object;)V]
-[method, io/github/codetoil/litlaunch/backend/ILogger/trace, (Ljava/lang/Object;)V]
-[method, org/apache/logging/log4j/Logger/trace, (Ljava/lang/Object;)V]
-[method, io/github/codetoil/litlaunch/backend/ILogger/verbose, (Ljava/lang/Object;)V]
-[method, io/github/codetoil/litlaunch/backend/LaunchCommon/isVerbose, ()Ljava/lang/Boolean;]
-[method, org/apache/logging/log4j/Logger/trace, (Ljava/lang/Object;)V]
-[method, io/github/codetoil/litlaunch/backend/ILogger/getInternalLogger, ()Ljava/lang/Object;]
-[method, io/github/codetoil/litlaunch/backend/ILogger/setInternalLogger, (Ljava/lang/Object;)V]
-Adding 0 imports
-End  Processing: io\github\codetoil\litlaunch\version\mc1_8\Logger1_8.java
-
-Start Processing: io\github\codetoil\litlaunch\version\mc1_8\proxy\ClientProxy1_8.java
-Warning: io\github\codetoil\litlaunch\version\mc1_8\proxy\ClientProxy1_8.java has CRLF line endings; consider switching to LF
-[method, io/github/codetoil/litlaunch/api/CommonProxy/preInit, ()V]
-[method, io/github/codetoil/litlaunch/api/CommonProxy/init, ()V]
-[method, io/github/codetoil/litlaunch/api/CommonProxy/postInit, ()V]
-[method, io/github/codetoil/litlaunch/api/CommonProxy/serverLoad, ()V]
-Adding 0 imports
-End  Processing: io\github\codetoil\litlaunch\version\mc1_8\proxy\ClientProxy1_8.java
-
-Start Processing: io\github\codetoil\litlaunch\version\mc1_8\proxy\ServerProxy1_8.java
-Warning: io\github\codetoil\litlaunch\version\mc1_8\proxy\ServerProxy1_8.java has CRLF line endings; consider switching to LF
-[method, io/github/codetoil/litlaunch/api/CommonProxy/preInit, ()V]
-[method, io/github/codetoil/litlaunch/api/CommonProxy/init, ()V]
-[method, io/github/codetoil/litlaunch/api/CommonProxy/postInit, ()V]
-[method, io/github/codetoil/litlaunch/api/CommonProxy/serverLoad, ()V]
-Adding 0 imports
-End  Processing: io\github\codetoil\litlaunch\version\mc1_8\proxy\ServerProxy1_8.java
+Start Processing: io\github\codetoil\litlaunch\modloader\PeekClassLoader.java
+Warning: io\github\codetoil\litlaunch\modloader\PeekClassLoader.java has CRLF line endings; consider switching to LF
+[method, io/github/codetoil/litlaunch/modloader/PeekClassLoader/PeekClassLoader, (Ljava/lang/ClassLoader;)V]
+FOUND CONSTR method io/github/codetoil/litlaunch/modloader/PeekClassLoader/PeekClassLoader (Ljava/lang/ClassLoader;)V io/github/codetoil/litlaunch/modloader/PeekClassLoader
+[method, io/github/codetoil/litlaunch/modloader/PeekClassLoader/peekAtClass, (Ljava/lang/String;)Ljava/lang/Class;]
+[method, java/lang/ClassLoader/findClass, (Ljava/lang/String;)Ljava/lang/Class;]
+End  Processing: io\github\codetoil\litlaunch\modloader\PeekClassLoader.java
 

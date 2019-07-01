@@ -16,7 +16,7 @@ startProcessing "io\github\codetoil\litlaunch\_native\mc1_12\GetFields.java" md5
 Cache Hit!
 endProcessing "io\github\codetoil\litlaunch\_native\mc1_12\GetFields.java"
 
-startProcessing "io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java" md5: 5aec9432ce31232dd7be69549b5bb3d4
+startProcessing "io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java" md5: e398126368b38f41662c37dfa34b34e8
 Cache Hit!
 endProcessing "io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java"
 
@@ -72,7 +72,7 @@ startProcessing "io\github\codetoil\litlaunch\core\ILogger.java" md5: 4eab0ab54c
 Cache Hit!
 endProcessing "io\github\codetoil\litlaunch\core\ILogger.java"
 
-startProcessing "io\github\codetoil\litlaunch\core\LaunchCommon.java" md5: 960ce90eece321b94b24fdaf106379a9
+startProcessing "io\github\codetoil\litlaunch\core\LaunchCommon.java" md5: 767dc6d5ed4832d511172c1e9a8f34ce
 Cache Hit!
 endProcessing "io\github\codetoil\litlaunch\core\LaunchCommon.java"
 

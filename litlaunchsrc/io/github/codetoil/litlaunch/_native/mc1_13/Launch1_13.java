@@ -2,7 +2,6 @@ package io.github.codetoil.litlaunch._native.mc1_13;
 
 import io.github.codetoil.litlaunch.api.FrontEnd;
 import io.github.codetoil.litlaunch.api.Command;
-import io.github.codetoil.litlaunch.core.ConfigFile;
 import io.github.codetoil.litlaunch.core.ILaunch;
 import io.github.codetoil.litlaunch.core.LaunchCommon;
 import io.github.codetoil.litlaunch.core.exceptions.FailedBootstrapException;
@@ -24,7 +23,7 @@ import java.util.List;
 @Mod(LaunchCommon.MODID)
 public class Launch1_13 implements ILaunch
 {
-	public static final String VERSION = "1.13.x" + "-" + LaunchCommon.VERSION;
+	public static final String VERSION = "1.13.x-" + LaunchCommon.VERSION;
 
 	public Launch1_13() throws Throwable
 	{
@@ -38,6 +37,14 @@ public class Launch1_13 implements ILaunch
 		LaunchCommon.setGamePath(FMLLoader.getGamePath());
 		LaunchCommon.setDoThing(DoThing.INSTANCE);
 		LaunchCommon.setGetFields(GetFields.INSTANCE);
+		try {
+			LaunchCommon.bootstrap(LogManager.getLogger(LaunchCommon.MODID), this, Logger1_13.getInstance());
+		}
+		catch (Throwable t) {
+			FailedBootstrapException lFailedBootstrapException = new FailedBootstrapException();
+			lFailedBootstrapException.initCause(t);
+			throw lFailedBootstrapException;
+		}
 		FMLJavaModLoadingContext.get().getModEventBus().addListener(this::setup);
 		FMLJavaModLoadingContext.get().getModEventBus().addListener(this::setupClient);
 		MinecraftForge.EVENT_BUS.register(this);
@@ -47,14 +54,6 @@ public class Launch1_13 implements ILaunch
 
 	public void setup(final FMLCommonSetupEvent event)
 	{
-		try {
-			LaunchCommon.bootstrap(LogManager.getLogger(LaunchCommon.MODID), this, Logger1_13.getInstance());
-		}
-		catch (Throwable t) {
-			FailedBootstrapException lFailedBootstrapException = new FailedBootstrapException();
-			lFailedBootstrapException.initCause(t);
-			throw lFailedBootstrapException;
-		}
 		LaunchCommon.preInit();
 		LaunchCommon.init();
 		LaunchCommon.postInit();

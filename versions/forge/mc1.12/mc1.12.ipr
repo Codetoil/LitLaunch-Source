@@ -3,7 +3,7 @@
   <component name="ArtifactManager">
     <artifact type="jar" name="tpsmod:jar">
       <output-path>$PROJECT_DIR$/../../../../tpsmodrun/mc1.12/mods_litlaunch</output-path>
-      <root id="archive" name="tpsmod-2.0.1-Beta-2-Build-12.jar">
+      <root id="archive" name="tpsmod-2.0.1.2.13.jar">
         <element id="module-output" name="tpsmod" />
       </root>
     </artifact>
@@ -53,7 +53,7 @@
         <option name="distributionType" value="DEFAULT_WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="gradleHome" value="$PROJECT_DIR$/../mc1.7/gradle/wrapper" />
-        <option name="gradleJvm" value="8" />
+        <option name="gradleJvm" value="1.8" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
@@ -224,7 +224,7 @@
       <module fileurl="file://$PROJECT_DIR$/tpsmod/tpsmod.iml" filepath="$PROJECT_DIR$/tpsmod/tpsmod.iml" />
     </modules>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="false" project-jdk-name="8" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
   <component name="SvnBranchConfigurationManager">

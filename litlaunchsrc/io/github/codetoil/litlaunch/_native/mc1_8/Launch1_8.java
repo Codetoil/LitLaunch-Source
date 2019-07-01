@@ -1,19 +1,19 @@
 /*
- * Copyright Codetoil (c) 2019
+ * Copyright (c) Codetoil 2019
  */
 
-package io.github.codetoil.litlaunch.version.mc1_8;
+package io.github.codetoil.litlaunch._native.mc1_8;
 
-import io.github.codetoil.litlaunch.api.Command;
-import io.github.codetoil.litlaunch.api.LaunchMods;
-import io.github.codetoil.litlaunch.backend.ILaunch;
-import io.github.codetoil.litlaunch.backend.LaunchCommon;
-import io.github.codetoil.litlaunch.exceptions.FailedBootstrapException;
-import io.github.codetoil.litlaunch.version.mc1_8.proxy.ClientProxy1_8;
-import io.github.codetoil.litlaunch.version.mc1_8.proxy.ServerProxy1_8;
+import io.github.codetoil.litlaunch._native.mc1_8.proxy.ClientProxy1_8;
+import io.github.codetoil.litlaunch._native.mc1_8.proxy.ServerProxy1_8;
+import io.github.codetoil.litlaunch.core.*;
+import io.github.codetoil.litlaunch.core.exceptions.*;
+import io.github.codetoil.litlaunch.api.*;
+import io.github.codetoil.litlaunch.modloader.ModFinder;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.fml.common.FMLCommonHandler;
 import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.fml.common.Mod.EventHandler;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
@@ -23,13 +23,12 @@ import org.apache.logging.log4j.LogManager;
 
 import java.util.List;
 
-//import io.github.codetoil.tpsmod.TPSMod;
-
-@Mod(modid = LaunchCommon.MODID, version = LaunchCommon.VERSION)
+@Mod(modid = LaunchCommon.MODID, version = Launch1_8.VERSION)
 public class Launch1_8 implements ILaunch
 {
 	public static final String VERSION = MinecraftForge.MC_VERSION + "-" + LaunchCommon.VERSION;
-	public static final io.github.codetoil.litlaunch.version.mc1_8.EventHandler handler = new io.github.codetoil.litlaunch.version.mc1_8.EventHandler();
+	public static final io.github.codetoil.litlaunch._native.mc1_8.EventHandler handler = new io.github.codetoil.litlaunch._native.mc1_8.EventHandler();
+
 
 	public Launch1_8()
 	{
@@ -42,13 +41,21 @@ public class Launch1_8 implements ILaunch
 		}
 		LaunchCommon.setDoThing(DoThing.INSTANCE);
 		LaunchCommon.setGetFields(GetFields.INSTANCE);
+		try {
+			LaunchCommon.bootstrap(LogManager.getLogger(LaunchCommon.MODID), this, Logger1_8.getInstance());
+		}
+		catch (Throwable t) {
+			FailedBootstrapException lFailedBootstrapException = new FailedBootstrapException();
+			lFailedBootstrapException.initCause(t);
+			throw lFailedBootstrapException;
+		}
 	}
 
 	public boolean setProxy()
 	{
 		boolean result;
 		if (LaunchCommon.getCcproxy() != null) {
-			LaunchMods.error("Tried re-setting proxy!");
+			FrontEnd.error("Tried re-setting proxy!");
 			result = false;
 		} else {
 			Side side = FMLCommonHandler.instance().getSide();
@@ -62,7 +69,7 @@ public class Launch1_8 implements ILaunch
 					result = true;
 					break;
 				default:
-					LaunchMods.error("FML is not sided(client vs server). This should not happen!");
+					FrontEnd.error("FML is not sided(client vs server). This should not happen!");
 					result = false;
 					break;
 			}
@@ -70,38 +77,30 @@ public class Launch1_8 implements ILaunch
 		return result;
 	}
 
-	@Mod.EventHandler
+	@EventHandler
 	public void preInit(FMLPreInitializationEvent event)
 	{
-		try {
-			LaunchCommon.bootstrap(LogManager.getLogger(LaunchCommon.MODID), this, Logger1_8.getInstance(), event.getSuggestedConfigurationFile());
-		}
-		catch (Throwable t) {
-			FailedBootstrapException lFailedBootstrapException = new FailedBootstrapException();
-			lFailedBootstrapException.initCause(t);
-			throw lFailedBootstrapException;
-		}
 		LaunchCommon.preInit();
 	}
 
-	@Mod.EventHandler
+	@EventHandler
 	public void init(FMLInitializationEvent event)
 	{
 		LaunchCommon.init();
 		MinecraftForge.EVENT_BUS.register(handler);
 	}
 
-	@Mod.EventHandler
+	@EventHandler
 	public void postInit(FMLPostInitializationEvent event)
 	{
 		LaunchCommon.postInit();
 	}
 
-	@Mod.EventHandler
+	@EventHandler
 	public void serverLoad(FMLServerStartingEvent event)
 	{
 		LaunchCommon.serverLoad();
-		LaunchMods.validMods.forEach((modClass) -> {
+		ModFinder.validMods.forEach((modClass) -> {
 			try {
 				Object oCommands = modClass.getField("commandList").get(null);
 				List lCommands;
@@ -114,7 +113,7 @@ public class Launch1_8 implements ILaunch
 						}
 					});
 				} else {
-					LaunchMods.error("Mod " + modClass + " does not have a method named \"commandList\". This is neccesary for the api to work though. Skipping!");
+					FrontEnd.error("Mod " + modClass + " does not have a method named \"commandList\". This is neccesary for the api to work though. Skipping!");
 				}
 
 			}
@@ -124,5 +123,4 @@ public class Launch1_8 implements ILaunch
 
 		});
 	}
-
 }

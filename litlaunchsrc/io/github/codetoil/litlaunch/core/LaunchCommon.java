@@ -14,7 +14,7 @@ import java.nio.file.Path;
 
 public abstract class LaunchCommon
 {
-	public static final String VERSION = "0.0.3.5";
+	public static final String VERSION = "0.0.3.7";
 	public static final String MODID = "litlaunch";
 	public static final Object[] EMPTY = new Object[0];
 	private static CommonProxy ccproxy;
@@ -118,6 +118,8 @@ public abstract class LaunchCommon
 		info("Finding and validating mods!");
 		ModFinder.locateMods();
 		ModFinder.validateMods();
+		info("Now Garbage Collecting!");
+		System.gc();
 		info("Done! Now sending construction event!");
 		if (isVerbose()) {
 			warn("Warning: You have decided for Lit Launch to be verbose! If you did not intend for this to be verbose, Make sure to change the config file. You will see a spam of debug messages under \"trace\".");

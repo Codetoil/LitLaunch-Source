@@ -501,7 +501,7 @@ Class Start: io.github.codetoil.litlaunch._native.mc1_12.GetFields
 Class End  : io.github.codetoil.litlaunch._native.mc1_12.GetFields
 endProcessing "io\github\codetoil\litlaunch\_native\mc1_12\GetFields.java"
 
-startProcessing "io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java" md5: 5aec9432ce31232dd7be69549b5bb3d4
+startProcessing "io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java" md5: e398126368b38f41662c37dfa34b34e8
 Cache Hit!
 @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|47|90|io.github.codetoil.litlaunch._native.mc1_12|package|io.github.codetoil.litlaunch._native.mc1_12|(file)
 Class Start: io.github.codetoil.litlaunch._native.mc1_12.Launch1_12
@@ -510,152 +510,152 @@ Class Start: io.github.codetoil.litlaunch._native.mc1_12.Launch1_12
    @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|921|933|LaunchCommon|class|io.github.codetoil.litlaunch.core.LaunchCommon
    @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|934|939|MODID|field|io.github.codetoil.litlaunch.core.LaunchCommon|MODID
    @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|941|948|version|method|net.minecraftforge.fml.common.Mod|version|()Ljava/lang/String;
-   @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|951|963|LaunchCommon|class|io.github.codetoil.litlaunch.core.LaunchCommon
-   @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|964|971|VERSION|field|io.github.codetoil.litlaunch.core.LaunchCommon|VERSION
-   @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|986|996|Launch1_12|class|io.github.codetoil.litlaunch._native.mc1_12.Launch1_12
-   @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|1008|1015|ILaunch|class|io.github.codetoil.litlaunch.core.ILaunch
-   @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|1039|1045|String|class|java.lang.String
-   @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|1039|1045|String|class|java.lang.String
-   @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|1046|1053|VERSION|field|io.github.codetoil.litlaunch._native.mc1_12.Launch1_12|VERSION|
-   @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|1056|1070|MinecraftForge|class|net.minecraftforge.common.MinecraftForge
-   @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|1071|1081|MC_VERSION|field|net.minecraftforge.common.MinecraftForge|MC_VERSION
-   @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|1090|1102|LaunchCommon|class|io.github.codetoil.litlaunch.core.LaunchCommon
-   @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|1103|1110|VERSION|field|io.github.codetoil.litlaunch.core.LaunchCommon|VERSION
-   @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|1133|1189|io.github.codetoil.litlaunch._native.mc1_12.EventHandler|class|io.github.codetoil.litlaunch._native.mc1_12.EventHandler
-   @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|1133|1189|io.github.codetoil.litlaunch._native.mc1_12.EventHandler|class|io.github.codetoil.litlaunch._native.mc1_12.EventHandler
-   @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|1190|1197|handler|field|io.github.codetoil.litlaunch._native.mc1_12.Launch1_12|handler|
-   @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|1204|1260|io.github.codetoil.litlaunch._native.mc1_12.EventHandler|class|io.github.codetoil.litlaunch._native.mc1_12.EventHandler
+   @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|951|961|Launch1_12|class|io.github.codetoil.litlaunch._native.mc1_12.Launch1_12
+   @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|962|969|VERSION|field|io.github.codetoil.litlaunch._native.mc1_12.Launch1_12|VERSION
+   @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|984|994|Launch1_12|class|io.github.codetoil.litlaunch._native.mc1_12.Launch1_12
+   @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|1006|1013|ILaunch|class|io.github.codetoil.litlaunch.core.ILaunch
+   @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|1037|1043|String|class|java.lang.String
+   @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|1037|1043|String|class|java.lang.String
+   @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|1044|1051|VERSION|field|io.github.codetoil.litlaunch._native.mc1_12.Launch1_12|VERSION|
+   @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|1054|1068|MinecraftForge|class|net.minecraftforge.common.MinecraftForge
+   @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|1069|1079|MC_VERSION|field|net.minecraftforge.common.MinecraftForge|MC_VERSION
+   @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|1088|1100|LaunchCommon|class|io.github.codetoil.litlaunch.core.LaunchCommon
+   @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|1101|1108|VERSION|field|io.github.codetoil.litlaunch.core.LaunchCommon|VERSION
+   @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|1131|1187|io.github.codetoil.litlaunch._native.mc1_12.EventHandler|class|io.github.codetoil.litlaunch._native.mc1_12.EventHandler
+   @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|1131|1187|io.github.codetoil.litlaunch._native.mc1_12.EventHandler|class|io.github.codetoil.litlaunch._native.mc1_12.EventHandler
+   @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|1188|1195|handler|field|io.github.codetoil.litlaunch._native.mc1_12.Launch1_12|handler|
+   @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|1202|1258|io.github.codetoil.litlaunch._native.mc1_12.EventHandler|class|io.github.codetoil.litlaunch._native.mc1_12.EventHandler
    Method Start: Launch1_12()V
-      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|1274|1284|Launch1_12|method|io.github.codetoil.litlaunch._native.mc1_12.Launch1_12|Launch1_12|()V
-      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|1296|1312|FMLCommonHandler|class|net.minecraftforge.fml.common.FMLCommonHandler
-      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|1313|1321|instance|method|net.minecraftforge.fml.common.FMLCommonHandler|instance|()Lnet/minecraftforge/fml/common/FMLCommonHandler;
-      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|1324|1331|getSide|method|net.minecraftforge.fml.common.FMLCommonHandler|getSide|()Lnet/minecraftforge/fml/relauncher/Side;
-      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|1334|1342|isClient|method|net.minecraftforge.fml.relauncher.Side|isClient|()Z
-      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|1351|1363|LaunchCommon|class|io.github.codetoil.litlaunch.core.LaunchCommon
-      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|1364|1371|setSide|method|io.github.codetoil.litlaunch.core.LaunchCommon|setSide|(Lio/github/codetoil/litlaunch/api/Command$Side;)V
-      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|1372|1384|Command.Side|class|io.github.codetoil.litlaunch.api.Command.Side
-      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|1385|1391|CLIENT|field|io.github.codetoil.litlaunch.api.Command.Side|CLIENT
-      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|1407|1423|FMLCommonHandler|class|net.minecraftforge.fml.common.FMLCommonHandler
-      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|1424|1432|instance|method|net.minecraftforge.fml.common.FMLCommonHandler|instance|()Lnet/minecraftforge/fml/common/FMLCommonHandler;
-      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|1435|1442|getSide|method|net.minecraftforge.fml.common.FMLCommonHandler|getSide|()Lnet/minecraftforge/fml/relauncher/Side;
-      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|1445|1453|isServer|method|net.minecraftforge.fml.relauncher.Side|isServer|()Z
-      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|1462|1474|LaunchCommon|class|io.github.codetoil.litlaunch.core.LaunchCommon
-      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|1475|1482|setSide|method|io.github.codetoil.litlaunch.core.LaunchCommon|setSide|(Lio/github/codetoil/litlaunch/api/Command$Side;)V
-      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|1483|1495|Command.Side|class|io.github.codetoil.litlaunch.api.Command.Side
-      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|1496|1502|SERVER|field|io.github.codetoil.litlaunch.api.Command.Side|SERVER
-      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|1529|1553|FailedBootstrapException|class|io.github.codetoil.litlaunch.core.exceptions.FailedBootstrapException
-      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|1582|1594|LaunchCommon|class|io.github.codetoil.litlaunch.core.LaunchCommon
-      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|1595|1605|setDoThing|method|io.github.codetoil.litlaunch.core.LaunchCommon|setDoThing|(Lio/github/codetoil/litlaunch/api/IDoThing;)V
-      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|1606|1613|DoThing|class|io.github.codetoil.litlaunch._native.mc1_12.DoThing
-      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|1614|1622|INSTANCE|field|io.github.codetoil.litlaunch._native.mc1_12.DoThing|INSTANCE
-      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|1627|1639|LaunchCommon|class|io.github.codetoil.litlaunch.core.LaunchCommon
-      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|1640|1652|setGetFields|method|io.github.codetoil.litlaunch.core.LaunchCommon|setGetFields|(Lio/github/codetoil/litlaunch/api/IGetFields;)V
-      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|1653|1662|GetFields|class|io.github.codetoil.litlaunch._native.mc1_12.GetFields
-      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|1663|1671|INSTANCE|field|io.github.codetoil.litlaunch._native.mc1_12.GetFields|INSTANCE
-      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|1685|1697|LaunchCommon|class|io.github.codetoil.litlaunch.core.LaunchCommon
-      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|1698|1707|bootstrap|method|io.github.codetoil.litlaunch.core.LaunchCommon|bootstrap|(Ljava/lang/Object;Lio/github/codetoil/litlaunch/core/ILaunch;Lio/github/codetoil/litlaunch/core/ILogger;)V
-      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|1708|1718|LogManager|class|org.apache.logging.log4j.LogManager
-      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|1719|1728|getLogger|method|org.apache.logging.log4j.LogManager|getLogger|(Ljava/lang/String;)Lorg/apache/logging/log4j/Logger;
-      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|1729|1741|LaunchCommon|class|io.github.codetoil.litlaunch.core.LaunchCommon
-      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|1742|1747|MODID|field|io.github.codetoil.litlaunch.core.LaunchCommon|MODID
-      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|1756|1766|Logger1_12|class|io.github.codetoil.litlaunch._native.mc1_12.Logger1_12
-      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|1767|1778|getInstance|method|io.github.codetoil.litlaunch._native.mc1_12.Logger1_12|getInstance|()Lio/github/codetoil/litlaunch/core/ILogger;
-      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|1796|1805|Throwable|class|java.lang.Throwable
-      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|1814|1838|FailedBootstrapException|class|io.github.codetoil.litlaunch.core.exceptions.FailedBootstrapException
-      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|1871|1895|FailedBootstrapException|class|io.github.codetoil.litlaunch.core.exceptions.FailedBootstrapException
-      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|1928|1937|initCause|method|java.lang.Throwable|initCause|(Ljava/lang/Throwable;)Ljava/lang/Throwable;
+      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|1272|1282|Launch1_12|method|io.github.codetoil.litlaunch._native.mc1_12.Launch1_12|Launch1_12|()V
+      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|1294|1310|FMLCommonHandler|class|net.minecraftforge.fml.common.FMLCommonHandler
+      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|1311|1319|instance|method|net.minecraftforge.fml.common.FMLCommonHandler|instance|()Lnet/minecraftforge/fml/common/FMLCommonHandler;
+      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|1322|1329|getSide|method|net.minecraftforge.fml.common.FMLCommonHandler|getSide|()Lnet/minecraftforge/fml/relauncher/Side;
+      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|1332|1340|isClient|method|net.minecraftforge.fml.relauncher.Side|isClient|()Z
+      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|1349|1361|LaunchCommon|class|io.github.codetoil.litlaunch.core.LaunchCommon
+      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|1362|1369|setSide|method|io.github.codetoil.litlaunch.core.LaunchCommon|setSide|(Lio/github/codetoil/litlaunch/api/Command$Side;)V
+      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|1370|1382|Command.Side|class|io.github.codetoil.litlaunch.api.Command.Side
+      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|1383|1389|CLIENT|field|io.github.codetoil.litlaunch.api.Command.Side|CLIENT
+      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|1405|1421|FMLCommonHandler|class|net.minecraftforge.fml.common.FMLCommonHandler
+      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|1422|1430|instance|method|net.minecraftforge.fml.common.FMLCommonHandler|instance|()Lnet/minecraftforge/fml/common/FMLCommonHandler;
+      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|1433|1440|getSide|method|net.minecraftforge.fml.common.FMLCommonHandler|getSide|()Lnet/minecraftforge/fml/relauncher/Side;
+      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|1443|1451|isServer|method|net.minecraftforge.fml.relauncher.Side|isServer|()Z
+      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|1460|1472|LaunchCommon|class|io.github.codetoil.litlaunch.core.LaunchCommon
+      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|1473|1480|setSide|method|io.github.codetoil.litlaunch.core.LaunchCommon|setSide|(Lio/github/codetoil/litlaunch/api/Command$Side;)V
+      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|1481|1493|Command.Side|class|io.github.codetoil.litlaunch.api.Command.Side
+      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|1494|1500|SERVER|field|io.github.codetoil.litlaunch.api.Command.Side|SERVER
+      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|1527|1551|FailedBootstrapException|class|io.github.codetoil.litlaunch.core.exceptions.FailedBootstrapException
+      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|1580|1592|LaunchCommon|class|io.github.codetoil.litlaunch.core.LaunchCommon
+      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|1593|1603|setDoThing|method|io.github.codetoil.litlaunch.core.LaunchCommon|setDoThing|(Lio/github/codetoil/litlaunch/api/IDoThing;)V
+      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|1604|1611|DoThing|class|io.github.codetoil.litlaunch._native.mc1_12.DoThing
+      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|1612|1620|INSTANCE|field|io.github.codetoil.litlaunch._native.mc1_12.DoThing|INSTANCE
+      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|1625|1637|LaunchCommon|class|io.github.codetoil.litlaunch.core.LaunchCommon
+      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|1638|1650|setGetFields|method|io.github.codetoil.litlaunch.core.LaunchCommon|setGetFields|(Lio/github/codetoil/litlaunch/api/IGetFields;)V
+      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|1651|1660|GetFields|class|io.github.codetoil.litlaunch._native.mc1_12.GetFields
+      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|1661|1669|INSTANCE|field|io.github.codetoil.litlaunch._native.mc1_12.GetFields|INSTANCE
+      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|1683|1695|LaunchCommon|class|io.github.codetoil.litlaunch.core.LaunchCommon
+      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|1696|1705|bootstrap|method|io.github.codetoil.litlaunch.core.LaunchCommon|bootstrap|(Ljava/lang/Object;Lio/github/codetoil/litlaunch/core/ILaunch;Lio/github/codetoil/litlaunch/core/ILogger;)V
+      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|1706|1716|LogManager|class|org.apache.logging.log4j.LogManager
+      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|1717|1726|getLogger|method|org.apache.logging.log4j.LogManager|getLogger|(Ljava/lang/String;)Lorg/apache/logging/log4j/Logger;
+      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|1727|1739|LaunchCommon|class|io.github.codetoil.litlaunch.core.LaunchCommon
+      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|1740|1745|MODID|field|io.github.codetoil.litlaunch.core.LaunchCommon|MODID
+      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|1754|1764|Logger1_12|class|io.github.codetoil.litlaunch._native.mc1_12.Logger1_12
+      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|1765|1776|getInstance|method|io.github.codetoil.litlaunch._native.mc1_12.Logger1_12|getInstance|()Lio/github/codetoil/litlaunch/core/ILogger;
+      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|1794|1803|Throwable|class|java.lang.Throwable
+      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|1812|1836|FailedBootstrapException|class|io.github.codetoil.litlaunch.core.exceptions.FailedBootstrapException
+      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|1869|1893|FailedBootstrapException|class|io.github.codetoil.litlaunch.core.exceptions.FailedBootstrapException
+      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|1926|1935|initCause|method|java.lang.Throwable|initCause|(Ljava/lang/Throwable;)Ljava/lang/Throwable;
    Method End: Launch1_12()V
    Method Start: setProxy()Z
-      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|2002|2010|setProxy|method|io.github.codetoil.litlaunch.core.ILaunch|setProxy|()Z
-      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|2040|2052|LaunchCommon|class|io.github.codetoil.litlaunch.core.LaunchCommon
-      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|2053|2063|getCcproxy|method|io.github.codetoil.litlaunch.core.LaunchCommon|getCcproxy|()Lio/github/codetoil/litlaunch/core/CommonProxy;
-      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|2080|2088|FrontEnd|class|io.github.codetoil.litlaunch.api.FrontEnd
-      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|2089|2094|error|method|io.github.codetoil.litlaunch.api.FrontEnd|error|(Ljava/lang/Object;)V
-      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|2156|2160|Side|class|net.minecraftforge.fml.relauncher.Side
-      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|2168|2184|FMLCommonHandler|class|net.minecraftforge.fml.common.FMLCommonHandler
-      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|2185|2193|instance|method|net.minecraftforge.fml.common.FMLCommonHandler|instance|()Lnet/minecraftforge/fml/common/FMLCommonHandler;
-      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|2196|2203|getSide|method|net.minecraftforge.fml.common.FMLCommonHandler|getSide|()Lnet/minecraftforge/fml/relauncher/Side;
-      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|2235|2241|CLIENT|field|net.minecraftforge.fml.relauncher.Side|CLIENT
-      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|2248|2260|LaunchCommon|class|io.github.codetoil.litlaunch.core.LaunchCommon
-      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|2261|2271|setCcproxy|method|io.github.codetoil.litlaunch.core.LaunchCommon|setCcproxy|(Lio/github/codetoil/litlaunch/core/CommonProxy;)V
-      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|2276|2291|ClientProxy1_12|class|io.github.codetoil.litlaunch._native.mc1_12.proxy.ClientProxy1_12
-      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|2337|2343|SERVER|field|net.minecraftforge.fml.relauncher.Side|SERVER
-      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|2350|2362|LaunchCommon|class|io.github.codetoil.litlaunch.core.LaunchCommon
-      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|2363|2373|setCcproxy|method|io.github.codetoil.litlaunch.core.LaunchCommon|setCcproxy|(Lio/github/codetoil/litlaunch/core/CommonProxy;)V
-      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|2378|2393|ServerProxy1_12|class|io.github.codetoil.litlaunch._native.mc1_12.proxy.ServerProxy1_12
-      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|2448|2456|FrontEnd|class|io.github.codetoil.litlaunch.api.FrontEnd
-      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|2457|2462|error|method|io.github.codetoil.litlaunch.api.FrontEnd|error|(Ljava/lang/Object;)V
+      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|2000|2008|setProxy|method|io.github.codetoil.litlaunch.core.ILaunch|setProxy|()Z
+      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|2038|2050|LaunchCommon|class|io.github.codetoil.litlaunch.core.LaunchCommon
+      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|2051|2061|getCcproxy|method|io.github.codetoil.litlaunch.core.LaunchCommon|getCcproxy|()Lio/github/codetoil/litlaunch/core/CommonProxy;
+      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|2078|2086|FrontEnd|class|io.github.codetoil.litlaunch.api.FrontEnd
+      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|2087|2092|error|method|io.github.codetoil.litlaunch.api.FrontEnd|error|(Ljava/lang/Object;)V
+      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|2154|2158|Side|class|net.minecraftforge.fml.relauncher.Side
+      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|2166|2182|FMLCommonHandler|class|net.minecraftforge.fml.common.FMLCommonHandler
+      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|2183|2191|instance|method|net.minecraftforge.fml.common.FMLCommonHandler|instance|()Lnet/minecraftforge/fml/common/FMLCommonHandler;
+      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|2194|2201|getSide|method|net.minecraftforge.fml.common.FMLCommonHandler|getSide|()Lnet/minecraftforge/fml/relauncher/Side;
+      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|2233|2239|CLIENT|field|net.minecraftforge.fml.relauncher.Side|CLIENT
+      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|2246|2258|LaunchCommon|class|io.github.codetoil.litlaunch.core.LaunchCommon
+      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|2259|2269|setCcproxy|method|io.github.codetoil.litlaunch.core.LaunchCommon|setCcproxy|(Lio/github/codetoil/litlaunch/core/CommonProxy;)V
+      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|2274|2289|ClientProxy1_12|class|io.github.codetoil.litlaunch._native.mc1_12.proxy.ClientProxy1_12
+      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|2335|2341|SERVER|field|net.minecraftforge.fml.relauncher.Side|SERVER
+      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|2348|2360|LaunchCommon|class|io.github.codetoil.litlaunch.core.LaunchCommon
+      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|2361|2371|setCcproxy|method|io.github.codetoil.litlaunch.core.LaunchCommon|setCcproxy|(Lio/github/codetoil/litlaunch/core/CommonProxy;)V
+      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|2376|2391|ServerProxy1_12|class|io.github.codetoil.litlaunch._native.mc1_12.proxy.ServerProxy1_12
+      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|2446|2454|FrontEnd|class|io.github.codetoil.litlaunch.api.FrontEnd
+      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|2455|2460|error|method|io.github.codetoil.litlaunch.api.FrontEnd|error|(Ljava/lang/Object;)V
    Method End: setProxy()Z
    Method Start: preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
-      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|2652|2657|event|param|io.github.codetoil.litlaunch._native.mc1_12.Launch1_12|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V|event|0
-      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|2592|2604|EventHandler|class|net.minecraftforge.fml.common.Mod.EventHandler
-      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|2618|2625|preInit|method|io.github.codetoil.litlaunch._native.mc1_12.Launch1_12|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
-      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|2626|2651|FMLPreInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPreInitializationEvent
-      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|2664|2676|LaunchCommon|class|io.github.codetoil.litlaunch.core.LaunchCommon
-      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|2677|2684|preInit|method|io.github.codetoil.litlaunch.core.LaunchCommon|preInit|()V
+      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|2650|2655|event|param|io.github.codetoil.litlaunch._native.mc1_12.Launch1_12|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V|event|0
+      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|2590|2602|EventHandler|class|net.minecraftforge.fml.common.Mod.EventHandler
+      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|2616|2623|preInit|method|io.github.codetoil.litlaunch._native.mc1_12.Launch1_12|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|2624|2649|FMLPreInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPreInitializationEvent
+      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|2662|2674|LaunchCommon|class|io.github.codetoil.litlaunch.core.LaunchCommon
+      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|2675|2682|preInit|method|io.github.codetoil.litlaunch.core.LaunchCommon|preInit|()V
    Method End: preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
    Method Start: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
-      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|2748|2753|event|param|io.github.codetoil.litlaunch._native.mc1_12.Launch1_12|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V|event|0
-      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|2694|2706|EventHandler|class|net.minecraftforge.fml.common.Mod.EventHandler
-      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|2720|2724|init|method|io.github.codetoil.litlaunch._native.mc1_12.Launch1_12|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
-      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|2725|2747|FMLInitializationEvent|class|net.minecraftforge.fml.common.event.FMLInitializationEvent
-      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|2760|2772|LaunchCommon|class|io.github.codetoil.litlaunch.core.LaunchCommon
-      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|2773|2777|init|method|io.github.codetoil.litlaunch.core.LaunchCommon|init|()V
-      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|2783|2797|MinecraftForge|class|net.minecraftforge.common.MinecraftForge
-      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|2798|2807|EVENT_BUS|field|net.minecraftforge.common.MinecraftForge|EVENT_BUS
-      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|2808|2816|register|method|net.minecraftforge.fml.common.eventhandler.EventBus|register|(Ljava/lang/Object;)V
-      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|2817|2824|handler|field|io.github.codetoil.litlaunch._native.mc1_12.Launch1_12|handler
+      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|2746|2751|event|param|io.github.codetoil.litlaunch._native.mc1_12.Launch1_12|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V|event|0
+      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|2692|2704|EventHandler|class|net.minecraftforge.fml.common.Mod.EventHandler
+      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|2718|2722|init|method|io.github.codetoil.litlaunch._native.mc1_12.Launch1_12|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|2723|2745|FMLInitializationEvent|class|net.minecraftforge.fml.common.event.FMLInitializationEvent
+      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|2758|2770|LaunchCommon|class|io.github.codetoil.litlaunch.core.LaunchCommon
+      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|2771|2775|init|method|io.github.codetoil.litlaunch.core.LaunchCommon|init|()V
+      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|2781|2795|MinecraftForge|class|net.minecraftforge.common.MinecraftForge
+      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|2796|2805|EVENT_BUS|field|net.minecraftforge.common.MinecraftForge|EVENT_BUS
+      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|2806|2814|register|method|net.minecraftforge.fml.common.eventhandler.EventBus|register|(Ljava/lang/Object;)V
+      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|2815|2822|handler|field|io.github.codetoil.litlaunch._native.mc1_12.Launch1_12|handler
    Method End: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
    Method Start: postInit(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
-      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|2895|2900|event|param|io.github.codetoil.litlaunch._native.mc1_12.Launch1_12|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V|event|0
-      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|2833|2845|EventHandler|class|net.minecraftforge.fml.common.Mod.EventHandler
-      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|2859|2867|postInit|method|io.github.codetoil.litlaunch._native.mc1_12.Launch1_12|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
-      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|2868|2894|FMLPostInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPostInitializationEvent
-      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|2907|2919|LaunchCommon|class|io.github.codetoil.litlaunch.core.LaunchCommon
-      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|2920|2928|postInit|method|io.github.codetoil.litlaunch.core.LaunchCommon|postInit|()V
+      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|2893|2898|event|param|io.github.codetoil.litlaunch._native.mc1_12.Launch1_12|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V|event|0
+      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|2831|2843|EventHandler|class|net.minecraftforge.fml.common.Mod.EventHandler
+      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|2857|2865|postInit|method|io.github.codetoil.litlaunch._native.mc1_12.Launch1_12|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|2866|2892|FMLPostInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPostInitializationEvent
+      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|2905|2917|LaunchCommon|class|io.github.codetoil.litlaunch.core.LaunchCommon
+      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|2918|2926|postInit|method|io.github.codetoil.litlaunch.core.LaunchCommon|postInit|()V
    Method End: postInit(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
    Method Start: serverLoad(Lnet/minecraftforge/fml/common/event/FMLServerStartingEvent;)V
-      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|2998|3003|event|param|io.github.codetoil.litlaunch._native.mc1_12.Launch1_12|serverLoad|(Lnet/minecraftforge/fml/common/event/FMLServerStartingEvent;)V|event|0
-      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|2938|2950|EventHandler|class|net.minecraftforge.fml.common.Mod.EventHandler
-      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|2964|2974|serverLoad|method|io.github.codetoil.litlaunch._native.mc1_12.Launch1_12|serverLoad|(Lnet/minecraftforge/fml/common/event/FMLServerStartingEvent;)V
-      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|2975|2997|FMLServerStartingEvent|class|net.minecraftforge.fml.common.event.FMLServerStartingEvent
-      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|3010|3022|LaunchCommon|class|io.github.codetoil.litlaunch.core.LaunchCommon
-      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|3023|3033|serverLoad|method|io.github.codetoil.litlaunch.core.LaunchCommon|serverLoad|()V
-      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|3039|3048|ModFinder|class|io.github.codetoil.litlaunch.modloader.ModFinder
-      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|3049|3058|validMods|field|io.github.codetoil.litlaunch.modloader.ModFinder|validMods
-      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|3059|3066|forEach|method|java.lang.Iterable|forEach|(Ljava/util/function/Consumer;)V
-      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|3096|3102|Object|class|java.lang.Object
-      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|3115|3123|modClass|param|java.util.function.Consumer<java.lang.Class<?>>|accept|(Ljava/lang/Class;)V|modClass|-1
-      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|3124|3132|getField|method|java.lang.Class|getField|(Ljava/lang/String;)Ljava/lang/reflect/Field;
-      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|3148|3151|get|method|java.lang.reflect.Field|get|(Ljava/lang/Object;)Ljava/lang/Object;
-      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|3163|3167|List|class|java.util.List
-      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|3208|3212|List|class|java.util.List
-      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|3234|3238|List|class|java.util.List
-      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|3266|3273|forEach|method|java.lang.Iterable|forEach|(Ljava/util/function/Consumer;)V
-      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|3299|3306|command|param|java.util.function.Consumer|accept|(Ljava/lang/Object;)V|command|-1
-      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|3318|3325|Command|class|io.github.codetoil.litlaunch.api.Command
-      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|3340|3352|Command.Side|class|io.github.codetoil.litlaunch.api.Command.Side
-      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|3353|3359|CLIENT|field|io.github.codetoil.litlaunch.api.Command.Side|CLIENT
-      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|3360|3366|equals|method|java.lang.Enum|equals|(Ljava/lang/Object;)Z
-      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|3369|3376|Command|class|io.github.codetoil.litlaunch.api.Command
-      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|3378|3385|command|param|java.util.function.Consumer|accept|(Ljava/lang/Object;)V|command|-1
-      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|3387|3391|side|field|io.github.codetoil.litlaunch.api.Command|side
-      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|3396|3408|Command.Side|class|io.github.codetoil.litlaunch.api.Command.Side
-      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|3409|3413|BOTH|field|io.github.codetoil.litlaunch.api.Command.Side|BOTH
-      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|3414|3420|equals|method|java.lang.Enum|equals|(Ljava/lang/Object;)Z
-      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|3423|3430|Command|class|io.github.codetoil.litlaunch.api.Command
-      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|3432|3439|command|param|java.util.function.Consumer|accept|(Ljava/lang/Object;)V|command|-1
-      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|3441|3445|side|field|io.github.codetoil.litlaunch.api.Command|side
-      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|3456|3461|event|param|io.github.codetoil.litlaunch._native.mc1_12.Launch1_12|serverLoad|(Lnet/minecraftforge/fml/common/event/FMLServerStartingEvent;)V|event|0
-      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|3462|3483|registerServerCommand|method|net.minecraftforge.fml.common.event.FMLServerStartingEvent|registerServerCommand|(Lnet/minecraft/command/ICommand;)V
-      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|3488|3498|CommandNew|class|io.github.codetoil.litlaunch._native.mc1_12.CommandNew
-      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|3500|3507|Command|class|io.github.codetoil.litlaunch.api.Command
-      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|3509|3516|command|param|java.util.function.Consumer|accept|(Ljava/lang/Object;)V|command|-1
-      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|3555|3563|FrontEnd|class|io.github.codetoil.litlaunch.api.FrontEnd
-      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|3564|3569|error|method|io.github.codetoil.litlaunch.api.FrontEnd|error|(Ljava/lang/Object;)V
-      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|3579|3587|modClass|param|java.util.function.Consumer<java.lang.Class<?>>|accept|(Ljava/lang/Class;)V|modClass|-1
-      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|3719|3728|Throwable|class|java.lang.Throwable
-      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|3758|3773|printStackTrace|method|java.lang.Throwable|printStackTrace|()V
+      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|2996|3001|event|param|io.github.codetoil.litlaunch._native.mc1_12.Launch1_12|serverLoad|(Lnet/minecraftforge/fml/common/event/FMLServerStartingEvent;)V|event|0
+      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|2936|2948|EventHandler|class|net.minecraftforge.fml.common.Mod.EventHandler
+      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|2962|2972|serverLoad|method|io.github.codetoil.litlaunch._native.mc1_12.Launch1_12|serverLoad|(Lnet/minecraftforge/fml/common/event/FMLServerStartingEvent;)V
+      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|2973|2995|FMLServerStartingEvent|class|net.minecraftforge.fml.common.event.FMLServerStartingEvent
+      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|3008|3020|LaunchCommon|class|io.github.codetoil.litlaunch.core.LaunchCommon
+      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|3021|3031|serverLoad|method|io.github.codetoil.litlaunch.core.LaunchCommon|serverLoad|()V
+      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|3037|3046|ModFinder|class|io.github.codetoil.litlaunch.modloader.ModFinder
+      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|3047|3056|validMods|field|io.github.codetoil.litlaunch.modloader.ModFinder|validMods
+      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|3057|3064|forEach|method|java.lang.Iterable|forEach|(Ljava/util/function/Consumer;)V
+      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|3094|3100|Object|class|java.lang.Object
+      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|3113|3121|modClass|param|java.util.function.Consumer<java.lang.Class<?>>|accept|(Ljava/lang/Class;)V|modClass|-1
+      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|3122|3130|getField|method|java.lang.Class|getField|(Ljava/lang/String;)Ljava/lang/reflect/Field;
+      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|3146|3149|get|method|java.lang.reflect.Field|get|(Ljava/lang/Object;)Ljava/lang/Object;
+      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|3161|3165|List|class|java.util.List
+      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|3206|3210|List|class|java.util.List
+      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|3232|3236|List|class|java.util.List
+      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|3264|3271|forEach|method|java.lang.Iterable|forEach|(Ljava/util/function/Consumer;)V
+      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|3297|3304|command|param|java.util.function.Consumer|accept|(Ljava/lang/Object;)V|command|-1
+      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|3316|3323|Command|class|io.github.codetoil.litlaunch.api.Command
+      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|3338|3350|Command.Side|class|io.github.codetoil.litlaunch.api.Command.Side
+      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|3351|3357|CLIENT|field|io.github.codetoil.litlaunch.api.Command.Side|CLIENT
+      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|3358|3364|equals|method|java.lang.Enum|equals|(Ljava/lang/Object;)Z
+      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|3367|3374|Command|class|io.github.codetoil.litlaunch.api.Command
+      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|3376|3383|command|param|java.util.function.Consumer|accept|(Ljava/lang/Object;)V|command|-1
+      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|3385|3389|side|field|io.github.codetoil.litlaunch.api.Command|side
+      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|3394|3406|Command.Side|class|io.github.codetoil.litlaunch.api.Command.Side
+      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|3407|3411|BOTH|field|io.github.codetoil.litlaunch.api.Command.Side|BOTH
+      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|3412|3418|equals|method|java.lang.Enum|equals|(Ljava/lang/Object;)Z
+      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|3421|3428|Command|class|io.github.codetoil.litlaunch.api.Command
+      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|3430|3437|command|param|java.util.function.Consumer|accept|(Ljava/lang/Object;)V|command|-1
+      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|3439|3443|side|field|io.github.codetoil.litlaunch.api.Command|side
+      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|3454|3459|event|param|io.github.codetoil.litlaunch._native.mc1_12.Launch1_12|serverLoad|(Lnet/minecraftforge/fml/common/event/FMLServerStartingEvent;)V|event|0
+      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|3460|3481|registerServerCommand|method|net.minecraftforge.fml.common.event.FMLServerStartingEvent|registerServerCommand|(Lnet/minecraft/command/ICommand;)V
+      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|3486|3496|CommandNew|class|io.github.codetoil.litlaunch._native.mc1_12.CommandNew
+      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|3498|3505|Command|class|io.github.codetoil.litlaunch.api.Command
+      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|3507|3514|command|param|java.util.function.Consumer|accept|(Ljava/lang/Object;)V|command|-1
+      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|3553|3561|FrontEnd|class|io.github.codetoil.litlaunch.api.FrontEnd
+      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|3562|3567|error|method|io.github.codetoil.litlaunch.api.FrontEnd|error|(Ljava/lang/Object;)V
+      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|3577|3585|modClass|param|java.util.function.Consumer<java.lang.Class<?>>|accept|(Ljava/lang/Class;)V|modClass|-1
+      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|3717|3726|Throwable|class|java.lang.Throwable
+      @|io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java|3756|3771|printStackTrace|method|java.lang.Throwable|printStackTrace|()V
    Method End: serverLoad(Lnet/minecraftforge/fml/common/event/FMLServerStartingEvent;)V
 Class End  : io.github.codetoil.litlaunch._native.mc1_12.Launch1_12
 endProcessing "io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java"
@@ -1437,7 +1437,7 @@ Class Start: io.github.codetoil.litlaunch.core.ILogger
 Class End  : io.github.codetoil.litlaunch.core.ILogger
 endProcessing "io\github\codetoil\litlaunch\core\ILogger.java"
 
-startProcessing "io\github\codetoil\litlaunch\core\LaunchCommon.java" md5: 960ce90eece321b94b24fdaf106379a9
+startProcessing "io\github\codetoil\litlaunch\core\LaunchCommon.java" md5: 767dc6d5ed4832d511172c1e9a8f34ce
 Cache Hit!
 @|io\github\codetoil\litlaunch\core\LaunchCommon.java|47|80|io.github.codetoil.litlaunch.core|package|io.github.codetoil.litlaunch.core|(file)
 Class Start: io.github.codetoil.litlaunch.core.LaunchCommon
@@ -1582,161 +1582,164 @@ Class Start: io.github.codetoil.litlaunch.core.LaunchCommon
       @|io\github\codetoil\litlaunch\core\LaunchCommon.java|2808|2817|ModFinder|class|io.github.codetoil.litlaunch.modloader.ModFinder
       @|io\github\codetoil\litlaunch\core\LaunchCommon.java|2818|2830|validateMods|method|io.github.codetoil.litlaunch.modloader.ModFinder|validateMods|()Z
       @|io\github\codetoil\litlaunch\core\LaunchCommon.java|2836|2840|info|method|io.github.codetoil.litlaunch.core.LaunchCommon|info|(Ljava/lang/Object;)V
-      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|2889|2898|isVerbose|method|io.github.codetoil.litlaunch.core.LaunchCommon|isVerbose|()Ljava/lang/Boolean;
-      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|2907|2911|warn|method|io.github.codetoil.litlaunch.core.LaunchCommon|warn|(Ljava/lang/Object;)V
-      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|3116|3131|LitEventHandler|class|io.github.codetoil.litlaunch.core.event.LitEventHandler
-      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|3132|3138|COMMON|field|io.github.codetoil.litlaunch.core.event.LitEventHandler|COMMON
-      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|3139|3143|post|method|io.github.codetoil.litlaunch.core.event.LitEventHandler|post|(Lio/github/codetoil/litlaunch/core/event/LitEvent;)V
-      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|3148|3156|LitEvent|class|io.github.codetoil.litlaunch.core.event.LitEvent
-      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|3157|3169|LaunchCommon|class|io.github.codetoil.litlaunch.core.LaunchCommon
-      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|3193|3198|EMPTY|field|io.github.codetoil.litlaunch.core.LaunchCommon|EMPTY
-      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|3204|3214|getCcproxy|method|io.github.codetoil.litlaunch.core.LaunchCommon|getCcproxy|()Lio/github/codetoil/litlaunch/core/CommonProxy;
-      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|3217|3229|construction|method|io.github.codetoil.litlaunch.core.CommonProxy|construction|()V
+      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|2871|2877|System|class|java.lang.System
+      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|2878|2880|gc|method|java.lang.System|gc|()V
+      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|2886|2890|info|method|io.github.codetoil.litlaunch.core.LaunchCommon|info|(Ljava/lang/Object;)V
+      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|2939|2948|isVerbose|method|io.github.codetoil.litlaunch.core.LaunchCommon|isVerbose|()Ljava/lang/Boolean;
+      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|2957|2961|warn|method|io.github.codetoil.litlaunch.core.LaunchCommon|warn|(Ljava/lang/Object;)V
+      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|3166|3181|LitEventHandler|class|io.github.codetoil.litlaunch.core.event.LitEventHandler
+      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|3182|3188|COMMON|field|io.github.codetoil.litlaunch.core.event.LitEventHandler|COMMON
+      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|3189|3193|post|method|io.github.codetoil.litlaunch.core.event.LitEventHandler|post|(Lio/github/codetoil/litlaunch/core/event/LitEvent;)V
+      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|3198|3206|LitEvent|class|io.github.codetoil.litlaunch.core.event.LitEvent
+      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|3207|3219|LaunchCommon|class|io.github.codetoil.litlaunch.core.LaunchCommon
+      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|3243|3248|EMPTY|field|io.github.codetoil.litlaunch.core.LaunchCommon|EMPTY
+      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|3254|3264|getCcproxy|method|io.github.codetoil.litlaunch.core.LaunchCommon|getCcproxy|()Lio/github/codetoil/litlaunch/core/CommonProxy;
+      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|3267|3279|construction|method|io.github.codetoil.litlaunch.core.CommonProxy|construction|()V
    Method End: bootstrap(Ljava/lang/Object;Lio/github/codetoil/litlaunch/core/ILaunch;Lio/github/codetoil/litlaunch/core/ILogger;)V
    Method Start: getTimeInSeconds()D
-      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|3259|3275|getTimeInSeconds|method|io.github.codetoil.litlaunch.core.LaunchCommon|getTimeInSeconds|()D
-      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|3300|3306|System|class|java.lang.System
-      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|3307|3324|currentTimeMillis|method|java.lang.System|currentTimeMillis|()J
-      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|3339|3347|timeInit|field|io.github.codetoil.litlaunch.core.LaunchCommon|timeInit
+      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|3309|3325|getTimeInSeconds|method|io.github.codetoil.litlaunch.core.LaunchCommon|getTimeInSeconds|()D
+      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|3350|3356|System|class|java.lang.System
+      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|3357|3374|currentTimeMillis|method|java.lang.System|currentTimeMillis|()J
+      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|3389|3397|timeInit|field|io.github.codetoil.litlaunch.core.LaunchCommon|timeInit
    Method End: getTimeInSeconds()D
    Method Start: isVerbose()Ljava/lang/Boolean;
-      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|3368|3375|Boolean|class|java.lang.Boolean
-      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|3376|3385|isVerbose|method|io.github.codetoil.litlaunch.core.LaunchCommon|isVerbose|()Ljava/lang/Boolean;
-      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|3400|3407|verbose|field|io.github.codetoil.litlaunch.core.LaunchCommon|verbose
+      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|3418|3425|Boolean|class|java.lang.Boolean
+      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|3426|3435|isVerbose|method|io.github.codetoil.litlaunch.core.LaunchCommon|isVerbose|()Ljava/lang/Boolean;
+      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|3450|3457|verbose|field|io.github.codetoil.litlaunch.core.LaunchCommon|verbose
    Method End: isVerbose()Ljava/lang/Boolean;
    Method Start: preInit()V
-      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|3433|3440|preInit|method|io.github.codetoil.litlaunch.core.LaunchCommon|preInit|()V
-      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|3448|3463|LitEventHandler|class|io.github.codetoil.litlaunch.core.event.LitEventHandler
-      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|3464|3470|COMMON|field|io.github.codetoil.litlaunch.core.event.LitEventHandler|COMMON
-      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|3471|3475|post|method|io.github.codetoil.litlaunch.core.event.LitEventHandler|post|(Lio/github/codetoil/litlaunch/core/event/LitEvent;)V
-      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|3480|3488|LitEvent|class|io.github.codetoil.litlaunch.core.event.LitEvent
-      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|3489|3501|LaunchCommon|class|io.github.codetoil.litlaunch.core.LaunchCommon
-      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|3520|3525|EMPTY|field|io.github.codetoil.litlaunch.core.LaunchCommon|EMPTY
-      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|3531|3541|getCcproxy|method|io.github.codetoil.litlaunch.core.LaunchCommon|getCcproxy|()Lio/github/codetoil/litlaunch/core/CommonProxy;
-      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|3544|3551|preInit|method|io.github.codetoil.litlaunch.core.CommonProxy|preInit|()V
+      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|3483|3490|preInit|method|io.github.codetoil.litlaunch.core.LaunchCommon|preInit|()V
+      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|3498|3513|LitEventHandler|class|io.github.codetoil.litlaunch.core.event.LitEventHandler
+      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|3514|3520|COMMON|field|io.github.codetoil.litlaunch.core.event.LitEventHandler|COMMON
+      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|3521|3525|post|method|io.github.codetoil.litlaunch.core.event.LitEventHandler|post|(Lio/github/codetoil/litlaunch/core/event/LitEvent;)V
+      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|3530|3538|LitEvent|class|io.github.codetoil.litlaunch.core.event.LitEvent
+      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|3539|3551|LaunchCommon|class|io.github.codetoil.litlaunch.core.LaunchCommon
+      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|3570|3575|EMPTY|field|io.github.codetoil.litlaunch.core.LaunchCommon|EMPTY
+      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|3581|3591|getCcproxy|method|io.github.codetoil.litlaunch.core.LaunchCommon|getCcproxy|()Lio/github/codetoil/litlaunch/core/CommonProxy;
+      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|3594|3601|preInit|method|io.github.codetoil.litlaunch.core.CommonProxy|preInit|()V
    Method End: preInit()V
    Method Start: getCcproxy()Lio/github/codetoil/litlaunch/core/CommonProxy;
-      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|3574|3585|CommonProxy|class|io.github.codetoil.litlaunch.core.CommonProxy
-      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|3586|3596|getCcproxy|method|io.github.codetoil.litlaunch.core.LaunchCommon|getCcproxy|()Lio/github/codetoil/litlaunch/core/CommonProxy;
-      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|3611|3618|ccproxy|field|io.github.codetoil.litlaunch.core.LaunchCommon|ccproxy
+      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|3624|3635|CommonProxy|class|io.github.codetoil.litlaunch.core.CommonProxy
+      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|3636|3646|getCcproxy|method|io.github.codetoil.litlaunch.core.LaunchCommon|getCcproxy|()Lio/github/codetoil/litlaunch/core/CommonProxy;
+      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|3661|3668|ccproxy|field|io.github.codetoil.litlaunch.core.LaunchCommon|ccproxy
    Method End: getCcproxy()Lio/github/codetoil/litlaunch/core/CommonProxy;
    Method Start: setCcproxy(Lio/github/codetoil/litlaunch/core/CommonProxy;)V
-      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|3667|3674|ccproxy|param|io.github.codetoil.litlaunch.core.LaunchCommon|setCcproxy|(Lio/github/codetoil/litlaunch/core/CommonProxy;)V|ccproxy|0
-      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|3644|3654|setCcproxy|method|io.github.codetoil.litlaunch.core.LaunchCommon|setCcproxy|(Lio/github/codetoil/litlaunch/core/CommonProxy;)V
-      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|3655|3666|CommonProxy|class|io.github.codetoil.litlaunch.core.CommonProxy
-      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|3685|3697|LaunchCommon|class|io.github.codetoil.litlaunch.core.LaunchCommon
-      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|3698|3705|ccproxy|field|io.github.codetoil.litlaunch.core.LaunchCommon|ccproxy
-      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|3720|3732|LaunchCommon|class|io.github.codetoil.litlaunch.core.LaunchCommon
-      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|3733|3740|ccproxy|field|io.github.codetoil.litlaunch.core.LaunchCommon|ccproxy
-      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|3743|3750|ccproxy|param|io.github.codetoil.litlaunch.core.LaunchCommon|setCcproxy|(Lio/github/codetoil/litlaunch/core/CommonProxy;)V|ccproxy|0
-      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|3766|3770|info|method|io.github.codetoil.litlaunch.core.LaunchCommon|info|(Ljava/lang/Object;)V
+      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|3717|3724|ccproxy|param|io.github.codetoil.litlaunch.core.LaunchCommon|setCcproxy|(Lio/github/codetoil/litlaunch/core/CommonProxy;)V|ccproxy|0
+      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|3694|3704|setCcproxy|method|io.github.codetoil.litlaunch.core.LaunchCommon|setCcproxy|(Lio/github/codetoil/litlaunch/core/CommonProxy;)V
+      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|3705|3716|CommonProxy|class|io.github.codetoil.litlaunch.core.CommonProxy
+      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|3735|3747|LaunchCommon|class|io.github.codetoil.litlaunch.core.LaunchCommon
+      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|3748|3755|ccproxy|field|io.github.codetoil.litlaunch.core.LaunchCommon|ccproxy
+      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|3770|3782|LaunchCommon|class|io.github.codetoil.litlaunch.core.LaunchCommon
+      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|3783|3790|ccproxy|field|io.github.codetoil.litlaunch.core.LaunchCommon|ccproxy
+      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|3793|3800|ccproxy|param|io.github.codetoil.litlaunch.core.LaunchCommon|setCcproxy|(Lio/github/codetoil/litlaunch/core/CommonProxy;)V|ccproxy|0
+      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|3816|3820|info|method|io.github.codetoil.litlaunch.core.LaunchCommon|info|(Ljava/lang/Object;)V
    Method End: setCcproxy(Lio/github/codetoil/litlaunch/core/CommonProxy;)V
    Method Start: init()V
-      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|3823|3827|init|method|io.github.codetoil.litlaunch.core.LaunchCommon|init|()V
-      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|3835|3850|LitEventHandler|class|io.github.codetoil.litlaunch.core.event.LitEventHandler
-      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|3851|3857|COMMON|field|io.github.codetoil.litlaunch.core.event.LitEventHandler|COMMON
-      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|3858|3862|post|method|io.github.codetoil.litlaunch.core.event.LitEventHandler|post|(Lio/github/codetoil/litlaunch/core/event/LitEvent;)V
-      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|3867|3875|LitEvent|class|io.github.codetoil.litlaunch.core.event.LitEvent
-      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|3876|3888|LaunchCommon|class|io.github.codetoil.litlaunch.core.LaunchCommon
-      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|3904|3909|EMPTY|field|io.github.codetoil.litlaunch.core.LaunchCommon|EMPTY
-      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|3915|3930|LitEventHandler|class|io.github.codetoil.litlaunch.core.event.LitEventHandler
-      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|3931|3937|COMMON|field|io.github.codetoil.litlaunch.core.event.LitEventHandler|COMMON
-      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|3938|3942|post|method|io.github.codetoil.litlaunch.core.event.LitEventHandler|post|(Lio/github/codetoil/litlaunch/core/event/LitEvent;Z)V
-      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|3947|3955|LitEvent|class|io.github.codetoil.litlaunch.core.event.LitEvent
-      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|3956|3968|LaunchCommon|class|io.github.codetoil.litlaunch.core.LaunchCommon
-      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|3984|3989|EMPTY|field|io.github.codetoil.litlaunch.core.LaunchCommon|EMPTY
-      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|4001|4011|getCcproxy|method|io.github.codetoil.litlaunch.core.LaunchCommon|getCcproxy|()Lio/github/codetoil/litlaunch/core/CommonProxy;
-      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|4014|4018|init|method|io.github.codetoil.litlaunch.core.CommonProxy|init|()V
+      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|3873|3877|init|method|io.github.codetoil.litlaunch.core.LaunchCommon|init|()V
+      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|3885|3900|LitEventHandler|class|io.github.codetoil.litlaunch.core.event.LitEventHandler
+      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|3901|3907|COMMON|field|io.github.codetoil.litlaunch.core.event.LitEventHandler|COMMON
+      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|3908|3912|post|method|io.github.codetoil.litlaunch.core.event.LitEventHandler|post|(Lio/github/codetoil/litlaunch/core/event/LitEvent;)V
+      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|3917|3925|LitEvent|class|io.github.codetoil.litlaunch.core.event.LitEvent
+      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|3926|3938|LaunchCommon|class|io.github.codetoil.litlaunch.core.LaunchCommon
+      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|3954|3959|EMPTY|field|io.github.codetoil.litlaunch.core.LaunchCommon|EMPTY
+      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|3965|3980|LitEventHandler|class|io.github.codetoil.litlaunch.core.event.LitEventHandler
+      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|3981|3987|COMMON|field|io.github.codetoil.litlaunch.core.event.LitEventHandler|COMMON
+      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|3988|3992|post|method|io.github.codetoil.litlaunch.core.event.LitEventHandler|post|(Lio/github/codetoil/litlaunch/core/event/LitEvent;Z)V
+      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|3997|4005|LitEvent|class|io.github.codetoil.litlaunch.core.event.LitEvent
+      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|4006|4018|LaunchCommon|class|io.github.codetoil.litlaunch.core.LaunchCommon
+      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|4034|4039|EMPTY|field|io.github.codetoil.litlaunch.core.LaunchCommon|EMPTY
+      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|4051|4061|getCcproxy|method|io.github.codetoil.litlaunch.core.LaunchCommon|getCcproxy|()Lio/github/codetoil/litlaunch/core/CommonProxy;
+      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|4064|4068|init|method|io.github.codetoil.litlaunch.core.CommonProxy|init|()V
    Method End: init()V
    Method Start: postInit()V
-      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|4046|4054|postInit|method|io.github.codetoil.litlaunch.core.LaunchCommon|postInit|()V
-      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|4062|4077|LitEventHandler|class|io.github.codetoil.litlaunch.core.event.LitEventHandler
-      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|4078|4084|COMMON|field|io.github.codetoil.litlaunch.core.event.LitEventHandler|COMMON
-      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|4085|4089|post|method|io.github.codetoil.litlaunch.core.event.LitEventHandler|post|(Lio/github/codetoil/litlaunch/core/event/LitEvent;)V
-      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|4094|4102|LitEvent|class|io.github.codetoil.litlaunch.core.event.LitEvent
-      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|4103|4115|LaunchCommon|class|io.github.codetoil.litlaunch.core.LaunchCommon
-      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|4135|4140|EMPTY|field|io.github.codetoil.litlaunch.core.LaunchCommon|EMPTY
-      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|4146|4156|getCcproxy|method|io.github.codetoil.litlaunch.core.LaunchCommon|getCcproxy|()Lio/github/codetoil/litlaunch/core/CommonProxy;
-      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|4159|4167|postInit|method|io.github.codetoil.litlaunch.core.CommonProxy|postInit|()V
+      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|4096|4104|postInit|method|io.github.codetoil.litlaunch.core.LaunchCommon|postInit|()V
+      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|4112|4127|LitEventHandler|class|io.github.codetoil.litlaunch.core.event.LitEventHandler
+      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|4128|4134|COMMON|field|io.github.codetoil.litlaunch.core.event.LitEventHandler|COMMON
+      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|4135|4139|post|method|io.github.codetoil.litlaunch.core.event.LitEventHandler|post|(Lio/github/codetoil/litlaunch/core/event/LitEvent;)V
+      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|4144|4152|LitEvent|class|io.github.codetoil.litlaunch.core.event.LitEvent
+      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|4153|4165|LaunchCommon|class|io.github.codetoil.litlaunch.core.LaunchCommon
+      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|4185|4190|EMPTY|field|io.github.codetoil.litlaunch.core.LaunchCommon|EMPTY
+      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|4196|4206|getCcproxy|method|io.github.codetoil.litlaunch.core.LaunchCommon|getCcproxy|()Lio/github/codetoil/litlaunch/core/CommonProxy;
+      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|4209|4217|postInit|method|io.github.codetoil.litlaunch.core.CommonProxy|postInit|()V
    Method End: postInit()V
    Method Start: serverLoad()V
-      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|4195|4205|serverLoad|method|io.github.codetoil.litlaunch.core.LaunchCommon|serverLoad|()V
-      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|4213|4228|LitEventHandler|class|io.github.codetoil.litlaunch.core.event.LitEventHandler
-      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|4229|4235|COMMON|field|io.github.codetoil.litlaunch.core.event.LitEventHandler|COMMON
-      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|4236|4240|post|method|io.github.codetoil.litlaunch.core.event.LitEventHandler|post|(Lio/github/codetoil/litlaunch/core/event/LitEvent;)V
-      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|4245|4253|LitEvent|class|io.github.codetoil.litlaunch.core.event.LitEvent
-      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|4254|4266|LaunchCommon|class|io.github.codetoil.litlaunch.core.LaunchCommon
-      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|4288|4293|EMPTY|field|io.github.codetoil.litlaunch.core.LaunchCommon|EMPTY
-      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|4299|4309|getCcproxy|method|io.github.codetoil.litlaunch.core.LaunchCommon|getCcproxy|()Lio/github/codetoil/litlaunch/core/CommonProxy;
-      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|4312|4322|serverLoad|method|io.github.codetoil.litlaunch.core.CommonProxy|serverLoad|()V
+      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|4245|4255|serverLoad|method|io.github.codetoil.litlaunch.core.LaunchCommon|serverLoad|()V
+      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|4263|4278|LitEventHandler|class|io.github.codetoil.litlaunch.core.event.LitEventHandler
+      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|4279|4285|COMMON|field|io.github.codetoil.litlaunch.core.event.LitEventHandler|COMMON
+      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|4286|4290|post|method|io.github.codetoil.litlaunch.core.event.LitEventHandler|post|(Lio/github/codetoil/litlaunch/core/event/LitEvent;)V
+      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|4295|4303|LitEvent|class|io.github.codetoil.litlaunch.core.event.LitEvent
+      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|4304|4316|LaunchCommon|class|io.github.codetoil.litlaunch.core.LaunchCommon
+      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|4338|4343|EMPTY|field|io.github.codetoil.litlaunch.core.LaunchCommon|EMPTY
+      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|4349|4359|getCcproxy|method|io.github.codetoil.litlaunch.core.LaunchCommon|getCcproxy|()Lio/github/codetoil/litlaunch/core/CommonProxy;
+      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|4362|4372|serverLoad|method|io.github.codetoil.litlaunch.core.CommonProxy|serverLoad|()V
    Method End: serverLoad()V
    Method Start: getGamePath()Ljava/nio/file/Path;
-      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|4345|4349|Path|class|java.nio.file.Path
-      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|4350|4361|getGamePath|method|io.github.codetoil.litlaunch.core.LaunchCommon|getGamePath|()Ljava/nio/file/Path;
-      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|4376|4384|GamePath|field|io.github.codetoil.litlaunch.core.LaunchCommon|GamePath
+      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|4395|4399|Path|class|java.nio.file.Path
+      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|4400|4411|getGamePath|method|io.github.codetoil.litlaunch.core.LaunchCommon|getGamePath|()Ljava/nio/file/Path;
+      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|4426|4434|GamePath|field|io.github.codetoil.litlaunch.core.LaunchCommon|GamePath
    Method End: getGamePath()Ljava/nio/file/Path;
    Method Start: setGamePath(Ljava/nio/file/Path;)V
-      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|4427|4436|pGamePath|param|io.github.codetoil.litlaunch.core.LaunchCommon|setGamePath|(Ljava/nio/file/Path;)V|pGamePath|0
-      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|4410|4421|setGamePath|method|io.github.codetoil.litlaunch.core.LaunchCommon|setGamePath|(Ljava/nio/file/Path;)V
-      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|4422|4426|Path|class|java.nio.file.Path
-      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|4443|4451|GamePath|field|io.github.codetoil.litlaunch.core.LaunchCommon|GamePath
-      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|4454|4463|pGamePath|param|io.github.codetoil.litlaunch.core.LaunchCommon|setGamePath|(Ljava/nio/file/Path;)V|pGamePath|0
+      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|4477|4486|pGamePath|param|io.github.codetoil.litlaunch.core.LaunchCommon|setGamePath|(Ljava/nio/file/Path;)V|pGamePath|0
+      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|4460|4471|setGamePath|method|io.github.codetoil.litlaunch.core.LaunchCommon|setGamePath|(Ljava/nio/file/Path;)V
+      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|4472|4476|Path|class|java.nio.file.Path
+      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|4493|4501|GamePath|field|io.github.codetoil.litlaunch.core.LaunchCommon|GamePath
+      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|4504|4513|pGamePath|param|io.github.codetoil.litlaunch.core.LaunchCommon|setGamePath|(Ljava/nio/file/Path;)V|pGamePath|0
    Method End: setGamePath(Ljava/nio/file/Path;)V
    Method Start: debug(Ljava/lang/Object;)V
-      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|4502|4508|object|param|io.github.codetoil.litlaunch.core.LaunchCommon|debug|(Ljava/lang/Object;)V|object|0
-      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|4489|4494|debug|method|io.github.codetoil.litlaunch.core.LaunchCommon|debug|(Ljava/lang/Object;)V
-      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|4495|4501|Object|class|java.lang.Object
-      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|4515|4524|getLOGGER|method|io.github.codetoil.litlaunch.core.LaunchCommon|getLOGGER|()Lio/github/codetoil/litlaunch/core/ILogger;
-      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|4527|4532|debug|method|io.github.codetoil.litlaunch.core.ILogger|debug|(Ljava/lang/Object;)V
-      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|4533|4539|object|param|io.github.codetoil.litlaunch.core.LaunchCommon|debug|(Ljava/lang/Object;)V|object|0
+      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|4552|4558|object|param|io.github.codetoil.litlaunch.core.LaunchCommon|debug|(Ljava/lang/Object;)V|object|0
+      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|4539|4544|debug|method|io.github.codetoil.litlaunch.core.LaunchCommon|debug|(Ljava/lang/Object;)V
+      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|4545|4551|Object|class|java.lang.Object
+      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|4565|4574|getLOGGER|method|io.github.codetoil.litlaunch.core.LaunchCommon|getLOGGER|()Lio/github/codetoil/litlaunch/core/ILogger;
+      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|4577|4582|debug|method|io.github.codetoil.litlaunch.core.ILogger|debug|(Ljava/lang/Object;)V
+      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|4583|4589|object|param|io.github.codetoil.litlaunch.core.LaunchCommon|debug|(Ljava/lang/Object;)V|object|0
    Method End: debug(Ljava/lang/Object;)V
    Method Start: info(Ljava/lang/Object;)V
-      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|4578|4584|object|param|io.github.codetoil.litlaunch.core.LaunchCommon|info|(Ljava/lang/Object;)V|object|0
-      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|4566|4570|info|method|io.github.codetoil.litlaunch.core.LaunchCommon|info|(Ljava/lang/Object;)V
-      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|4571|4577|Object|class|java.lang.Object
-      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|4591|4600|getLOGGER|method|io.github.codetoil.litlaunch.core.LaunchCommon|getLOGGER|()Lio/github/codetoil/litlaunch/core/ILogger;
-      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|4603|4607|info|method|io.github.codetoil.litlaunch.core.ILogger|info|(Ljava/lang/Object;)V
-      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|4608|4614|object|param|io.github.codetoil.litlaunch.core.LaunchCommon|info|(Ljava/lang/Object;)V|object|0
+      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|4628|4634|object|param|io.github.codetoil.litlaunch.core.LaunchCommon|info|(Ljava/lang/Object;)V|object|0
+      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|4616|4620|info|method|io.github.codetoil.litlaunch.core.LaunchCommon|info|(Ljava/lang/Object;)V
+      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|4621|4627|Object|class|java.lang.Object
+      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|4641|4650|getLOGGER|method|io.github.codetoil.litlaunch.core.LaunchCommon|getLOGGER|()Lio/github/codetoil/litlaunch/core/ILogger;
+      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|4653|4657|info|method|io.github.codetoil.litlaunch.core.ILogger|info|(Ljava/lang/Object;)V
+      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|4658|4664|object|param|io.github.codetoil.litlaunch.core.LaunchCommon|info|(Ljava/lang/Object;)V|object|0
    Method End: info(Ljava/lang/Object;)V
    Method Start: warn(Ljava/lang/Object;)V
-      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|4653|4659|object|param|io.github.codetoil.litlaunch.core.LaunchCommon|warn|(Ljava/lang/Object;)V|object|0
-      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|4641|4645|warn|method|io.github.codetoil.litlaunch.core.LaunchCommon|warn|(Ljava/lang/Object;)V
-      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|4646|4652|Object|class|java.lang.Object
-      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|4666|4675|getLOGGER|method|io.github.codetoil.litlaunch.core.LaunchCommon|getLOGGER|()Lio/github/codetoil/litlaunch/core/ILogger;
-      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|4678|4682|warn|method|io.github.codetoil.litlaunch.core.ILogger|warn|(Ljava/lang/Object;)V
-      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|4683|4689|object|param|io.github.codetoil.litlaunch.core.LaunchCommon|warn|(Ljava/lang/Object;)V|object|0
+      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|4703|4709|object|param|io.github.codetoil.litlaunch.core.LaunchCommon|warn|(Ljava/lang/Object;)V|object|0
+      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|4691|4695|warn|method|io.github.codetoil.litlaunch.core.LaunchCommon|warn|(Ljava/lang/Object;)V
+      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|4696|4702|Object|class|java.lang.Object
+      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|4716|4725|getLOGGER|method|io.github.codetoil.litlaunch.core.LaunchCommon|getLOGGER|()Lio/github/codetoil/litlaunch/core/ILogger;
+      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|4728|4732|warn|method|io.github.codetoil.litlaunch.core.ILogger|warn|(Ljava/lang/Object;)V
+      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|4733|4739|object|param|io.github.codetoil.litlaunch.core.LaunchCommon|warn|(Ljava/lang/Object;)V|object|0
    Method End: warn(Ljava/lang/Object;)V
    Method Start: error(Ljava/lang/Object;)V
-      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|4729|4735|object|param|io.github.codetoil.litlaunch.core.LaunchCommon|error|(Ljava/lang/Object;)V|object|0
-      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|4716|4721|error|method|io.github.codetoil.litlaunch.core.LaunchCommon|error|(Ljava/lang/Object;)V
-      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|4722|4728|Object|class|java.lang.Object
-      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|4742|4751|getLOGGER|method|io.github.codetoil.litlaunch.core.LaunchCommon|getLOGGER|()Lio/github/codetoil/litlaunch/core/ILogger;
-      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|4754|4759|error|method|io.github.codetoil.litlaunch.core.ILogger|error|(Ljava/lang/Object;)V
-      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|4760|4766|object|param|io.github.codetoil.litlaunch.core.LaunchCommon|error|(Ljava/lang/Object;)V|object|0
+      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|4779|4785|object|param|io.github.codetoil.litlaunch.core.LaunchCommon|error|(Ljava/lang/Object;)V|object|0
+      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|4766|4771|error|method|io.github.codetoil.litlaunch.core.LaunchCommon|error|(Ljava/lang/Object;)V
+      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|4772|4778|Object|class|java.lang.Object
+      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|4792|4801|getLOGGER|method|io.github.codetoil.litlaunch.core.LaunchCommon|getLOGGER|()Lio/github/codetoil/litlaunch/core/ILogger;
+      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|4804|4809|error|method|io.github.codetoil.litlaunch.core.ILogger|error|(Ljava/lang/Object;)V
+      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|4810|4816|object|param|io.github.codetoil.litlaunch.core.LaunchCommon|error|(Ljava/lang/Object;)V|object|0
    Method End: error(Ljava/lang/Object;)V
    Method Start: fatal(Ljava/lang/Object;)V
-      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|4806|4812|object|param|io.github.codetoil.litlaunch.core.LaunchCommon|fatal|(Ljava/lang/Object;)V|object|0
-      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|4793|4798|fatal|method|io.github.codetoil.litlaunch.core.LaunchCommon|fatal|(Ljava/lang/Object;)V
-      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|4799|4805|Object|class|java.lang.Object
-      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|4819|4828|getLOGGER|method|io.github.codetoil.litlaunch.core.LaunchCommon|getLOGGER|()Lio/github/codetoil/litlaunch/core/ILogger;
-      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|4831|4836|fatal|method|io.github.codetoil.litlaunch.core.ILogger|fatal|(Ljava/lang/Object;)V
-      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|4837|4843|object|param|io.github.codetoil.litlaunch.core.LaunchCommon|fatal|(Ljava/lang/Object;)V|object|0
+      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|4856|4862|object|param|io.github.codetoil.litlaunch.core.LaunchCommon|fatal|(Ljava/lang/Object;)V|object|0
+      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|4843|4848|fatal|method|io.github.codetoil.litlaunch.core.LaunchCommon|fatal|(Ljava/lang/Object;)V
+      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|4849|4855|Object|class|java.lang.Object
+      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|4869|4878|getLOGGER|method|io.github.codetoil.litlaunch.core.LaunchCommon|getLOGGER|()Lio/github/codetoil/litlaunch/core/ILogger;
+      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|4881|4886|fatal|method|io.github.codetoil.litlaunch.core.ILogger|fatal|(Ljava/lang/Object;)V
+      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|4887|4893|object|param|io.github.codetoil.litlaunch.core.LaunchCommon|fatal|(Ljava/lang/Object;)V|object|0
    Method End: fatal(Ljava/lang/Object;)V
    Method Start: verbose(Ljava/lang/Object;)V
-      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|4885|4891|object|param|io.github.codetoil.litlaunch.core.LaunchCommon|verbose|(Ljava/lang/Object;)V|object|0
-      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|4870|4877|verbose|method|io.github.codetoil.litlaunch.core.LaunchCommon|verbose|(Ljava/lang/Object;)V
-      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|4878|4884|Object|class|java.lang.Object
-      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|4897|4906|getLOGGER|method|io.github.codetoil.litlaunch.core.LaunchCommon|getLOGGER|()Lio/github/codetoil/litlaunch/core/ILogger;
-      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|4909|4916|verbose|method|io.github.codetoil.litlaunch.core.ILogger|verbose|(Ljava/lang/Object;)V
-      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|4917|4923|object|param|io.github.codetoil.litlaunch.core.LaunchCommon|verbose|(Ljava/lang/Object;)V|object|0
+      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|4935|4941|object|param|io.github.codetoil.litlaunch.core.LaunchCommon|verbose|(Ljava/lang/Object;)V|object|0
+      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|4920|4927|verbose|method|io.github.codetoil.litlaunch.core.LaunchCommon|verbose|(Ljava/lang/Object;)V
+      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|4928|4934|Object|class|java.lang.Object
+      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|4947|4956|getLOGGER|method|io.github.codetoil.litlaunch.core.LaunchCommon|getLOGGER|()Lio/github/codetoil/litlaunch/core/ILogger;
+      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|4959|4966|verbose|method|io.github.codetoil.litlaunch.core.ILogger|verbose|(Ljava/lang/Object;)V
+      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|4967|4973|object|param|io.github.codetoil.litlaunch.core.LaunchCommon|verbose|(Ljava/lang/Object;)V|object|0
    Method End: verbose(Ljava/lang/Object;)V
    Method Start: trace(Ljava/lang/Object;)V
-      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|4963|4969|object|param|io.github.codetoil.litlaunch.core.LaunchCommon|trace|(Ljava/lang/Object;)V|object|0
-      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|4950|4955|trace|method|io.github.codetoil.litlaunch.core.LaunchCommon|trace|(Ljava/lang/Object;)V
-      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|4956|4962|Object|class|java.lang.Object
-      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|4976|4985|getLOGGER|method|io.github.codetoil.litlaunch.core.LaunchCommon|getLOGGER|()Lio/github/codetoil/litlaunch/core/ILogger;
-      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|4988|4993|trace|method|io.github.codetoil.litlaunch.core.ILogger|trace|(Ljava/lang/Object;)V
-      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|4994|5000|object|param|io.github.codetoil.litlaunch.core.LaunchCommon|trace|(Ljava/lang/Object;)V|object|0
+      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|5013|5019|object|param|io.github.codetoil.litlaunch.core.LaunchCommon|trace|(Ljava/lang/Object;)V|object|0
+      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|5000|5005|trace|method|io.github.codetoil.litlaunch.core.LaunchCommon|trace|(Ljava/lang/Object;)V
+      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|5006|5012|Object|class|java.lang.Object
+      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|5026|5035|getLOGGER|method|io.github.codetoil.litlaunch.core.LaunchCommon|getLOGGER|()Lio/github/codetoil/litlaunch/core/ILogger;
+      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|5038|5043|trace|method|io.github.codetoil.litlaunch.core.ILogger|trace|(Ljava/lang/Object;)V
+      @|io\github\codetoil\litlaunch\core\LaunchCommon.java|5044|5050|object|param|io.github.codetoil.litlaunch.core.LaunchCommon|trace|(Ljava/lang/Object;)V|object|0
    Method End: trace(Ljava/lang/Object;)V
 Class End  : io.github.codetoil.litlaunch.core.LaunchCommon
 endProcessing "io\github\codetoil\litlaunch\core\LaunchCommon.java"

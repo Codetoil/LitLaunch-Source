@@ -6,7 +6,23 @@ package io.github.codetoil.litlaunch.api;
 
 public interface IDoThing
 {
+	void sendAsClientChatMessage(String message);
+
+	void sendAsServerChatMessage(String message);
+
 	void sendAsChatMessage(String message);
+
+	void notifyUser(String message);
+
+	void notifyUser(String message, Color pColor);
+
+	void notifyUser(String message, Color pColor, boolean isBold, boolean isItalic, boolean isUnderlined, boolean isObfuscated, boolean hasStrikethrough);
+
+	void notifyServer(String message);
+
+	void notifyServer(String message, Color pColor);
+
+	void notifyServer(String message, Color pColor, boolean isBold, boolean isItalic, boolean isUnderlined, boolean isObfuscated, boolean hasStrikethrough);
 
 	void notifyPlayer(String message);
 

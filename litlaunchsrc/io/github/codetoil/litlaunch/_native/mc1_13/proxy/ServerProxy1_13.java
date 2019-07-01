@@ -6,6 +6,18 @@ import io.github.codetoil.litlaunch.core.CommonProxy;
 public class ServerProxy1_13 implements CommonProxy
 {
 	@Override
+	public void setGamePath()
+	{
+
+	}
+
+	@Override
+	public void construction()
+	{
+
+	}
+
+	@Override
 	public void preInit()
 	{
 

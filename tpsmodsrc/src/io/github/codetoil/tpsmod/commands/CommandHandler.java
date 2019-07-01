@@ -64,7 +64,7 @@ public class CommandHandler
 			//LaunchMods.info("executed //tpstoall!");
 			double TPS = getTPS(dimension);
 			String TPS_STR = formatTPS(TPS);
-			LaunchCommon.getDoThing().sendAsChatMessage("The TPS Mod v" + TPSMod.VERSION + " has measured the tps to be " + TPS_STR + " ticks per second in dimension " + dimension);
+			LaunchCommon.getDoThing().sendAsChatMessage("[TPS Mod v" + TPSMod.VERSION + "] " + TPS_STR + " tps in dimension " + dimension);
 			//LaunchMods.info("TPS: " + TPS_STR);
 		}
 		else

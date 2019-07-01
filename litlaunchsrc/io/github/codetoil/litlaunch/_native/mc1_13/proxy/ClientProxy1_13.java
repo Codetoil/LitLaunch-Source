@@ -4,12 +4,15 @@ import io.github.codetoil.litlaunch.api.FrontEnd;
 import io.github.codetoil.litlaunch.api.Command;
 import io.github.codetoil.litlaunch.core.CommonProxy;
 import io.github.codetoil.litlaunch.core.ConfigFile;
+import io.github.codetoil.litlaunch.core.LaunchCommon;
 import io.github.codetoil.litlaunch.modloader.ModFinder;
+import net.minecraft.client.Minecraft;
 import net.minecraftforge.client.event.ClientChatEvent;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 public class ClientProxy1_13 implements CommonProxy
@@ -18,9 +21,20 @@ public class ClientProxy1_13 implements CommonProxy
 	public final static List<String> commandNameList = new ArrayList<>();
 
 	@Override
+	public void setGamePath()
+	{
+	}
+
+	@Override
+	public void construction()
+	{
+		FrontEnd.info("Lit Launch Client Proxy Constructing!");
+	}
+
+	@Override
 	public void preInit()
 	{
-		FrontEnd.info("preInitialization!");
+		FrontEnd.info("Lit Launch Client Proxy PreInitializing!");
 		ModFinder.validMods.forEach((modClass) -> {
 			try {
 				Object oCommands = modClass.getField("commandList").get(null);
@@ -55,18 +69,21 @@ public class ClientProxy1_13 implements CommonProxy
 	@Override
 	public void init()
 	{
+		FrontEnd.info("Lit Launch Client Proxy Initializing!");
 
 	}
 
 	@Override
 	public void postInit()
 	{
+		FrontEnd.info("Lit Launch Client Proxy PostInitializing!");
 
 	}
 
 	@Override
 	public void serverLoad()
 	{
+		FrontEnd.info("Lit Launch Client Proxy Loading Server!");
 
 	}
 
@@ -79,20 +96,26 @@ public class ClientProxy1_13 implements CommonProxy
 	public void onChat(ClientChatEvent e)
 	{
 		if (e.getMessage() != null) {
-			if (commandNameList.contains(e.getMessage().substring(1))) {
-				e.setCanceled(true);
-				commandList.forEach((command) -> {
-					FrontEnd.info(command.name);
-					if (e.getMessage().equals("/" + command.name)) {
-
-						try {
-							command.runnable.run();
-						}
-						catch (Exception ex) {
-							ex.printStackTrace();
-						}
+			for (Command command: commandList) {
+				if (e.getMessage().contains("/" + command.name))
+				{
+					e.setCanceled(true);
+					String[] lStrings = e.getMessage().split(" ");
+					List<String> lStringList = new ArrayList<>(Arrays.asList(lStrings));
+					FrontEnd.debug("strlistinit: " + lStringList);
+					if (!lStringList.isEmpty())
+					{
+						lStringList.remove(0);
 					}
-				});
+					FrontEnd.info(command.name);
+					FrontEnd.info("strlist: " + lStringList);
+					try {
+						command.methodToRun.accept(lStringList);
+					}
+					catch (Exception ex) {
+						ex.printStackTrace();
+					}
+				}
 			}
 		}
 	}

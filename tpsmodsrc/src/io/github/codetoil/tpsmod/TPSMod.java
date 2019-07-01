@@ -18,7 +18,7 @@ import java.util.List;
 
 public class TPSMod implements IMod, LitEventHandler.EventListener
 {
-	public static final String VERSION = "2.0.1 Beta 2 Build 12";
+	public static final String VERSION = "2.0.1.2.13";
 
 	public final static LitEventHandler EVENTS = new LitEventHandler();
 

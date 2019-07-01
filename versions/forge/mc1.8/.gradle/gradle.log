@@ -1,6 +1,6 @@
 This mapping 'stable_20' was designed for MC 1.8.8! Use at your own peril.This mapping 'stable_20' was designed for MC 1.8.8! Use at your own peril.
 
-Version string 'forge-mc1.8.9-v0.0.2.2' does not match SemVer specification 
+Version string 'forge-mc1.8.9-v0.0.3.5' does not match SemVer specification 
 You should try SemVer : http://semver.org/
 :deobfCompileDummyTask
 :deobfProvidedDummyTask
@@ -36,4 +36,4 @@ D:\Files\ME_MODS\tpsmod\versions\forge\mc1.8\build\sources\main\java
 
 BUILD SUCCESSFUL
 
-Total time: 5.928 secs
+Total time: 4.989 secs

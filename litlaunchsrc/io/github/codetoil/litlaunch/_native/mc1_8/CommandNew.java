@@ -1,12 +1,16 @@
-package io.github.codetoil.litlaunch.version.mc1_8;
+/*
+ * Copyright (c) Codetoil 2019
+ */
+
+package io.github.codetoil.litlaunch._native.mc1_8;
 
 import io.github.codetoil.litlaunch.api.Command;
-import net.minecraft.command.CommandException;
 import net.minecraft.command.ICommand;
 import net.minecraft.command.ICommandSender;
 import net.minecraft.util.BlockPos;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 public class CommandNew implements ICommand
@@ -26,7 +30,7 @@ public class CommandNew implements ICommand
 	@Override
 	public String getCommandName()
 	{
-		return this.comm.name;
+		return comm.name;
 	}
 
 	@Override
@@ -36,26 +40,39 @@ public class CommandNew implements ICommand
 	}
 
 	@Override
-	public List<String> getCommandAliases()
+	public List getCommandAliases()
 	{
-		return new ArrayList<String>();
+		return new ArrayList<>();
 	}
 
 	@Override
-	public void processCommand(ICommandSender sender, String[] args) throws CommandException
+	public void processCommand(ICommandSender p_71515_1_, String[] p_71515_2_)
 	{
+		List<String> Args = Arrays.asList(p_71515_2_);
 		try {
-			comm.runnable.run();
+			comm.methodToRun.accept(Args);
 		}
-		catch (Exception e) {
-			e.printStackTrace();
+		catch (Throwable t) {
+			t.printStackTrace();
 		}
 	}
 
 	@Override
-	public boolean canCommandSenderUseCommand(ICommandSender sender)
+	public boolean canCommandSenderUseCommand(ICommandSender p_71519_1_)
 	{
 		return true;
+	}
+
+	@Override
+	public List<String> addTabCompletionOptions(ICommandSender sender, String[] args, BlockPos pos)
+	{
+		return new ArrayList<>();
+	}
+
+	@Override
+	public int compareTo(ICommand o)
+	{
+		return this.comm.name.compareTo(o.getCommandName());
 	}
 
 	@Override
@@ -64,15 +81,4 @@ public class CommandNew implements ICommand
 		return false;
 	}
 
-	@Override
-	public List<String> addTabCompletionOptions(ICommandSender sender, String[] args, BlockPos pos)
-	{
-		return new ArrayList<String>();
-	}
-
-	@Override
-	public int compareTo(ICommand o)
-	{
-		return 0;
-	}
 }

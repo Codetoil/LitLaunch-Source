@@ -23,7 +23,7 @@ import org.apache.logging.log4j.LogManager;
 import java.io.File;
 import java.util.List;
 
-@Mod(modid = LaunchCommon.MODID, version = LaunchCommon.VERSION)
+@Mod(modid = LaunchCommon.MODID, version = Launch1_7.VERSION)
 public class Launch1_7 implements ILaunch
 {
 	public static final String VERSION = MinecraftForge.MC_VERSION + "-" + LaunchCommon.VERSION;

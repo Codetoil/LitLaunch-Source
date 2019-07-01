@@ -1,7 +1,12 @@
-package io.github.codetoil.litlaunch.version.mc1_8;
+/*
+ * Copyright (c) Codetoil 2019
+ */
 
-import io.github.codetoil.litlaunch.backend.ILogger;
-import io.github.codetoil.litlaunch.backend.LaunchCommon;
+package io.github.codetoil.litlaunch._native.mc1_8;
+
+
+import io.github.codetoil.litlaunch.core.ILogger;
+import io.github.codetoil.litlaunch.core.LaunchCommon;
 import org.apache.logging.log4j.Logger;
 
 public class Logger1_8 implements ILogger
@@ -17,6 +22,12 @@ public class Logger1_8 implements ILogger
 	public static ILogger getInstance()
 	{
 		return Instance;
+	}
+
+	@Override
+	public void debug(Object obj)
+	{
+		this.LOGGER.debug(obj);
 	}
 
 	@Override
@@ -41,12 +52,6 @@ public class Logger1_8 implements ILogger
 	public void fatal(Object obj)
 	{
 		this.LOGGER.fatal(obj);
-	}
-
-	@Override
-	public void debug(Object obj)
-	{
-		this.LOGGER.debug(obj);
 	}
 
 	@Override
@@ -75,5 +80,6 @@ public class Logger1_8 implements ILogger
 			this.LOGGER = (Logger) logger;
 		}
 	}
+
 
 }

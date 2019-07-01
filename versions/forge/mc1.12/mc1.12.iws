@@ -7,200 +7,197 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fbce1d78-e2f4-4610-be70-a64012c292d6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../../litlaunchsrc/io/github/codetoil/litlaunch/_native/package-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../litlaunchsrc/io/github/codetoil/litlaunch/core/ConfigFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../litlaunchsrc/io/github/codetoil/litlaunch/modloader/PeekClassLoader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../litlaunchsrc/assets/minecraft/lang/en_US.lang" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../litlaunchsrc/io/github/codetoil/litlaunch/FrontEnd.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../litlaunchsrc/io/github/codetoil/litlaunch/api/FrontEnd.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../litlaunchsrc/io/github/codetoil/litlaunch/api/Command.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../litlaunchsrc/io/github/codetoil/litlaunch/api/Command.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../litlaunchsrc/io/github/codetoil/litlaunch/api/CommonProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../litlaunchsrc/io/github/codetoil/litlaunch/core/CommonProxy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../litlaunchsrc/io/github/codetoil/litlaunch/api/IDoThing.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../litlaunchsrc/io/github/codetoil/litlaunch/api/IDoThing.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../litlaunchsrc/io/github/codetoil/litlaunch/api/IGetFields.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../litlaunchsrc/io/github/codetoil/litlaunch/api/IGetFields.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../litlaunchsrc/io/github/codetoil/litlaunch/api/LaunchMods.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../litlaunchsrc/io/github/codetoil/litlaunch/api/ThreadLogged.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../litlaunchsrc/io/github/codetoil/litlaunch/core/ThreadLogged.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../litlaunchsrc/io/github/codetoil/litlaunch/backend/ILaunch.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../litlaunchsrc/io/github/codetoil/litlaunch/core/ILaunch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../litlaunchsrc/io/github/codetoil/litlaunch/backend/ILogger.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../litlaunchsrc/io/github/codetoil/litlaunch/core/ILogger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../litlaunchsrc/io/github/codetoil/litlaunch/backend/LaunchCommon.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../litlaunchsrc/io/github/codetoil/litlaunch/core/LaunchCommon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../litlaunchsrc/io/github/codetoil/litlaunch/backend/LitClassLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../litlaunchsrc/io/github/codetoil/litlaunch/modloader/LitClassLoader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../litlaunchsrc/io/github/codetoil/litlaunch/event/LitEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../litlaunchsrc/io/github/codetoil/litlaunch/core/event/LitEvent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../litlaunchsrc/io/github/codetoil/litlaunch/event/LitEventHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../litlaunchsrc/io/github/codetoil/litlaunch/core/event/LitEventHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../litlaunchsrc/io/github/codetoil/litlaunch/exceptions/FailedBootstrapException.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../litlaunchsrc/io/github/codetoil/litlaunch/core/exceptions/FailedBootstrapException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../litlaunchsrc/io/github/codetoil/litlaunch/version/mc1_12/CommandNew.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../litlaunchsrc/io/github/codetoil/litlaunch/_native/mc1_12/CommandNew.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../litlaunchsrc/io/github/codetoil/litlaunch/version/mc1_12/DoThing.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../litlaunchsrc/io/github/codetoil/litlaunch/_native/mc1_12/DoThing.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../litlaunchsrc/io/github/codetoil/litlaunch/version/mc1_12/EventHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../litlaunchsrc/io/github/codetoil/litlaunch/_native/mc1_12/EventHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../litlaunchsrc/io/github/codetoil/litlaunch/version/mc1_12/GetFields.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../litlaunchsrc/io/github/codetoil/litlaunch/_native/mc1_12/GetFields.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../litlaunchsrc/io/github/codetoil/litlaunch/version/mc1_12/Launch1_12.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../litlaunchsrc/io/github/codetoil/litlaunch/_native/mc1_12/Launch1_12.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../litlaunchsrc/io/github/codetoil/litlaunch/version/mc1_12/Logger1_12.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../litlaunchsrc/io/github/codetoil/litlaunch/_native/mc1_12/Logger1_12.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../litlaunchsrc/io/github/codetoil/litlaunch/version/mc1_12/proxy/ClientProxy1_12.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../litlaunchsrc/io/github/codetoil/litlaunch/_native/mc1_12/proxy/ClientProxy1_12.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../litlaunchsrc/io/github/codetoil/litlaunch/version/mc1_12/proxy/ServerProxy1_12.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../litlaunchsrc/io/github/codetoil/litlaunch/_native/mc1_12/proxy/ServerProxy1_12.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../litlaunchsrc/io/github/codetoil/litlaunch/version/mc1_13/CommandNew.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../litlaunchsrc/io/github/codetoil/litlaunch/_native/mc1_13/CommandNew.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../litlaunchsrc/io/github/codetoil/litlaunch/version/mc1_13/DoThing.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../litlaunchsrc/io/github/codetoil/litlaunch/_native/mc1_13/DoThing.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../litlaunchsrc/io/github/codetoil/litlaunch/version/mc1_13/EventHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../litlaunchsrc/io/github/codetoil/litlaunch/_native/mc1_13/EventHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../litlaunchsrc/io/github/codetoil/litlaunch/version/mc1_13/GetFields.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../litlaunchsrc/io/github/codetoil/litlaunch/_native/mc1_13/GetFields.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../litlaunchsrc/io/github/codetoil/litlaunch/version/mc1_13/Launch1_13.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../litlaunchsrc/io/github/codetoil/litlaunch/_native/mc1_13/Launch1_13.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../litlaunchsrc/io/github/codetoil/litlaunch/version/mc1_13/Logger1_13.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../litlaunchsrc/io/github/codetoil/litlaunch/_native/mc1_13/Logger1_13.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../litlaunchsrc/io/github/codetoil/litlaunch/version/mc1_13/ModLoading.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../litlaunchsrc/io/github/codetoil/litlaunch/modloader/ModFinder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../litlaunchsrc/io/github/codetoil/litlaunch/version/mc1_13/proxy/ClientProxy1_13.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../litlaunchsrc/io/github/codetoil/litlaunch/_native/mc1_13/proxy/ClientProxy1_13.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../litlaunchsrc/io/github/codetoil/litlaunch/version/mc1_13/proxy/ServerProxy1_13.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../litlaunchsrc/io/github/codetoil/litlaunch/_native/mc1_13/proxy/ServerProxy1_13.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../litlaunchsrc/io/github/codetoil/litlaunch/version/mc1_7/CommandNew.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../litlaunchsrc/io/github/codetoil/litlaunch/_native/mc1_7/CommandNew.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../litlaunchsrc/io/github/codetoil/litlaunch/version/mc1_7/DoThing.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../litlaunchsrc/io/github/codetoil/litlaunch/_native/mc1_7/DoThing.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../litlaunchsrc/io/github/codetoil/litlaunch/version/mc1_7/EventHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../litlaunchsrc/io/github/codetoil/litlaunch/_native/mc1_7/EventHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../litlaunchsrc/io/github/codetoil/litlaunch/version/mc1_7/GetFields.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../litlaunchsrc/io/github/codetoil/litlaunch/_native/mc1_7/GetFields.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../litlaunchsrc/io/github/codetoil/litlaunch/version/mc1_7/Launch1_7.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../litlaunchsrc/io/github/codetoil/litlaunch/_native/mc1_7/Launch1_7.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../litlaunchsrc/io/github/codetoil/litlaunch/version/mc1_7/Logger1_7.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../litlaunchsrc/io/github/codetoil/litlaunch/_native/mc1_7/Logger1_7.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../litlaunchsrc/io/github/codetoil/litlaunch/version/mc1_7/proxy/ClientProxy1_7.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../litlaunchsrc/io/github/codetoil/litlaunch/_native/mc1_7/proxy/ClientProxy1_7.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../litlaunchsrc/io/github/codetoil/litlaunch/version/mc1_7/proxy/ServerProxy1_7.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../litlaunchsrc/io/github/codetoil/litlaunch/_native/mc1_7/proxy/ServerProxy1_7.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../litlaunchsrc/io/github/codetoil/litlaunch/version/mc1_8/CommandNew.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../litlaunchsrc/io/github/codetoil/litlaunch/_native/mc1_8/CommandNew.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../litlaunchsrc/io/github/codetoil/litlaunch/version/mc1_8/DoThing.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../litlaunchsrc/io/github/codetoil/litlaunch/_native/mc1_8/DoThing.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../litlaunchsrc/io/github/codetoil/litlaunch/version/mc1_8/EventHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../litlaunchsrc/io/github/codetoil/litlaunch/_native/mc1_8/EventHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../litlaunchsrc/io/github/codetoil/litlaunch/version/mc1_8/GetFields.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../litlaunchsrc/io/github/codetoil/litlaunch/_native/mc1_8/GetFields.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../litlaunchsrc/io/github/codetoil/litlaunch/version/mc1_8/Launch1_8.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../litlaunchsrc/io/github/codetoil/litlaunch/_native/mc1_8/Launch1_8.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../litlaunchsrc/io/github/codetoil/litlaunch/version/mc1_8/Logger1_8.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../litlaunchsrc/io/github/codetoil/litlaunch/_native/mc1_8/Logger1_8.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../litlaunchsrc/io/github/codetoil/litlaunch/version/mc1_8/proxy/ClientProxy1_8.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../litlaunchsrc/io/github/codetoil/litlaunch/_native/mc1_8/proxy/ClientProxy1_8.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../litlaunchsrc/io/github/codetoil/litlaunch/version/mc1_8/proxy/ServerProxy1_8.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../litlaunchsrc/io/github/codetoil/litlaunch/_native/mc1_8/proxy/ServerProxy1_8.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../litlaunchsrc/io/github/codetoil/litlaunch/version/sponge/LaunchSponge.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../litlaunchsrc/io/github/codetoil/litlaunch/_native/sponge/LaunchSponge.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../litlaunchsrc/io/github/codetoil/litlaunch/version/sponge/LoggerSponge.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../litlaunchsrc/io/github/codetoil/litlaunch/_native/sponge/LoggerSponge.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../litlaunchsrc/io/github/codetoil/litlaunch/version/sponge/proxy/ClientProxySponge.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../litlaunchsrc/io/github/codetoil/litlaunch/_native/sponge/proxy/ClientProxySponge.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../litlaunchsrc/io/github/codetoil/litlaunch/version/sponge/proxy/ServerProxySponge.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../litlaunchsrc/io/github/codetoil/litlaunch/_native/sponge/proxy/ServerProxySponge.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../tpsmodsrc/src/io/github/codetoil/tpsmod/CalculateTPS.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../tpsmodsrc/src/io/github/codetoil/tpsmod/CalculateTPS.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../tpsmodsrc/src/io/github/codetoil/tpsmod/MeasureTPSdrop.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../tpsmodsrc/src/io/github/codetoil/tpsmod/MeasureTPSdrop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../litlaunchsrc/io/github/codetoil/litlaunch/_native/mc1_13/EventHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../litlaunchsrc/io/github/codetoil/litlaunch/_native/mc1_13/InfiniteArgument.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../litlaunchsrc/pack.mcmeta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../litlaunchsrc/META-INF/mods.toml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../litlaunchsrc/META-INF/mods.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../litlaunchsrc/io/github/codetoil/litlaunch/_native/mc1_12/Launch1_12.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../litlaunchsrc/io/github/codetoil/litlaunch/_native/mc1_12/Launch1_12.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../litlaunchsrc/io/github/codetoil/litlaunch/_native/mc1_13/CommandNew.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../litlaunchsrc/io/github/codetoil/litlaunch/_native/mc1_13/CommandNew.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../litlaunchsrc/io/github/codetoil/litlaunch/_native/mc1_13/DoThing.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../litlaunchsrc/io/github/codetoil/litlaunch/_native/mc1_13/DoThing.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../litlaunchsrc/io/github/codetoil/litlaunch/_native/mc1_13/GetFields.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../litlaunchsrc/io/github/codetoil/litlaunch/_native/mc1_13/GetFields.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../litlaunchsrc/io/github/codetoil/litlaunch/_native/mc1_13/Launch1_13.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../litlaunchsrc/io/github/codetoil/litlaunch/_native/mc1_13/Launch1_13.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../litlaunchsrc/io/github/codetoil/litlaunch/_native/mc1_13/proxy/ClientProxy1_13.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../litlaunchsrc/io/github/codetoil/litlaunch/_native/mc1_13/proxy/ClientProxy1_13.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../litlaunchsrc/io/github/codetoil/litlaunch/_native/mc1_13/proxy/ServerProxy1_13.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../litlaunchsrc/io/github/codetoil/litlaunch/_native/mc1_13/proxy/ServerProxy1_13.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../litlaunchsrc/io/github/codetoil/litlaunch/_native/mc1_7/CommandNew.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../litlaunchsrc/io/github/codetoil/litlaunch/_native/mc1_7/CommandNew.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../litlaunchsrc/io/github/codetoil/litlaunch/_native/mc1_7/DoThing.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../litlaunchsrc/io/github/codetoil/litlaunch/_native/mc1_7/DoThing.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../litlaunchsrc/io/github/codetoil/litlaunch/_native/mc1_7/Launch1_7.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../litlaunchsrc/io/github/codetoil/litlaunch/_native/mc1_7/Launch1_7.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../litlaunchsrc/io/github/codetoil/litlaunch/_native/mc1_7/proxy/ClientProxy1_7.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../litlaunchsrc/io/github/codetoil/litlaunch/_native/mc1_7/proxy/ClientProxy1_7.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../litlaunchsrc/io/github/codetoil/litlaunch/_native/mc1_7/proxy/ServerProxy1_7.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../litlaunchsrc/io/github/codetoil/litlaunch/_native/mc1_7/proxy/ServerProxy1_7.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../litlaunchsrc/io/github/codetoil/litlaunch/_native/mc1_8/CommandNew.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../litlaunchsrc/io/github/codetoil/litlaunch/_native/mc1_8/CommandNew.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../litlaunchsrc/io/github/codetoil/litlaunch/_native/mc1_8/DoThing.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../litlaunchsrc/io/github/codetoil/litlaunch/_native/mc1_8/DoThing.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../litlaunchsrc/io/github/codetoil/litlaunch/_native/mc1_8/EventHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../litlaunchsrc/io/github/codetoil/litlaunch/_native/mc1_8/EventHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../litlaunchsrc/io/github/codetoil/litlaunch/_native/mc1_8/GetFields.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../litlaunchsrc/io/github/codetoil/litlaunch/_native/mc1_8/GetFields.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../litlaunchsrc/io/github/codetoil/litlaunch/_native/mc1_8/Launch1_8.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../litlaunchsrc/io/github/codetoil/litlaunch/_native/mc1_8/Launch1_8.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../litlaunchsrc/io/github/codetoil/litlaunch/_native/mc1_8/Logger1_8.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../litlaunchsrc/io/github/codetoil/litlaunch/_native/mc1_8/Logger1_8.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../litlaunchsrc/io/github/codetoil/litlaunch/_native/mc1_8/proxy/ClientProxy1_8.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../litlaunchsrc/io/github/codetoil/litlaunch/_native/mc1_8/proxy/ClientProxy1_8.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../litlaunchsrc/io/github/codetoil/litlaunch/_native/mc1_8/proxy/ServerProxy1_8.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../litlaunchsrc/io/github/codetoil/litlaunch/_native/mc1_8/proxy/ServerProxy1_8.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../litlaunchsrc/io/github/codetoil/litlaunch/core/LaunchCommon.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../litlaunchsrc/io/github/codetoil/litlaunch/core/LaunchCommon.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../tpsmodsrc/src/io/github/codetoil/tpsmod/TPSMod.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../tpsmodsrc/src/io/github/codetoil/tpsmod/TPSMod.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../tpsmodsrc/src/io/github/codetoil/tpsmod/commands/CommandHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../tpsmodsrc/src/io/github/codetoil/tpsmod/commands/CommandHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../tpsmodsrc/src/io/github/codetoil/tpsmod/proxy/ClientProxy.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../tpsmodsrc/src/io/github/codetoil/tpsmod/proxy/ServerProxy.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/2.14/taskArtifacts/cache.properties.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/2.14/taskArtifacts/cache.properties.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/2.14/taskArtifacts/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/2.14/taskArtifacts/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/2.14/taskArtifacts/fileSnapshots.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/2.14/taskArtifacts/fileSnapshots.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/2.14/taskArtifacts/fileSnapshotsToTreeSnapshotsIndex.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/2.14/taskArtifacts/fileSnapshotsToTreeSnapshotsIndex.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/2.14/taskArtifacts/taskArtifacts.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/2.14/taskArtifacts/taskArtifacts.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/2.14/taskArtifacts/treeSnapshotUsage.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/2.14/taskArtifacts/treeSnapshotUsage.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/2.14/taskArtifacts/treeSnapshots.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/2.14/taskArtifacts/treeSnapshots.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/gradle.log" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/gradle.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/main/io/github/codetoil/litlaunch/FrontEnd.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/main/io/github/codetoil/litlaunch/api/Command$Side.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/main/io/github/codetoil/litlaunch/api/Command$Side.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/main/io/github/codetoil/litlaunch/api/Command.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/main/io/github/codetoil/litlaunch/api/Command.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/main/io/github/codetoil/litlaunch/api/CommonProxy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/main/io/github/codetoil/litlaunch/api/IDoThing$Color.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/main/io/github/codetoil/litlaunch/api/IDoThing$Color.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/main/io/github/codetoil/litlaunch/api/IDoThing$Style.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/main/io/github/codetoil/litlaunch/api/IDoThing$Style.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/main/io/github/codetoil/litlaunch/api/IDoThing.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/main/io/github/codetoil/litlaunch/api/IDoThing.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/main/io/github/codetoil/litlaunch/api/IGetFields.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/main/io/github/codetoil/litlaunch/api/IGetFields.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/main/io/github/codetoil/litlaunch/api/LaunchMods.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/main/io/github/codetoil/litlaunch/api/ThreadLogged$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/main/io/github/codetoil/litlaunch/api/ThreadLogged$ThreadInterrupedException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/main/io/github/codetoil/litlaunch/api/ThreadLogged.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/main/io/github/codetoil/litlaunch/backend/ILaunch.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/main/io/github/codetoil/litlaunch/backend/ILogger.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/main/io/github/codetoil/litlaunch/backend/LaunchCommon.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/main/io/github/codetoil/litlaunch/backend/LitClassLoader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/main/io/github/codetoil/litlaunch/event/LitEvent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/main/io/github/codetoil/litlaunch/event/LitEventHandler$EventListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/main/io/github/codetoil/litlaunch/event/LitEventHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/main/io/github/codetoil/litlaunch/exceptions/FailedBootstrapException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/main/io/github/codetoil/litlaunch/version/mc1_12/CommandNew.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/main/io/github/codetoil/litlaunch/version/mc1_12/DoThing.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/main/io/github/codetoil/litlaunch/version/mc1_12/EventHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/main/io/github/codetoil/litlaunch/version/mc1_12/GetFields.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/main/io/github/codetoil/litlaunch/version/mc1_12/Launch1_12$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/main/io/github/codetoil/litlaunch/version/mc1_12/Launch1_12.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/main/io/github/codetoil/litlaunch/version/mc1_12/Logger1_12.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/main/io/github/codetoil/litlaunch/version/mc1_12/proxy/ClientProxy1_12.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/main/io/github/codetoil/litlaunch/version/mc1_12/proxy/ServerProxy1_12.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/libs/litlaunch-forge-mc1.12.2-v0.0.2.1-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/libs/litlaunch-forge-mc1.12.2-v0.0.2.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/libs/litlaunch-forge-mc1.12.2-v0.0.2.2-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/libs/litlaunch-forge-mc1.12.2-v0.0.2.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/minecraft/lang/en_US.lang" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/mcmod.info" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/mcmod.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/retromapping/replacedMain.rangemap" beforeDir="false" afterPath="$PROJECT_DIR$/build/retromapping/replacedMain.rangemap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/retromapping/retromappedReplacedMain.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/retromapping/retromappedReplacedMain.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/sources/main/java/io/github/codetoil/litlaunch/FrontEnd.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/sources/main/java/io/github/codetoil/litlaunch/api/Command.java" beforeDir="false" afterPath="$PROJECT_DIR$/build/sources/main/java/io/github/codetoil/litlaunch/api/Command.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/sources/main/java/io/github/codetoil/litlaunch/api/CommonProxy.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/sources/main/java/io/github/codetoil/litlaunch/api/IDoThing.java" beforeDir="false" afterPath="$PROJECT_DIR$/build/sources/main/java/io/github/codetoil/litlaunch/api/IDoThing.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/sources/main/java/io/github/codetoil/litlaunch/api/IGetFields.java" beforeDir="false" afterPath="$PROJECT_DIR$/build/sources/main/java/io/github/codetoil/litlaunch/api/IGetFields.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/sources/main/java/io/github/codetoil/litlaunch/api/LaunchMods.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/sources/main/java/io/github/codetoil/litlaunch/api/ThreadLogged.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/sources/main/java/io/github/codetoil/litlaunch/backend/ILaunch.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/sources/main/java/io/github/codetoil/litlaunch/backend/ILogger.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/sources/main/java/io/github/codetoil/litlaunch/backend/LaunchCommon.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/sources/main/java/io/github/codetoil/litlaunch/backend/LitClassLoader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/sources/main/java/io/github/codetoil/litlaunch/event/LitEvent.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/sources/main/java/io/github/codetoil/litlaunch/event/LitEventHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/sources/main/java/io/github/codetoil/litlaunch/exceptions/FailedBootstrapException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/sources/main/java/io/github/codetoil/litlaunch/version/mc1_12/CommandNew.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/sources/main/java/io/github/codetoil/litlaunch/version/mc1_12/DoThing.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/sources/main/java/io/github/codetoil/litlaunch/version/mc1_12/EventHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/sources/main/java/io/github/codetoil/litlaunch/version/mc1_12/GetFields.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/sources/main/java/io/github/codetoil/litlaunch/version/mc1_12/Launch1_12.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/sources/main/java/io/github/codetoil/litlaunch/version/mc1_12/Logger1_12.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/sources/main/java/io/github/codetoil/litlaunch/version/mc1_12/proxy/ClientProxy1_12.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/sources/main/java/io/github/codetoil/litlaunch/version/mc1_12/proxy/ServerProxy1_12.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/taskLogs/extractRangemapReplacedMain.log" beforeDir="false" afterPath="$PROJECT_DIR$/build/taskLogs/extractRangemapReplacedMain.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/taskLogs/retromapReplacedMain.log" beforeDir="false" afterPath="$PROJECT_DIR$/build/taskLogs/retromapReplacedMain.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/extractAnnotationsJar/input1066199841303676748.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/reobfJar/reobf-default6610292424101942662.srg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/reobfJar/reobf-extraLines4124103569484313590.srg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/retromapReplacedMain/rangelog1160908413732968891.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/retromapReplacedMain/rangelog3589159419612680920.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/io.github.codetoil.mc1.12.api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/io.github.codetoil.mc1.12.api.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/io.github.codetoil.mc1.12.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/io.github.codetoil.mc1.12.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/io.github.codetoil.mc1.12.main.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/io.github.codetoil.mc1.12.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/io.github.codetoil.mc1.12.test.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mc1.12.iml" beforeDir="false" afterPath="$PROJECT_DIR$/mc1.12.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mc1.12.ipr" beforeDir="false" afterPath="$PROJECT_DIR$/mc1.12.ipr" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mc1.12.iws" beforeDir="false" afterPath="$PROJECT_DIR$/mc1.12.iws" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/io.github.codetoil.mc1.12.main/assets/minecraft/lang/en_US.lang" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/io.github.codetoil.mc1.12.main/io/github/codetoil/litlaunch/FrontEnd.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/io.github.codetoil.mc1.12.main/io/github/codetoil/litlaunch/api/Command$Side.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/io.github.codetoil.mc1.12.main/io/github/codetoil/litlaunch/api/Command$Side.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/io.github.codetoil.mc1.12.main/io/github/codetoil/litlaunch/api/Command.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/io.github.codetoil.mc1.12.main/io/github/codetoil/litlaunch/api/Command.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/io.github.codetoil.mc1.12.main/io/github/codetoil/litlaunch/api/CommonProxy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/io.github.codetoil.mc1.12.main/io/github/codetoil/litlaunch/api/IDoThing$Color.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/io.github.codetoil.mc1.12.main/io/github/codetoil/litlaunch/api/IDoThing$Color.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/io.github.codetoil.mc1.12.main/io/github/codetoil/litlaunch/api/IDoThing$Style.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/io.github.codetoil.mc1.12.main/io/github/codetoil/litlaunch/api/IDoThing$Style.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/io.github.codetoil.mc1.12.main/io/github/codetoil/litlaunch/api/IDoThing.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/io.github.codetoil.mc1.12.main/io/github/codetoil/litlaunch/api/IDoThing.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/io.github.codetoil.mc1.12.main/io/github/codetoil/litlaunch/api/IGetFields.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/io.github.codetoil.mc1.12.main/io/github/codetoil/litlaunch/api/IGetFields.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/io.github.codetoil.mc1.12.main/io/github/codetoil/litlaunch/api/LaunchMods.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/io.github.codetoil.mc1.12.main/io/github/codetoil/litlaunch/api/ThreadLogged$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/io.github.codetoil.mc1.12.main/io/github/codetoil/litlaunch/api/ThreadLogged$ThreadInterrupedException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/io.github.codetoil.mc1.12.main/io/github/codetoil/litlaunch/api/ThreadLogged.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/io.github.codetoil.mc1.12.main/io/github/codetoil/litlaunch/backend/ILaunch.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/io.github.codetoil.mc1.12.main/io/github/codetoil/litlaunch/backend/ILogger.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/io.github.codetoil.mc1.12.main/io/github/codetoil/litlaunch/backend/LaunchCommon.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/io.github.codetoil.mc1.12.main/io/github/codetoil/litlaunch/backend/LitClassLoader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/io.github.codetoil.mc1.12.main/io/github/codetoil/litlaunch/event/LitEvent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/io.github.codetoil.mc1.12.main/io/github/codetoil/litlaunch/event/LitEventHandler$EventListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/io.github.codetoil.mc1.12.main/io/github/codetoil/litlaunch/event/LitEventHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/io.github.codetoil.mc1.12.main/io/github/codetoil/litlaunch/exceptions/FailedBootstrapException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/io.github.codetoil.mc1.12.main/io/github/codetoil/litlaunch/version/mc1_12/CommandNew.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/io.github.codetoil.mc1.12.main/io/github/codetoil/litlaunch/version/mc1_12/DoThing.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/io.github.codetoil.mc1.12.main/io/github/codetoil/litlaunch/version/mc1_12/EventHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/io.github.codetoil.mc1.12.main/io/github/codetoil/litlaunch/version/mc1_12/GetFields.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/io.github.codetoil.mc1.12.main/io/github/codetoil/litlaunch/version/mc1_12/Launch1_12$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/io.github.codetoil.mc1.12.main/io/github/codetoil/litlaunch/version/mc1_12/Launch1_12.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/io.github.codetoil.mc1.12.main/io/github/codetoil/litlaunch/version/mc1_12/Logger1_12.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/io.github.codetoil.mc1.12.main/io/github/codetoil/litlaunch/version/mc1_12/proxy/ClientProxy1_12.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/io.github.codetoil.mc1.12.main/io/github/codetoil/litlaunch/version/mc1_12/proxy/ServerProxy1_12.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tpsmod/io/github/codetoil/tpsmod/CalculateTPS.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tpsmod/io/github/codetoil/tpsmod/CalculateTPS.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/tpsmod/io/github/codetoil/tpsmod/MeasureTPSdrop.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tpsmod/io/github/codetoil/tpsmod/MeasureTPSdrop.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/tpsmod/io/github/codetoil/tpsmod/TPSMod$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tpsmod/io/github/codetoil/tpsmod/TPSMod$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/tpsmod/io/github/codetoil/tpsmod/TPSMod$Events.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tpsmod/io/github/codetoil/tpsmod/TPSMod$Events.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/tpsmod/io/github/codetoil/tpsmod/TPSMod.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tpsmod/io/github/codetoil/tpsmod/TPSMod.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/tpsmod/io/github/codetoil/tpsmod/commands/CommandHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tpsmod/io/github/codetoil/tpsmod/commands/CommandHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tpsmod/io/github/codetoil/tpsmod/proxy/ClientProxy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tpsmod/io/github/codetoil/tpsmod/proxy/ServerProxy.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../mc1.13/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../mc1.13/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mc1.13/src/main/java/com/example/examplemod/ExampleMod.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mc1.13/src/main/resources/META-INF/mods.toml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mc1.13/src/main/resources/pack.mcmeta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mc1.13/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../mc1.13/local.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../mc1.7/.gradle/2.6/taskArtifacts/cache.properties.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../mc1.7/.gradle/2.6/taskArtifacts/cache.properties.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../mc1.7/.gradle/2.6/taskArtifacts/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../mc1.7/.gradle/2.6/taskArtifacts/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../mc1.7/.gradle/2.6/taskArtifacts/fileSnapshots.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../mc1.7/.gradle/2.6/taskArtifacts/fileSnapshots.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mc1.7/.gradle/2.6/taskArtifacts/outputFileStates.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../mc1.7/.gradle/2.6/taskArtifacts/outputFileStates.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../mc1.7/.gradle/2.6/taskArtifacts/taskArtifacts.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../mc1.7/.gradle/2.6/taskArtifacts/taskArtifacts.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../mc1.7/.gradle/gradle.log" beforeDir="false" afterPath="$PROJECT_DIR$/../mc1.7/.gradle/gradle.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../mc1.7/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mc1.7/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mc1.7/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../mc1.7/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mc1.7/eclipse/mods/tpsmod-2.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mc1.7/out/production/mc1.7.main/assets/minecraft/lang/en_US.lang" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mc1.7/out/production/mc1.7.main/io/github/codetoil/litlaunch/FrontEnd.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mc1.7/out/production/mc1.7.main/io/github/codetoil/litlaunch/api/Command$Side.class" beforeDir="false" afterPath="$PROJECT_DIR$/../mc1.7/out/production/mc1.7.main/io/github/codetoil/litlaunch/api/Command$Side.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mc1.7/out/production/mc1.7.main/io/github/codetoil/litlaunch/api/Command.class" beforeDir="false" afterPath="$PROJECT_DIR$/../mc1.7/out/production/mc1.7.main/io/github/codetoil/litlaunch/api/Command.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mc1.7/out/production/mc1.7.main/io/github/codetoil/litlaunch/api/CommonProxy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mc1.7/out/production/mc1.7.main/io/github/codetoil/litlaunch/api/IDoThing$Color.class" beforeDir="false" afterPath="$PROJECT_DIR$/../mc1.7/out/production/mc1.7.main/io/github/codetoil/litlaunch/api/IDoThing$Color.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mc1.7/out/production/mc1.7.main/io/github/codetoil/litlaunch/api/IDoThing$Style.class" beforeDir="false" afterPath="$PROJECT_DIR$/../mc1.7/out/production/mc1.7.main/io/github/codetoil/litlaunch/api/IDoThing$Style.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mc1.7/out/production/mc1.7.main/io/github/codetoil/litlaunch/api/IDoThing.class" beforeDir="false" afterPath="$PROJECT_DIR$/../mc1.7/out/production/mc1.7.main/io/github/codetoil/litlaunch/api/IDoThing.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mc1.7/out/production/mc1.7.main/io/github/codetoil/litlaunch/api/IGetFields.class" beforeDir="false" afterPath="$PROJECT_DIR$/../mc1.7/out/production/mc1.7.main/io/github/codetoil/litlaunch/api/IGetFields.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mc1.7/out/production/mc1.7.main/io/github/codetoil/litlaunch/api/LaunchMods.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mc1.7/out/production/mc1.7.main/io/github/codetoil/litlaunch/api/ThreadLogged$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mc1.7/out/production/mc1.7.main/io/github/codetoil/litlaunch/api/ThreadLogged$ThreadInterrupedException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mc1.7/out/production/mc1.7.main/io/github/codetoil/litlaunch/api/ThreadLogged.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mc1.7/out/production/mc1.7.main/io/github/codetoil/litlaunch/backend/ILaunch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mc1.7/out/production/mc1.7.main/io/github/codetoil/litlaunch/backend/ILogger.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mc1.7/out/production/mc1.7.main/io/github/codetoil/litlaunch/backend/LaunchCommon.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mc1.7/out/production/mc1.7.main/io/github/codetoil/litlaunch/backend/LitClassLoader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mc1.7/out/production/mc1.7.main/io/github/codetoil/litlaunch/event/LitEvent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mc1.7/out/production/mc1.7.main/io/github/codetoil/litlaunch/event/LitEventHandler$EventListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mc1.7/out/production/mc1.7.main/io/github/codetoil/litlaunch/event/LitEventHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mc1.7/out/production/mc1.7.main/io/github/codetoil/litlaunch/exceptions/FailedBootstrapException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mc1.7/out/production/mc1.7.main/io/github/codetoil/litlaunch/version/mc1_7/CommandNew.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mc1.7/out/production/mc1.7.main/io/github/codetoil/litlaunch/version/mc1_7/DoThing.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mc1.7/out/production/mc1.7.main/io/github/codetoil/litlaunch/version/mc1_7/EventHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mc1.7/out/production/mc1.7.main/io/github/codetoil/litlaunch/version/mc1_7/GetFields.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mc1.7/out/production/mc1.7.main/io/github/codetoil/litlaunch/version/mc1_7/Launch1_7$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mc1.7/out/production/mc1.7.main/io/github/codetoil/litlaunch/version/mc1_7/Launch1_7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mc1.7/out/production/mc1.7.main/io/github/codetoil/litlaunch/version/mc1_7/Logger1_7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mc1.7/out/production/mc1.7.main/io/github/codetoil/litlaunch/version/mc1_7/proxy/ClientProxy1_7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mc1.7/out/production/mc1.7.main/io/github/codetoil/litlaunch/version/mc1_7/proxy/ServerProxy1_7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mc1.7/out/production/tpsmod/io/github/codetoil/tpsmod/CalculateTPS.class" beforeDir="false" afterPath="$PROJECT_DIR$/../mc1.7/out/production/tpsmod/io/github/codetoil/tpsmod/CalculateTPS.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mc1.7/out/production/tpsmod/io/github/codetoil/tpsmod/MeasureTPSdrop.class" beforeDir="false" afterPath="$PROJECT_DIR$/../mc1.7/out/production/tpsmod/io/github/codetoil/tpsmod/MeasureTPSdrop.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mc1.7/out/production/tpsmod/io/github/codetoil/tpsmod/TPSMod$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../mc1.7/out/production/tpsmod/io/github/codetoil/tpsmod/TPSMod$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mc1.7/out/production/tpsmod/io/github/codetoil/tpsmod/TPSMod$Events.class" beforeDir="false" afterPath="$PROJECT_DIR$/../mc1.7/out/production/tpsmod/io/github/codetoil/tpsmod/TPSMod$Events.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mc1.7/out/production/tpsmod/io/github/codetoil/tpsmod/TPSMod.class" beforeDir="false" afterPath="$PROJECT_DIR$/../mc1.7/out/production/tpsmod/io/github/codetoil/tpsmod/TPSMod.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mc1.7/out/production/tpsmod/io/github/codetoil/tpsmod/commands/CommandHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/../mc1.7/out/production/tpsmod/io/github/codetoil/tpsmod/commands/CommandHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mc1.7/out/production/tpsmod/io/github/codetoil/tpsmod/proxy/ClientProxy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mc1.7/out/production/tpsmod/io/github/codetoil/tpsmod/proxy/ServerProxy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mc1.8/.gradle/2.7/taskArtifacts/cache.properties.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../mc1.8/.gradle/2.7/taskArtifacts/cache.properties.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mc1.8/.gradle/2.7/taskArtifacts/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../mc1.8/.gradle/2.7/taskArtifacts/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mc1.8/.gradle/2.7/taskArtifacts/fileSnapshots.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../mc1.8/.gradle/2.7/taskArtifacts/fileSnapshots.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mc1.8/.gradle/2.7/taskArtifacts/outputFileStates.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../mc1.8/.gradle/2.7/taskArtifacts/outputFileStates.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mc1.8/.gradle/2.7/taskArtifacts/taskArtifacts.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../mc1.8/.gradle/2.7/taskArtifacts/taskArtifacts.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mc1.8/.gradle/gradle.log" beforeDir="false" afterPath="$PROJECT_DIR$/../mc1.8/.gradle/gradle.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mc1.8/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mc1.8/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mc1.8/.idea/modules/mc1.8.api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../mc1.8/.idea/modules/mc1.8.api.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mc1.8/.idea/modules/mc1.8.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../mc1.8/.idea/modules/mc1.8.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mc1.8/.idea/modules/mc1.8.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../mc1.8/.idea/modules/mc1.8.main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mc1.8/.idea/modules/mc1.8.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../mc1.8/.idea/modules/mc1.8.test.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../mc1.8/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mc1.8/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mc1.8/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../mc1.8/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mc1.8/build/classes/main/io/github/codetoil/litlaunch/FrontEnd.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mc1.8/build/classes/main/io/github/codetoil/litlaunch/api/Command$Side.class" beforeDir="false" afterPath="$PROJECT_DIR$/../mc1.8/build/classes/main/io/github/codetoil/litlaunch/api/Command$Side.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mc1.8/build/classes/main/io/github/codetoil/litlaunch/api/Command.class" beforeDir="false" afterPath="$PROJECT_DIR$/../mc1.8/build/classes/main/io/github/codetoil/litlaunch/api/Command.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mc1.8/build/classes/main/io/github/codetoil/litlaunch/api/CommonProxy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mc1.8/build/classes/main/io/github/codetoil/litlaunch/api/IDoThing$Color.class" beforeDir="false" afterPath="$PROJECT_DIR$/../mc1.8/build/classes/main/io/github/codetoil/litlaunch/api/IDoThing$Color.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mc1.8/build/classes/main/io/github/codetoil/litlaunch/api/IDoThing$Style.class" beforeDir="false" afterPath="$PROJECT_DIR$/../mc1.8/build/classes/main/io/github/codetoil/litlaunch/api/IDoThing$Style.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mc1.8/build/classes/main/io/github/codetoil/litlaunch/api/IDoThing.class" beforeDir="false" afterPath="$PROJECT_DIR$/../mc1.8/build/classes/main/io/github/codetoil/litlaunch/api/IDoThing.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mc1.8/build/classes/main/io/github/codetoil/litlaunch/api/IGetFields.class" beforeDir="false" afterPath="$PROJECT_DIR$/../mc1.8/build/classes/main/io/github/codetoil/litlaunch/api/IGetFields.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mc1.8/build/classes/main/io/github/codetoil/litlaunch/api/LaunchMods.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mc1.8/build/classes/main/io/github/codetoil/litlaunch/api/ThreadLogged$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mc1.8/build/classes/main/io/github/codetoil/litlaunch/api/ThreadLogged$ThreadInterrupedException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mc1.8/build/classes/main/io/github/codetoil/litlaunch/api/ThreadLogged.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mc1.8/build/classes/main/io/github/codetoil/litlaunch/backend/ILaunch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mc1.8/build/classes/main/io/github/codetoil/litlaunch/backend/ILogger.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mc1.8/build/classes/main/io/github/codetoil/litlaunch/backend/LaunchCommon.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mc1.8/build/classes/main/io/github/codetoil/litlaunch/backend/LitClassLoader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mc1.8/build/classes/main/io/github/codetoil/litlaunch/event/LitEvent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mc1.8/build/classes/main/io/github/codetoil/litlaunch/event/LitEventHandler$EventListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mc1.8/build/classes/main/io/github/codetoil/litlaunch/event/LitEventHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mc1.8/build/classes/main/io/github/codetoil/litlaunch/exceptions/FailedBootstrapException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mc1.8/build/classes/main/io/github/codetoil/litlaunch/version/mc1_8/CommandNew.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mc1.8/build/classes/main/io/github/codetoil/litlaunch/version/mc1_8/DoThing.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mc1.8/build/classes/main/io/github/codetoil/litlaunch/version/mc1_8/EventHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mc1.8/build/classes/main/io/github/codetoil/litlaunch/version/mc1_8/GetFields.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mc1.8/build/classes/main/io/github/codetoil/litlaunch/version/mc1_8/Launch1_8$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mc1.8/build/classes/main/io/github/codetoil/litlaunch/version/mc1_8/Launch1_8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mc1.8/build/classes/main/io/github/codetoil/litlaunch/version/mc1_8/Logger1_8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mc1.8/build/classes/main/io/github/codetoil/litlaunch/version/mc1_8/proxy/ClientProxy1_8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mc1.8/build/classes/main/io/github/codetoil/litlaunch/version/mc1_8/proxy/ServerProxy1_8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mc1.8/build/resources/main/assets/minecraft/lang/en_US.lang" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mc1.8/build/resources/main/mcmod.info" beforeDir="false" afterPath="$PROJECT_DIR$/../mc1.8/build/resources/main/mcmod.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mc1.8/build/retromapping/replacedMain.rangemap" beforeDir="false" afterPath="$PROJECT_DIR$/../mc1.8/build/retromapping/replacedMain.rangemap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mc1.8/build/retromapping/retromappedReplacedMain.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../mc1.8/build/retromapping/retromappedReplacedMain.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mc1.8/build/sources/main/java/io/github/codetoil/litlaunch/FrontEnd.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mc1.8/build/sources/main/java/io/github/codetoil/litlaunch/api/Command.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mc1.8/build/sources/main/java/io/github/codetoil/litlaunch/api/Command.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mc1.8/build/sources/main/java/io/github/codetoil/litlaunch/api/CommonProxy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mc1.8/build/sources/main/java/io/github/codetoil/litlaunch/api/IDoThing.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mc1.8/build/sources/main/java/io/github/codetoil/litlaunch/api/IDoThing.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mc1.8/build/sources/main/java/io/github/codetoil/litlaunch/api/IGetFields.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mc1.8/build/sources/main/java/io/github/codetoil/litlaunch/api/IGetFields.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mc1.8/build/sources/main/java/io/github/codetoil/litlaunch/api/LaunchMods.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mc1.8/build/sources/main/java/io/github/codetoil/litlaunch/api/ThreadLogged.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mc1.8/build/sources/main/java/io/github/codetoil/litlaunch/backend/ILaunch.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mc1.8/build/sources/main/java/io/github/codetoil/litlaunch/backend/ILogger.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mc1.8/build/sources/main/java/io/github/codetoil/litlaunch/backend/LaunchCommon.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mc1.8/build/sources/main/java/io/github/codetoil/litlaunch/backend/LitClassLoader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mc1.8/build/sources/main/java/io/github/codetoil/litlaunch/event/LitEvent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mc1.8/build/sources/main/java/io/github/codetoil/litlaunch/event/LitEventHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mc1.8/build/sources/main/java/io/github/codetoil/litlaunch/exceptions/FailedBootstrapException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mc1.8/build/sources/main/java/io/github/codetoil/litlaunch/version/mc1_8/CommandNew.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mc1.8/build/sources/main/java/io/github/codetoil/litlaunch/version/mc1_8/DoThing.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mc1.8/build/sources/main/java/io/github/codetoil/litlaunch/version/mc1_8/EventHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mc1.8/build/sources/main/java/io/github/codetoil/litlaunch/version/mc1_8/GetFields.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mc1.8/build/sources/main/java/io/github/codetoil/litlaunch/version/mc1_8/Launch1_8.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mc1.8/build/sources/main/java/io/github/codetoil/litlaunch/version/mc1_8/Logger1_8.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mc1.8/build/sources/main/java/io/github/codetoil/litlaunch/version/mc1_8/proxy/ClientProxy1_8.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mc1.8/build/sources/main/java/io/github/codetoil/litlaunch/version/mc1_8/proxy/ServerProxy1_8.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mc1.8/build/taskLogs/extractRangemapReplacedMain.log" beforeDir="false" afterPath="$PROJECT_DIR$/../mc1.8/build/taskLogs/extractRangemapReplacedMain.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mc1.8/build/taskLogs/retromapReplacedMain.log" beforeDir="false" afterPath="$PROJECT_DIR$/../mc1.8/build/taskLogs/retromapReplacedMain.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mc1.8/build/tmp/expandedArchives/retromappedReplacedMain.jar_7jupkyrl41kfiqltvdriltjap/io/github/codetoil/litlaunch/api/Command.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mc1.8/build/tmp/expandedArchives/retromappedReplacedMain.jar_7jupkyrl41kfiqltvdriltjap/io/github/codetoil/litlaunch/api/Command.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mc1.8/build/tmp/expandedArchives/retromappedReplacedMain.jar_7jupkyrl41kfiqltvdriltjap/io/github/codetoil/litlaunch/api/IDoThing.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mc1.8/build/tmp/expandedArchives/retromappedReplacedMain.jar_7jupkyrl41kfiqltvdriltjap/io/github/codetoil/litlaunch/api/IDoThing.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mc1.8/build/tmp/expandedArchives/retromappedReplacedMain.jar_7jupkyrl41kfiqltvdriltjap/io/github/codetoil/litlaunch/api/IGetFields.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mc1.8/build/tmp/expandedArchives/retromappedReplacedMain.jar_7jupkyrl41kfiqltvdriltjap/io/github/codetoil/litlaunch/api/IGetFields.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mc1.8/classes/production/mc1.8.main/assets/minecraft/lang/en_US.lang" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mc1.8/classes/production/mc1.8.main/io/github/codetoil/litlaunch/FrontEnd.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mc1.8/classes/production/mc1.8.main/io/github/codetoil/litlaunch/api/Command$Side.class" beforeDir="false" afterPath="$PROJECT_DIR$/../mc1.8/classes/production/mc1.8.main/io/github/codetoil/litlaunch/api/Command$Side.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mc1.8/classes/production/mc1.8.main/io/github/codetoil/litlaunch/api/Command.class" beforeDir="false" afterPath="$PROJECT_DIR$/../mc1.8/classes/production/mc1.8.main/io/github/codetoil/litlaunch/api/Command.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mc1.8/classes/production/mc1.8.main/io/github/codetoil/litlaunch/api/CommonProxy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mc1.8/classes/production/mc1.8.main/io/github/codetoil/litlaunch/api/IDoThing$Color.class" beforeDir="false" afterPath="$PROJECT_DIR$/../mc1.8/classes/production/mc1.8.main/io/github/codetoil/litlaunch/api/IDoThing$Color.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mc1.8/classes/production/mc1.8.main/io/github/codetoil/litlaunch/api/IDoThing$Style.class" beforeDir="false" afterPath="$PROJECT_DIR$/../mc1.8/classes/production/mc1.8.main/io/github/codetoil/litlaunch/api/IDoThing$Style.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mc1.8/classes/production/mc1.8.main/io/github/codetoil/litlaunch/api/IDoThing.class" beforeDir="false" afterPath="$PROJECT_DIR$/../mc1.8/classes/production/mc1.8.main/io/github/codetoil/litlaunch/api/IDoThing.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mc1.8/classes/production/mc1.8.main/io/github/codetoil/litlaunch/api/IGetFields.class" beforeDir="false" afterPath="$PROJECT_DIR$/../mc1.8/classes/production/mc1.8.main/io/github/codetoil/litlaunch/api/IGetFields.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mc1.8/classes/production/mc1.8.main/io/github/codetoil/litlaunch/api/LaunchMods.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mc1.8/classes/production/mc1.8.main/io/github/codetoil/litlaunch/api/ThreadLogged$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mc1.8/classes/production/mc1.8.main/io/github/codetoil/litlaunch/api/ThreadLogged$ThreadInterrupedException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mc1.8/classes/production/mc1.8.main/io/github/codetoil/litlaunch/api/ThreadLogged.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mc1.8/classes/production/mc1.8.main/io/github/codetoil/litlaunch/backend/ILaunch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mc1.8/classes/production/mc1.8.main/io/github/codetoil/litlaunch/backend/ILogger.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mc1.8/classes/production/mc1.8.main/io/github/codetoil/litlaunch/backend/LaunchCommon.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mc1.8/classes/production/mc1.8.main/io/github/codetoil/litlaunch/backend/LitClassLoader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mc1.8/classes/production/mc1.8.main/io/github/codetoil/litlaunch/event/LitEvent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mc1.8/classes/production/mc1.8.main/io/github/codetoil/litlaunch/event/LitEventHandler$EventListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mc1.8/classes/production/mc1.8.main/io/github/codetoil/litlaunch/event/LitEventHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mc1.8/classes/production/mc1.8.main/io/github/codetoil/litlaunch/exceptions/FailedBootstrapException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mc1.8/classes/production/mc1.8.main/io/github/codetoil/litlaunch/version/mc1_8/CommandNew.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mc1.8/classes/production/mc1.8.main/io/github/codetoil/litlaunch/version/mc1_8/DoThing.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mc1.8/classes/production/mc1.8.main/io/github/codetoil/litlaunch/version/mc1_8/EventHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mc1.8/classes/production/mc1.8.main/io/github/codetoil/litlaunch/version/mc1_8/GetFields.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mc1.8/classes/production/mc1.8.main/io/github/codetoil/litlaunch/version/mc1_8/Launch1_8$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mc1.8/classes/production/mc1.8.main/io/github/codetoil/litlaunch/version/mc1_8/Launch1_8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mc1.8/classes/production/mc1.8.main/io/github/codetoil/litlaunch/version/mc1_8/Logger1_8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mc1.8/classes/production/mc1.8.main/io/github/codetoil/litlaunch/version/mc1_8/proxy/ClientProxy1_8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mc1.8/classes/production/mc1.8.main/io/github/codetoil/litlaunch/version/mc1_8/proxy/ServerProxy1_8.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -307,7 +304,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../../../litlaunchsrc/io/github/codetoil/litlaunch/_native/mc1_12/GetFields.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="901">
+            <state relative-caret-position="748">
               <caret line="55" column="29" selection-start-line="55" selection-start-column="29" selection-end-line="55" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -325,10 +322,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../../../tpsmodsrc/src/io/github/codetoil/tpsmod/TPSMod.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="248">
-              <caret line="28" column="4" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="4" />
+            <state relative-caret-position="352">
+              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1616#1617#0" expanded="true" />
+                <element signature="e#1661#1662#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -337,7 +336,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../../../litlaunchsrc/io/github/codetoil/litlaunch/core/event/LitEventHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-527">
+            <state relative-caret-position="238">
               <caret line="21" column="40" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
             </state>
           </provider>
@@ -346,8 +345,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="34" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
+            <state relative-caret-position="289">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
             </state>
           </provider>
         </entry>
@@ -367,7 +366,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../../../litlaunchsrc/io/github/codetoil/litlaunch/_native/mc1_12/EventHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="149">
+            <state relative-caret-position="374">
               <caret line="29" column="70" selection-start-line="29" selection-start-column="70" selection-end-line="29" selection-end-column="70" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -379,7 +378,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../../../tpsmodsrc/src/io/github/codetoil/tpsmod/MeasureTPSdrop.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="159">
+            <state relative-caret-position="323">
               <caret line="24" column="21" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
             </state>
           </provider>
@@ -401,23 +400,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../../../tpsmodsrc/src/io/github/codetoil/tpsmod/commands/CommandHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1479">
-              <caret line="98" column="48" selection-start-line="98" selection-start-column="48" selection-end-line="98" selection-end-column="48" />
+            <state relative-caret-position="505">
+              <caret line="66" column="137" selection-start-line="66" selection-start-column="137" selection-end-line="66" selection-end-column="137" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/AdoptOpenJDK/jdk-8.0.212.04-hotspot/src.zip!/java/lang/Integer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="16252">
-              <caret line="1010" column="36" selection-start-line="1010" selection-start-column="36" selection-end-line="1010" selection-end-column="36" />
-              <folding>
-                <element signature="e#38813#38814#0" expanded="true" />
-                <element signature="e#38856#38857#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -505,13 +491,13 @@
         <option value="$PROJECT_DIR$/../../../litlaunchsrc/io/github/codetoil/litlaunch/_native/mc1_12/DoThing.java" />
         <option value="$PROJECT_DIR$/../../../litlaunchsrc/io/github/codetoil/litlaunch/api/Command.java" />
         <option value="$PROJECT_DIR$/../../../litlaunchsrc/io/github/codetoil/litlaunch/_native/mc1_12/CommandNew.java" />
-        <option value="$PROJECT_DIR$/../../../tpsmodsrc/src/io/github/codetoil/tpsmod/commands/CommandHandler.java" />
         <option value="$PROJECT_DIR$/../../../litlaunchsrc/io/github/codetoil/litlaunch/_native/mc1_12/EventHandler.java" />
         <option value="$PROJECT_DIR$/../../../litlaunchsrc/io/github/codetoil/litlaunch/core/LaunchCommon.java" />
-        <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/../../../litlaunchsrc/io/github/codetoil/litlaunch/_native/mc1_12/GetFields.java" />
         <option value="$PROJECT_DIR$/../../../tpsmodsrc/src/io/github/codetoil/tpsmod/MeasureTPSdrop.java" />
+        <option value="$PROJECT_DIR$/../../../tpsmodsrc/src/io/github/codetoil/tpsmod/commands/CommandHandler.java" />
         <option value="$PROJECT_DIR$/../../../tpsmodsrc/src/io/github/codetoil/tpsmod/TPSMod.java" />
+        <option value="$PROJECT_DIR$/build.gradle" />
       </list>
     </option>
   </component>
@@ -526,10 +512,11 @@
     <option name="LAST_EDITED_MODULE_NAME" />
     <option name="LAST_EDITED_TAB_NAME" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="2881" />
-    <option name="width" value="646" />
-    <option name="height" value="877" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1874" />
+    <option name="height" value="1096" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -542,7 +529,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -676,6 +662,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -688,7 +675,7 @@
     <property name="MemberChooser.sorted" value="false" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558998030158" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../tpsmodrun/mc1.12.server" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../../MinecraftJoypadSplitscreenMod-1.7.10/MinecraftJoypadSplitscreenMod/build.gradle" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -974,11 +961,11 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="2881" y="0" width="646" height="877" extended-state="0" />
+    <frame x="54" y="-8" width="1874" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Build Variants" order="0" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.498452" visible="true" weight="0.48293516" />
+      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.498452" visible="true" weight="0.20507166" />
       <window_info id="Structure" order="2" sideWeight="0.501548" side_tool="true" weight="0.2968491" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Designer" order="4" />
@@ -987,14 +974,14 @@
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49731544" weight="0.46776232" />
-      <window_info active="true" anchor="bottom" x="22" y="381" width="1809" height="317" id="Run" order="2" sideWeight="0.7866894" visible="true" weight="0.3548387" />
+      <window_info anchor="bottom" x="22" y="381" width="1809" height="317" id="Run" order="2" sideWeight="0.7943771" weight="0.2741433" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39875388" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49944875" weight="0.32917964" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.3298611" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.21331058" side_tool="true" visible="true" weight="0.3548387" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.20562293" side_tool="true" visible="true" weight="0.2741433" />
       <window_info anchor="bottom" id="Build" order="10" sideWeight="0.4950386" weight="0.32502595" />
       <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49779493" weight="0.3271028" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -1002,7 +989,7 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Gradle" order="5" visible="true" weight="0.4641638" />
+      <window_info anchor="right" id="Gradle" order="5" visible="true" weight="0.18798237" />
       <window_info anchor="right" id="Theme Preview" order="6" />
       <window_info anchor="right" id="Maven" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
@@ -1178,13 +1165,7 @@ for (Class&lt;?&gt; inter : LitClassLoader.getClass(modPath).getInterfaces()) {
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/AdoptOpenJDK/jdk-8.0.212.04-hotspot/src.zip!/java/lang/Runnable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="101">
-          <caret line="51" column="34" lean-forward="true" selection-start-line="51" selection-start-column="34" selection-end-line="51" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://C:/Program Files/AdoptOpenJDK/jdk-8.0.212.04-hotspot/src.zip!/java/lang/Runnable.java" />
     <entry file="jar://D:/gradle/caches/modules-2/files-2.1/com.google.guava/guava/21.0/b9ed26b8c23fe7cd3e6b463b34e54e5c6d9536d5/guava-21.0-sources.jar!/com/google/common/base/Supplier.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
@@ -1192,34 +1173,10 @@ for (Class&lt;?&gt; inter : LitClassLoader.getClass(modPath).getInterfaces()) {
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/AdoptOpenJDK/jdk-8.0.212.04-hotspot/src.zip!/java/util/function/Predicate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="38" column="1" selection-start-line="38" selection-start-column="1" selection-end-line="38" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/AdoptOpenJDK/jdk-8.0.212.04-hotspot/src.zip!/java/util/function/Consumer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="48" column="21" selection-start-line="48" selection-start-column="21" selection-end-line="48" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/AdoptOpenJDK/jdk-8.0.212.04-hotspot/src.zip!/java/util/function/Function.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="59">
-          <caret line="39" column="12" selection-start-line="39" selection-start-column="12" selection-end-line="39" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/AdoptOpenJDK/jdk-8.0.212.04-hotspot/src.zip!/java/lang/FunctionalInterface.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="67" column="18" selection-start-line="67" selection-start-column="18" selection-end-line="67" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://C:/Program Files/AdoptOpenJDK/jdk-8.0.212.04-hotspot/src.zip!/java/util/function/Predicate.java" />
+    <entry file="jar://C:/Program Files/AdoptOpenJDK/jdk-8.0.212.04-hotspot/src.zip!/java/util/function/Consumer.java" />
+    <entry file="jar://C:/Program Files/AdoptOpenJDK/jdk-8.0.212.04-hotspot/src.zip!/java/util/function/Function.java" />
+    <entry file="jar://C:/Program Files/AdoptOpenJDK/jdk-8.0.212.04-hotspot/src.zip!/java/lang/FunctionalInterface.java" />
     <entry file="file://$PROJECT_DIR$/../../../litlaunchsrc/io/github/codetoil/litlaunch/_native/mc1_7/Launch1_7.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-85">
@@ -1374,17 +1331,7 @@ for (Class&lt;?&gt; inter : LitClassLoader.getClass(modPath).getInterfaces()) {
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/AdoptOpenJDK/jdk-8.0.212.04-hotspot/src.zip!/java/util/regex/Matcher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="228" column="8" selection-start-line="228" selection-start-column="8" selection-end-line="228" selection-end-column="8" />
-          <folding>
-            <element signature="e#49851#49852#0" expanded="true" />
-            <element signature="e#49887#49888#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://C:/Program Files/AdoptOpenJDK/jdk-8.0.212.04-hotspot/src.zip!/java/util/regex/Matcher.java" />
     <entry file="jar://D:/gradle/caches/minecraft/net/minecraftforge/forge/1.12.2-14.23.5.2768/snapshot/20171003/forgeSrc-1.12.2-14.23.5.2768-sources.jar!/net/minecraft/util/text/TextComponentBase.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
@@ -1441,13 +1388,7 @@ for (Class&lt;?&gt; inter : LitClassLoader.getClass(modPath).getInterfaces()) {
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/AdoptOpenJDK/jdk-8.0.212.04-hotspot/src.zip!/java/lang/Comparable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="388">
-          <caret line="95" column="17" selection-start-line="95" selection-start-column="17" selection-end-line="95" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://C:/Program Files/AdoptOpenJDK/jdk-8.0.212.04-hotspot/src.zip!/java/lang/Comparable.java" />
     <entry file="jar://D:/gradle/caches/minecraft/net/minecraftforge/forge/1.12.2-14.23.5.2768/snapshot/20171003/forgeSrc-1.12.2-14.23.5.2768-sources.jar!/net/minecraft/command/ICommand.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -1488,24 +1429,27 @@ for (Class&lt;?&gt; inter : LitClassLoader.getClass(modPath).getInterfaces()) {
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../../tpsmodsrc/src/io/github/codetoil/tpsmod/commands/CommandHandler.java">
+    <entry file="jar://C:/Program Files/AdoptOpenJDK/jdk-8.0.212.04-hotspot/src.zip!/java/lang/Integer.java" />
+    <entry file="file://$PROJECT_DIR$/../../../litlaunchsrc/io/github/codetoil/litlaunch/_native/mc1_12/GetFields.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1479">
-          <caret line="98" column="48" selection-start-line="98" selection-start-column="48" selection-end-line="98" selection-end-column="48" />
+        <state relative-caret-position="748">
+          <caret line="55" column="29" selection-start-line="55" selection-start-column="29" selection-end-line="55" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1793#1794#0" expanded="true" />
+            <element signature="e#1837#1838#0" expanded="true" />
+            <element signature="e#1904#1905#0" expanded="true" />
+            <element signature="e#1980#1981#0" expanded="true" />
+            <element signature="e#2259#2260#0" expanded="true" />
+            <element signature="e#2298#2299#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/AdoptOpenJDK/jdk-8.0.212.04-hotspot/src.zip!/java/lang/Integer.java">
+    <entry file="file://$PROJECT_DIR$/../../../litlaunchsrc/io/github/codetoil/litlaunch/core/event/LitEventHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="16252">
-          <caret line="1010" column="36" selection-start-line="1010" selection-start-column="36" selection-end-line="1010" selection-end-column="36" />
-          <folding>
-            <element signature="e#38813#38814#0" expanded="true" />
-            <element signature="e#38856#38857#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="238">
+          <caret line="21" column="40" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
         </state>
       </provider>
     </entry>
@@ -1519,27 +1463,20 @@ for (Class&lt;?&gt; inter : LitClassLoader.getClass(modPath).getInterfaces()) {
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../../litlaunchsrc/io/github/codetoil/litlaunch/core/event/LitEventHandler.java">
+    <entry file="file://$PROJECT_DIR$/../../../litlaunchsrc/io/github/codetoil/litlaunch/_native/mc1_12/EventHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-527">
-          <caret line="21" column="40" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
+        <state relative-caret-position="374">
+          <caret line="29" column="70" selection-start-line="29" selection-start-column="70" selection-end-line="29" selection-end-column="70" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../../../tpsmodsrc/src/io/github/codetoil/tpsmod/MeasureTPSdrop.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
+        <state relative-caret-position="323">
           <caret line="24" column="21" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../litlaunchsrc/io/github/codetoil/litlaunch/_native/mc1_12/EventHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="29" column="70" selection-start-line="29" selection-start-column="70" selection-end-line="29" selection-end-column="70" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1554,36 +1491,32 @@ for (Class&lt;?&gt; inter : LitClassLoader.getClass(modPath).getInterfaces()) {
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../../litlaunchsrc/io/github/codetoil/litlaunch/_native/mc1_12/GetFields.java">
+    <entry file="file://$PROJECT_DIR$/../../../tpsmodsrc/src/io/github/codetoil/tpsmod/commands/CommandHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="901">
-          <caret line="55" column="29" selection-start-line="55" selection-start-column="29" selection-end-line="55" selection-end-column="29" />
+        <state relative-caret-position="505">
+          <caret line="66" column="137" selection-start-line="66" selection-start-column="137" selection-end-line="66" selection-end-column="137" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1793#1794#0" expanded="true" />
-            <element signature="e#1837#1838#0" expanded="true" />
-            <element signature="e#1904#1905#0" expanded="true" />
-            <element signature="e#1980#1981#0" expanded="true" />
-            <element signature="e#2259#2260#0" expanded="true" />
-            <element signature="e#2298#2299#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../../../tpsmodsrc/src/io/github/codetoil/tpsmod/TPSMod.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="28" column="4" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="4" />
+        <state relative-caret-position="352">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1616#1617#0" expanded="true" />
+            <element signature="e#1661#1662#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="34" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
+        <state relative-caret-position="289">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>

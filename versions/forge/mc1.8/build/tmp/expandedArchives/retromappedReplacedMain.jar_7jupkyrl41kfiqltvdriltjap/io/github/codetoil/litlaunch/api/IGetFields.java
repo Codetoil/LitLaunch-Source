@@ -8,7 +8,7 @@ public interface IGetFields
 {
 	long getTotalWorldTime(int dimension);
 
-	int getDimPlayer();
+	int getDimRunning();
 
 	int[] getDimsAvailable();
 

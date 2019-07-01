@@ -1,5 +1,5 @@
 /*
- * Copyright Codetoil (c) 2019
+ * Copyright (c) Codetoil 2019
  */
 
 package io.github.codetoil.litlaunch._native.mc1_7;
@@ -9,6 +9,7 @@ import net.minecraft.command.ICommand;
 import net.minecraft.command.ICommandSender;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 public class CommandNew implements ICommand
@@ -38,19 +39,20 @@ public class CommandNew implements ICommand
 	}
 
 	@Override
-	public List<?> getCommandAliases()
+	public List getCommandAliases()
 	{
-		return new ArrayList<Object>();
+		return new ArrayList<>();
 	}
 
 	@Override
 	public void processCommand(ICommandSender p_71515_1_, String[] p_71515_2_)
 	{
+		List<String> Args = Arrays.asList(p_71515_2_);
 		try {
-			comm.runnable.run();
+			comm.methodToRun.accept(Args);
 		}
-		catch (Exception e) {
-			e.printStackTrace();
+		catch (Throwable t) {
+			t.printStackTrace();
 		}
 	}
 
@@ -61,21 +63,25 @@ public class CommandNew implements ICommand
 	}
 
 	@Override
-	public List<?> addTabCompletionOptions(ICommandSender p_71516_1_, String[] p_71516_2_)
+	public List addTabCompletionOptions(ICommandSender p_71516_1_, String[] p_71516_2_)
 	{
-		return new ArrayList<Object>();
+		return new ArrayList<>();
 	}
 
 	@Override
-	public boolean isUsernameIndex(String[] p_82358_1_, int p_82358_2_)
+	public boolean isUsernameIndex(String[] args, int index)
 	{
 		return false;
 	}
 
-	@Override
-	public int compareTo(Object o)
+	public int compareTo(Object arg0)
 	{
-		return 0;
+		if (arg0 instanceof ICommand)
+		{
+			ICommand arg = (ICommand) arg0;
+			return this.comm.name.compareTo(arg.getCommandName());
+		}
+		return -1;
 	}
 
 }

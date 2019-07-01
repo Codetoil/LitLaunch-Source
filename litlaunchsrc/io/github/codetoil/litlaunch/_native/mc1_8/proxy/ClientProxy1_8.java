@@ -1,19 +1,42 @@
-package io.github.codetoil.litlaunch.version.mc1_8.proxy;
+/*
+ * Copyright (c) Codetoil 2019
+ */
 
+package io.github.codetoil.litlaunch._native.mc1_8.proxy;
+
+import io.github.codetoil.litlaunch._native.mc1_8.CommandNew;
 import io.github.codetoil.litlaunch.api.Command;
-import io.github.codetoil.litlaunch.api.CommonProxy;
-import io.github.codetoil.litlaunch.api.LaunchMods;
-import io.github.codetoil.litlaunch.version.mc1_8.CommandNew;
+import io.github.codetoil.litlaunch.api.FrontEnd;
+import io.github.codetoil.litlaunch.core.CommonProxy;
+import io.github.codetoil.litlaunch.core.LaunchCommon;
+import io.github.codetoil.litlaunch.modloader.ModFinder;
+import net.minecraft.client.Minecraft;
+import net.minecraftforge.fml.relauncher.Side;
+import net.minecraftforge.fml.relauncher.SideOnly;
 
 import java.util.List;
 
+@SideOnly(Side.CLIENT)
 public class ClientProxy1_8 implements CommonProxy
 {
 	@Override
+	public void setGamePath()
+	{
+		FrontEnd.info("Lit Launch Client Proxy Setting Game Path On Lit Launch!");
+		LaunchCommon.setGamePath(Minecraft.getMinecraft().mcDataDir.toPath());
+	}
+
+	@Override
+	public void construction()
+	{
+		FrontEnd.info("Lit Launch Client Proxy Constructing!");
+	}
+
+	@Override
 	public void preInit()
 	{
-		LaunchMods.info("preInitialization!");
-		LaunchMods.validMods.forEach((modClass) -> {
+		FrontEnd.info("Lit Launch Client Proxy PreInitializing!");
+		ModFinder.validMods.forEach((modClass) -> {
 			try {
 				Object oCommands = modClass.getField("commandList").get(null);
 				List lCommands;
@@ -26,7 +49,7 @@ public class ClientProxy1_8 implements CommonProxy
 						}
 					});
 				} else {
-					LaunchMods.error("Mod " + modClass + " does not have a method named \"commandList\". This is neccesary for the api to work though. Skipping!");
+					FrontEnd.error("Mod " + modClass + " does not have a method named \"commandList\". This is neccesary for the api to work though. Skipping!");
 				}
 
 			}
@@ -40,18 +63,21 @@ public class ClientProxy1_8 implements CommonProxy
 	@Override
 	public void init()
 	{
+		FrontEnd.info("Lit Launch Client Proxy Initializing!");
 
 	}
 
 	@Override
 	public void postInit()
 	{
+		FrontEnd.info("Lit Launch Client Proxy PostInitializing!");
 
 	}
 
 	@Override
 	public void serverLoad()
 	{
+		FrontEnd.info("Lit Launch Client Proxy Loading Server!");
 
 	}
 }

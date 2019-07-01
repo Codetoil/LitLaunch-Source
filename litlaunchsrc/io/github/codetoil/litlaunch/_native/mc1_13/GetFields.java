@@ -1,15 +1,19 @@
+/*
+ * Copyright (c) Codetoil 2019
+ */
+
 package io.github.codetoil.litlaunch._native.mc1_13;
 
 import com.google.common.collect.Lists;
 import io.github.codetoil.litlaunch.api.FrontEnd;
 import io.github.codetoil.litlaunch.api.IGetFields;
 import net.minecraft.client.Minecraft;
-import net.minecraft.server.MinecraftServer;
 import net.minecraft.world.World;
 import net.minecraft.world.dimension.DimensionType;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.common.DimensionManager;
+import net.minecraftforge.fml.loading.FMLEnvironment;
 import net.minecraftforge.fml.server.ServerLifecycleHooks;
 
 import java.util.Iterator;
@@ -24,54 +28,54 @@ public class GetFields implements IGetFields
 	}
 
 	@Override
-	@OnlyIn(Dist.CLIENT)
 	public synchronized long getTotalWorldTime(int dimension)
 	{
-		long result;
+		long result = -1;
 		try {
 			DimensionType lDimensionType = DimensionType.getById(dimension);
-			if (lDimensionType == null)
+			if (lDimensionType != null)
 			{
-				return -1;
-			}
-			MinecraftServer lMinecraftServer = ServerLifecycleHooks.getCurrentServer();
-			if (lMinecraftServer == null)
-			{
-				return -1;
-			}
-			World world = DimensionManager.getWorld(lMinecraftServer, lDimensionType, false, false);
-			if (world == null) // World for dimension is not loaded, but check entityworld
-			{
-				world = Minecraft.getInstance().world;
-				if (world != null) {
-					if (world.dimension.getType().getId() == dimension) {
-						result = world.getGameTime();
+				World world =DimensionManager.getWorld(ServerLifecycleHooks.getCurrentServer(), lDimensionType, false, false);
+				if (FMLEnvironment.dist.isClient() && world == null) // World for dimension is not loaded, but check entityworld
+				{
+					world = getWorldClient();
+					if (world != null) {
+						if (world.dimension.getType().getId() == dimension) {
+							result = world.getGameTime();
+						}
 					} else {
-						result = -1;
-						//LaunchMods.error("Dimension " + dimension + " is not loaded!");
-						// This dimension is not loaded
+						//LaunchMods.error("Client World Doesn't Exist!");
+						// world cannot be loaded
 					}
 				} else {
-					result = -1;
-					//LaunchMods.error("Client World Doesn't Exist!");
-					// world cannot be loaded
+					if (world != null)
+					{
+						result = world.getGameTime();
+					}
 				}
-			} else {
-				result = world.getGameTime();
+			}
+			else
+			{
+				return -1;
 			}
 		}
 		catch (Throwable e) {
-			result = -1;
-			FrontEnd.error("Something went wrong with getting the totalworldtime!");
+			FrontEnd.error("Something went wrong!");
 			e.printStackTrace();
 		}
 
 		return result;
 	}
 
+	@OnlyIn(Dist.CLIENT)
+	public World getWorldClient()
+	{
+		return Minecraft.getInstance().world;
+	}
+
 	@Override
 	@OnlyIn(Dist.CLIENT)
-	public int getDimPlayer()
+	public int getDimRunning()
 	{
 		return Minecraft.getInstance().player.dimension.getId();
 	}

@@ -2,8 +2,12 @@ package io.github.codetoil.litlaunch._native.mc1_13;
 
 import com.mojang.brigadier.CommandDispatcher;
 import io.github.codetoil.litlaunch.api.Command;
+import io.github.codetoil.litlaunch.api.FrontEnd;
 import net.minecraft.command.CommandSource;
 import net.minecraft.command.Commands;
+
+import java.util.Arrays;
+import java.util.List;
 
 public class CommandNew
 {
@@ -29,28 +33,37 @@ public class CommandNew
 
 	public void register(CommandDispatcher<CommandSource> disp)
 	{
-		disp.register(Commands.literal(comm.name).executes((p_198726_0_) -> {
-			execute();
+		disp.register(Commands.literal(comm.name).then(Commands.argument("args", new InfiniteArgument()).executes((source) -> {
+			String str = InfiniteArgument.getString(source);
+			execute(str);
 			return 0;
-		}));
+		})));
 	}
 
 	//public String getUsage(ICommandSender sender) {
 	//	return comm.usage;
 	//}
 
-	public void execute()
+	public void execute(String args)
 	{
+		FrontEnd.debug(args);
+		String[] lStrings = args.split(" ");
+		List<String> lStringList = Arrays.asList(lStrings);
+		FrontEnd.debug("strlistinit: " + lStringList);
+		if (!lStringList.isEmpty())
+		{
+			lStringList.remove(0);
+		}
 		try {
-			comm.runnable.run();
+			comm.methodToRun.accept(lStringList);
 		}
 		catch (Exception e) {
 			e.printStackTrace();
 		}
 	}
 
-	public boolean isUsernameIndex(String[] args, int index)
-	{
+public boolean isUsernameIndex(String[] args, int index)
+		{
 		return false;
-	}
+		}
 }
