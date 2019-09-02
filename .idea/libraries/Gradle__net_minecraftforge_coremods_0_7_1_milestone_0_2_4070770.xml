@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: net.minecraftforge:coremods:0.7.1-milestone.0.2+4070770">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../ForgeDataOffline/net/minecraftforge/coremods/0.7.1-milestone.0.2+4070770/coremods-0.7.1-milestone.0.2+4070770.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../ForgeDataOffline/net/minecraftforge/coremods/0.7.1-milestone.0.2+4070770/coremods-0.7.1-milestone.0.2+4070770-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

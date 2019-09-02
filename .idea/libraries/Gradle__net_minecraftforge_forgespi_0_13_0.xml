@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: net.minecraftforge:forgespi:0.13.0">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../ForgeDataOffline/net/minecraftforge/forgespi/0.13.0/forgespi-0.13.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../ForgeDataOffline/net/minecraftforge/forgespi/0.13.0/forgespi-0.13.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

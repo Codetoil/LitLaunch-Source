@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Gradle: de.oceanlabs.mcp:mcp_stable:zip:43-1.13">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../ForgeDataOffline/de/oceanlabs/mcp/mcp_stable/43-1.13/mcp_stable-43-1.13.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

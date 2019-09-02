@@ -24,7 +24,7 @@ repositories {
 
 apply plugin: 'forge'
 
-version = "forge-mc1.7.10-v0.0.3.5"
+version = "forge-mc1.7.10-v0.0.3.11"
 group= "io.github.codetoil" 
 /*
  * Copyright Codetoil (c) 2019
@@ -34,7 +34,7 @@ archivesBaseName = "litlaunch"
 
 minecraft {
     version = "1.7.10-10.13.4.1614-1.7.10"
-    runDir = "eclipse"
+    runDir = "run"
 }
 
 targetCompatibility = '1.8'
@@ -45,7 +45,8 @@ dependencies {
     // or you may define them like so..
     //compile "some.group:artifact:version:classifier"
     //compile "some.group:artifact:version"
-      
+    compile project.project(':..:litlaunchsrc')
+
     // real examples
     //compile 'com.mod-buildcraft:buildcraft:6.0.8:dev'  // adds buildcraft to the dev env
     //compile 'com.googlecode.efficient-java-matrix-library:ejml:0.24' // adds ejml to the dev env
@@ -79,20 +80,10 @@ processResources
 sourceSets {
     main {
         java {
-            srcDir "../../../litlaunchsrc"
-            //srcDir "../../../tpsmodsrc-1.2/main/java"
-            exclude 'io/github/codetoil/litlaunch/_native/mc1_13'
-            exclude 'io/github/codetoil/litlaunch/_native/mc1_8'
-            exclude 'io/github/codetoil/litlaunch/_native/mc1_12'
-            exclude 'io/github/codetoil/litlaunch/_native/sponge'
+            srcDir "src/main/java"
         }
         resources {
-            srcDir "../../../litlaunchsrc"
-            //srcDir "../../../tpsmodsrc-1.2/main/resources"
-            exclude 'io/github/codetoil/litlaunch/_native/mc1_13'
-            exclude 'io/github/codetoil/litlaunch/_native/mc1_8'
-            exclude 'io/github/codetoil/litlaunch/_native/mc1_12'
-            exclude 'io/github/codetoil/litlaunch/_native/sponge'
+            srcDir "src/main/resources"
         }
     }
 }

@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.ow2.asm:asm-util:6.2">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../ForgeDataOffline/org/ow2/asm/asm-util/6.2/asm-util-6.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../ForgeDataOffline/org/ow2/asm/asm-util/6.2/asm-util-6.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

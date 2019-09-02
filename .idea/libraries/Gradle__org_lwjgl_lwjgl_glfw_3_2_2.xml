@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: org.lwjgl:lwjgl-glfw:3.2.2">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../ForgeDataOffline/org/lwjgl/lwjgl-glfw/3.2.2/lwjgl-glfw-3.2.2.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://D:/gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-glfw/3.2.2/ec16468e164b8710c533bcb44cf0d025eee8e775/lwjgl-glfw-3.2.2-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../ForgeDataOffline/org/lwjgl/lwjgl-glfw/3.2.2/lwjgl-glfw-3.2.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

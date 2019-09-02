@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.mojang:javabridge:1.0.22">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../ForgeDataOffline/com/mojang/javabridge/1.0.22/javabridge-1.0.22.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../ForgeDataOffline/com/mojang/javabridge/1.0.22/javabridge-1.0.22-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

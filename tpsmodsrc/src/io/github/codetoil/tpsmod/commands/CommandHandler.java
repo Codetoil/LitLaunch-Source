@@ -4,9 +4,11 @@
 
 package io.github.codetoil.tpsmod.commands;
 
-import io.github.codetoil.litlaunch.api.Command;
 import io.github.codetoil.litlaunch.api.FrontEnd;
+import io.github.codetoil.litlaunch.api.arguments.ArgumentWrapper;
+import io.github.codetoil.litlaunch.api.Command;
 import io.github.codetoil.litlaunch.api.IDoThing;
+import io.github.codetoil.litlaunch.api.arguments.IArgumentValue;
 import io.github.codetoil.litlaunch.core.LaunchCommon;
 import io.github.codetoil.tpsmod.MeasureTPSdrop;
 import io.github.codetoil.tpsmod.TPSMod;
@@ -17,14 +19,9 @@ import java.util.List;
 
 public class CommandHandler
 {
-	public static void executeTPS(List<String> args)
+	public static void executeTPS(List<ArgumentWrapper<?>> args)
 	{
-		//FrontEnd.info(args);
-		if (LaunchCommon.getSide().equals(Command.Side.SERVER) && args.size() != 1)
-		{
-			LaunchCommon.getDoThing().notifyUser(TPSMod.tpsUsage);
-			return;
-		}
+		FrontEnd.verbose(args);
 		Integer dimension = getDimensionFromArgs(args);
 		if (dimension == null)
 		{
@@ -45,14 +42,9 @@ public class CommandHandler
 		}
 	}
 
-	public static void executeTPSTOALL(List<String> args)
+	public static void executeTPSTOALL(List<ArgumentWrapper<?>> args)
 	{
-		//FrontEnd.info(args);
-		if (LaunchCommon.getSide().equals(Command.Side.SERVER) && args.size() != 1)
-		{
-			LaunchCommon.getDoThing().notifyUser(TPSMod.tpstoallUsage);
-			return;
-		}
+		FrontEnd.verbose(args);
 		Integer dimension = getDimensionFromArgs(args);
 		if (dimension == null)
 		{
@@ -73,12 +65,17 @@ public class CommandHandler
 		}
 	}
 
-	private static Integer getDimensionFromArgs(List<String> argList) {
+	private static Integer getDimensionFromArgs(List<ArgumentWrapper<?>> argList) {
 		Integer result = null;
 		if (argList.size() == 1)
 		{
-			String arg = argList.get(0);
-			result = Integer.parseInt(arg);
+			ArgumentWrapper arg = argList.get(0);
+			IArgumentValue<?> value = arg.getValue();
+			Object val = value.getValue();
+			if (val instanceof Integer)
+			{
+				result = (Integer) val;
+			}
 		}
 		else if (argList.size() == 0)
 		{

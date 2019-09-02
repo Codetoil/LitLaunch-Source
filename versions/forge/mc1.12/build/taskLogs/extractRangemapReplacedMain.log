@@ -1,6 +1,6 @@
 Symbol range map extraction starting
-Processing 26 files
-startProcessing "io\github\codetoil\litlaunch\_native\mc1_12\CommandNew.java" md5: 122dd7e12f00f242d533d4ba8346824e
+Processing 8 files
+startProcessing "io\github\codetoil\litlaunch\_native\mc1_12\CommandNew.java" md5: 87ace505828a6f175d4c528c31737b94
 Cache Hit!
 endProcessing "io\github\codetoil\litlaunch\_native\mc1_12\CommandNew.java"
 
@@ -8,7 +8,7 @@ startProcessing "io\github\codetoil\litlaunch\_native\mc1_12\DoThing.java" md5: 
 Cache Hit!
 endProcessing "io\github\codetoil\litlaunch\_native\mc1_12\DoThing.java"
 
-startProcessing "io\github\codetoil\litlaunch\_native\mc1_12\EventHandler.java" md5: bb00fe23ad31c2882a53af91d440a08a
+startProcessing "io\github\codetoil\litlaunch\_native\mc1_12\EventHandler.java" md5: a2ebe57a0c6575a2ac69a3304b7871bb
 Cache Hit!
 endProcessing "io\github\codetoil\litlaunch\_native\mc1_12\EventHandler.java"
 
@@ -16,7 +16,7 @@ startProcessing "io\github\codetoil\litlaunch\_native\mc1_12\GetFields.java" md5
 Cache Hit!
 endProcessing "io\github\codetoil\litlaunch\_native\mc1_12\GetFields.java"
 
-startProcessing "io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java" md5: e398126368b38f41662c37dfa34b34e8
+startProcessing "io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java" md5: 24af5e603640f9016924b4f7cf0ef716
 Cache Hit!
 endProcessing "io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java"
 
@@ -24,83 +24,11 @@ startProcessing "io\github\codetoil\litlaunch\_native\mc1_12\Logger1_12.java" md
 Cache Hit!
 endProcessing "io\github\codetoil\litlaunch\_native\mc1_12\Logger1_12.java"
 
-startProcessing "io\github\codetoil\litlaunch\_native\mc1_12\proxy\ClientProxy1_12.java" md5: a368590f488bc14d01b2b26e1c59eae8
+startProcessing "io\github\codetoil\litlaunch\_native\mc1_12\proxy\ClientProxy1_12.java" md5: 6ed025b784924abf6d59917f970b8bd2
 Cache Hit!
 endProcessing "io\github\codetoil\litlaunch\_native\mc1_12\proxy\ClientProxy1_12.java"
 
-startProcessing "io\github\codetoil\litlaunch\_native\mc1_12\proxy\ServerProxy1_12.java" md5: 7873a98b9d2fdd0b503c4e42606fe3d9
+startProcessing "io\github\codetoil\litlaunch\_native\mc1_12\proxy\ServerProxy1_12.java" md5: 0d35a17a36ef75752df2dd6e3c0e19c9
 Cache Hit!
 endProcessing "io\github\codetoil\litlaunch\_native\mc1_12\proxy\ServerProxy1_12.java"
-
-startProcessing "io\github\codetoil\litlaunch\_native\package-info.java" md5: 7e0e95f207bc00dc0acd150c456d2ee1
-Cache Hit!
-endProcessing "io\github\codetoil\litlaunch\_native\package-info.java"
-
-startProcessing "io\github\codetoil\litlaunch\api\Command.java" md5: a329fdf54347698e2470f104f4da902a
-Cache Hit!
-endProcessing "io\github\codetoil\litlaunch\api\Command.java"
-
-startProcessing "io\github\codetoil\litlaunch\api\FrontEnd.java" md5: 8ad15ee80d6b3b475e84c6ae0b9b6fc7
-Cache Hit!
-endProcessing "io\github\codetoil\litlaunch\api\FrontEnd.java"
-
-startProcessing "io\github\codetoil\litlaunch\api\IDoThing.java" md5: 28c5a16430e8089bfa47e7f10e848f88
-Cache Hit!
-endProcessing "io\github\codetoil\litlaunch\api\IDoThing.java"
-
-startProcessing "io\github\codetoil\litlaunch\api\IGetFields.java" md5: 210a9648b2552496a4ea17dabdda8d8e
-Cache Hit!
-endProcessing "io\github\codetoil\litlaunch\api\IGetFields.java"
-
-startProcessing "io\github\codetoil\litlaunch\api\IMod.java" md5: 581692c42042efd2478de56ed7837d39
-Cache Hit!
-endProcessing "io\github\codetoil\litlaunch\api\IMod.java"
-
-startProcessing "io\github\codetoil\litlaunch\core\CommonProxy.java" md5: 08a4aea009a0802fb9c457d535873ddb
-Cache Hit!
-endProcessing "io\github\codetoil\litlaunch\core\CommonProxy.java"
-
-startProcessing "io\github\codetoil\litlaunch\core\ConfigFile.java" md5: 504ea9be56d3131c7bdfe433d00961c7
-Cache Hit!
-endProcessing "io\github\codetoil\litlaunch\core\ConfigFile.java"
-
-startProcessing "io\github\codetoil\litlaunch\core\ILaunch.java" md5: d4fcc2dd8fa00a54b6848938d62dcf9e
-Cache Hit!
-endProcessing "io\github\codetoil\litlaunch\core\ILaunch.java"
-
-startProcessing "io\github\codetoil\litlaunch\core\ILogger.java" md5: 4eab0ab54cfa3b0f4c85e997831c4b23
-Cache Hit!
-endProcessing "io\github\codetoil\litlaunch\core\ILogger.java"
-
-startProcessing "io\github\codetoil\litlaunch\core\LaunchCommon.java" md5: 767dc6d5ed4832d511172c1e9a8f34ce
-Cache Hit!
-endProcessing "io\github\codetoil\litlaunch\core\LaunchCommon.java"
-
-startProcessing "io\github\codetoil\litlaunch\core\ThreadLogged.java" md5: a17177947d1206dd96f97650ff19f66f
-Cache Hit!
-endProcessing "io\github\codetoil\litlaunch\core\ThreadLogged.java"
-
-startProcessing "io\github\codetoil\litlaunch\core\event\LitEvent.java" md5: ab47f314e4cff0c54e071f447ed7eab2
-Cache Hit!
-endProcessing "io\github\codetoil\litlaunch\core\event\LitEvent.java"
-
-startProcessing "io\github\codetoil\litlaunch\core\event\LitEventHandler.java" md5: 203884235f73e37769c0d714940e9023
-Cache Hit!
-endProcessing "io\github\codetoil\litlaunch\core\event\LitEventHandler.java"
-
-startProcessing "io\github\codetoil\litlaunch\core\exceptions\FailedBootstrapException.java" md5: 85a5efa6b9e14266ba9f34e11257c580
-Cache Hit!
-endProcessing "io\github\codetoil\litlaunch\core\exceptions\FailedBootstrapException.java"
-
-startProcessing "io\github\codetoil\litlaunch\modloader\LitClassLoader.java" md5: ca49ba2f86772f31a6712d09c8dda411
-Cache Hit!
-endProcessing "io\github\codetoil\litlaunch\modloader\LitClassLoader.java"
-
-startProcessing "io\github\codetoil\litlaunch\modloader\ModFinder.java" md5: 5c8e5818bb979f9ed1b98707b8c92b31
-Cache Hit!
-endProcessing "io\github\codetoil\litlaunch\modloader\ModFinder.java"
-
-startProcessing "io\github\codetoil\litlaunch\modloader\PeekClassLoader.java" md5: b9c7a6fdc4b4d318aa5f7d12c87415eb
-Cache Hit!
-endProcessing "io\github\codetoil\litlaunch\modloader\PeekClassLoader.java"
 

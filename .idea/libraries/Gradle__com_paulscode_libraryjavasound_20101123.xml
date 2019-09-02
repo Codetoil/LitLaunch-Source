@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.paulscode:libraryjavasound:20101123">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../ForgeDataOffline/com/paulscode/libraryjavasound/20101123/libraryjavasound-20101123.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../ForgeDataOffline/com/paulscode/libraryjavasound/20101123/libraryjavasound-20101123-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

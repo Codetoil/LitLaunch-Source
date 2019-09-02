@@ -11,20 +11,20 @@ import io.github.codetoil.litlaunch.core.event.LitEventHandler;
 
 public class CalculateTPS implements LitEventHandler.EventListener
 {
-	private final int Dimension;
+	private final int dimension;
 	private long previousTotalWorldTime;
 	private double previousMeasureTime;
 	private double TPS;
 
-	public CalculateTPS(int Dimension)
+	public CalculateTPS(int dimension)
 	{
-		this.Dimension = Dimension;
+		this.dimension = dimension;
 	}
 
 	public void ReceivedEvent(LitEvent event)
 	{
-		if (event.getType().equals("updateTPS")) {
-			if (event.getData()[2].equals(this.Dimension)) {
+		if (event.getType() == TPSMod.updateTPS) {
+			if (event.getData()[2].equals(this.dimension)) {
 				updateTPS();
 			}
 		}
@@ -32,8 +32,8 @@ public class CalculateTPS implements LitEventHandler.EventListener
 
 	private void updateTPS()
 	{
-		FrontEnd.debug("Update TPS for dimension " + Dimension);
-		long totalworldtime = FrontEnd.GET_FIELDS().getTotalWorldTime(this.Dimension);
+		FrontEnd.debug("Update TPS for dimension " + dimension);
+		long totalworldtime = FrontEnd.GET_FIELDS().getTotalWorldTime(this.dimension);
 		double MeasureTime = LaunchCommon.getTimeInSeconds();
 		if (MeasureTime - previousMeasureTime != 0) {
 			TPS = (totalworldtime - previousTotalWorldTime) / (MeasureTime - previousMeasureTime);

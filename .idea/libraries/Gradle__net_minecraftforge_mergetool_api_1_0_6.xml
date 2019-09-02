@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Gradle: net.minecraftforge:mergetool:api:1.0.6">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../ForgeDataOffline/net/minecraftforge/mergetool/1.0.6/mergetool-1.0.6-api.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

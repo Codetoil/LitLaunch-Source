@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: org.spongepowered:configurate-yaml:3.6">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../ForgeDataOffline/org/spongepowered/configurate-yaml/3.6/configurate-yaml-3.6.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://D:/gradle/caches/modules-2/files-2.1/org.spongepowered/configurate-yaml/3.6/abebdc32d9cdef99bcc52032811dde8d1e2f4a9f/configurate-yaml-3.6-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../ForgeDataOffline/org/spongepowered/configurate-yaml/3.6/configurate-yaml-3.6-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

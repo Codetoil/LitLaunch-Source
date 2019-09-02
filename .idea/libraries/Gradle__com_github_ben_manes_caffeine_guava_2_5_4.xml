@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.ben-manes.caffeine:guava:2.5.4">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../ForgeDataOffline/com/github/ben-manes/caffeine/guava/2.5.4/guava-2.5.4.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://D:/gradle/caches/modules-2/files-2.1/com.github.ben-manes.caffeine/guava/2.5.4/ae615dc2723cec7d10d82df5b57762654f067b9b/guava-2.5.4-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../ForgeDataOffline/com/github/ben-manes/caffeine/guava/2.5.4/guava-2.5.4-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

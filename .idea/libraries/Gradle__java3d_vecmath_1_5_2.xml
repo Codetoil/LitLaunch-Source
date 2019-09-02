@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: java3d:vecmath:1.5.2">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../ForgeDataOffline/java3d/vecmath/1.5.2/vecmath-1.5.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../ForgeDataOffline/java3d/vecmath/1.5.2/vecmath-1.5.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

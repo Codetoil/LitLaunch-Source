@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: net.minecraftforge:coremods:0.5.0">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../ForgeDataOffline/net/minecraftforge/coremods/0.5.0/coremods-0.5.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../ForgeDataOffline/net/minecraftforge/coremods/0.5.0/coremods-0.5.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

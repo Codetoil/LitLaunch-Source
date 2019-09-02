@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Gradle: com.mojang:brigadier:1.0.14">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../ForgeDataOffline/com/mojang/brigadier/1.0.14/brigadier-1.0.14.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

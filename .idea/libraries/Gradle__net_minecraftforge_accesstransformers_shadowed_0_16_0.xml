@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: net.minecraftforge:accesstransformers:shadowed:0.16.0">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../ForgeDataOffline/net/minecraftforge/accesstransformers/0.16.0/accesstransformers-0.16.0-shadowed.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../ForgeDataOffline/net/minecraftforge/accesstransformers/0.16.0/accesstransformers-0.16.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

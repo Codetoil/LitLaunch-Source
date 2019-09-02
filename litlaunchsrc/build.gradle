@@ -1,0 +1,25 @@
+apply plugin: 'java'
+
+dependencies {
+    compile 'com.google.code.gson:gson:2.8.0'
+    compile 'com.google.guava:guava:21.0'
+}
+
+repositories {
+    mavenCentral()
+    jcenter()
+    maven { url = "D:/Files/ForgeDataOffline"}
+}
+
+version="0.0.3.12-api"
+
+sourceSets {
+    main {
+        java {
+            srcDir "src/main/java"
+        }
+        resources {
+            srcDir "src/main/resources"
+        }
+    }
+}

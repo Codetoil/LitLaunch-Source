@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<module external.linked.project.id="mc1.12:main" external.linked.project.path="$MODULE_DIR$" external.root.project.path="$MODULE_DIR$" external.system.id="GRADLE" external.system.module.group="io.github.codetoil" external.system.module.type="sourceSet" external.system.module.version="forge-mc1.12.2-v0.0.3.7" type="JAVA_MODULE" version="4">
+<module external.linked.project.id="mc1.12:main" external.linked.project.path="$MODULE_DIR$" external.root.project.path="$MODULE_DIR$" external.system.id="GRADLE" external.system.module.group="io.github.codetoil" external.system.module.type="sourceSet" external.system.module.version="forge-mc1.12.2-v0.0.3.8" type="JAVA_MODULE" version="4">
   <component name="FacetManager">
     <facet type="minecraft" name="Minecraft">
       <configuration>
@@ -29,6 +29,7 @@
     <content url="file://$MODULE_DIR$/../../../litlaunchsrc">
       <sourceFolder url="file://$MODULE_DIR$/../../../litlaunchsrc" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/../../../litlaunchsrc/io/github/codetoil/litlaunch/_native/mc1_13" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../litlaunchsrc/io/github/codetoil/litlaunch/_native/mc1_14" />
       <excludeFolder url="file://$MODULE_DIR$/../../../litlaunchsrc/io/github/codetoil/litlaunch/_native/mc1_7" />
       <excludeFolder url="file://$MODULE_DIR$/../../../litlaunchsrc/io/github/codetoil/litlaunch/_native/mc1_8" />
       <excludeFolder url="file://$MODULE_DIR$/../../../litlaunchsrc/io/github/codetoil/litlaunch/_native/sponge" />

@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.lwjgl:lwjgl-stb:3.1.6">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../ForgeDataOffline/org/lwjgl/lwjgl-stb/3.1.6/lwjgl-stb-3.1.6.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../ForgeDataOffline/org/lwjgl/lwjgl-stb/3.1.6/lwjgl-stb-3.1.6-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Gradle: com.mojang:datafixerupper:1.0.19">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../ForgeDataOffline/com/mojang/datafixerupper/1.0.19/datafixerupper-1.0.19.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

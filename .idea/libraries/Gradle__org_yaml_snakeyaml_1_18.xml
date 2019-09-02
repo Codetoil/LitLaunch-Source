@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: org.yaml:snakeyaml:1.18">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../ForgeDataOffline/org/yaml/snakeyaml/1.18/snakeyaml-1.18.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://D:/gradle/caches/modules-2/files-2.1/org.yaml/snakeyaml/1.18/19ac7c43d5cca7296b1b0cb39f3cbeca3e13e539/snakeyaml-1.18-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../ForgeDataOffline/org/yaml/snakeyaml/1.18/snakeyaml-1.18-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

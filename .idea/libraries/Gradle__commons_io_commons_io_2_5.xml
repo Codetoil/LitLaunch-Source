@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: commons-io:commons-io:2.5">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../ForgeDataOffline/commons-io/commons-io/2.5/commons-io-2.5.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://D:/gradle/caches/modules-2/files-2.1/commons-io/commons-io/2.5/b219c20b7b44a4da22cb1898bfc6bfbb100f33c7/commons-io-2.5-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../ForgeDataOffline/commons-io/commons-io/2.5/commons-io-2.5-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

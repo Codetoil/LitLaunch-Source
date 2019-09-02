@@ -1,13 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/SpongeForge" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/SpongeForge/SpongeCommon" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/SpongeForge/SpongeCommon/SpongeAPI" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/tpsmodsrc" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/versions/forge/mc1.12/bin" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/versions/forge/mc1.13/bin/default" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/versions/forge/mc1.7/bin" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/versions/forge/mc1.8/bin" vcs="Git" />
   </component>
 </project>

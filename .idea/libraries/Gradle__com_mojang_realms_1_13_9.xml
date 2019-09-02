@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Gradle: com.mojang:realms:1.13.9">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../ForgeDataOffline/com/mojang/realms/1.13.9/realms-1.13.9.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

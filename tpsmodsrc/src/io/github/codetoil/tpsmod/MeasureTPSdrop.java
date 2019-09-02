@@ -4,10 +4,13 @@
 
 package io.github.codetoil.tpsmod;
 
+import io.github.codetoil.litlaunch.api.ChainableMap;
 import io.github.codetoil.litlaunch.api.FrontEnd;
 import io.github.codetoil.litlaunch.core.LaunchCommon;
 import io.github.codetoil.litlaunch.core.event.LitEvent;
 import io.github.codetoil.litlaunch.core.event.LitEventHandler;
+
+import java.util.HashMap;
 
 public class MeasureTPSdrop implements LitEventHandler.EventListener
 {
@@ -42,7 +45,7 @@ public class MeasureTPSdrop implements LitEventHandler.EventListener
 	public void ReceivedEvent(LitEvent event)
 	{
 		//LaunchMods.trace(event.getType());
-		if (event.getType().equals("clientTick") || event.getType().equals("serverTick")) {
+		if (event.getType() == LitEvent.TYPE.CLIENTTICK || event.getType() == LitEvent.TYPE.SERVERTICK) {
 			seeIfTWTHasDropped();
 		}
 	}
@@ -58,7 +61,7 @@ public class MeasureTPSdrop implements LitEventHandler.EventListener
 			FrontEnd.verbose("Delta Tick: " + DeltaTick);
 		}
 		if (DeltaTick < 0 || timeNow - previousMeasureTime > maxTimeWait) {
-			TPSMod.EVENTS.post(new LitEvent(this, "updateTPS", totalWorldTime, timeNow, dimension), true);
+			TPSMod.EVENTS.post(new LitEvent(this, TPSMod.updateTPS, ChainableMap.newMap().putChain("totalWorldTime", totalWorldTime).putChain("timeNow", timeNow).put("dimension", dimension))), true);
 			previousMeasureTime = timeNow;
 		}
 		totalWorldTimePrevTick = totalWorldTime;

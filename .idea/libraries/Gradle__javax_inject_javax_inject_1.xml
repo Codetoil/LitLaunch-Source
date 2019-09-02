@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: javax.inject:javax.inject:1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../ForgeDataOffline/javax/inject/javax.inject/1/javax.inject-1.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://D:/gradle/caches/modules-2/files-2.1/javax.inject/javax.inject/1/70ec961c25111ed9015d1af77772d96383c2d238/javax.inject-1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../ForgeDataOffline/javax/inject/javax.inject/1/javax.inject-1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

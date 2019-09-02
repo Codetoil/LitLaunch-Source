@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: net.java.jinput:jinput:2.0.5">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../ForgeDataOffline/net/java/jinput/jinput/2.0.5/jinput-2.0.5.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://D:/gradle/caches/modules-2/files-2.1/net.java.jinput/jinput/2.0.5/695a26a9a58e8495c1e3ce7b7f3bec23ecf2ef16/jinput-2.0.5-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../ForgeDataOffline/net/java/jinput/jinput/2.0.5/jinput-2.0.5-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

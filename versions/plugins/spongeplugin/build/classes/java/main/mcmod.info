@@ -1,0 +1,17 @@
+[
+    {
+        "modid": "litlaunch",
+        "name": "LitLaunch",
+        "description": "temp description",
+        "url": "https://github.com/Codetoil/TPS-Mod",
+        "authorList": [
+            "Codetoil"
+        ],
+        "dependencies": [
+            "spongeapi@7.1.0"
+        ],
+        "requiredMods": [
+            "spongeapi@7.1.0"
+        ]
+    }
+]

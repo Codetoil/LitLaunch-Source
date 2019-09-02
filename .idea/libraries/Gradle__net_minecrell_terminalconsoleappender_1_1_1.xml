@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: net.minecrell:terminalconsoleappender:1.1.1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../ForgeDataOffline/net/minecrell/terminalconsoleappender/1.1.1/terminalconsoleappender-1.1.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../ForgeDataOffline/net/minecrell/terminalconsoleappender/1.1.1/terminalconsoleappender-1.1.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

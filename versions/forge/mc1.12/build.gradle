@@ -1,8 +1,12 @@
 buildscript {
     ext.kotlin_version = '1.3.31'
     repositories {
-        jcenter()
-        maven { url = "http://files.minecraftforge.net/maven" }
+        /*jcenter()
+        maven { url = "http://files.minecraftforge.net/maven" }*/
+        maven {
+            name = "local"
+            url = "file:///D:\\Files\\ForgeDataOffline"
+        }
     }
     dependencies {
         classpath 'net.minecraftforge.gradle:ForgeGradle:2.3-SNAPSHOT'
@@ -15,8 +19,16 @@ apply plugin: 'net.minecraftforge.gradle.forge'
 
 //Only edit below this line, the above code adds and enables the necessary things for Forge to be setup.
 
+repositories {
+    /*jcenter()
+    maven { url = "http://files.minecraftforge.net/maven" }*/
+    maven {
+        name = "local"
+        url = "file:///D:\\Files\\ForgeDataOffline"
+    }
+}
 
-version = "forge-mc1.12.2-v0.0.3.7"
+version = "forge-mc1.12.2-v0.0.3.12"
 group = "io.github.codetoil" // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = "litlaunch"
 
@@ -41,6 +53,7 @@ dependencies {
     // or you may define them like so..
     //compile "some.group:artifact:version:classifier"
     //compile "some.group:artifact:version"
+    compile project.project(':litlaunchsrc')
     // real examples
     //compile 'com.mod-buildcraft:buildcraft:6.0.8:dev'  // adds buildcraft to the dev env
     //compile 'com.googlecode.efficient-java-matrix-library:ejml:0.24' // adds ejml to the dev env
@@ -77,18 +90,10 @@ processResources {
 sourceSets {
     main {
         java {
-            srcDir "../../../litlaunchsrc"
-            exclude 'io/github/codetoil/litlaunch/_native/mc1_7'
-            exclude 'io/github/codetoil/litlaunch/_native/mc1_8'
-            exclude 'io/github/codetoil/litlaunch/_native/mc1_13'
-            exclude 'io/github/codetoil/litlaunch/_native/sponge'
+            srcDir "src/main/java"
         }
         resources {
-            srcDir "../../../litlaunchsrc"
-            exclude 'io/github/codetoil/litlaunch/_native/mc1_7'
-            exclude 'io/github/codetoil/litlaunch/_native/mc1_8'
-            exclude 'io/github/codetoil/litlaunch/_native/mc1_13'
-            exclude 'io/github/codetoil/litlaunch/_native/sponge'
+            srcDir "src/main/resources"
         }
     }
 }

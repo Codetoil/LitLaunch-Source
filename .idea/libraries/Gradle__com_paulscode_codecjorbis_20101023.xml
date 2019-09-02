@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.paulscode:codecjorbis:20101023">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../ForgeDataOffline/com/paulscode/codecjorbis/20101023/codecjorbis-20101023.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../ForgeDataOffline/com/paulscode/codecjorbis/20101023/codecjorbis-20101023-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: cpw.mods:modlauncher:api:3.2.0">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../ForgeDataOffline/cpw/mods/modlauncher/3.2.0/modlauncher-3.2.0-api.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../ForgeDataOffline/cpw/mods/modlauncher/3.2.0/modlauncher-3.2.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

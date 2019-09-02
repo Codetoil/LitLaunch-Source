@@ -1,8 +1,9 @@
 buildscript {
     repositories {
-        maven { url = 'https://files.minecraftforge.net/maven' }
-        jcenter()
-        mavenCentral()
+        //maven { url = 'https://files.minecraftforge.net/maven' }
+        //jcenter()
+        //mavenCentral()
+        maven { url = "D:/Files/ForgeDataOffline" }
     }
     dependencies {
         classpath group: 'net.minecraftforge.gradle', name: 'ForgeGradle', version: '3.+', changing: true
@@ -10,11 +11,20 @@ buildscript {
 }
 apply plugin: 'net.minecraftforge.gradle'
 // Only edit below this line, the above code adds and enables the necessary things for Forge to be setup.
+
+
+repositories {
+    //maven { url = 'https://files.minecraftforge.net/maven' }
+    //jcenter()
+    //mavenCentral()
+    maven { url = "D:/Files/ForgeDataOffline" }
+}
+
 apply plugin: 'eclipse'
 apply plugin: 'maven-publish'
 
 
-version = "forge-mc1.13.2-v0.0.3.7"
+version = "forge-mc1.13.2-v0.0.3.11"
 group = "io.github.codetoil" // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = "litlaunch"
 
@@ -73,6 +83,7 @@ dependencies {
     // that the dep is a ForgeGradle 'patcher' dependency. And it's patches will be applied.
     // The userdev artifact is a special name and will get all sorts of transformations applied to it.
     minecraft 'net.minecraftforge:forge:1.13.2-25.0.219'
+    compile project.project(':litlaunchsrc')
 
     // You may put jars on which you depend on in ./libs or you may define them like so..
     // compile "some.group:artifact:version:classifier"
@@ -134,18 +145,10 @@ publishing {
 sourceSets {
     main {
         java {
-            srcDir "../../../litlaunchsrc"
-            exclude 'io/github/codetoil/litlaunch/_native/mc1_7'
-            exclude 'io/github/codetoil/litlaunch/_native/mc1_8'
-            exclude 'io/github/codetoil/litlaunch/_native/mc1_12'
-            exclude 'io/github/codetoil/litlaunch/_native/sponge'
+            srcDir "src/main/java"
         }
         resources {
-            srcDir "../../../litlaunchsrc"
-            exclude 'io/github/codetoil/litlaunch/_native/mc1_7'
-            exclude 'io/github/codetoil/litlaunch/_native/mc1_8'
-            exclude 'io/github/codetoil/litlaunch/_native/mc1_12'
-            exclude 'io/github/codetoil/litlaunch/_native/sponge'
+            srcDir "src/main/resources"
         }
     }
 }

@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: org.lwjgl:lwjgl-stb:natives-windows:3.2.2">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../ForgeDataOffline/org/lwjgl/lwjgl-stb/3.2.2/lwjgl-stb-3.2.2-natives-windows.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://D:/gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-stb/3.2.2/18ddcb65d266dea825a01ccd97591642ce4a6d80/lwjgl-stb-3.2.2-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../ForgeDataOffline/org/lwjgl/lwjgl-stb/3.2.2/lwjgl-stb-3.2.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: net.jodah:typetools:0.6.0">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../ForgeDataOffline/net/jodah/typetools/0.6.0/typetools-0.6.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../ForgeDataOffline/net/jodah/typetools/0.6.0/typetools-0.6.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
