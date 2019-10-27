@@ -20,6 +20,12 @@ public class LoggerSponge implements ILogger
 	}
 
 	@Override
+	public void debug(Object obj)
+	{
+		this.LOGGER.debug(obj.toString());
+	}
+
+	@Override
 	public void info(Object obj)
 	{
 		this.LOGGER.info(obj.toString());
@@ -41,12 +47,6 @@ public class LoggerSponge implements ILogger
 	public void fatal(Object obj)
 	{
 		this.LOGGER.error("Fatal> " + obj);
-	}
-
-	@Override
-	public void debug(Object obj)
-	{
-		this.LOGGER.debug(obj.toString());
 	}
 
 	@Override
@@ -72,7 +72,8 @@ public class LoggerSponge implements ILogger
 
 	public void setInternalLogger(Object logger)
 	{
-		if (this.LOGGER == null) {
+		if (this.LOGGER == null)
+		{
 			this.LOGGER = (Logger) logger;
 		}
 	}

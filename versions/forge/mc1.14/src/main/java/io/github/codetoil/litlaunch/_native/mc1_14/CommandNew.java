@@ -6,11 +6,14 @@ import com.google.common.collect.Lists;
 import com.mojang.brigadier.CommandDispatcher;
 import com.mojang.brigadier.builder.LiteralArgumentBuilder;
 import com.mojang.brigadier.context.CommandContext;
-import com.mojang.brigadier.exceptions.CommandExceptionType;
 import com.mojang.brigadier.exceptions.CommandSyntaxException;
 import com.mojang.brigadier.exceptions.SimpleCommandExceptionType;
-import io.github.codetoil.litlaunch.api.*;
-import io.github.codetoil.litlaunch.api.arguments.*;
+import io.github.codetoil.litlaunch.api.Command;
+import io.github.codetoil.litlaunch.api.FrontEnd;
+import io.github.codetoil.litlaunch.api.arguments.ArgumentParserListString;
+import io.github.codetoil.litlaunch.api.arguments.ArgumentWrapper;
+import io.github.codetoil.litlaunch.api.arguments.IArgumentParser;
+import io.github.codetoil.litlaunch.api.arguments.IArgumentValue;
 import joptsimple.OptionException;
 import joptsimple.OptionParser;
 import joptsimple.OptionSet;
@@ -39,11 +42,6 @@ public class CommandNew
 		this.register(this.disp);
 	}
 
-	public Command getComm()
-	{
-		return comm;
-	}
-
 	public void register(CommandDispatcher<CommandSource> disp)
 	{
 		LiteralArgumentBuilder<CommandSource> argbuilder = Commands.literal(comm.name);
@@ -55,24 +53,26 @@ public class CommandNew
 		disp.register(argbuilder);
 	}
 
-	//public String getUsage(ICommandSender sender) {
-	//	return comm.usage;
-	//}
-
 	public void execute(CommandContext<CommandSource> context)
 	{
 		FrontEnd.verbose(comm);
 		FrontEnd.verbose(context);
 		List<String> args = context.getArgument("args", List.class);
-		try {
+		try
+		{
 			FrontEnd.verbose(comm);
 			FrontEnd.verbose(comm.methodToRun);
 			comm.methodToRun.accept(parseArgs((String[]) args.toArray()));
 		}
-		catch (Exception e) {
+		catch (Exception e)
+		{
 			e.printStackTrace();
 		}
 	}
+
+	//public String getUsage(ICommandSender sender) {
+	//	return comm.usage;
+	//}
 
 	public List<ArgumentWrapper<?>> parseArgs(String[] argsIn) throws CommandSyntaxException
 	{
@@ -98,13 +98,15 @@ public class CommandNew
 		});
 		FrontEnd.verbose("argToSpec: " + argToSpec);
 		OptionSet optionSet;
-		try {
+		try
+		{
 			optionSet = parser.parse(argsIn);
 			FrontEnd.verbose("optionSet: " + optionSet);
-		} catch (OptionException e)
+		}
+		catch (OptionException e)
 		{
 			//throw new WrongUsageException(getUsage(sender));
-			throw new com.mojang.brigadier.exceptions.CommandSyntaxException(new SimpleCommandExceptionType(new StringTextComponent(comm.generateHelp())),  new StringTextComponent(comm.generateHelp()));
+			throw new com.mojang.brigadier.exceptions.CommandSyntaxException(new SimpleCommandExceptionType(new StringTextComponent(comm.generateHelp())), new StringTextComponent(comm.generateHelp()));
 		}
 		argToSpec.forEach((arg, spec) -> {
 			Object value1 = optionSet.valueOf(spec);
@@ -126,8 +128,13 @@ public class CommandNew
 		return out;
 	}
 
-public boolean isUsernameIndex(String[] args, int index)
-		{
+	public Command getComm()
+	{
+		return comm;
+	}
+
+	public boolean isUsernameIndex(String[] args, int index)
+	{
 		return false;
-		}
+	}
 }

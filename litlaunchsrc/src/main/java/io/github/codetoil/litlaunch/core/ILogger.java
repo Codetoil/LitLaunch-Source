@@ -20,6 +20,7 @@ public interface ILogger
 
 	/**
 	 * Only prints if the "verbose" flag is enabled
+	 *
 	 * @param obj
 	 */
 	void verbose(Object obj);

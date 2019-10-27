@@ -37,21 +37,21 @@ public class DoThing implements IDoThing
 	}
 
 	@Override
-	public void notifyPlayer(String message)
+	public void notifyUser(String message)
 	{
-		notifyPlayer(message, Color.WHITE);
+		notifyUser(message, Color.WHITE);
 	}
 
 	@Override
-	public void notifyPlayer(String message, Color pColor)
+	public void notifyUser(String message, Color pColor)
 	{
-		notifyPlayer(message, pColor, false, false, false, false, false);
+		notifyUser(message, pColor, false, false, false, false, false);
 	}
 
 	@Override
-	public void notifyPlayer(String message, Color pColor, boolean isBold, boolean isItalic, boolean isUnderlined, boolean isObfuscated, boolean hasStrikethrough)
+	public void notifyUser(String message, Color pColor, boolean isBold, boolean isItalic, boolean isUnderlined, boolean isObfuscated, boolean hasStrikethrough)
 	{
-		throw new IllegalStateException("This should not be running on a client!");
+		notifyServer(message, pColor, isBold, isItalic, isUnderlined, isObfuscated, hasStrikethrough);
 	}
 
 	@Override
@@ -75,21 +75,21 @@ public class DoThing implements IDoThing
 	}
 
 	@Override
-	public void notifyUser(String message)
+	public void notifyPlayer(String message)
 	{
-		notifyUser(message, Color.WHITE);
+		notifyPlayer(message, Color.WHITE);
 	}
 
 	@Override
-	public void notifyUser(String message, Color pColor)
+	public void notifyPlayer(String message, Color pColor)
 	{
-		notifyUser(message, pColor, false, false, false, false, false);
+		notifyPlayer(message, pColor, false, false, false, false, false);
 	}
 
 	@Override
-	public void notifyUser(String message, Color pColor, boolean isBold, boolean isItalic, boolean isUnderlined, boolean isObfuscated, boolean hasStrikethrough)
+	public void notifyPlayer(String message, Color pColor, boolean isBold, boolean isItalic, boolean isUnderlined, boolean isObfuscated, boolean hasStrikethrough)
 	{
-		notifyServer(message, pColor, isBold, isItalic, isUnderlined, isObfuscated, hasStrikethrough);
+		throw new IllegalStateException("This should not be running on a client!");
 	}
 
 	private TextFormat getFormat(Color pColor, boolean isBold, boolean isItalic, boolean isUnderlined, boolean isObfuscated, boolean hasStrikethrough)
@@ -102,7 +102,8 @@ public class DoThing implements IDoThing
 	private TextColor toColor(Color color)
 	{
 		TextColor textColor;
-		switch (color) {
+		switch (color)
+		{
 			case RED:
 				textColor = TextColors.RED;
 				break;

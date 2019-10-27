@@ -33394,28 +33394,28 @@ FOUND CONSTR method io/github/codetoil/litlaunch/_native/mc1_8/CommandNew/Comman
 [method, io/github/codetoil/litlaunch/_native/mc1_8/CommandNew/CommandNew, (Lio/github/codetoil/litlaunch/api/Command;)V]
 FOUND CONSTR method io/github/codetoil/litlaunch/_native/mc1_8/CommandNew/CommandNew (Lio/github/codetoil/litlaunch/api/Command;)V io/github/codetoil/litlaunch/_native/mc1_8/CommandNew
 Rename method net/minecraft/command/ICommand/getCommandName ()Ljava/lang/String;[1066,1080]::getCommandName->func_71517_b
-Rename method net/minecraft/command/ICommand/getCommandUsage (Lnet/minecraft/command/ICommandSender;)Ljava/lang/String;[1134,1149]::getCommandUsage->func_71518_a
-Rename class net/minecraft/command/ICommandSender[1147,1161]::ICommandSender->ICommandSender
-[method, io/github/codetoil/litlaunch/api/Command/generateHelp, ()Ljava/lang/String;]
-Rename method net/minecraft/command/ICommand/getCommandAliases ()Ljava/util/List;[1235,1252]::getCommandAliases->func_71514_a
-Rename method net/minecraft/command/ICommand/processCommand (Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V[1309,1323]::processCommand->func_71515_b
-Rename class net/minecraft/command/ICommandSender[1322,1336]::ICommandSender->ICommandSender
+Rename method net/minecraft/command/ICommand/getCommandAliases ()Ljava/util/List;[1132,1149]::getCommandAliases->func_71514_a
+Rename method net/minecraft/command/ICommand/processCommand (Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V[1206,1220]::processCommand->func_71515_b
+Rename class net/minecraft/command/ICommandSender[1219,1233]::ICommandSender->ICommandSender
 [method, java/util/function/Consumer/accept, (Ljava/lang/Object;)V]
 [method, io/github/codetoil/litlaunch/_native/mc1_8/CommandNew/parseArgs, ([Ljava/lang/String;Lnet/minecraft/command/ICommandSender;)Ljava/util/List;]
 [method, java/lang/Throwable/printStackTrace, ()V]
 [method, io/github/codetoil/litlaunch/_native/mc1_8/CommandNew/parseArgs, ([Ljava/lang/String;Lnet/minecraft/command/ICommandSender;)Ljava/util/List;]
-Rename class net/minecraft/command/ICommandSender[1563,1577]::ICommandSender->ICommandSender
-Rename class net/minecraft/command/WrongUsageException[1593,1612]::WrongUsageException->WrongUsageException
-Rename method net/minecraft/command/ICommand/canCommandSenderUseCommand (Lnet/minecraft/command/ICommandSender;)Z[3251,3277]::canCommandSenderUseCommand->func_71519_b
-Rename class net/minecraft/command/ICommandSender[3264,3278]::ICommandSender->ICommandSender
-Rename method net/minecraft/command/ICommand/addTabCompletionOptions (Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;Lnet/minecraft/util/BlockPos;)Ljava/util/List;[3345,3368]::addTabCompletionOptions->func_180525_a
-Rename class net/minecraft/command/ICommandSender[3359,3373]::ICommandSender->ICommandSender
-Rename class net/minecraft/util/BlockPos[3397,3405]::BlockPos->BlockPos
+Rename class net/minecraft/command/ICommandSender[1465,1479]::ICommandSender->ICommandSender
+Rename class net/minecraft/command/WrongUsageException[1495,1514]::WrongUsageException->WrongUsageException
+Rename method net/minecraft/command/ICommand/getCommandUsage (Lnet/minecraft/command/ICommandSender;)Ljava/lang/String;[3155,3170]::getCommandUsage->func_71518_a
+Rename class net/minecraft/command/ICommandSender[3168,3182]::ICommandSender->ICommandSender
+[method, io/github/codetoil/litlaunch/api/Command/generateHelp, ()Ljava/lang/String;]
+Rename method net/minecraft/command/ICommand/canCommandSenderUseCommand (Lnet/minecraft/command/ICommandSender;)Z[3259,3285]::canCommandSenderUseCommand->func_71519_b
+Rename class net/minecraft/command/ICommandSender[3272,3286]::ICommandSender->ICommandSender
+Rename method net/minecraft/command/ICommand/addTabCompletionOptions (Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;Lnet/minecraft/util/BlockPos;)Ljava/util/List;[3353,3376]::addTabCompletionOptions->func_180525_a
+Rename class net/minecraft/command/ICommandSender[3367,3381]::ICommandSender->ICommandSender
+Rename class net/minecraft/util/BlockPos[3405,3413]::BlockPos->BlockPos
+Rename method net/minecraft/command/ICommand/isUsernameIndex ([Ljava/lang/String;I)Z[3481,3496]::isUsernameIndex->func_82358_a
 [method, java/lang/Comparable/compareTo, (Ljava/lang/Object;)I]
-Rename class net/minecraft/command/ICommand[3479,3487]::ICommand->ICommand
+Rename class net/minecraft/command/ICommand[3576,3584]::ICommand->ICommand
 [method, java/lang/Comparable/compareTo, (Ljava/lang/Object;)I]
-Rename method net/minecraft/command/ICommand/getCommandName ()Ljava/lang/String;[3530,3544]::getCommandName->func_71517_b
-Rename method net/minecraft/command/ICommand/isUsernameIndex ([Ljava/lang/String;I)Z[3578,3593]::isUsernameIndex->func_82358_a
+Rename method net/minecraft/command/ICommand/getCommandName ()Ljava/lang/String;[3627,3641]::getCommandName->func_71517_b
 Import: net.minecraft.command.ICommand
 Import: net.minecraft.command.ICommandSender
 Import: net.minecraft.command.WrongUsageException
@@ -33427,20 +33427,6 @@ Start Processing: io\github\codetoil\litlaunch\_native\mc1_8\DoThing.java
 Warning: io\github\codetoil\litlaunch\_native\mc1_8\DoThing.java has CRLF line endings; consider switching to LF
 [method, io/github/codetoil/litlaunch/_native/mc1_8/DoThing/DoThing, ()V]
 FOUND CONSTR method io/github/codetoil/litlaunch/_native/mc1_8/DoThing/DoThing ()V io/github/codetoil/litlaunch/_native/mc1_8/DoThing
-[method, io/github/codetoil/litlaunch/api/IDoThing/sendAsClientChatMessage, (Ljava/lang/String;)V]
-Rename class net/minecraft/client/Minecraft[738,747]::Minecraft->Minecraft
-Rename method net/minecraft/client/Minecraft/getMinecraft ()Lnet/minecraft/client/Minecraft;[748,760]::getMinecraft->func_71410_x
-Rename field net/minecraft/client/Minecraft/thePlayer[763,772]::thePlayer->field_71439_g
-Rename method net/minecraft/client/entity/EntityPlayerSP/sendChatMessage (Ljava/lang/String;)V[777,792]::sendChatMessage->func_71165_d
-[method, io/github/codetoil/litlaunch/api/IDoThing/sendAsServerChatMessage, (Ljava/lang/String;)V]
-No rename for class net/minecraftforge/fml/common/FMLCommonHandler
-[method, net/minecraftforge/fml/common/FMLCommonHandler/instance, ()Lnet/minecraftforge/fml/common/FMLCommonHandler;]
-No rename for method net/minecraftforge/fml/common/FMLCommonHandler/instance ()Lnet/minecraftforge/fml/common/FMLCommonHandler;
-[method, net/minecraftforge/fml/common/FMLCommonHandler/getMinecraftServerInstance, ()Lnet/minecraft/server/MinecraftServer;]
-No rename for method net/minecraftforge/fml/common/FMLCommonHandler/getMinecraftServerInstance ()Lnet/minecraft/server/MinecraftServer;
-Rename method net/minecraft/server/MinecraftServer/getConfigurationManager ()Lnet/minecraft/server/management/ServerConfigurationManager;[954,977]::getConfigurationManager->func_71203_ab
-Rename method net/minecraft/server/management/ServerConfigurationManager/sendChatMsg (Lnet/minecraft/util/IChatComponent;)V[970,981]::sendChatMsg->func_148539_a
-Rename class net/minecraft/util/ChatComponentText[988,1005]::ChatComponentText->ChatComponentText
 [method, io/github/codetoil/litlaunch/api/IDoThing/sendAsChatMessage, (Ljava/lang/String;)V]
 No rename for class net/minecraftforge/fml/common/FMLCommonHandler
 [method, net/minecraftforge/fml/common/FMLCommonHandler/instance, ()Lnet/minecraftforge/fml/common/FMLCommonHandler;]
@@ -33451,28 +33437,56 @@ No rename for method net/minecraftforge/fml/common/FMLCommonHandler/getSide ()Ln
 No rename for method net/minecraftforge/fml/relauncher/Side/isClient ()Z
 [method, io/github/codetoil/litlaunch/api/IDoThing/sendAsClientChatMessage, (Ljava/lang/String;)V]
 [method, io/github/codetoil/litlaunch/api/IDoThing/sendAsServerChatMessage, (Ljava/lang/String;)V]
+[method, io/github/codetoil/litlaunch/api/IDoThing/sendAsClientChatMessage, (Ljava/lang/String;)V]
+Rename class net/minecraft/client/Minecraft[956,965]::Minecraft->Minecraft
+Rename method net/minecraft/client/Minecraft/getMinecraft ()Lnet/minecraft/client/Minecraft;[966,978]::getMinecraft->func_71410_x
+Rename field net/minecraft/client/Minecraft/thePlayer[981,990]::thePlayer->field_71439_g
+Rename method net/minecraft/client/entity/EntityPlayerSP/sendChatMessage (Ljava/lang/String;)V[995,1010]::sendChatMessage->func_71165_d
+[method, io/github/codetoil/litlaunch/api/IDoThing/sendAsServerChatMessage, (Ljava/lang/String;)V]
+No rename for class net/minecraftforge/fml/common/FMLCommonHandler
+[method, net/minecraftforge/fml/common/FMLCommonHandler/instance, ()Lnet/minecraftforge/fml/common/FMLCommonHandler;]
+No rename for method net/minecraftforge/fml/common/FMLCommonHandler/instance ()Lnet/minecraftforge/fml/common/FMLCommonHandler;
+[method, net/minecraftforge/fml/common/FMLCommonHandler/getMinecraftServerInstance, ()Lnet/minecraft/server/MinecraftServer;]
+No rename for method net/minecraftforge/fml/common/FMLCommonHandler/getMinecraftServerInstance ()Lnet/minecraft/server/MinecraftServer;
+Rename method net/minecraft/server/MinecraftServer/getConfigurationManager ()Lnet/minecraft/server/management/ServerConfigurationManager;[1172,1195]::getConfigurationManager->func_71203_ab
+Rename method net/minecraft/server/management/ServerConfigurationManager/sendChatMsg (Lnet/minecraft/util/IChatComponent;)V[1188,1199]::sendChatMsg->func_148539_a
+Rename class net/minecraft/util/ChatComponentText[1206,1223]::ChatComponentText->ChatComponentText
 [method, io/github/codetoil/litlaunch/api/IDoThing/notifyPlayer, (Ljava/lang/String;)V]
 [method, io/github/codetoil/litlaunch/api/IDoThing/notifyPlayer, (Ljava/lang/String;Lio/github/codetoil/litlaunch/api/IDoThing$Color;)V]
 [method, io/github/codetoil/litlaunch/api/IDoThing/notifyPlayer, (Ljava/lang/String;Lio/github/codetoil/litlaunch/api/IDoThing$Color;)V]
 [method, io/github/codetoil/litlaunch/api/IDoThing/notifyPlayer, (Ljava/lang/String;Lio/github/codetoil/litlaunch/api/IDoThing$Color;ZZZZZ)V]
 [method, io/github/codetoil/litlaunch/api/IDoThing/notifyPlayer, (Ljava/lang/String;Lio/github/codetoil/litlaunch/api/IDoThing$Color;ZZZZZ)V]
-Rename class net/minecraft/client/Minecraft[1725,1734]::Minecraft->Minecraft
-Rename method net/minecraft/client/Minecraft/getMinecraft ()Lnet/minecraft/client/Minecraft;[1735,1747]::getMinecraft->func_71410_x
-Rename field net/minecraft/client/Minecraft/thePlayer[1750,1759]::thePlayer->field_71439_g
-Rename method net/minecraft/command/ICommandSender/addChatMessage (Lnet/minecraft/util/IChatComponent;)V[1764,1778]::addChatMessage->func_145747_a
-Rename class net/minecraft/util/ChatComponentText[1782,1799]::ChatComponentText->ChatComponentText
-Rename method net/minecraft/util/IChatComponent/setChatStyle (Lnet/minecraft/util/ChatStyle;)Lnet/minecraft/util/IChatComponent;[1809,1821]::setChatStyle->func_150255_a
+Rename class net/minecraft/client/Minecraft[1727,1736]::Minecraft->Minecraft
+Rename method net/minecraft/client/Minecraft/getMinecraft ()Lnet/minecraft/client/Minecraft;[1737,1749]::getMinecraft->func_71410_x
+Rename field net/minecraft/client/Minecraft/thePlayer[1752,1761]::thePlayer->field_71439_g
+Rename method net/minecraft/command/ICommandSender/addChatMessage (Lnet/minecraft/util/IChatComponent;)V[1766,1780]::addChatMessage->func_145747_a
+Rename class net/minecraft/util/ChatComponentText[1784,1801]::ChatComponentText->ChatComponentText
+Rename method net/minecraft/util/IChatComponent/setChatStyle (Lnet/minecraft/util/ChatStyle;)Lnet/minecraft/util/IChatComponent;[1811,1823]::setChatStyle->func_150255_a
 [method, io/github/codetoil/litlaunch/_native/mc1_8/DoThing/getStyle, (Lio/github/codetoil/litlaunch/api/IDoThing$Color;ZZZZZ)Lnet/minecraft/util/ChatStyle;]
+Rename class net/minecraft/util/ChatStyle[1922,1931]::ChatStyle->ChatStyle
+[method, io/github/codetoil/litlaunch/_native/mc1_8/DoThing/getStyle, (Lio/github/codetoil/litlaunch/api/IDoThing$Color;ZZZZZ)Lnet/minecraft/util/ChatStyle;]
+Rename class net/minecraft/util/ChatStyle[2064,2073]::ChatStyle->ChatStyle
+Rename class net/minecraft/util/ChatStyle[2091,2100]::ChatStyle->ChatStyle
+Rename method net/minecraft/util/ChatStyle/setBold (Ljava/lang/Boolean;)Lnet/minecraft/util/ChatStyle;[2122,2129]::setBold->func_150227_a
+Rename method net/minecraft/util/ChatStyle/setItalic (Ljava/lang/Boolean;)Lnet/minecraft/util/ChatStyle;[2149,2158]::setItalic->func_150217_b
+Rename method net/minecraft/util/ChatStyle/setUnderlined (Ljava/lang/Boolean;)Lnet/minecraft/util/ChatStyle;[2178,2191]::setUnderlined->func_150228_d
+Rename method net/minecraft/util/ChatStyle/setObfuscated (Ljava/lang/Boolean;)Lnet/minecraft/util/ChatStyle;[2211,2224]::setObfuscated->func_150237_e
+Rename method net/minecraft/util/ChatStyle/setStrikethrough (Ljava/lang/Boolean;)Lnet/minecraft/util/ChatStyle;[2244,2260]::setStrikethrough->func_150225_c
+Rename class net/minecraft/util/EnumChatFormatting[2280,2298]::EnumChatFormatting->EnumChatFormatting
+Rename class net/minecraft/util/EnumChatFormatting[2311,2329]::EnumChatFormatting->EnumChatFormatting
+Rename method net/minecraft/util/EnumChatFormatting/getValueByName (Ljava/lang/String;)Lnet/minecraft/util/EnumChatFormatting;[2330,2344]::getValueByName->func_96300_b
+[method, java/lang/Enum/name, ()Ljava/lang/String;]
+Rename method net/minecraft/util/ChatStyle/setColor (Lnet/minecraft/util/EnumChatFormatting;)Lnet/minecraft/util/ChatStyle;[2385,2393]::setColor->func_150238_a
 [method, io/github/codetoil/litlaunch/api/IDoThing/notifyServer, (Ljava/lang/String;)V]
 [method, io/github/codetoil/litlaunch/api/IDoThing/notifyServer, (Ljava/lang/String;Lio/github/codetoil/litlaunch/api/IDoThing$Color;)V]
 [method, io/github/codetoil/litlaunch/api/IDoThing/notifyServer, (Ljava/lang/String;Lio/github/codetoil/litlaunch/api/IDoThing$Color;)V]
 [method, io/github/codetoil/litlaunch/api/IDoThing/notifyServer, (Ljava/lang/String;Lio/github/codetoil/litlaunch/api/IDoThing$Color;ZZZZZ)V]
 [method, io/github/codetoil/litlaunch/api/IDoThing/notifyServer, (Ljava/lang/String;Lio/github/codetoil/litlaunch/api/IDoThing$Color;ZZZZZ)V]
 [method, io/github/codetoil/litlaunch/core/LaunchCommon/info, (Ljava/lang/Object;)V]
-Rename class net/minecraft/util/ChatComponentText[2421,2438]::ChatComponentText->ChatComponentText
-Rename method net/minecraft/util/IChatComponent/setChatStyle (Lnet/minecraft/util/ChatStyle;)Lnet/minecraft/util/IChatComponent;[2448,2460]::setChatStyle->func_150255_a
+Rename class net/minecraft/util/ChatComponentText[2943,2960]::ChatComponentText->ChatComponentText
+Rename method net/minecraft/util/IChatComponent/setChatStyle (Lnet/minecraft/util/ChatStyle;)Lnet/minecraft/util/IChatComponent;[2970,2982]::setChatStyle->func_150255_a
 [method, io/github/codetoil/litlaunch/_native/mc1_8/DoThing/getStyle, (Lio/github/codetoil/litlaunch/api/IDoThing$Color;ZZZZZ)Lnet/minecraft/util/ChatStyle;]
-Rename method net/minecraft/util/IChatComponent/getFormattedText ()Ljava/lang/String;[2544,2560]::getFormattedText->func_150254_d
+Rename method net/minecraft/util/IChatComponent/getFormattedText ()Ljava/lang/String;[3066,3082]::getFormattedText->func_150254_d
 [method, io/github/codetoil/litlaunch/api/IDoThing/notifyUser, (Ljava/lang/String;)V]
 [method, io/github/codetoil/litlaunch/api/IDoThing/notifyUser, (Ljava/lang/String;Lio/github/codetoil/litlaunch/api/IDoThing$Color;)V]
 [method, io/github/codetoil/litlaunch/api/IDoThing/notifyUser, (Ljava/lang/String;Lio/github/codetoil/litlaunch/api/IDoThing$Color;)V]
@@ -33487,20 +33501,6 @@ No rename for method net/minecraftforge/fml/common/FMLCommonHandler/getSide ()Ln
 No rename for method net/minecraftforge/fml/relauncher/Side/isClient ()Z
 [method, io/github/codetoil/litlaunch/api/IDoThing/notifyPlayer, (Ljava/lang/String;Lio/github/codetoil/litlaunch/api/IDoThing$Color;ZZZZZ)V]
 [method, io/github/codetoil/litlaunch/api/IDoThing/notifyServer, (Ljava/lang/String;Lio/github/codetoil/litlaunch/api/IDoThing$Color;ZZZZZ)V]
-Rename class net/minecraft/util/ChatStyle[3256,3265]::ChatStyle->ChatStyle
-[method, io/github/codetoil/litlaunch/_native/mc1_8/DoThing/getStyle, (Lio/github/codetoil/litlaunch/api/IDoThing$Color;ZZZZZ)Lnet/minecraft/util/ChatStyle;]
-Rename class net/minecraft/util/ChatStyle[3398,3407]::ChatStyle->ChatStyle
-Rename class net/minecraft/util/ChatStyle[3425,3434]::ChatStyle->ChatStyle
-Rename method net/minecraft/util/ChatStyle/setBold (Ljava/lang/Boolean;)Lnet/minecraft/util/ChatStyle;[3456,3463]::setBold->func_150227_a
-Rename method net/minecraft/util/ChatStyle/setItalic (Ljava/lang/Boolean;)Lnet/minecraft/util/ChatStyle;[3483,3492]::setItalic->func_150217_b
-Rename method net/minecraft/util/ChatStyle/setUnderlined (Ljava/lang/Boolean;)Lnet/minecraft/util/ChatStyle;[3512,3525]::setUnderlined->func_150228_d
-Rename method net/minecraft/util/ChatStyle/setObfuscated (Ljava/lang/Boolean;)Lnet/minecraft/util/ChatStyle;[3545,3558]::setObfuscated->func_150237_e
-Rename method net/minecraft/util/ChatStyle/setStrikethrough (Ljava/lang/Boolean;)Lnet/minecraft/util/ChatStyle;[3578,3594]::setStrikethrough->func_150225_c
-Rename class net/minecraft/util/EnumChatFormatting[3614,3632]::EnumChatFormatting->EnumChatFormatting
-Rename class net/minecraft/util/EnumChatFormatting[3645,3663]::EnumChatFormatting->EnumChatFormatting
-Rename method net/minecraft/util/EnumChatFormatting/getValueByName (Ljava/lang/String;)Lnet/minecraft/util/EnumChatFormatting;[3664,3678]::getValueByName->func_96300_b
-[method, java/lang/Enum/name, ()Ljava/lang/String;]
-Rename method net/minecraft/util/ChatStyle/setColor (Lnet/minecraft/util/EnumChatFormatting;)Lnet/minecraft/util/ChatStyle;[3719,3727]::setColor->func_150238_a
 Import: net.minecraft.client.Minecraft
 Import: net.minecraft.util.ChatComponentText
 Import: net.minecraft.util.ChatStyle
@@ -33516,7 +33516,7 @@ No rename for field net/minecraftforge/fml/common/gameevent/TickEvent/phase
 [method, java/lang/Enum/equals, (Ljava/lang/Object;)Z]
 No rename for class net/minecraftforge/fml/common/gameevent/TickEvent/Phase
 No rename for field net/minecraftforge/fml/common/gameevent/TickEvent/Phase/END
-[method, io/github/codetoil/litlaunch/core/event/LitEventHandler/post, (Lio/github/codetoil/litlaunch/core/event/LitEvent;)V]
+[method, io/github/codetoil/litlaunch/core/event/LitEventHandler/post, (Lio/github/codetoil/litlaunch/core/event/LitEvent;Z)V]
 [method, io/github/codetoil/litlaunch/_native/mc1_8/EventHandler/onServerTick, (Lnet/minecraftforge/fml/common/gameevent/TickEvent$ServerTickEvent;)V]
 No rename for class net/minecraftforge/fml/common/gameevent/TickEvent/ServerTickEvent
 No rename for field net/minecraftforge/fml/common/gameevent/TickEvent/phase
@@ -33527,15 +33527,266 @@ No rename for field net/minecraftforge/fml/common/gameevent/TickEvent/Phase/END
 [method, io/github/codetoil/litlaunch/_native/mc1_8/EventHandler/ServerConnect, (Lnet/minecraftforge/fml/common/network/FMLNetworkEvent$ClientConnectedToServerEvent;)V]
 No rename for class net/minecraftforge/fml/common/network/FMLNetworkEvent/ClientConnectedToServerEvent
 [method, io/github/codetoil/litlaunch/core/event/LitEventHandler/post, (Lio/github/codetoil/litlaunch/core/event/LitEvent;)V]
+No rename for field net/minecraftforge/fml/common/network/FMLNetworkEvent/manager
+Rename method net/minecraft/network/NetworkManager/setNetHandler (Lnet/minecraft/network/INetHandler;)V[1351,1364]::setNetHandler->func_150719_a
+Rename class net/minecraft/client/network/NetHandlerPlayClient[1404,1424]::NetHandlerPlayClient->NetHandlerPlayClient
+No rename for field net/minecraftforge/fml/common/network/FMLNetworkEvent/handler
+Import: net.minecraft.client.network.NetHandlerPlayClient
 Adding 0 imports
 End  Processing: io\github\codetoil\litlaunch\_native\mc1_8\EventHandler.java
+
+Start Processing: io\github\codetoil\litlaunch\_native\mc1_8\EventThrowingClientPlayNetHandler.java
+Warning: io\github\codetoil\litlaunch\_native\mc1_8\EventThrowingClientPlayNetHandler.java has CRLF line endings; consider switching to LF
+Rename class net/minecraft/client/network/NetHandlerPlayClient[621,641]::NetHandlerPlayClient->NetHandlerPlayClient
+[method, io/github/codetoil/litlaunch/_native/mc1_8/EventThrowingClientPlayNetHandler/EventThrowingClientPlayNetHandler, (Lnet/minecraft/client/network/NetHandlerPlayClient;)V]
+FOUND CONSTR method io/github/codetoil/litlaunch/_native/mc1_8/EventThrowingClientPlayNetHandler/EventThrowingClientPlayNetHandler (Lnet/minecraft/client/network/NetHandlerPlayClient;)V io/github/codetoil/litlaunch/_native/mc1_8/EventThrowingClientPlayNetHandler
+Rename class net/minecraft/client/network/NetHandlerPlayClient[705,725]::NetHandlerPlayClient->NetHandlerPlayClient
+Rename class net/minecraft/client/Minecraft[757,766]::Minecraft->Minecraft
+Rename method net/minecraft/client/Minecraft/getMinecraft ()Lnet/minecraft/client/Minecraft;[767,779]::getMinecraft->func_71410_x
+No rename for class net/minecraftforge/fml/common/ObfuscationReflectionHelper
+[method, net/minecraftforge/fml/common/ObfuscationReflectionHelper/getPrivateValue, (Ljava/lang/Class;Ljava/lang/Object;[Ljava/lang/String;)Ljava/lang/Object;]
+No rename for method net/minecraftforge/fml/common/ObfuscationReflectionHelper/getPrivateValue (Ljava/lang/Class;Ljava/lang/Object;[Ljava/lang/String;)Ljava/lang/Object;
+Rename class net/minecraft/client/network/NetHandlerPlayClient[827,847]::NetHandlerPlayClient->NetHandlerPlayClient
+Rename method net/minecraft/client/network/NetHandlerPlayClient/getNetworkManager ()Lnet/minecraft/network/NetworkManager;[932,949]::getNetworkManager->func_147298_b
+Rename method net/minecraft/client/network/NetHandlerPlayClient/getGameProfile ()Lcom/mojang/authlib/GameProfile;[968,982]::getGameProfile->func_175105_e
+Rename method net/minecraft/network/play/INetHandlerPlayClient/handleSpawnObject (Lnet/minecraft/network/play/server/S0EPacketSpawnObject;)V[1062,1079]::handleSpawnObject->func_147235_a
+Rename class net/minecraft/network/play/server/S0EPacketSpawnObject[1076,1096]::S0EPacketSpawnObject->S0EPacketSpawnObject
+Rename method net/minecraft/network/play/INetHandlerPlayClient/handleSpawnObject (Lnet/minecraft/network/play/server/S0EPacketSpawnObject;)V[1131,1148]::handleSpawnObject->func_147235_a
+Rename method net/minecraft/network/play/INetHandlerPlayClient/handleSpawnExperienceOrb (Lnet/minecraft/network/play/server/S11PacketSpawnExperienceOrb;)V[1184,1208]::handleSpawnExperienceOrb->func_147286_a
+Rename class net/minecraft/network/play/server/S11PacketSpawnExperienceOrb[1198,1225]::S11PacketSpawnExperienceOrb->S11PacketSpawnExperienceOrb
+Rename method net/minecraft/network/play/INetHandlerPlayClient/handleSpawnExperienceOrb (Lnet/minecraft/network/play/server/S11PacketSpawnExperienceOrb;)V[1260,1284]::handleSpawnExperienceOrb->func_147286_a
+Rename method net/minecraft/network/play/INetHandlerPlayClient/handleSpawnGlobalEntity (Lnet/minecraft/network/play/server/S2CPacketSpawnGlobalEntity;)V[1313,1336]::handleSpawnGlobalEntity->func_147292_a
+Rename class net/minecraft/network/play/server/S2CPacketSpawnGlobalEntity[1327,1353]::S2CPacketSpawnGlobalEntity->S2CPacketSpawnGlobalEntity
+Rename method net/minecraft/network/play/INetHandlerPlayClient/handleSpawnGlobalEntity (Lnet/minecraft/network/play/server/S2CPacketSpawnGlobalEntity;)V[1388,1411]::handleSpawnGlobalEntity->func_147292_a
+Rename method net/minecraft/network/play/INetHandlerPlayClient/handleSpawnMob (Lnet/minecraft/network/play/server/S0FPacketSpawnMob;)V[1441,1455]::handleSpawnMob->func_147281_a
+Rename class net/minecraft/network/play/server/S0FPacketSpawnMob[1455,1472]::S0FPacketSpawnMob->S0FPacketSpawnMob
+Rename method net/minecraft/network/play/INetHandlerPlayClient/handleSpawnMob (Lnet/minecraft/network/play/server/S0FPacketSpawnMob;)V[1507,1521]::handleSpawnMob->func_147281_a
+Rename method net/minecraft/network/play/INetHandlerPlayClient/handleScoreboardObjective (Lnet/minecraft/network/play/server/S3BPacketScoreboardObjective;)V[1560,1585]::handleScoreboardObjective->func_147291_a
+Rename class net/minecraft/network/play/server/S3BPacketScoreboardObjective[1574,1602]::S3BPacketScoreboardObjective->S3BPacketScoreboardObjective
+Rename method net/minecraft/network/play/INetHandlerPlayClient/handleScoreboardObjective (Lnet/minecraft/network/play/server/S3BPacketScoreboardObjective;)V[1637,1662]::handleScoreboardObjective->func_147291_a
+Rename method net/minecraft/network/play/INetHandlerPlayClient/handleSpawnPainting (Lnet/minecraft/network/play/server/S10PacketSpawnPainting;)V[1690,1709]::handleSpawnPainting->func_147288_a
+Rename class net/minecraft/network/play/server/S10PacketSpawnPainting[1704,1726]::S10PacketSpawnPainting->S10PacketSpawnPainting
+Rename method net/minecraft/network/play/INetHandlerPlayClient/handleSpawnPainting (Lnet/minecraft/network/play/server/S10PacketSpawnPainting;)V[1761,1780]::handleSpawnPainting->func_147288_a
+Rename method net/minecraft/network/play/INetHandlerPlayClient/handleSpawnPlayer (Lnet/minecraft/network/play/server/S0CPacketSpawnPlayer;)V[1814,1831]::handleSpawnPlayer->func_147237_a
+Rename class net/minecraft/network/play/server/S0CPacketSpawnPlayer[1828,1848]::S0CPacketSpawnPlayer->S0CPacketSpawnPlayer
+Rename method net/minecraft/network/play/INetHandlerPlayClient/handleSpawnPlayer (Lnet/minecraft/network/play/server/S0CPacketSpawnPlayer;)V[1883,1900]::handleSpawnPlayer->func_147237_a
+Rename method net/minecraft/network/play/INetHandlerPlayClient/handleAnimation (Lnet/minecraft/network/play/server/S0BPacketAnimation;)V[1936,1951]::handleAnimation->func_147279_a
+Rename class net/minecraft/network/play/server/S0BPacketAnimation[1950,1968]::S0BPacketAnimation->S0BPacketAnimation
+Rename method net/minecraft/network/play/INetHandlerPlayClient/handleAnimation (Lnet/minecraft/network/play/server/S0BPacketAnimation;)V[2003,2018]::handleAnimation->func_147279_a
+Rename method net/minecraft/network/play/INetHandlerPlayClient/handleStatistics (Lnet/minecraft/network/play/server/S37PacketStatistics;)V[2056,2072]::handleStatistics->func_147293_a
+Rename class net/minecraft/network/play/server/S37PacketStatistics[2070,2089]::S37PacketStatistics->S37PacketStatistics
+Rename method net/minecraft/network/play/INetHandlerPlayClient/handleStatistics (Lnet/minecraft/network/play/server/S37PacketStatistics;)V[2124,2140]::handleStatistics->func_147293_a
+Rename method net/minecraft/network/play/INetHandlerPlayClient/handleBlockBreakAnim (Lnet/minecraft/network/play/server/S25PacketBlockBreakAnim;)V[2177,2197]::handleBlockBreakAnim->func_147294_a
+Rename class net/minecraft/network/play/server/S25PacketBlockBreakAnim[2191,2214]::S25PacketBlockBreakAnim->S25PacketBlockBreakAnim
+Rename method net/minecraft/network/play/INetHandlerPlayClient/handleBlockBreakAnim (Lnet/minecraft/network/play/server/S25PacketBlockBreakAnim;)V[2249,2269]::handleBlockBreakAnim->func_147294_a
+Rename method net/minecraft/network/play/INetHandlerPlayClient/handleSignEditorOpen (Lnet/minecraft/network/play/server/S36PacketSignEditorOpen;)V[2302,2322]::handleSignEditorOpen->func_147268_a
+Rename class net/minecraft/network/play/server/S36PacketSignEditorOpen[2316,2339]::S36PacketSignEditorOpen->S36PacketSignEditorOpen
+Rename method net/minecraft/network/play/INetHandlerPlayClient/handleSignEditorOpen (Lnet/minecraft/network/play/server/S36PacketSignEditorOpen;)V[2374,2394]::handleSignEditorOpen->func_147268_a
+Rename method net/minecraft/network/play/INetHandlerPlayClient/handleUpdateTileEntity (Lnet/minecraft/network/play/server/S35PacketUpdateTileEntity;)V[2427,2449]::handleUpdateTileEntity->func_147273_a
+Rename class net/minecraft/network/play/server/S35PacketUpdateTileEntity[2441,2466]::S35PacketUpdateTileEntity->S35PacketUpdateTileEntity
+Rename method net/minecraft/network/play/INetHandlerPlayClient/handleUpdateTileEntity (Lnet/minecraft/network/play/server/S35PacketUpdateTileEntity;)V[2501,2523]::handleUpdateTileEntity->func_147273_a
+Rename method net/minecraft/network/play/INetHandlerPlayClient/handleBlockAction (Lnet/minecraft/network/play/server/S24PacketBlockAction;)V[2554,2571]::handleBlockAction->func_147261_a
+Rename class net/minecraft/network/play/server/S24PacketBlockAction[2568,2588]::S24PacketBlockAction->S24PacketBlockAction
+Rename method net/minecraft/network/play/INetHandlerPlayClient/handleBlockAction (Lnet/minecraft/network/play/server/S24PacketBlockAction;)V[2623,2640]::handleBlockAction->func_147261_a
+Rename method net/minecraft/network/play/INetHandlerPlayClient/handleBlockChange (Lnet/minecraft/network/play/server/S23PacketBlockChange;)V[2676,2693]::handleBlockChange->func_147234_a
+Rename class net/minecraft/network/play/server/S23PacketBlockChange[2690,2710]::S23PacketBlockChange->S23PacketBlockChange
+Rename method net/minecraft/network/play/INetHandlerPlayClient/handleBlockChange (Lnet/minecraft/network/play/server/S23PacketBlockChange;)V[2745,2762]::handleBlockChange->func_147234_a
+Rename method net/minecraft/network/play/INetHandlerPlayClient/handleChat (Lnet/minecraft/network/play/server/S02PacketChat;)V[2798,2808]::handleChat->func_147251_a
+Rename class net/minecraft/network/play/server/S02PacketChat[2812,2825]::S02PacketChat->S02PacketChat
+Rename method net/minecraft/network/play/INetHandlerPlayClient/handleChat (Lnet/minecraft/network/play/server/S02PacketChat;)V[2860,2870]::handleChat->func_147251_a
+Rename method net/minecraft/network/play/INetHandlerPlayClient/handleTabComplete (Lnet/minecraft/network/play/server/S3APacketTabComplete;)V[2913,2930]::handleTabComplete->func_147274_a
+Rename class net/minecraft/network/play/server/S3APacketTabComplete[2927,2947]::S3APacketTabComplete->S3APacketTabComplete
+Rename method net/minecraft/network/play/INetHandlerPlayClient/handleTabComplete (Lnet/minecraft/network/play/server/S3APacketTabComplete;)V[2982,2999]::handleTabComplete->func_147274_a
+Rename method net/minecraft/network/play/INetHandlerPlayClient/handleMultiBlockChange (Lnet/minecraft/network/play/server/S22PacketMultiBlockChange;)V[3035,3057]::handleMultiBlockChange->func_147287_a
+Rename class net/minecraft/network/play/server/S22PacketMultiBlockChange[3049,3074]::S22PacketMultiBlockChange->S22PacketMultiBlockChange
+Rename method net/minecraft/network/play/INetHandlerPlayClient/handleMultiBlockChange (Lnet/minecraft/network/play/server/S22PacketMultiBlockChange;)V[3109,3131]::handleMultiBlockChange->func_147287_a
+Rename method net/minecraft/network/play/INetHandlerPlayClient/handleMaps (Lnet/minecraft/network/play/server/S34PacketMaps;)V[3162,3172]::handleMaps->func_147264_a
+Rename class net/minecraft/network/play/server/S34PacketMaps[3176,3189]::S34PacketMaps->S34PacketMaps
+Rename method net/minecraft/network/play/INetHandlerPlayClient/handleMaps (Lnet/minecraft/network/play/server/S34PacketMaps;)V[3224,3234]::handleMaps->func_147264_a
+Rename method net/minecraft/network/play/INetHandlerPlayClient/handleConfirmTransaction (Lnet/minecraft/network/play/server/S32PacketConfirmTransaction;)V[3277,3301]::handleConfirmTransaction->func_147239_a
+Rename class net/minecraft/network/play/server/S32PacketConfirmTransaction[3291,3318]::S32PacketConfirmTransaction->S32PacketConfirmTransaction
+Rename method net/minecraft/network/play/INetHandlerPlayClient/handleConfirmTransaction (Lnet/minecraft/network/play/server/S32PacketConfirmTransaction;)V[3353,3377]::handleConfirmTransaction->func_147239_a
+Rename method net/minecraft/network/play/INetHandlerPlayClient/handleCloseWindow (Lnet/minecraft/network/play/server/S2EPacketCloseWindow;)V[3406,3423]::handleCloseWindow->func_147276_a
+Rename class net/minecraft/network/play/server/S2EPacketCloseWindow[3420,3440]::S2EPacketCloseWindow->S2EPacketCloseWindow
+Rename method net/minecraft/network/play/INetHandlerPlayClient/handleCloseWindow (Lnet/minecraft/network/play/server/S2EPacketCloseWindow;)V[3475,3492]::handleCloseWindow->func_147276_a
+Rename method net/minecraft/network/play/INetHandlerPlayClient/handleWindowItems (Lnet/minecraft/network/play/server/S30PacketWindowItems;)V[3528,3545]::handleWindowItems->func_147241_a
+Rename class net/minecraft/network/play/server/S30PacketWindowItems[3542,3562]::S30PacketWindowItems->S30PacketWindowItems
+Rename method net/minecraft/network/play/INetHandlerPlayClient/handleWindowItems (Lnet/minecraft/network/play/server/S30PacketWindowItems;)V[3597,3614]::handleWindowItems->func_147241_a
+Rename method net/minecraft/network/play/INetHandlerPlayClient/handleOpenWindow (Lnet/minecraft/network/play/server/S2DPacketOpenWindow;)V[3650,3666]::handleOpenWindow->func_147265_a
+Rename class net/minecraft/network/play/server/S2DPacketOpenWindow[3664,3683]::S2DPacketOpenWindow->S2DPacketOpenWindow
+Rename method net/minecraft/network/play/INetHandlerPlayClient/handleOpenWindow (Lnet/minecraft/network/play/server/S2DPacketOpenWindow;)V[3718,3734]::handleOpenWindow->func_147265_a
+Rename method net/minecraft/network/play/INetHandlerPlayClient/handleWindowProperty (Lnet/minecraft/network/play/server/S31PacketWindowProperty;)V[3771,3791]::handleWindowProperty->func_147245_a
+Rename class net/minecraft/network/play/server/S31PacketWindowProperty[3785,3808]::S31PacketWindowProperty->S31PacketWindowProperty
+Rename method net/minecraft/network/play/INetHandlerPlayClient/handleWindowProperty (Lnet/minecraft/network/play/server/S31PacketWindowProperty;)V[3843,3863]::handleWindowProperty->func_147245_a
+Rename method net/minecraft/network/play/INetHandlerPlayClient/handleSetSlot (Lnet/minecraft/network/play/server/S2FPacketSetSlot;)V[3896,3909]::handleSetSlot->func_147266_a
+Rename class net/minecraft/network/play/server/S2FPacketSetSlot[3910,3926]::S2FPacketSetSlot->S2FPacketSetSlot
+Rename method net/minecraft/network/play/INetHandlerPlayClient/handleSetSlot (Lnet/minecraft/network/play/server/S2FPacketSetSlot;)V[3961,3974]::handleSetSlot->func_147266_a
+Rename method net/minecraft/network/play/INetHandlerPlayClient/handleCustomPayload (Lnet/minecraft/network/play/server/S3FPacketCustomPayload;)V[4014,4033]::handleCustomPayload->func_147240_a
+Rename class net/minecraft/network/play/server/S3FPacketCustomPayload[4028,4050]::S3FPacketCustomPayload->S3FPacketCustomPayload
+Rename method net/minecraft/network/play/INetHandlerPlayClient/handleCustomPayload (Lnet/minecraft/network/play/server/S3FPacketCustomPayload;)V[4085,4104]::handleCustomPayload->func_147240_a
+Rename method net/minecraft/network/play/INetHandlerPlayClient/handleDisconnect (Lnet/minecraft/network/play/server/S40PacketDisconnect;)V[4138,4154]::handleDisconnect->func_147253_a
+Rename class net/minecraft/network/play/server/S40PacketDisconnect[4152,4171]::S40PacketDisconnect->S40PacketDisconnect
+Rename method net/minecraft/network/play/INetHandlerPlayClient/handleDisconnect (Lnet/minecraft/network/play/server/S40PacketDisconnect;)V[4206,4222]::handleDisconnect->func_147253_a
+Rename method net/minecraft/network/play/INetHandlerPlayClient/handleUseBed (Lnet/minecraft/network/play/server/S0APacketUseBed;)V[4259,4271]::handleUseBed->func_147278_a
+Rename class net/minecraft/network/play/server/S0APacketUseBed[4273,4288]::S0APacketUseBed->S0APacketUseBed
+Rename method net/minecraft/network/play/INetHandlerPlayClient/handleUseBed (Lnet/minecraft/network/play/server/S0APacketUseBed;)V[4323,4335]::handleUseBed->func_147278_a
+Rename method net/minecraft/network/play/INetHandlerPlayClient/handleEntityStatus (Lnet/minecraft/network/play/server/S19PacketEntityStatus;)V[4376,4394]::handleEntityStatus->func_147236_a
+Rename class net/minecraft/network/play/server/S19PacketEntityStatus[4390,4411]::S19PacketEntityStatus->S19PacketEntityStatus
+Rename method net/minecraft/network/play/INetHandlerPlayClient/handleEntityStatus (Lnet/minecraft/network/play/server/S19PacketEntityStatus;)V[4446,4464]::handleEntityStatus->func_147236_a
+Rename method net/minecraft/network/play/INetHandlerPlayClient/handleEntityAttach (Lnet/minecraft/network/play/server/S1BPacketEntityAttach;)V[4499,4517]::handleEntityAttach->func_147243_a
+Rename class net/minecraft/network/play/server/S1BPacketEntityAttach[4513,4534]::S1BPacketEntityAttach->S1BPacketEntityAttach
+Rename method net/minecraft/network/play/INetHandlerPlayClient/handleEntityAttach (Lnet/minecraft/network/play/server/S1BPacketEntityAttach;)V[4569,4587]::handleEntityAttach->func_147243_a
+Rename method net/minecraft/network/play/INetHandlerPlayClient/handleExplosion (Lnet/minecraft/network/play/server/S27PacketExplosion;)V[4622,4637]::handleExplosion->func_147283_a
+Rename class net/minecraft/network/play/server/S27PacketExplosion[4636,4654]::S27PacketExplosion->S27PacketExplosion
+Rename method net/minecraft/network/play/INetHandlerPlayClient/handleExplosion (Lnet/minecraft/network/play/server/S27PacketExplosion;)V[4689,4704]::handleExplosion->func_147283_a
+Rename method net/minecraft/network/play/INetHandlerPlayClient/handleChangeGameState (Lnet/minecraft/network/play/server/S2BPacketChangeGameState;)V[4742,4763]::handleChangeGameState->func_147252_a
+Rename class net/minecraft/network/play/server/S2BPacketChangeGameState[4756,4780]::S2BPacketChangeGameState->S2BPacketChangeGameState
+Rename method net/minecraft/network/play/INetHandlerPlayClient/handleChangeGameState (Lnet/minecraft/network/play/server/S2BPacketChangeGameState;)V[4815,4836]::handleChangeGameState->func_147252_a
+Rename method net/minecraft/network/play/INetHandlerPlayClient/handleKeepAlive (Lnet/minecraft/network/play/server/S00PacketKeepAlive;)V[4868,4883]::handleKeepAlive->func_147272_a
+Rename class net/minecraft/network/play/server/S00PacketKeepAlive[4882,4900]::S00PacketKeepAlive->S00PacketKeepAlive
+Rename method net/minecraft/network/play/INetHandlerPlayClient/handleKeepAlive (Lnet/minecraft/network/play/server/S00PacketKeepAlive;)V[4935,4950]::handleKeepAlive->func_147272_a
+Rename method net/minecraft/network/play/INetHandlerPlayClient/handleChunkData (Lnet/minecraft/network/play/server/S21PacketChunkData;)V[4988,5003]::handleChunkData->func_147263_a
+Rename class net/minecraft/network/play/server/S21PacketChunkData[5002,5020]::S21PacketChunkData->S21PacketChunkData
+Rename method net/minecraft/network/play/INetHandlerPlayClient/handleChunkData (Lnet/minecraft/network/play/server/S21PacketChunkData;)V[5055,5070]::handleChunkData->func_147263_a
+Rename method net/minecraft/network/play/INetHandlerPlayClient/handleMapChunkBulk (Lnet/minecraft/network/play/server/S26PacketMapChunkBulk;)V[5108,5126]::handleMapChunkBulk->func_147269_a
+Rename class net/minecraft/network/play/server/S26PacketMapChunkBulk[5122,5143]::S26PacketMapChunkBulk->S26PacketMapChunkBulk
+Rename method net/minecraft/network/play/INetHandlerPlayClient/handleMapChunkBulk (Lnet/minecraft/network/play/server/S26PacketMapChunkBulk;)V[5178,5196]::handleMapChunkBulk->func_147269_a
+Rename method net/minecraft/network/play/INetHandlerPlayClient/handleEffect (Lnet/minecraft/network/play/server/S28PacketEffect;)V[5231,5243]::handleEffect->func_147277_a
+Rename class net/minecraft/network/play/server/S28PacketEffect[5245,5260]::S28PacketEffect->S28PacketEffect
+Rename method net/minecraft/network/play/INetHandlerPlayClient/handleEffect (Lnet/minecraft/network/play/server/S28PacketEffect;)V[5295,5307]::handleEffect->func_147277_a
+Rename method net/minecraft/network/play/INetHandlerPlayClient/handleJoinGame (Lnet/minecraft/network/play/server/S01PacketJoinGame;)V[5348,5362]::handleJoinGame->func_147282_a
+Rename class net/minecraft/network/play/server/S01PacketJoinGame[5362,5379]::S01PacketJoinGame->S01PacketJoinGame
+Rename method net/minecraft/network/play/INetHandlerPlayClient/handleJoinGame (Lnet/minecraft/network/play/server/S01PacketJoinGame;)V[5414,5428]::handleJoinGame->func_147282_a
+Rename method net/minecraft/network/play/INetHandlerPlayClient/handleEntityMovement (Lnet/minecraft/network/play/server/S14PacketEntity;)V[5467,5487]::handleEntityMovement->func_147259_a
+Rename class net/minecraft/network/play/server/S14PacketEntity[5481,5496]::S14PacketEntity->S14PacketEntity
+Rename method net/minecraft/network/play/INetHandlerPlayClient/handleEntityMovement (Lnet/minecraft/network/play/server/S14PacketEntity;)V[5531,5551]::handleEntityMovement->func_147259_a
+Rename method net/minecraft/network/play/INetHandlerPlayClient/handlePlayerPosLook (Lnet/minecraft/network/play/server/S08PacketPlayerPosLook;)V[5584,5603]::handlePlayerPosLook->func_147258_a
+Rename class net/minecraft/network/play/server/S08PacketPlayerPosLook[5598,5620]::S08PacketPlayerPosLook->S08PacketPlayerPosLook
+Rename method net/minecraft/network/play/INetHandlerPlayClient/handlePlayerPosLook (Lnet/minecraft/network/play/server/S08PacketPlayerPosLook;)V[5655,5674]::handlePlayerPosLook->func_147258_a
+Rename method net/minecraft/network/play/INetHandlerPlayClient/handleParticles (Lnet/minecraft/network/play/server/S2APacketParticles;)V[5708,5723]::handleParticles->func_147289_a
+Rename class net/minecraft/network/play/server/S2APacketParticles[5722,5740]::S2APacketParticles->S2APacketParticles
+Rename method net/minecraft/network/play/INetHandlerPlayClient/handleParticles (Lnet/minecraft/network/play/server/S2APacketParticles;)V[5775,5790]::handleParticles->func_147289_a
+Rename method net/minecraft/network/play/INetHandlerPlayClient/handlePlayerAbilities (Lnet/minecraft/network/play/server/S39PacketPlayerAbilities;)V[5828,5849]::handlePlayerAbilities->func_147270_a
+Rename class net/minecraft/network/play/server/S39PacketPlayerAbilities[5842,5866]::S39PacketPlayerAbilities->S39PacketPlayerAbilities
+Rename method net/minecraft/network/play/INetHandlerPlayClient/handlePlayerAbilities (Lnet/minecraft/network/play/server/S39PacketPlayerAbilities;)V[5901,5922]::handlePlayerAbilities->func_147270_a
+Rename method net/minecraft/network/play/INetHandlerPlayClient/handlePlayerListItem (Lnet/minecraft/network/play/server/S38PacketPlayerListItem;)V[5954,5974]::handlePlayerListItem->func_147256_a
+Rename class net/minecraft/network/play/server/S38PacketPlayerListItem[5968,5991]::S38PacketPlayerListItem->S38PacketPlayerListItem
+Rename method net/minecraft/network/play/INetHandlerPlayClient/handlePlayerListItem (Lnet/minecraft/network/play/server/S38PacketPlayerListItem;)V[6026,6046]::handlePlayerListItem->func_147256_a
+Rename method net/minecraft/network/play/INetHandlerPlayClient/handleDestroyEntities (Lnet/minecraft/network/play/server/S13PacketDestroyEntities;)V[6079,6100]::handleDestroyEntities->func_147238_a
+Rename class net/minecraft/network/play/server/S13PacketDestroyEntities[6093,6117]::S13PacketDestroyEntities->S13PacketDestroyEntities
+Rename method net/minecraft/network/play/INetHandlerPlayClient/handleDestroyEntities (Lnet/minecraft/network/play/server/S13PacketDestroyEntities;)V[6152,6173]::handleDestroyEntities->func_147238_a
+Rename method net/minecraft/network/play/INetHandlerPlayClient/handleRemoveEntityEffect (Lnet/minecraft/network/play/server/S1EPacketRemoveEntityEffect;)V[6205,6229]::handleRemoveEntityEffect->func_147262_a
+Rename class net/minecraft/network/play/server/S1EPacketRemoveEntityEffect[6219,6246]::S1EPacketRemoveEntityEffect->S1EPacketRemoveEntityEffect
+Rename method net/minecraft/network/play/INetHandlerPlayClient/handleRemoveEntityEffect (Lnet/minecraft/network/play/server/S1EPacketRemoveEntityEffect;)V[6281,6305]::handleRemoveEntityEffect->func_147262_a
+Rename method net/minecraft/network/play/INetHandlerPlayClient/handleRespawn (Lnet/minecraft/network/play/server/S07PacketRespawn;)V[6334,6347]::handleRespawn->func_147280_a
+Rename class net/minecraft/network/play/server/S07PacketRespawn[6348,6364]::S07PacketRespawn->S07PacketRespawn
+Rename method net/minecraft/network/play/INetHandlerPlayClient/handleRespawn (Lnet/minecraft/network/play/server/S07PacketRespawn;)V[6399,6412]::handleRespawn->func_147280_a
+Rename method net/minecraft/network/play/INetHandlerPlayClient/handleEntityHeadLook (Lnet/minecraft/network/play/server/S19PacketEntityHeadLook;)V[6452,6472]::handleEntityHeadLook->func_147267_a
+Rename class net/minecraft/network/play/server/S19PacketEntityHeadLook[6466,6489]::S19PacketEntityHeadLook->S19PacketEntityHeadLook
+Rename method net/minecraft/network/play/INetHandlerPlayClient/handleEntityHeadLook (Lnet/minecraft/network/play/server/S19PacketEntityHeadLook;)V[6524,6544]::handleEntityHeadLook->func_147267_a
+Rename method net/minecraft/network/play/INetHandlerPlayClient/handleHeldItemChange (Lnet/minecraft/network/play/server/S09PacketHeldItemChange;)V[6577,6597]::handleHeldItemChange->func_147257_a
+Rename class net/minecraft/network/play/server/S09PacketHeldItemChange[6591,6614]::S09PacketHeldItemChange->S09PacketHeldItemChange
+Rename method net/minecraft/network/play/INetHandlerPlayClient/handleHeldItemChange (Lnet/minecraft/network/play/server/S09PacketHeldItemChange;)V[6649,6669]::handleHeldItemChange->func_147257_a
+Rename method net/minecraft/network/play/INetHandlerPlayClient/handleDisplayScoreboard (Lnet/minecraft/network/play/server/S3DPacketDisplayScoreboard;)V[6702,6725]::handleDisplayScoreboard->func_147254_a
+Rename class net/minecraft/network/play/server/S3DPacketDisplayScoreboard[6716,6742]::S3DPacketDisplayScoreboard->S3DPacketDisplayScoreboard
+Rename method net/minecraft/network/play/INetHandlerPlayClient/handleDisplayScoreboard (Lnet/minecraft/network/play/server/S3DPacketDisplayScoreboard;)V[6777,6800]::handleDisplayScoreboard->func_147254_a
+Rename method net/minecraft/network/play/INetHandlerPlayClient/handleEntityMetadata (Lnet/minecraft/network/play/server/S1CPacketEntityMetadata;)V[6830,6850]::handleEntityMetadata->func_147284_a
+Rename class net/minecraft/network/play/server/S1CPacketEntityMetadata[6844,6867]::S1CPacketEntityMetadata->S1CPacketEntityMetadata
+Rename method net/minecraft/network/play/INetHandlerPlayClient/handleEntityMetadata (Lnet/minecraft/network/play/server/S1CPacketEntityMetadata;)V[6902,6922]::handleEntityMetadata->func_147284_a
+Rename method net/minecraft/network/play/INetHandlerPlayClient/handleEntityVelocity (Lnet/minecraft/network/play/server/S12PacketEntityVelocity;)V[6955,6975]::handleEntityVelocity->func_147244_a
+Rename class net/minecraft/network/play/server/S12PacketEntityVelocity[6969,6992]::S12PacketEntityVelocity->S12PacketEntityVelocity
+Rename method net/minecraft/network/play/INetHandlerPlayClient/handleEntityVelocity (Lnet/minecraft/network/play/server/S12PacketEntityVelocity;)V[7027,7047]::handleEntityVelocity->func_147244_a
+Rename method net/minecraft/network/play/INetHandlerPlayClient/handleEntityEquipment (Lnet/minecraft/network/play/server/S04PacketEntityEquipment;)V[7080,7101]::handleEntityEquipment->func_147242_a
+Rename class net/minecraft/network/play/server/S04PacketEntityEquipment[7094,7118]::S04PacketEntityEquipment->S04PacketEntityEquipment
+Rename method net/minecraft/network/play/INetHandlerPlayClient/handleEntityEquipment (Lnet/minecraft/network/play/server/S04PacketEntityEquipment;)V[7153,7174]::handleEntityEquipment->func_147242_a
+Rename method net/minecraft/network/play/INetHandlerPlayClient/handleSetExperience (Lnet/minecraft/network/play/server/S1FPacketSetExperience;)V[7206,7225]::handleSetExperience->func_147295_a
+Rename class net/minecraft/network/play/server/S1FPacketSetExperience[7220,7242]::S1FPacketSetExperience->S1FPacketSetExperience
+Rename method net/minecraft/network/play/INetHandlerPlayClient/handleSetExperience (Lnet/minecraft/network/play/server/S1FPacketSetExperience;)V[7277,7296]::handleSetExperience->func_147295_a
+Rename method net/minecraft/network/play/INetHandlerPlayClient/handleUpdateHealth (Lnet/minecraft/network/play/server/S06PacketUpdateHealth;)V[7330,7348]::handleUpdateHealth->func_147249_a
+Rename class net/minecraft/network/play/server/S06PacketUpdateHealth[7344,7365]::S06PacketUpdateHealth->S06PacketUpdateHealth
+Rename method net/minecraft/network/play/INetHandlerPlayClient/handleUpdateHealth (Lnet/minecraft/network/play/server/S06PacketUpdateHealth;)V[7400,7418]::handleUpdateHealth->func_147249_a
+Rename method net/minecraft/network/play/INetHandlerPlayClient/handleTeams (Lnet/minecraft/network/play/server/S3EPacketTeams;)V[7453,7464]::handleTeams->func_147247_a
+Rename class net/minecraft/network/play/server/S3EPacketTeams[7467,7481]::S3EPacketTeams->S3EPacketTeams
+Rename method net/minecraft/network/play/INetHandlerPlayClient/handleTeams (Lnet/minecraft/network/play/server/S3EPacketTeams;)V[7516,7527]::handleTeams->func_147247_a
+Rename method net/minecraft/network/play/INetHandlerPlayClient/handleUpdateScore (Lnet/minecraft/network/play/server/S3CPacketUpdateScore;)V[7569,7586]::handleUpdateScore->func_147250_a
+Rename class net/minecraft/network/play/server/S3CPacketUpdateScore[7583,7603]::S3CPacketUpdateScore->S3CPacketUpdateScore
+Rename method net/minecraft/network/play/INetHandlerPlayClient/handleUpdateScore (Lnet/minecraft/network/play/server/S3CPacketUpdateScore;)V[7638,7655]::handleUpdateScore->func_147250_a
+Rename method net/minecraft/network/play/INetHandlerPlayClient/handleSpawnPosition (Lnet/minecraft/network/play/server/S05PacketSpawnPosition;)V[7691,7710]::handleSpawnPosition->func_147271_a
+Rename class net/minecraft/network/play/server/S05PacketSpawnPosition[7705,7727]::S05PacketSpawnPosition->S05PacketSpawnPosition
+Rename method net/minecraft/network/play/INetHandlerPlayClient/handleSpawnPosition (Lnet/minecraft/network/play/server/S05PacketSpawnPosition;)V[7762,7781]::handleSpawnPosition->func_147271_a
+Rename method net/minecraft/network/play/INetHandlerPlayClient/handleTimeUpdate (Lnet/minecraft/network/play/server/S03PacketTimeUpdate;)V[7815,7831]::handleTimeUpdate->func_147285_a
+Rename class net/minecraft/network/play/server/S03PacketTimeUpdate[7829,7848]::S03PacketTimeUpdate->S03PacketTimeUpdate
+Rename method net/minecraft/network/play/INetHandlerPlayClient/handleTimeUpdate (Lnet/minecraft/network/play/server/S03PacketTimeUpdate;)V[7883,7899]::handleTimeUpdate->func_147285_a
+[method, io/github/codetoil/litlaunch/core/event/LitEventHandler/post, (Lio/github/codetoil/litlaunch/core/event/LitEvent;Z)V]
+[method, io/github/codetoil/litlaunch/api/ChainableMap/newMap, ()Lio/github/codetoil/litlaunch/api/ChainableMap;]
+[method, io/github/codetoil/litlaunch/api/ChainableMap/putChain, (Ljava/lang/Object;Ljava/lang/Object;)Lio/github/codetoil/litlaunch/api/ChainableMap;]
+[method, io/github/codetoil/litlaunch/api/ChainableMap/putChain, (Ljava/lang/Object;Ljava/lang/Object;)Lio/github/codetoil/litlaunch/api/ChainableMap;]
+Rename method net/minecraft/network/play/server/S03PacketTimeUpdate/getTotalWorldTime ()J[8085,8102]::getTotalWorldTime->func_149366_c
+[method, io/github/codetoil/litlaunch/api/ChainableMap/putChain, (Ljava/lang/Object;Ljava/lang/Object;)Lio/github/codetoil/litlaunch/api/ChainableMap;]
+Rename method net/minecraft/network/play/server/S03PacketTimeUpdate/getWorldTime ()J[8133,8145]::getWorldTime->func_149365_d
+[method, io/github/codetoil/litlaunch/api/ChainableMap/putChain, (Ljava/lang/Object;Ljava/lang/Object;)Lio/github/codetoil/litlaunch/api/ChainableMap;]
+Rename method net/minecraft/network/play/INetHandlerPlayClient/handleUpdateSign (Lnet/minecraft/network/play/server/S33PacketUpdateSign;)V[8213,8229]::handleUpdateSign->func_147248_a
+Rename class net/minecraft/network/play/server/S33PacketUpdateSign[8227,8246]::S33PacketUpdateSign->S33PacketUpdateSign
+Rename method net/minecraft/network/play/INetHandlerPlayClient/handleUpdateSign (Lnet/minecraft/network/play/server/S33PacketUpdateSign;)V[8281,8297]::handleUpdateSign->func_147248_a
+Rename method net/minecraft/network/play/INetHandlerPlayClient/handleSoundEffect (Lnet/minecraft/network/play/server/S29PacketSoundEffect;)V[8334,8351]::handleSoundEffect->func_147255_a
+Rename class net/minecraft/network/play/server/S29PacketSoundEffect[8348,8368]::S29PacketSoundEffect->S29PacketSoundEffect
+Rename method net/minecraft/network/play/INetHandlerPlayClient/handleSoundEffect (Lnet/minecraft/network/play/server/S29PacketSoundEffect;)V[8403,8420]::handleSoundEffect->func_147255_a
+Rename method net/minecraft/network/play/INetHandlerPlayClient/handleCollectItem (Lnet/minecraft/network/play/server/S0DPacketCollectItem;)V[8456,8473]::handleCollectItem->func_147246_a
+Rename class net/minecraft/network/play/server/S0DPacketCollectItem[8470,8490]::S0DPacketCollectItem->S0DPacketCollectItem
+Rename method net/minecraft/network/play/INetHandlerPlayClient/handleCollectItem (Lnet/minecraft/network/play/server/S0DPacketCollectItem;)V[8525,8542]::handleCollectItem->func_147246_a
+Rename method net/minecraft/network/play/INetHandlerPlayClient/handleEntityTeleport (Lnet/minecraft/network/play/server/S18PacketEntityTeleport;)V[8578,8598]::handleEntityTeleport->func_147275_a
+Rename class net/minecraft/network/play/server/S18PacketEntityTeleport[8592,8615]::S18PacketEntityTeleport->S18PacketEntityTeleport
+Rename method net/minecraft/network/play/INetHandlerPlayClient/handleEntityTeleport (Lnet/minecraft/network/play/server/S18PacketEntityTeleport;)V[8650,8670]::handleEntityTeleport->func_147275_a
+Rename method net/minecraft/network/play/INetHandlerPlayClient/handleEntityProperties (Lnet/minecraft/network/play/server/S20PacketEntityProperties;)V[8703,8725]::handleEntityProperties->func_147290_a
+Rename class net/minecraft/network/play/server/S20PacketEntityProperties[8717,8742]::S20PacketEntityProperties->S20PacketEntityProperties
+Rename method net/minecraft/network/play/INetHandlerPlayClient/handleEntityProperties (Lnet/minecraft/network/play/server/S20PacketEntityProperties;)V[8777,8799]::handleEntityProperties->func_147290_a
+Rename method net/minecraft/network/play/INetHandlerPlayClient/handleEntityEffect (Lnet/minecraft/network/play/server/S1DPacketEntityEffect;)V[8830,8848]::handleEntityEffect->func_147260_a
+Rename class net/minecraft/network/play/server/S1DPacketEntityEffect[8844,8865]::S1DPacketEntityEffect->S1DPacketEntityEffect
+Rename method net/minecraft/network/play/INetHandlerPlayClient/handleEntityEffect (Lnet/minecraft/network/play/server/S1DPacketEntityEffect;)V[8900,8918]::handleEntityEffect->func_147260_a
+Rename method net/minecraft/network/play/INetHandlerPlayClient/handleCombatEvent (Lnet/minecraft/network/play/server/S42PacketCombatEvent;)V[8953,8970]::handleCombatEvent->func_175098_a
+Rename class net/minecraft/network/play/server/S42PacketCombatEvent[8967,8987]::S42PacketCombatEvent->S42PacketCombatEvent
+Rename method net/minecraft/network/play/INetHandlerPlayClient/handleCombatEvent (Lnet/minecraft/network/play/server/S42PacketCombatEvent;)V[9022,9039]::handleCombatEvent->func_175098_a
+Rename method net/minecraft/network/play/INetHandlerPlayClient/handleServerDifficulty (Lnet/minecraft/network/play/server/S41PacketServerDifficulty;)V[9075,9097]::handleServerDifficulty->func_175101_a
+Rename class net/minecraft/network/play/server/S41PacketServerDifficulty[9089,9114]::S41PacketServerDifficulty->S41PacketServerDifficulty
+Rename method net/minecraft/network/play/INetHandlerPlayClient/handleServerDifficulty (Lnet/minecraft/network/play/server/S41PacketServerDifficulty;)V[9149,9171]::handleServerDifficulty->func_175101_a
+Rename method net/minecraft/network/play/INetHandlerPlayClient/handleCamera (Lnet/minecraft/network/play/server/S43PacketCamera;)V[9202,9214]::handleCamera->func_175094_a
+Rename class net/minecraft/network/play/server/S43PacketCamera[9216,9231]::S43PacketCamera->S43PacketCamera
+Rename method net/minecraft/network/play/INetHandlerPlayClient/handleCamera (Lnet/minecraft/network/play/server/S43PacketCamera;)V[9266,9278]::handleCamera->func_175094_a
+Rename method net/minecraft/network/play/INetHandlerPlayClient/handleWorldBorder (Lnet/minecraft/network/play/server/S44PacketWorldBorder;)V[9319,9336]::handleWorldBorder->func_175093_a
+Rename class net/minecraft/network/play/server/S44PacketWorldBorder[9333,9353]::S44PacketWorldBorder->S44PacketWorldBorder
+Rename method net/minecraft/network/play/INetHandlerPlayClient/handleWorldBorder (Lnet/minecraft/network/play/server/S44PacketWorldBorder;)V[9388,9405]::handleWorldBorder->func_175093_a
+Rename method net/minecraft/network/play/INetHandlerPlayClient/handleTitle (Lnet/minecraft/network/play/server/S45PacketTitle;)V[9441,9452]::handleTitle->func_175099_a
+Rename class net/minecraft/network/play/server/S45PacketTitle[9455,9469]::S45PacketTitle->S45PacketTitle
+Rename method net/minecraft/network/play/INetHandlerPlayClient/handleTitle (Lnet/minecraft/network/play/server/S45PacketTitle;)V[9504,9515]::handleTitle->func_175099_a
+Rename method net/minecraft/network/play/INetHandlerPlayClient/handleSetCompressionLevel (Lnet/minecraft/network/play/server/S46PacketSetCompressionLevel;)V[9557,9582]::handleSetCompressionLevel->func_175100_a
+Rename class net/minecraft/network/play/server/S46PacketSetCompressionLevel[9571,9599]::S46PacketSetCompressionLevel->S46PacketSetCompressionLevel
+Rename method net/minecraft/network/play/INetHandlerPlayClient/handleSetCompressionLevel (Lnet/minecraft/network/play/server/S46PacketSetCompressionLevel;)V[9634,9659]::handleSetCompressionLevel->func_175100_a
+Rename method net/minecraft/network/play/INetHandlerPlayClient/handlePlayerListHeaderFooter (Lnet/minecraft/network/play/server/S47PacketPlayerListHeaderFooter;)V[9687,9715]::handlePlayerListHeaderFooter->func_175096_a
+Rename class net/minecraft/network/play/server/S47PacketPlayerListHeaderFooter[9701,9732]::S47PacketPlayerListHeaderFooter->S47PacketPlayerListHeaderFooter
+Rename method net/minecraft/network/play/INetHandlerPlayClient/handlePlayerListHeaderFooter (Lnet/minecraft/network/play/server/S47PacketPlayerListHeaderFooter;)V[9767,9795]::handlePlayerListHeaderFooter->func_175096_a
+Rename method net/minecraft/network/play/INetHandlerPlayClient/handleResourcePack (Lnet/minecraft/network/play/server/S48PacketResourcePackSend;)V[9820,9838]::handleResourcePack->func_175095_a
+Rename class net/minecraft/network/play/server/S48PacketResourcePackSend[9834,9859]::S48PacketResourcePackSend->S48PacketResourcePackSend
+Rename method net/minecraft/network/play/INetHandlerPlayClient/handleResourcePack (Lnet/minecraft/network/play/server/S48PacketResourcePackSend;)V[9894,9912]::handleResourcePack->func_175095_a
+Rename method net/minecraft/network/play/INetHandlerPlayClient/handleEntityNBT (Lnet/minecraft/network/play/server/S49PacketUpdateEntityNBT;)V[9947,9962]::handleEntityNBT->func_175097_a
+Rename class net/minecraft/network/play/server/S49PacketUpdateEntityNBT[9961,9985]::S49PacketUpdateEntityNBT->S49PacketUpdateEntityNBT
+Rename method net/minecraft/network/play/INetHandlerPlayClient/handleEntityNBT (Lnet/minecraft/network/play/server/S49PacketUpdateEntityNBT;)V[10020,10035]::handleEntityNBT->func_175097_a
+Rename method net/minecraft/network/INetHandler/onDisconnect (Lnet/minecraft/util/IChatComponent;)V[10073,10085]::onDisconnect->func_147231_a
+Rename class net/minecraft/util/IChatComponent[10087,10101]::IChatComponent->IChatComponent
+Rename method net/minecraft/network/INetHandler/onDisconnect (Lnet/minecraft/util/IChatComponent;)V[10134,10146]::onDisconnect->func_147231_a
+Import: net.minecraft.client.Minecraft
+Import: net.minecraft.client.network.NetHandlerPlayClient
+Import: net.minecraft.network.play.INetHandlerPlayClient
+Import: net.minecraft.util.IChatComponent
+Import: net.minecraft.network.play.server.*
+Adding 0 imports
+End  Processing: io\github\codetoil\litlaunch\_native\mc1_8\EventThrowingClientPlayNetHandler.java
 
 Start Processing: io\github\codetoil\litlaunch\_native\mc1_8\GetFields.java
 Warning: io\github\codetoil\litlaunch\_native\mc1_8\GetFields.java has CRLF line endings; consider switching to LF
 [method, io/github/codetoil/litlaunch/_native/mc1_8/GetFields/GetFields, ()V]
 FOUND CONSTR method io/github/codetoil/litlaunch/_native/mc1_8/GetFields/GetFields ()V io/github/codetoil/litlaunch/_native/mc1_8/GetFields
 [method, io/github/codetoil/litlaunch/api/IGetFields/getTotalWorldTime, (I)J]
-Rename class net/minecraft/world/World[846,851]::World->World
+Rename class net/minecraft/world/World[848,853]::World->World
 No rename for class net/minecraftforge/common/DimensionManager
 [method, net/minecraftforge/common/DimensionManager/getWorld, (I)Lnet/minecraft/world/WorldServer;]
 No rename for method net/minecraftforge/common/DimensionManager/getWorld (I)Lnet/minecraft/world/WorldServer;
@@ -33547,25 +33798,25 @@ No rename for method net/minecraftforge/fml/common/FMLCommonHandler/getSide ()Ln
 [method, net/minecraftforge/fml/relauncher/Side/isClient, ()Z]
 No rename for method net/minecraftforge/fml/relauncher/Side/isClient ()Z
 [method, io/github/codetoil/litlaunch/_native/mc1_8/GetFields/getWorldClient, ()Lnet/minecraft/world/World;]
-Rename class net/minecraft/world/WorldProvider[1097,1110]::WorldProvider->WorldProvider
-Rename field net/minecraft/world/World/provider[1128,1136]::provider->field_73011_w
-Rename field net/minecraft/world/World/provider[1188,1196]::provider->field_73011_w
-Rename method net/minecraft/world/WorldProvider/getDimensionId ()I[1202,1216]::getDimensionId->func_177502_q
-Rename method net/minecraft/world/World/getTotalWorldTime ()J[1256,1273]::getTotalWorldTime->func_82737_E
+Rename class net/minecraft/world/WorldProvider[1103,1116]::WorldProvider->WorldProvider
+Rename field net/minecraft/world/World/provider[1134,1142]::provider->field_73011_w
+Rename field net/minecraft/world/World/provider[1199,1207]::provider->field_73011_w
+Rename method net/minecraft/world/WorldProvider/getDimensionId ()I[1213,1227]::getDimensionId->func_177502_q
+Rename method net/minecraft/world/World/getTotalWorldTime ()J[1273,1290]::getTotalWorldTime->func_82737_E
 [method, io/github/codetoil/litlaunch/api/FrontEnd/error, (Ljava/lang/Object;)V]
-Rename method net/minecraft/world/World/getTotalWorldTime ()J[1587,1604]::getTotalWorldTime->func_82737_E
+Rename method net/minecraft/world/World/getTotalWorldTime ()J[1628,1645]::getTotalWorldTime->func_82737_E
 [method, io/github/codetoil/litlaunch/api/FrontEnd/error, (Ljava/lang/Object;)V]
 [method, java/lang/Throwable/printStackTrace, ()V]
-Rename class net/minecraft/world/World[1768,1773]::World->World
+Rename class net/minecraft/world/World[1811,1816]::World->World
 [method, io/github/codetoil/litlaunch/_native/mc1_8/GetFields/getWorldClient, ()Lnet/minecraft/world/World;]
-Rename class net/minecraft/client/Minecraft[1803,1812]::Minecraft->Minecraft
-Rename method net/minecraft/client/Minecraft/getMinecraft ()Lnet/minecraft/client/Minecraft;[1813,1825]::getMinecraft->func_71410_x
-Rename field net/minecraft/client/Minecraft/theWorld[1828,1836]::theWorld->field_71441_e
+Rename class net/minecraft/client/Minecraft[1846,1855]::Minecraft->Minecraft
+Rename method net/minecraft/client/Minecraft/getMinecraft ()Lnet/minecraft/client/Minecraft;[1856,1868]::getMinecraft->func_71410_x
+Rename field net/minecraft/client/Minecraft/theWorld[1871,1879]::theWorld->field_71441_e
 [method, io/github/codetoil/litlaunch/api/IGetFields/getDimRunning, ()I]
-Rename class net/minecraft/client/Minecraft[1922,1931]::Minecraft->Minecraft
-Rename method net/minecraft/client/Minecraft/getMinecraft ()Lnet/minecraft/client/Minecraft;[1932,1944]::getMinecraft->func_71410_x
-Rename field net/minecraft/client/Minecraft/thePlayer[1947,1956]::thePlayer->field_71439_g
-Rename field net/minecraft/entity/Entity/dimension[1961,1970]::dimension->field_71093_bK
+Rename class net/minecraft/client/Minecraft[1965,1974]::Minecraft->Minecraft
+Rename method net/minecraft/client/Minecraft/getMinecraft ()Lnet/minecraft/client/Minecraft;[1975,1987]::getMinecraft->func_71410_x
+Rename field net/minecraft/client/Minecraft/thePlayer[1990,1999]::thePlayer->field_71439_g
+Rename field net/minecraft/entity/Entity/dimension[2004,2013]::dimension->field_71093_bK
 [method, io/github/codetoil/litlaunch/api/IGetFields/getDimsAvailable, ()[I]
 No rename for class net/minecraftforge/common/DimensionManager
 [method, net/minecraftforge/common/DimensionManager/getStaticDimensionIDs, ()[Ljava/lang/Integer;]

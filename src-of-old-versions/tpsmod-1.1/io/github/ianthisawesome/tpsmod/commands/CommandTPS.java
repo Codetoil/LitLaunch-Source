@@ -1,50 +1,61 @@
 package io.github.ianthisawesome.tpsmod.commands;
 
 import io.github.ianthisawesome.tpsmod.TpsMod;
-import java.util.ArrayList;
-import java.util.List;
 import net.minecraft.command.ICommand;
 import net.minecraft.command.ICommandSender;
 
-public class CommandTPS implements ICommand {
-   private final List aliases = new ArrayList();
+import java.util.ArrayList;
+import java.util.List;
 
-   public CommandTPS() {
-      this.aliases.add("tps");
-   }
+public class CommandTPS implements ICommand
+{
+	private final List aliases = new ArrayList();
 
-   public String func_71517_b() {
-      return "tps";
-   }
+	public CommandTPS()
+	{
+		this.aliases.add("tps");
+	}
 
-   public String func_71518_a(ICommandSender p_71518_1_) {
-      return "message.tpsmod.tps.help";
-   }
+	public String func_71517_b()
+	{
+		return "tps";
+	}
 
-   public void func_71515_b(ICommandSender p_71515_1_, String[] p_71515_2_) {
-      TpsMod.theWorldLogger.getChatMessage.doCommandStuffCommandTPS(p_71515_1_, p_71515_2_);
-   }
+	public String func_71518_a(ICommandSender p_71518_1_)
+	{
+		return "message.tpsmod.tps.help";
+	}
 
-   public int compareTo(Object arg0) {
-      return 0;
-   }
+	public void func_71515_b(ICommandSender p_71515_1_, String[] p_71515_2_)
+	{
+		TpsMod.theWorldLogger.getChatMessage.doCommandStuffCommandTPS(p_71515_1_, p_71515_2_);
+	}
 
-   public List func_71514_a() {
-      return this.aliases;
-   }
+	public int compareTo(Object arg0)
+	{
+		return 0;
+	}
 
-   public boolean func_71519_b(ICommandSender p_71519_1_) {
-      return true;
-   }
+	public List func_71514_a()
+	{
+		return this.aliases;
+	}
 
-   public List func_71516_a(ICommandSender p_71516_1_, String[] p_71516_2_) {
-      List tabCompletions = new ArrayList();
-      tabCompletions.add("help");
-      tabCompletions.add("?");
-      return tabCompletions;
-   }
+	public boolean func_71519_b(ICommandSender p_71519_1_)
+	{
+		return true;
+	}
 
-   public boolean func_82358_a(String[] p_82358_1_, int p_82358_2_) {
-      return false;
-   }
+	public List func_71516_a(ICommandSender p_71516_1_, String[] p_71516_2_)
+	{
+		List tabCompletions = new ArrayList();
+		tabCompletions.add("help");
+		tabCompletions.add("?");
+		return tabCompletions;
+	}
+
+	public boolean func_82358_a(String[] p_82358_1_, int p_82358_2_)
+	{
+		return false;
+	}
 }

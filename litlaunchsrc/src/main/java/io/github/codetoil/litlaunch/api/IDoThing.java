@@ -47,7 +47,7 @@ public interface IDoThing
 		RED,
 		LIGHT_PURPLE,
 		YELLOW,
-		WHITE;
+		WHITE
 	}
 
 	enum Style
@@ -57,6 +57,6 @@ public interface IDoThing
 		STRIKETHROUGH,
 		UNDERLINE,
 		ITALIC,
-		NONE;
+		NONE
 	}
 }

@@ -6,7 +6,6 @@ package io.github.codetoil.litlaunch._native.sponge;
 
 import io.github.codetoil.litlaunch.api.FrontEnd;
 import io.github.codetoil.litlaunch.api.IGetFields;
-import org.spongepowered.api.MinecraftVersion;
 import org.spongepowered.api.Sponge;
 import org.spongepowered.api.world.DimensionType;
 import org.spongepowered.api.world.DimensionTypes;
@@ -26,14 +25,22 @@ public class GetFields implements IGetFields
 	public synchronized long getTotalWorldTime(int dimension)
 	{
 		long result = -1;
-		try {
-			if (!Sponge.isServerAvailable()) return -1;
+		try
+		{
+			if (!Sponge.isServerAvailable())
+			{
+				return -1;
+			}
 			Optional<World> worldOptional = Sponge.getServer().getWorld(getDimensionStringFromID(dimension));
-			if (!worldOptional.isPresent()) return -1;
+			if (!worldOptional.isPresent())
+			{
+				return -1;
+			}
 			World world = worldOptional.get();
 			return world.getProperties().getTotalTime();
 		}
-		catch (Throwable e) {
+		catch (Throwable e)
+		{
 			FrontEnd.error("Something went wrong!");
 			e.printStackTrace();
 		}

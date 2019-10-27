@@ -8,8 +8,12 @@ import java.util.List;
 
 public interface IMod
 {
+	EnumRequireOrNot onClient();
+
+	EnumRequireOrNot onServer();
+
 	String getModID();
-	
+
 	String getVersion();
 
 	List<Command> getCommandList();

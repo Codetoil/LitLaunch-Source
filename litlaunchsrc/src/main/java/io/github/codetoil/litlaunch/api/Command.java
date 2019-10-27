@@ -32,6 +32,19 @@ public class Command
 	 */
 	public Side side;
 
+	public Command()
+	{
+
+	}
+
+	public Command(String name, Consumer<List<ArgumentWrapper<?>>> methodToRun, BiMap<String, ArgumentWrapper<?>> args, Side side)
+	{
+		this.name = name;
+		this.methodToRun = methodToRun;
+		this.side = side;
+		this.args = args;
+	}
+
 	public String generateHelp()
 	{
 		StringBuilder builder = new StringBuilder("/" + this.name);
@@ -64,23 +77,10 @@ public class Command
 		return builder.toString();
 	}
 
-	public Command()
-	{
-
-	}
-
-	public Command(String name, Consumer<List<ArgumentWrapper<?>>> methodToRun, BiMap<String, ArgumentWrapper<?>> args, Side side)
-	{
-		this.name = name;
-		this.methodToRun = methodToRun;
-		this.side = side;
-		this.args = args;
-	}
-
 	public enum Side
 	{
 		CLIENT,
 		SERVER,
-		BOTH;
+		BOTH
 	}
 }

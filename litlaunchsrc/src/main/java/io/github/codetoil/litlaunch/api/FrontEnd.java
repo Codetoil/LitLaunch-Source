@@ -7,13 +7,11 @@ package io.github.codetoil.litlaunch.api;
 import io.github.codetoil.litlaunch.core.CommonProxy;
 import io.github.codetoil.litlaunch.core.ILogger;
 import io.github.codetoil.litlaunch.core.LaunchCommon;
-import io.github.codetoil.litlaunch.modloader.LitClassLoader;
 import io.github.codetoil.litlaunch.core.event.LitEventHandler;
+import io.github.codetoil.litlaunch.modloader.LitClassLoader;
 import io.github.codetoil.litlaunch.modloader.ModFinder;
 
-import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
 
 /**
  * The front end of LitLaunch, allows to access to the api from a single class
@@ -94,7 +92,10 @@ public class FrontEnd
 		LOGGER().error(obj);
 	}
 
-	public static void verbose(Object obj) {LOGGER().verbose(obj);}
+	public static void verbose(Object obj)
+	{
+		LOGGER().verbose(obj);
+	}
 
 	public static List<Class<?>> MODS_LOADED()
 	{

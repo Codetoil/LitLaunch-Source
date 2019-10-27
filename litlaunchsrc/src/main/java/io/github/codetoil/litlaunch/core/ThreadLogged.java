@@ -28,9 +28,12 @@ public abstract class ThreadLogged extends Thread
 			@Override
 			public void uncaughtException(Thread t, Throwable e)
 			{
-				if (e instanceof ThreadInterrupedException) {
+				if (e instanceof ThreadInterrupedException)
+				{
 					printExitThreadMessage();
-				} else {
+				}
+				else
+				{
 					printExitThreadDueToExceptionMessage(e);
 					ThreadInterrupedException lThreadInterrupedException = new ThreadInterrupedException(e.getLocalizedMessage());
 					lThreadInterrupedException.addSuppressed(e);
@@ -80,16 +83,20 @@ public abstract class ThreadLogged extends Thread
 	@Override
 	public final void run()
 	{
-		try {
+		try
+		{
 			runCode();
 		}
-		catch (ThreadInterrupedException e) {
+		catch (ThreadInterrupedException e)
+		{
 			FrontEnd.debug("Interruped, Exiting Thread");
 		}
-		catch (Throwable t) {
+		catch (Throwable t)
+		{
 			printExitThreadDueToExceptionMessage(t);
 		}
-		finally {
+		finally
+		{
 			printExitThreadMessage();
 		}
 	}

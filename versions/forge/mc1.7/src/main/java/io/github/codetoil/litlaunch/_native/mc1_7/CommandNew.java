@@ -59,10 +59,12 @@ public class CommandNew implements ICommand
 	@Override
 	public void processCommand(ICommandSender p_71515_1_, String[] p_71515_2_)
 	{
-		try {
+		try
+		{
 			comm.methodToRun.accept(parseArgs(p_71515_2_, p_71515_1_));
 		}
-		catch (Throwable t) {
+		catch (Throwable t)
+		{
 			t.printStackTrace();
 		}
 	}
@@ -91,10 +93,12 @@ public class CommandNew implements ICommand
 		});
 		FrontEnd.verbose("argToSpec: " + argToSpec);
 		OptionSet optionSet;
-		try {
+		try
+		{
 			optionSet = parser.parse(argsIn);
 			FrontEnd.verbose("optionSet: " + optionSet);
-		} catch (OptionException e)
+		}
+		catch (OptionException e)
 		{
 			throw new WrongUsageException(getCommandUsage(sender));
 		}

@@ -4,20 +4,21 @@
 
 package io.github.codetoil.litlaunch.core;
 
-import io.github.codetoil.litlaunch.api.*;
+import io.github.codetoil.litlaunch.api.ChainableMap;
+import io.github.codetoil.litlaunch.api.Command;
+import io.github.codetoil.litlaunch.api.IDoThing;
+import io.github.codetoil.litlaunch.api.IGetFields;
 import io.github.codetoil.litlaunch.core.event.LitEvent;
 import io.github.codetoil.litlaunch.core.event.LitEventHandler;
 import io.github.codetoil.litlaunch.modloader.ModFinder;
 
 import java.io.File;
 import java.nio.file.Path;
-import java.util.HashMap;
-import java.util.Map;
 
 public abstract class LaunchCommon
 {
 	public static final String NAME = "LitLaunch";
-	public static final String VERSION = "0.0.3.11";
+	public static final String VERSION = "0.0.3.14";
 	public static final String MODID = "litlaunch";
 	public static final ChainableMap<String, Object> EMPTY = new ChainableMap<>();
 	private static CommonProxy ccproxy;
@@ -36,20 +37,9 @@ public abstract class LaunchCommon
 
 	public static void setVerbose(boolean pVerbose)
 	{
-		if (verbose == null) {
+		if (verbose == null)
+		{
 			verbose = pVerbose;
-		}
-	}
-
-	public static ILogger getLOGGER()
-	{
-		return LOGGER;
-	}
-
-	public static void setLOGGER(ILogger pILogger)
-	{
-		if (LOGGER == null) {
-			LOGGER = pILogger;
 		}
 	}
 
@@ -60,7 +50,8 @@ public abstract class LaunchCommon
 
 	public static void setGetFields(IGetFields getFields)
 	{
-		if (LaunchCommon.getFields == null) {
+		if (LaunchCommon.getFields == null)
+		{
 			LaunchCommon.getFields = getFields;
 		}
 	}
@@ -72,7 +63,8 @@ public abstract class LaunchCommon
 
 	public static void setDoThing(IDoThing pDoThing)
 	{
-		if (LaunchCommon.doThing == null) {
+		if (LaunchCommon.doThing == null)
+		{
 			LaunchCommon.doThing = pDoThing;
 		}
 	}
@@ -84,7 +76,8 @@ public abstract class LaunchCommon
 
 	public static void setSide(Command.Side side)
 	{
-		if (LaunchCommon.side == null) {
+		if (LaunchCommon.side == null)
+		{
 			LaunchCommon.side = side;
 		}
 	}
@@ -103,14 +96,19 @@ public abstract class LaunchCommon
 
 		//main bootstrap
 		info("Preforming LitLaunch Bootstrap!");
-		try {
-			if (launch.setProxy()) {
+		try
+		{
+			if (launch.setProxy())
+			{
 				debug("Set Proxies");
-			} else {
+			}
+			else
+			{
 				error("Proxies not set!");
 			}
 		}
-		catch (Throwable e) {
+		catch (Throwable e)
+		{
 			e.printStackTrace();
 		}
 		getCcproxy().setGamePath();
@@ -125,7 +123,8 @@ public abstract class LaunchCommon
 		System.gc();
 		info("Done! Now sending construction event!");
 		debug("verbose: " + isVerbose());
-		if (isVerbose()) {
+		if (isVerbose())
+		{
 			warn("Warning: You have decided for Lit Launch to be verbose! If you did not intend for this to be verbose, Make sure to change the config file. You will see a spam of debug messages under \"trace\".");
 		}
 		LitEventHandler.COMMON.post(new LitEvent(LaunchCommon.class, LitEvent.TYPE.CONSTRUCTION, EMPTY));
@@ -137,15 +136,32 @@ public abstract class LaunchCommon
 		return ((double) System.currentTimeMillis()) / 1000.0 - timeInit;
 	}
 
-	public static Boolean isVerbose()
+	public static ILogger getLOGGER()
 	{
-		return verbose;
+		return LOGGER;
 	}
 
-	public static void preInit()
+	public static void setLOGGER(ILogger pILogger)
 	{
-		LitEventHandler.COMMON.post(new LitEvent(LaunchCommon.class, LitEvent.TYPE.PREINIT, EMPTY));
-		getCcproxy().preInit();
+		if (LOGGER == null)
+		{
+			LOGGER = pILogger;
+		}
+	}
+
+	public static void info(Object object)
+	{
+		getLOGGER().info(object);
+	}
+
+	public static void debug(Object object)
+	{
+		getLOGGER().debug(object);
+	}
+
+	public static void error(Object object)
+	{
+		getLOGGER().error(object);
 	}
 
 	public static CommonProxy getCcproxy()
@@ -155,11 +171,40 @@ public abstract class LaunchCommon
 
 	public static void setCcproxy(CommonProxy ccproxy)
 	{
-		if (LaunchCommon.ccproxy == null) {
+		if (LaunchCommon.ccproxy == null)
+		{
 			LaunchCommon.ccproxy = ccproxy;
-		} else {
+		}
+		else
+		{
 			info("CCProxy ALREADY SET");
 		}
+	}
+
+	public static Path getGamePath()
+	{
+		return GamePath;
+	}
+
+	public static Boolean isVerbose()
+	{
+		return verbose;
+	}
+
+	public static void warn(Object object)
+	{
+		getLOGGER().warn(object);
+	}
+
+	public static void setGamePath(Path pGamePath)
+	{
+		GamePath = pGamePath;
+	}
+
+	public static void preInit()
+	{
+		LitEventHandler.COMMON.post(new LitEvent(LaunchCommon.class, LitEvent.TYPE.PREINIT, EMPTY));
+		getCcproxy().preInit();
 	}
 
 	public static void init()
@@ -181,42 +226,13 @@ public abstract class LaunchCommon
 		getCcproxy().serverLoad();
 	}
 
-	public static Path getGamePath()
-	{
-		return GamePath;
-	}
-
-	public static void setGamePath(Path pGamePath)
-	{
-		GamePath = pGamePath;
-	}
-
-	public static void debug(Object object)
-	{
-		getLOGGER().debug(object);
-	}
-
-	public static void info(Object object)
-	{
-		getLOGGER().info(object);
-	}
-
-	public static void warn(Object object)
-	{
-		getLOGGER().warn(object);
-	}
-
-	public static void error(Object object)
-	{
-		getLOGGER().error(object);
-	}
-
 	public static void fatal(Object object)
 	{
 		getLOGGER().fatal(object);
 	}
 
-	public static void verbose(Object object) {
+	public static void verbose(Object object)
+	{
 		getLOGGER().verbose(object);
 	}
 

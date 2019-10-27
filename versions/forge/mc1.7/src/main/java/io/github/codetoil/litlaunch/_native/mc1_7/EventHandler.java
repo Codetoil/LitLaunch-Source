@@ -9,7 +9,10 @@ import cpw.mods.fml.common.gameevent.TickEvent;
 import cpw.mods.fml.common.network.FMLNetworkEvent;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
-import io.github.codetoil.litlaunch.core.event.*;
+import io.github.codetoil.litlaunch.core.event.LitEvent;
+import io.github.codetoil.litlaunch.core.event.LitEventHandler;
+import net.minecraft.client.network.NetHandlerPlayClient;
+import net.minecraft.network.play.INetHandlerPlayClient;
 
 public class EventHandler
 {
@@ -17,7 +20,8 @@ public class EventHandler
 	@SideOnly(Side.CLIENT)
 	public void onClientTick(TickEvent.ClientTickEvent event)
 	{
-		if (event.phase.equals(TickEvent.Phase.END)) {
+		if (event.phase.equals(TickEvent.Phase.END))
+		{
 			LitEventHandler.COMMON.post(new LitEvent(this, LitEvent.TYPE.CLIENTTICK), true);
 		}
 	}
@@ -25,7 +29,8 @@ public class EventHandler
 	@SubscribeEvent
 	public void onServerTick(TickEvent.ServerTickEvent event)
 	{
-		if (event.phase.equals(TickEvent.Phase.END)) {
+		if (event.phase.equals(TickEvent.Phase.END))
+		{
 			LitEventHandler.COMMON.post(new LitEvent(this, LitEvent.TYPE.SERVERTICK), true);
 		}
 	}
@@ -35,5 +40,6 @@ public class EventHandler
 	public void ServerConnect(FMLNetworkEvent.ClientConnectedToServerEvent event)
 	{
 		LitEventHandler.COMMON.post(new LitEvent(EventHandler.class, LitEvent.TYPE.SERVERCONNECT));
+		event.manager.setNetHandler(new EventThrowingClientPlayNetHandler((NetHandlerPlayClient) event.handler));
 	}
 }

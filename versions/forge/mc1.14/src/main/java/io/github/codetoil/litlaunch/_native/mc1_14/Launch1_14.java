@@ -1,19 +1,21 @@
 package io.github.codetoil.litlaunch._native.mc1_14;
 
-import io.github.codetoil.litlaunch.api.FrontEnd;
 import io.github.codetoil.litlaunch.api.Command;
+import io.github.codetoil.litlaunch.api.FrontEnd;
 import io.github.codetoil.litlaunch.core.ILaunch;
 import io.github.codetoil.litlaunch.core.LaunchCommon;
 import io.github.codetoil.litlaunch.core.exceptions.FailedBootstrapException;
 import io.github.codetoil.litlaunch.modloader.ModFinder;
-import net.minecraftforge.api.distmarker.*;
+import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
-import net.minecraftforge.eventbus.api.*;
-import net.minecraftforge.fml.common.*;
-import net.minecraftforge.fml.event.lifecycle.*;
-import net.minecraftforge.fml.event.server.*;
-import net.minecraftforge.fml.javafmlmod.*;
-import net.minecraftforge.fml.loading.*;
+import net.minecraftforge.eventbus.api.SubscribeEvent;
+import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
+import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
+import net.minecraftforge.fml.event.server.FMLServerStartingEvent;
+import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
+import net.minecraftforge.fml.loading.FMLEnvironment;
+import net.minecraftforge.fml.loading.FMLLoader;
 import org.apache.logging.log4j.LogManager;
 
 import java.util.List;
@@ -25,20 +27,27 @@ public class Launch1_14 implements ILaunch
 
 	public Launch1_14() throws Throwable
 	{
-		if (FMLEnvironment.dist.isClient()) {
+		if (FMLEnvironment.dist.isClient())
+		{
 			LaunchCommon.setSide(Command.Side.CLIENT);
-		} else if (FMLEnvironment.dist.isDedicatedServer()) {
+		}
+		else if (FMLEnvironment.dist.isDedicatedServer())
+		{
 			LaunchCommon.setSide(Command.Side.SERVER);
-		} else {
+		}
+		else
+		{
 			throw new FailedBootstrapException("FML IS NOT SIDED!");
 		}
 		LaunchCommon.setGamePath(FMLLoader.getGamePath());
 		LaunchCommon.setDoThing(DoThing.INSTANCE);
 		LaunchCommon.setGetFields(GetFields.INSTANCE);
-		try {
+		try
+		{
 			LaunchCommon.bootstrap(LogManager.getLogger(LaunchCommon.MODID), this, Logger1_14.getInstance());
 		}
-		catch (Throwable t) {
+		catch (Throwable t)
+		{
 			FailedBootstrapException lFailedBootstrapException = new FailedBootstrapException();
 			lFailedBootstrapException.initCause(t);
 			throw lFailedBootstrapException;
@@ -65,12 +74,16 @@ public class Launch1_14 implements ILaunch
 	public boolean setProxy()
 	{
 		boolean result;
-		if (LaunchCommon.getCcproxy() != null) {
+		if (LaunchCommon.getCcproxy() != null)
+		{
 			FrontEnd.error("Tried re-setting proxy!");
 			result = false;
-		} else {
+		}
+		else
+		{
 			Dist side = FMLEnvironment.dist;
-			switch (side) {
+			switch (side)
+			{
 				case CLIENT:
 					LaunchCommon.setCcproxy(new io.github.codetoil.litlaunch._native.mc1_14.proxy.ClientProxy1_14());
 					result = true;
@@ -93,23 +106,31 @@ public class Launch1_14 implements ILaunch
 	{
 		LaunchCommon.serverLoad();
 		ModFinder.validMods.forEach((modClass) -> {
-			try {
+			try
+			{
 				Object oCommands = modClass.getField("commandList").get(null);
 				List lCommands;
-				if (oCommands instanceof List) {
+				if (oCommands instanceof List)
+				{
 					lCommands = (List) oCommands;
 					lCommands.forEach((command) -> {
-						if (command instanceof Command) {
+						if (command instanceof Command)
+						{
 							if (Command.Side.CLIENT.equals(((Command) command).side) || Command.Side.BOTH.equals(((Command) command).side))
+							{
 								new CommandNew((Command) command, event.getCommandDispatcher());
+							}
 						}
 					});
-				} else {
+				}
+				else
+				{
 					FrontEnd.error("Mod " + modClass + " does not have a method named \"commandList\". This is neccesary for the api to work though. Skipping!");
 				}
 
 			}
-			catch (Throwable pThrowable) {
+			catch (Throwable pThrowable)
+			{
 				pThrowable.printStackTrace();
 			}
 

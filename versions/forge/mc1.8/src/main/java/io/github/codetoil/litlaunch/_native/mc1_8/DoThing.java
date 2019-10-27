@@ -24,6 +24,19 @@ public class DoThing implements IDoThing
 	}
 
 	@Override
+	public void sendAsChatMessage(String message)
+	{
+		if (FMLCommonHandler.instance().getSide().isClient())
+		{
+			sendAsClientChatMessage(message);
+		}
+		else
+		{
+			sendAsServerChatMessage(message);
+		}
+	}
+
+	@Override
 	@SideOnly(Side.CLIENT)
 	public void sendAsClientChatMessage(String message)
 	{
@@ -35,18 +48,6 @@ public class DoThing implements IDoThing
 	public void sendAsServerChatMessage(String message)
 	{
 		FMLCommonHandler.instance().getMinecraftServerInstance().getConfigurationManager().sendChatMsg(new ChatComponentText(message));
-	}
-
-	@Override
-	public void sendAsChatMessage(String message)
-	{
-		if (FMLCommonHandler.instance().getSide().isClient())
-		{
-			sendAsClientChatMessage(message);
-		} else
-		{
-			sendAsServerChatMessage(message);
-		}
 	}
 
 	@Override
@@ -68,6 +69,26 @@ public class DoThing implements IDoThing
 	public void notifyPlayer(String message, Color pColor, boolean isBold, boolean isItalic, boolean isUnderlined, boolean isObfuscated, boolean hasStrikethrough)
 	{
 		Minecraft.getMinecraft().thePlayer.addChatMessage(new ChatComponentText(message).setChatStyle(getStyle(pColor, isBold, isItalic, isUnderlined, isObfuscated, hasStrikethrough)));
+	}
+
+	private ChatStyle getStyle(Color pColor, boolean isBold, boolean isItalic, boolean isUnderlined, boolean isObfuscated, boolean hasStrikethrough)
+	{
+		ChatStyle lChatStyle = new ChatStyle();
+		lChatStyle
+				.setBold(isBold)
+				.setItalic(isItalic)
+				.setUnderlined(isUnderlined)
+				.setObfuscated(isObfuscated)
+				.setStrikethrough(hasStrikethrough);
+
+		EnumChatFormatting color =
+				EnumChatFormatting.getValueByName(
+						pColor.name()
+				);
+
+		lChatStyle.setColor(color);
+
+		return lChatStyle;
 	}
 
 	@Override
@@ -109,29 +130,10 @@ public class DoThing implements IDoThing
 		if (FMLCommonHandler.instance().getSide().isClient())
 		{
 			notifyPlayer(message, pColor, isBold, isItalic, isUnderlined, isObfuscated, hasStrikethrough);
-		} else
+		}
+		else
 		{
 			notifyServer(message, pColor, isBold, isItalic, isUnderlined, isObfuscated, hasStrikethrough);
 		}
-	}
-
-	private ChatStyle getStyle(Color pColor, boolean isBold, boolean isItalic, boolean isUnderlined, boolean isObfuscated, boolean hasStrikethrough)
-	{
-		ChatStyle lChatStyle = new ChatStyle();
-		lChatStyle
-				.setBold(isBold)
-				.setItalic(isItalic)
-				.setUnderlined(isUnderlined)
-				.setObfuscated(isObfuscated)
-				.setStrikethrough(hasStrikethrough);
-
-		EnumChatFormatting color =
-				EnumChatFormatting.getValueByName(
-						pColor.name()
-				);
-
-		lChatStyle.setColor(color);
-
-		return lChatStyle;
 	}
 }

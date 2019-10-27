@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<module external.linked.project.id=":versions:forge:mc1.13:test" external.linked.project.path="$MODULE_DIR$/../../../../../versions/forge/mc1.13" external.root.project.path="$MODULE_DIR$/../../../../.." external.system.id="GRADLE" external.system.module.group="io.github.codetoil" external.system.module.type="sourceSet" external.system.module.version="forge-mc1.13.2-v0.0.3.11" type="JAVA_MODULE" version="4">
+<module external.linked.project.id=":versions:forge:mc1.13:test" external.linked.project.path="$MODULE_DIR$/../../../../../versions/forge/mc1.13" external.root.project.path="$MODULE_DIR$/../../../../.." external.system.id="GRADLE" external.system.module.group="io.github.codetoil" external.system.module.type="sourceSet" external.system.module.version="forge-mc1.13.2-v0.0.3.14" type="JAVA_MODULE" version="4">
   <component name="FacetManager">
     <facet type="minecraft" name="Minecraft">
       <configuration>
@@ -18,14 +18,38 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="litlaunch+tpsmod.versions.forge.mc1.13.main" />
     <orderEntry type="module" module-name="litlaunch+tpsmod.litlaunchsrc.main" />
-    <orderEntry type="library" name="Gradle: net.minecraftforge:forge:1.13.2-25.0.219_mapped_stable_43-1.13" level="project" />
-    <orderEntry type="library" name="Gradle: net.minecraftforge:forge:launcher:1.13.2-25.0.219_mapped_stable_43-1.13" level="project" />
+    <orderEntry type="library" name="Gradle: net.minecraftforge:forge:1.13.2-25.0.219_mapped_stable_43-1.13_at_27efa2db7bd8ce6c10869117fdc946f2f1cca37a" level="project" />
+    <orderEntry type="library" name="Gradle: net.minecraftforge:forge:launcher:1.13.2-25.0.219_mapped_stable_43-1.13_at_27efa2db7bd8ce6c10869117fdc946f2f1cca37a" level="project" />
     <orderEntry type="library" name="Gradle: net.minecraft:client:extra:1.13.2" level="project" />
     <orderEntry type="library" name="Gradle: com.mojang:authlib:1.5.25" level="project" />
-    <orderEntry type="library" name="Gradle: com.google.code.gson:gson:2.8.0" level="project" />
+    <orderEntry type="module-library">
+      <library name="Gradle: com.google.code.gson:gson:2.8.0">
+        <CLASSES>
+          <root url="jar://D:/gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.8.0/c4ba5371a29ac9b2ad6129b1d39ea38750043eff/gson-2.8.0.jar!/" />
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar://D:/gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.8.0/4791230388bf03457c7e235b69479b46a5931861/gson-2.8.0-javadoc.jar!/" />
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar://D:/gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.8.0/baf95d8519fc1a11d388f8543cb40cd2bb9d66dc/gson-2.8.0-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
     <orderEntry type="library" name="Gradle: com.mojang:text2speech:1.10.3" level="project" />
     <orderEntry type="library" name="Gradle: com.mojang:text2speech:natives-windows:1.10.3" level="project" />
-    <orderEntry type="library" name="Gradle: com.google.guava:guava:21.0" level="project" />
+    <orderEntry type="module-library">
+      <library name="Gradle: com.google.guava:guava:21.0">
+        <CLASSES>
+          <root url="jar://D:/gradle/caches/modules-2/files-2.1/com.google.guava/guava/21.0/3a3d111be1be1b745edfa7d91678a12d7ed38709/guava-21.0.jar!/" />
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar://D:/gradle/caches/modules-2/files-2.1/com.google.guava/guava/21.0/7d48c9b5304b8bab31d1ed7c9ef9670b646866c0/guava-21.0-javadoc.jar!/" />
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar://D:/gradle/caches/modules-2/files-2.1/com.google.guava/guava/21.0/b9ed26b8c23fe7cd3e6b463b34e54e5c6d9536d5/guava-21.0-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
     <orderEntry type="library" name="Gradle: net.minecraftforge:eventbus:service:0.9.2" level="project" />
     <orderEntry type="library" name="Gradle: net.minecraftforge:coremods:0.5.0" level="project" />
     <orderEntry type="library" name="Gradle: net.minecraftforge:forgespi:0.13.0" level="project" />
@@ -33,7 +57,7 @@
     <orderEntry type="library" name="Gradle: cpw.mods:modlauncher:2.1.5" level="project" />
     <orderEntry type="library" name="Gradle: cpw.mods:modlauncher:api:2.1.5" level="project" />
     <orderEntry type="library" name="Gradle: com.google.code.findbugs:jsr305:3.0.2" level="project" />
-    <orderEntry type="library" name="Gradle: de.oceanlabs.mcp:mcp_stable:zip:43-1.13" level="project" />
+    <orderEntry type="library" name="Gradle: net.minecraft:mappings_stable:zip:43-1.13" level="project" />
     <orderEntry type="library" name="Gradle: com.paulscode:codecjorbis:20101023" level="project" />
     <orderEntry type="library" name="Gradle: com.paulscode:codecwav:20101023" level="project" />
     <orderEntry type="library" name="Gradle: com.paulscode:libraryjavasound:20101123" level="project" />
@@ -53,7 +77,17 @@
     <orderEntry type="library" name="Gradle: net.minecrell:terminalconsoleappender:1.1.1" level="project" />
     <orderEntry type="library" name="Gradle: org.apache.logging.log4j:log4j-core:2.11.2" level="project" />
     <orderEntry type="library" name="Gradle: org.apache.logging.log4j:log4j-api:2.11.2" level="project" />
-    <orderEntry type="library" name="Gradle: net.sf.jopt-simple:jopt-simple:5.0.4" level="project" />
+    <orderEntry type="module-library">
+      <library name="Gradle: net.sf.jopt-simple:jopt-simple:5.0.4">
+        <CLASSES>
+          <root url="jar://D:/gradle/caches/modules-2/files-2.1/net.sf.jopt-simple/jopt-simple/5.0.4/4fdac2fbe92dfad86aa6e9301736f6b4342a3f5c/jopt-simple-5.0.4.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://D:/gradle/caches/modules-2/files-2.1/net.sf.jopt-simple/jopt-simple/5.0.4/950831646d014c9162999019a3cb17d5fc01ac0d/jopt-simple-5.0.4-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
     <orderEntry type="library" name="Gradle: com.mojang:patchy:1.1" level="project" />
     <orderEntry type="library" name="Gradle: oshi-project:oshi-core:1.1" level="project" />
     <orderEntry type="library" name="Gradle: ca.weblite:java-objc-bridge:1.0.0" level="project" />

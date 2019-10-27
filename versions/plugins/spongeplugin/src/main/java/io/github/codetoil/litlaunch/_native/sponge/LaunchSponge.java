@@ -39,20 +39,27 @@ public class LaunchSponge implements ILaunch
 
 	public LaunchSponge() throws Throwable
 	{
-		if (Sponge.getGame().getPlatform().getExecutionType().isClient()) {
+		if (Sponge.getGame().getPlatform().getExecutionType().isClient())
+		{
 			LaunchCommon.setSide(Command.Side.CLIENT);
-		} else if (Sponge.getGame().getPlatform().getExecutionType().isServer()) {
+		}
+		else if (Sponge.getGame().getPlatform().getExecutionType().isServer())
+		{
 			LaunchCommon.setSide(Command.Side.SERVER);
-		} else {
+		}
+		else
+		{
 			throw new FailedBootstrapException("FML IS NOT SIDED!");
 		}
 		LaunchCommon.setGamePath(Sponge.getGame().getGameDirectory());
 		LaunchCommon.setDoThing(DoThing.INSTANCE);
 		LaunchCommon.setGetFields(GetFields.INSTANCE);
-		try {
+		try
+		{
 			LaunchCommon.bootstrap(LoggerFactory.getLogger(LaunchCommon.MODID), this, LoggerSponge.getInstance());
 		}
-		catch (Throwable t) {
+		catch (Throwable t)
+		{
 			FailedBootstrapException lFailedBootstrapException = new FailedBootstrapException();
 			lFailedBootstrapException.initCause(t);
 			throw lFailedBootstrapException;
@@ -92,15 +99,56 @@ public class LaunchSponge implements ILaunch
 		addModCommands();
 	}
 
+	private void addModCommands()
+	{
+		ModFinder.validMods.forEach((modClass) -> {
+			try
+			{
+				Object oCommands = modClass.getField("commandList").get(null);
+				List lCommands;
+				if (oCommands instanceof List)
+				{
+					lCommands = (List) oCommands;
+					lCommands.forEach((command) -> {
+						if (command instanceof Command)
+						{
+							if (Command.Side.SERVER.equals(((Command) command).side) || Command.Side.BOTH.equals(((Command) command).side))
+							{
+							}
+							{
+								CommandCallable callable = CommandBuilder.getCommand((Command) command);
+								Sponge.getCommandManager().register(this, callable, Lists.newArrayList(((Command) command).name));
+							}
+						}
+					});
+				}
+				else
+				{
+					FrontEnd.error("Mod " + modClass + " does not have a method named \"commandList\". This is neccesary for the api to work though. Skipping!");
+				}
+
+			}
+			catch (Throwable pThrowable)
+			{
+				pThrowable.printStackTrace();
+			}
+
+		});
+	}
+
 	public boolean setProxy()
 	{
 		boolean result;
-		if (LaunchCommon.getCcproxy() != null) {
+		if (LaunchCommon.getCcproxy() != null)
+		{
 			FrontEnd.error("Tried re-setting proxy!");
 			result = false;
-		} else {
+		}
+		else
+		{
 			Command.Side side = LaunchCommon.getSide();
-			switch (side) {
+			switch (side)
+			{
 				case CLIENT:
 					FrontEnd.error("This should not be running on a client!");
 					result = false;
@@ -117,36 +165,6 @@ public class LaunchSponge implements ILaunch
 		}
 		return result;
 	}
-
-	private void addModCommands()
-	{
-		ModFinder.validMods.forEach((modClass) -> {
-			try {
-				Object oCommands = modClass.getField("commandList").get(null);
-				List lCommands;
-				if (oCommands instanceof List) {
-					lCommands = (List) oCommands;
-					lCommands.forEach((command) -> {
-						if (command instanceof Command) {
-							if (Command.Side.SERVER.equals(((Command) command).side) || Command.Side.BOTH.equals(((Command) command).side)) {}
-							{
-								CommandCallable callable = CommandBuilder.getCommand((Command) command);
-								Sponge.getCommandManager().register(this, callable, Lists.newArrayList(((Command) command).name));
-							}
-						}
-					});
-				} else {
-					FrontEnd.error("Mod " + modClass + " does not have a method named \"commandList\". This is neccesary for the api to work though. Skipping!");
-				}
-
-			}
-			catch (Throwable pThrowable) {
-				pThrowable.printStackTrace();
-			}
-
-		});
-	}
-
 
 
 }

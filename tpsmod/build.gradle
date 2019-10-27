@@ -9,7 +9,7 @@ dependencies {
      compile 'com.google.guava:guava:21.0'
 }
 
-version='2.0.1.2.15-debug'
+version='2.0.1.2.16'
 
 repositories {
      mavenCentral()

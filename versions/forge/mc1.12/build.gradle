@@ -28,7 +28,7 @@ repositories {
     }
 }
 
-version = "forge-mc1.12.2-v0.0.3.12"
+version = "forge-mc1.12.2-v0.0.3.14"
 group = "io.github.codetoil" // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = "litlaunch"
 
@@ -38,7 +38,7 @@ sourceCompatibility = '1.8'
 minecraft {
     version = "1.12.2-14.23.5.2768"
     runDir = "run"
-    
+
     // the mappings can be changed at any time, and must be in the following format.
     // snapshot_YYYYMMDD   snapshot are built nightly.
     // stable_#            stables are built at the discretion of the MCP team.
@@ -76,11 +76,11 @@ processResources {
     // replace stuff in mcmod.info, nothing else
     from(sourceSets.main.resources.srcDirs) {
         include 'mcmod.info'
-                
+
         // replace version and mcversion
-        expand 'version':project.version, 'mcversion':project.minecraft.version
+        expand 'version': project.version, 'mcversion': project.minecraft.version
     }
-        
+
     // copy everything else except the mcmod.info
     from(sourceSets.main.resources.srcDirs) {
         exclude 'mcmod.info'

@@ -3,7 +3,6 @@ package io.github.codetoil.litlaunch._native.mc1_13.proxy;
 
 import io.github.codetoil.litlaunch.api.FrontEnd;
 import io.github.codetoil.litlaunch.core.CommonProxy;
-import io.github.codetoil.litlaunch.core.LaunchCommon;
 
 public class ServerProxy1_13 implements CommonProxy
 {

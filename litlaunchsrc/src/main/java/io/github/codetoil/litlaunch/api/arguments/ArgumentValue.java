@@ -18,20 +18,20 @@ public class ArgumentValue<T> implements IArgumentValue<T>
 	}
 
 	@Override
-	public T getValue()
-	{
-		return value;
-	}
-
-	@Override
 	public IArgumentParser<IArgumentValue<T>> getParser()
 	{
 		return parser;
 	}
 
 	@Override
+	public T getValue()
+	{
+		return value;
+	}
+
+	@Override
 	public String toString()
 	{
-		return "ArgumentValue{value=" + value + ", parser=" + parser + "}" ;
+		return "ArgumentValue{value=" + value + ", parser=" + parser + "}";
 	}
 }

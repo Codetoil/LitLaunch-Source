@@ -22,6 +22,19 @@ public class DoThing implements IDoThing
 	}
 
 	@Override
+	public void sendAsChatMessage(String message)
+	{
+		if (FMLCommonHandler.instance().getSide().isClient())
+		{
+			sendAsClientChatMessage(message);
+		}
+		else
+		{
+			sendAsServerChatMessage(message);
+		}
+	}
+
+	@Override
 	@SideOnly(Side.CLIENT)
 	public void sendAsClientChatMessage(String message)
 	{
@@ -33,18 +46,6 @@ public class DoThing implements IDoThing
 	public void sendAsServerChatMessage(String message)
 	{
 		FMLCommonHandler.instance().getMinecraftServerInstance().getPlayerList().sendMessage(new TextComponentString(message));
-	}
-
-	@Override
-	public void sendAsChatMessage(String message)
-	{
-		if (FMLCommonHandler.instance().getSide().isClient())
-		{
-			sendAsClientChatMessage(message);
-		} else
-		{
-			sendAsServerChatMessage(message);
-		}
 	}
 
 	@Override
@@ -66,6 +67,26 @@ public class DoThing implements IDoThing
 	public void notifyPlayer(String message, Color pColor, boolean isBold, boolean isItalic, boolean isUnderlined, boolean isObfuscated, boolean hasStrikethrough)
 	{
 		Minecraft.getMinecraft().player.sendStatusMessage(new TextComponentString(message).setStyle(getStyle(pColor, isBold, isItalic, isUnderlined, isObfuscated, hasStrikethrough)), false);
+	}
+
+	private net.minecraft.util.text.Style getStyle(Color pColor, boolean isBold, boolean isItalic, boolean isUnderlined, boolean isObfuscated, boolean hasStrikethrough)
+	{
+		net.minecraft.util.text.Style lChatStyle = new net.minecraft.util.text.Style();
+		lChatStyle
+				.setBold(isBold)
+				.setItalic(isItalic)
+				.setUnderlined(isUnderlined)
+				.setObfuscated(isObfuscated)
+				.setStrikethrough(hasStrikethrough);
+
+		TextFormatting color =
+				TextFormatting.getValueByName(
+						pColor.name()
+				);
+
+		lChatStyle.setColor(color);
+
+		return lChatStyle;
 	}
 
 	@Override
@@ -107,29 +128,10 @@ public class DoThing implements IDoThing
 		if (FMLCommonHandler.instance().getSide().isClient())
 		{
 			notifyPlayer(message, pColor, isBold, isItalic, isUnderlined, isObfuscated, hasStrikethrough);
-		} else
+		}
+		else
 		{
 			notifyServer(message, pColor, isBold, isItalic, isUnderlined, isObfuscated, hasStrikethrough);
 		}
-	}
-
-	private net.minecraft.util.text.Style getStyle(Color pColor, boolean isBold, boolean isItalic, boolean isUnderlined, boolean isObfuscated, boolean hasStrikethrough)
-	{
-		net.minecraft.util.text.Style lChatStyle = new net.minecraft.util.text.Style();
-		lChatStyle
-				.setBold(isBold)
-				.setItalic(isItalic)
-				.setUnderlined(isUnderlined)
-				.setObfuscated(isObfuscated)
-				.setStrikethrough(hasStrikethrough);
-
-		TextFormatting color =
-				TextFormatting.getValueByName(
-						pColor.name()
-				);
-
-		lChatStyle.setColor(color);
-
-		return lChatStyle;
 	}
 }

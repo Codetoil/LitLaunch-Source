@@ -1,8 +1,9 @@
 Symbol range map extraction starting
-Processing 8 files
+Processing 9 files
 processing io\github\codetoil\litlaunch\_native\mc1_8\CommandNew.java
 processing io\github\codetoil\litlaunch\_native\mc1_8\DoThing.java
 processing io\github\codetoil\litlaunch\_native\mc1_8\EventHandler.java
+processing io\github\codetoil\litlaunch\_native\mc1_8\EventThrowingClientPlayNetHandler.java
 processing io\github\codetoil\litlaunch\_native\mc1_8\GetFields.java
 processing io\github\codetoil\litlaunch\_native\mc1_8\Launch1_8.java
 processing io\github\codetoil\litlaunch\_native\mc1_8\Logger1_8.java

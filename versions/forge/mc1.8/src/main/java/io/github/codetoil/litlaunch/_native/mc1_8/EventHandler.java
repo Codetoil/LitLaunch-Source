@@ -4,7 +4,10 @@
 
 package io.github.codetoil.litlaunch._native.mc1_8;
 
-import io.github.codetoil.litlaunch.core.event.*;
+import io.github.codetoil.litlaunch.api.FrontEnd;
+import io.github.codetoil.litlaunch.core.event.LitEvent;
+import io.github.codetoil.litlaunch.core.event.LitEventHandler;
+import net.minecraft.client.network.NetHandlerPlayClient;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 import net.minecraftforge.fml.common.gameevent.TickEvent;
 import net.minecraftforge.fml.common.network.FMLNetworkEvent;
@@ -17,15 +20,17 @@ public class EventHandler
 	@SideOnly(Side.CLIENT)
 	public void onClientTick(TickEvent.ClientTickEvent event)
 	{
-		if (event.phase.equals(TickEvent.Phase.END)) {
-			LitEventHandler.COMMON.post(new LitEvent(this, LitEvent.TYPE.CLIENTTICK, true));
+		if (event.phase.equals(TickEvent.Phase.END))
+		{
+			LitEventHandler.COMMON.post(new LitEvent(this, LitEvent.TYPE.CLIENTTICK, FrontEnd.EMPTY), true);
 		}
 	}
 
 	@SubscribeEvent
 	public void onServerTick(TickEvent.ServerTickEvent event)
 	{
-		if (event.phase.equals(TickEvent.Phase.END)) {
+		if (event.phase.equals(TickEvent.Phase.END))
+		{
 			LitEventHandler.COMMON.post(new LitEvent(this, LitEvent.TYPE.SERVERTICK), true);
 		}
 	}
@@ -35,5 +40,6 @@ public class EventHandler
 	public void ServerConnect(FMLNetworkEvent.ClientConnectedToServerEvent event)
 	{
 		LitEventHandler.COMMON.post(new LitEvent(EventHandler.class, LitEvent.TYPE.SERVERCONNECT));
+		event.manager.setNetHandler(new EventThrowingClientPlayNetHandler((NetHandlerPlayClient) event.handler));
 	}
 }

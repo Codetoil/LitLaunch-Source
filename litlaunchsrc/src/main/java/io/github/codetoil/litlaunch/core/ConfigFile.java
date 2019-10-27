@@ -16,7 +16,8 @@ public class ConfigFile
 	{
 		FrontEnd.trace("Reading config file!");
 		boolean result = false;
-		if (configFile.exists()) {
+		if (configFile.exists())
+		{
 			Properties lProperties = new Properties();
 			InputStream ioInp = new FileInputStream(configFile);
 			lProperties.load(ioInp);
@@ -26,7 +27,9 @@ public class ConfigFile
 			FrontEnd.trace("Verbose boolean: " + lV);
 			LaunchCommon.setVerbose(lV);
 			FrontEnd.trace("LaunchCommon verbose: " + LaunchCommon.isVerbose());
-		} else {
+		}
+		else
+		{
 			FrontEnd.error("No config file! Creating new config file!");
 			setDefaultConfigFile(configFile);
 		}
@@ -39,10 +42,13 @@ public class ConfigFile
 		configFile.createNewFile();
 		OutputStream ioOut = new FileOutputStream(configFile);
 		lProperties.setProperty("verbose", "false");
-		lProperties.store(ioOut,  " This is a config file for litlaunch. This used to be where you specified what mods are to be loaded, but not anymore.\n Mods are now dragged-and-dropped into the \"mods_litlaunch\" directory.\n The verbose options prints a lot of info into the console, but is very spammy.");
-		if (configFile.exists()) {
+		lProperties.store(ioOut, " This is a config file for litlaunch. This used to be where you specified what mods are to be loaded, but not anymore.\n Mods are now dragged-and-dropped into the \"mods_litlaunch\" directory.\n The verbose options prints a lot of info into the console, but is very spammy.");
+		if (configFile.exists())
+		{
 			readConfig(configFile);
-		} else {
+		}
+		else
+		{
 			throw new FailedBootstrapException("Couldn't create config file!");
 		}
 

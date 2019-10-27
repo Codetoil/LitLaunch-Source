@@ -4,46 +4,46 @@
 
 package io.github.ianthisawesome.tpsmod;
 
-import java.math.RoundingMode;
-import java.text.DecimalFormat;
-
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
-
 import net.minecraft.client.Minecraft;
 import net.minecraft.command.ICommandSender;
 import net.minecraft.util.ChatComponentTranslation;
 import net.minecraft.util.ChatStyle;
 import net.minecraft.util.EnumChatFormatting;
 import net.minecraft.world.World;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
-public class GetTPS {
+import java.math.RoundingMode;
+import java.text.DecimalFormat;
 
+public class GetTPS
+{
+
+	public static final double nanotimediv = 1000000000.0;//1,000,000,000.0
 	protected static final Logger LOGGER = LogManager.getLogger();
-	private long previousTotalWorldTime = -1;
-	private double previousMeasureTime = -1.0;
 	public static double tps = -1.0;
 	public static String tpsSTR = "";
-	public static final double nanotimediv = 1000000000.0;//1,000,000,000.0
 	public boolean freepass = false;
-	
+	private long previousTotalWorldTime = -1;
+	private double previousMeasureTime = -1.0;
+
 	public GetTPS()
 	{
 		LOGGER.debug("GetTPS");
 	}
-	
+
 	public void resetVals()
 	{
 		this.previousTotalWorldTime = -1;
 		this.previousMeasureTime = -1.0;
 		tps = -1.0;
 	}
-	
+
 	public String getMostRecentChatMessage()
 	{
 		return (String) Minecraft.getMinecraft().ingameGUI.getChatGUI().getSentMessages().get(Minecraft.getMinecraft().ingameGUI.getChatGUI().getSentMessages().size() - 1);
 	}
-	
+
 	public void doCommandStuffCommandTPS(ICommandSender sender, String[] argsString)
 	{
 		if (argsString.length == 1)
@@ -55,57 +55,36 @@ public class GetTPS {
 			}
 		}
 		boolean freepass = false;
-		if (this.previousTotalWorldTime == -1) {
+		if (this.previousTotalWorldTime == -1)
+		{
 			updatePreviousTotalWorldTime(Minecraft.getMinecraft().theWorld);
 			freepass = true;
 		}
 		if (freepass || ((getTimeInSeconds() - this.previousMeasureTime) >= 3.0))
 		{
 			LOGGER.debug("Passing...");
-		}else 
+		}
+		else
 		{
 			sender.addChatMessage(new ChatComponentTranslation("message.tpsmod.fail").setChatStyle(new ChatStyle().setColor(EnumChatFormatting.RED)));
 			return;
 		}
 		updateTPS(Minecraft.getMinecraft().theWorld);
-		
+
 		sender.addChatMessage(new ChatComponentTranslation("message.tpsmod.tps", GetTPS.tpsSTR).setChatStyle(new ChatStyle().setColor(EnumChatFormatting.YELLOW)));
 	}
-	
-	public void doCommandStuffCommandALLTPS(ICommandSender sender, String[] argsString)
-	{
-		if (argsString.length == 1)
-		{
-			if (argsString[0].equals("help") || argsString[0].equals("?"))
-			{
-				sender.addChatMessage(new ChatComponentTranslation("message.tpsmod.alltps.help"));
-				return;
-			}
-		}
-		if (this.previousTotalWorldTime == -1) {
-			updatePreviousTotalWorldTime(Minecraft.getMinecraft().theWorld);
-		}
-		if (freepass || ((getTimeInSeconds() - this.previousMeasureTime) >= 3.0))
-		{
-			LOGGER.debug("Passing...");
-		}else 
-		{
-			sender.addChatMessage(new ChatComponentTranslation("message.tpsmod.fail").setChatStyle(new ChatStyle().setColor(EnumChatFormatting.RED)));
-			return;
-		}
-		updateTPS(Minecraft.getMinecraft().theWorld);
-		Minecraft.getMinecraft().thePlayer.sendChatMessage("TPSMod version 1.2 has measured the tps to be " + GetTPS.tpsSTR + " ticks per second");
-	}
-	
+
 	/**
 	 * Sets the TotalWorldTime to whatever it is at the moment, effectively updating it
+	 *
 	 * @param worldIn
 	 */
 	public void updatePreviousTotalWorldTime(World worldIn)
 	{
 		//LOGGER.info("Updating PTWT");
-		try {
-			if (worldIn.getTotalWorldTime() == 0) 
+		try
+		{
+			if (worldIn.getTotalWorldTime() == 0)
 			{
 				Thread.sleep(500);
 				if (worldIn.getTotalWorldTime() == 0)
@@ -121,15 +100,23 @@ public class GetTPS {
 			}
 			this.previousTotalWorldTime = worldIn.getTotalWorldTime();
 			this.previousMeasureTime = getTimeInSeconds();
-				
-		} catch (Exception e) {
+
+		}
+		catch (Exception e)
+		{
 			e.printStackTrace();
 		}
-		
+
 	}
-	
+
+	public static double getTimeInSeconds()
+	{
+		return ((double) System.nanoTime()) / nanotimediv;
+	}
+
 	/**
 	 * Updates the TPS variable
+	 *
 	 * @param worldIn
 	 */
 	public void updateTPS(World worldIn)
@@ -146,9 +133,31 @@ public class GetTPS {
 		df.setRoundingMode(RoundingMode.CEILING);
 		GetTPS.tpsSTR = df.format(GetTPS.tps);
 	}
-	
-	public static double getTimeInSeconds()
-    {
-    	return ((double) System.nanoTime()) / nanotimediv;
-    }
+
+	public void doCommandStuffCommandALLTPS(ICommandSender sender, String[] argsString)
+	{
+		if (argsString.length == 1)
+		{
+			if (argsString[0].equals("help") || argsString[0].equals("?"))
+			{
+				sender.addChatMessage(new ChatComponentTranslation("message.tpsmod.alltps.help"));
+				return;
+			}
+		}
+		if (this.previousTotalWorldTime == -1)
+		{
+			updatePreviousTotalWorldTime(Minecraft.getMinecraft().theWorld);
+		}
+		if (freepass || ((getTimeInSeconds() - this.previousMeasureTime) >= 3.0))
+		{
+			LOGGER.debug("Passing...");
+		}
+		else
+		{
+			sender.addChatMessage(new ChatComponentTranslation("message.tpsmod.fail").setChatStyle(new ChatStyle().setColor(EnumChatFormatting.RED)));
+			return;
+		}
+		updateTPS(Minecraft.getMinecraft().theWorld);
+		Minecraft.getMinecraft().thePlayer.sendChatMessage("TPSMod version 1.2 has measured the tps to be " + GetTPS.tpsSTR + " ticks per second");
+	}
 }

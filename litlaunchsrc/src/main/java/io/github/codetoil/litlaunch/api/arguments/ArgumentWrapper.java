@@ -7,25 +7,15 @@ package io.github.codetoil.litlaunch.api.arguments;
 public class ArgumentWrapper<T>
 {
 	public final String name;
-	private IArgumentValue<T> value;
-	private String description = "";
 	private final IArgumentParser<? extends IArgumentValue<T>> parser;
 	private final boolean isRequired;
 	private final boolean isNumber;
+	private IArgumentValue<T> value;
+	private String description = "";
 
 	public ArgumentWrapper(String name, IArgumentParser<? extends IArgumentValue<T>> parser)
 	{
 		this(name, parser, name, true);
-	}
-
-	public ArgumentWrapper(String name, IArgumentParser<? extends IArgumentValue<T>> parser, boolean pIsRequired)
-	{
-		this(name, parser, name, pIsRequired);
-	}
-
-	public ArgumentWrapper(String name, IArgumentParser<? extends IArgumentValue<T>> parser, String pDescription)
-	{
-		this(name, parser, pDescription, true);
 	}
 
 	public ArgumentWrapper(String name, IArgumentParser<? extends IArgumentValue<T>> parser, String pDescription, boolean pIsRequired)
@@ -38,14 +28,24 @@ public class ArgumentWrapper<T>
 
 	}
 
-	public void setValue(IArgumentValue<T> pValue)
+	public ArgumentWrapper(String name, IArgumentParser<? extends IArgumentValue<T>> parser, boolean pIsRequired)
 	{
-		value = pValue;
+		this(name, parser, name, pIsRequired);
+	}
+
+	public ArgumentWrapper(String name, IArgumentParser<? extends IArgumentValue<T>> parser, String pDescription)
+	{
+		this(name, parser, pDescription, true);
 	}
 
 	public IArgumentValue<T> getValue()
 	{
 		return value;
+	}
+
+	public void setValue(IArgumentValue<T> pValue)
+	{
+		value = pValue;
 	}
 
 	public IArgumentParser<? extends IArgumentValue<T>> getParser()
@@ -63,15 +63,15 @@ public class ArgumentWrapper<T>
 		return description;
 	}
 
-	public boolean isNumber()
-	{
-		return isNumber;
-	}
-
 	public ArgumentWrapper<T> setDescription(String pDescription)
 	{
 		description = pDescription;
 		return this;
+	}
+
+	public boolean isNumber()
+	{
+		return isNumber;
 	}
 
 	@Override

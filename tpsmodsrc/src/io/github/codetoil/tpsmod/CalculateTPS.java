@@ -23,8 +23,10 @@ public class CalculateTPS implements LitEventHandler.EventListener
 
 	public void ReceivedEvent(LitEvent event)
 	{
-		if (event.getType() == TPSMod.updateTPS) {
-			if (event.getData()[2].equals(this.dimension)) {
+		if (event.getType() == TPSMod.updateTPS)
+		{
+			if (event.getData()[2].equals(this.dimension))
+			{
 				updateTPS();
 			}
 		}
@@ -35,7 +37,8 @@ public class CalculateTPS implements LitEventHandler.EventListener
 		FrontEnd.debug("Update TPS for dimension " + dimension);
 		long totalworldtime = FrontEnd.GET_FIELDS().getTotalWorldTime(this.dimension);
 		double MeasureTime = LaunchCommon.getTimeInSeconds();
-		if (MeasureTime - previousMeasureTime != 0) {
+		if (MeasureTime - previousMeasureTime != 0)
+		{
 			TPS = (totalworldtime - previousTotalWorldTime) / (MeasureTime - previousMeasureTime);
 			previousMeasureTime = MeasureTime;
 			previousTotalWorldTime = totalworldtime;

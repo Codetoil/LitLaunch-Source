@@ -1,8 +1,5 @@
 package io.github.codetoil.litlaunch.api.arguments;
 
-import io.github.codetoil.litlaunch.api.*;
-import io.github.codetoil.litlaunch.core.LaunchCommon;
-
 public class ArgumentParserInteger implements IArgumentParser<IArgumentValue<Integer>>
 {
 	@Override
@@ -26,14 +23,14 @@ public class ArgumentParserInteger implements IArgumentParser<IArgumentValue<Int
 	}
 
 	@Override
-	public Class<?> getClassOfT()
-	{
-		return Integer.class;
-	}
-
-	@Override
 	public boolean isNumber()
 	{
 		return true;
+	}
+
+	@Override
+	public Class<?> getClassOfT()
+	{
+		return Integer.class;
 	}
 }

@@ -6,7 +6,9 @@ package io.github.codetoil.litlaunch.core.event;
 
 import io.github.codetoil.litlaunch.api.FrontEnd;
 
-import java.util.*;
+import java.util.EventObject;
+import java.util.HashMap;
+import java.util.Map;
 
 public class LitEvent extends EventObject
 {
@@ -45,9 +47,12 @@ public class LitEvent extends EventObject
 
 	public void setType(TYPE type)
 	{
-		if (this.type == null) {
+		if (this.type == null)
+		{
 			this.type = type;
-		} else {
+		}
+		else
+		{
 			FrontEnd.warn("Cannot set type of LitEvent again");
 		}
 	}
@@ -58,15 +63,19 @@ public class LitEvent extends EventObject
 	}
 
 	@Deprecated
-	public Object[] getData() {
+	public Object[] getData()
+	{
 		return data.values().toArray();
 	}
 
 	public void setData(Map<String, Object> data)
 	{
-		if (this.data == null) {
+		if (this.data == null)
+		{
 			this.data = data;
-		} else {
+		}
+		else
+		{
 			FrontEnd.warn("Cannot set data of LitEvent again");
 		}
 	}
@@ -76,8 +85,10 @@ public class LitEvent extends EventObject
 	{
 		return "LitEvent{type=\"" + type + ",data=\"" + data + ",source=\"" + source + "\"}";
 	}
+
 	public static class TYPE
 	{
+		private static Map<String, TYPE> types = new HashMap<>();
 		public static final TYPE CONSTRUCTION = getEnumFromString("Contruction");
 		public static final TYPE PREINIT = getEnumFromString("PreInit");
 		public static final TYPE INIT = getEnumFromString("Init");
@@ -87,22 +98,12 @@ public class LitEvent extends EventObject
 		public static final TYPE SERVERCONNECT = getEnumFromString("ServerConnect");
 		public static final TYPE CLIENTTICK = getEnumFromString("clientTick");
 		public static final TYPE SERVERTICK = getEnumFromString("serverTick");
-		private static Map<String, TYPE> types = new HashMap<>();
+		public static final TYPE ONPACKET = getEnumFromString("onPacket");
 		private final String name;
 
-		private TYPE(String name) {
+		private TYPE(String name)
+		{
 			this.name = name;
-		}
-
-		public String getName()
-		{
-			return name;
-		}
-
-		@Override
-		public String toString()
-		{
-			return "enum TYPE{name=" + name + "}";
 		}
 
 		public static TYPE getEnumFromString(String name)
@@ -118,6 +119,17 @@ public class LitEvent extends EventObject
 				types.put(name, type);
 			}
 			return type;
+		}
+
+		public String getName()
+		{
+			return name;
+		}
+
+		@Override
+		public String toString()
+		{
+			return "enum TYPE{name=" + name + "}";
 		}
 	}
 }

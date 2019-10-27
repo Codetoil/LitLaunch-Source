@@ -4,17 +4,14 @@ import com.google.common.collect.BiMap;
 import com.google.common.collect.HashBiMap;
 import com.google.common.collect.Lists;
 import com.mojang.brigadier.Message;
-import com.mojang.brigadier.exceptions.CommandExceptionType;
 import com.mojang.brigadier.exceptions.CommandSyntaxException;
 import com.mojang.brigadier.exceptions.SimpleCommandExceptionType;
-import io.github.codetoil.litlaunch.api.FrontEnd;
 import io.github.codetoil.litlaunch.api.Command;
+import io.github.codetoil.litlaunch.api.FrontEnd;
 import io.github.codetoil.litlaunch.api.arguments.ArgumentWrapper;
 import io.github.codetoil.litlaunch.api.arguments.IArgumentParser;
 import io.github.codetoil.litlaunch.api.arguments.IArgumentValue;
 import io.github.codetoil.litlaunch.core.CommonProxy;
-import io.github.codetoil.litlaunch.core.ConfigFile;
-import io.github.codetoil.litlaunch.core.LaunchCommon;
 import io.github.codetoil.litlaunch.modloader.ModFinder;
 import joptsimple.OptionException;
 import joptsimple.OptionParser;
@@ -54,13 +51,16 @@ public class ClientProxy1_14 implements CommonProxy
 	{
 		FrontEnd.info("LitLaunch Client Proxy PreInitializing!");
 		ModFinder.validMods.forEach((modClass) -> {
-			try {
+			try
+			{
 				Object oCommands = modClass.getField("commandList").get(null);
 				List lCommands;
-				if (oCommands instanceof List) {
+				if (oCommands instanceof List)
+				{
 					lCommands = (List) oCommands;
 					lCommands.forEach((command) -> {
-						if (command instanceof Command) {
+						if (command instanceof Command)
+						{
 							{
 								if (Command.Side.CLIENT.equals(((Command) command).side) || Command.Side.BOTH.equals(((Command) command).side))
 								{
@@ -71,12 +71,15 @@ public class ClientProxy1_14 implements CommonProxy
 
 						}
 					});
-				} else {
+				}
+				else
+				{
 					FrontEnd.error("Mod " + modClass + " does not have a field named \"commandList\". This is neccesary for the command api to work though. Skipping!");
 				}
 
 			}
-			catch (Throwable pThrowable) {
+			catch (Throwable pThrowable)
+			{
 				pThrowable.printStackTrace();
 			}
 
@@ -114,14 +117,17 @@ public class ClientProxy1_14 implements CommonProxy
 	@OnlyIn(Dist.CLIENT)
 	public void onChat(ClientChatEvent e)
 	{
-		if (e.getMessage() != null) {
-			for (Command command: commandList) {
+		if (e.getMessage() != null)
+		{
+			for (Command command : commandList)
+			{
 				if (e.getMessage().contains("/" + command.name))
 				{
 					e.setCanceled(true);
 					String[] args = e.getMessage().split(" ");
 					List<ArgumentWrapper<?>> argList;
-					try {
+					try
+					{
 						argList = parseArgs(args, command);
 					}
 					catch (CommandSyntaxException t)
@@ -138,10 +144,12 @@ public class ClientProxy1_14 implements CommonProxy
 						}
 						return;
 					}
-					try {
+					try
+					{
 						command.methodToRun.accept(argList);
 					}
-					catch (Throwable t) {
+					catch (Throwable t)
+					{
 						t.printStackTrace();
 					}
 				}
@@ -173,10 +181,12 @@ public class ClientProxy1_14 implements CommonProxy
 		});
 		FrontEnd.verbose("argToSpec: " + argToSpec);
 		OptionSet optionSet;
-		try {
+		try
+		{
 			optionSet = parser.parse(argsIn);
 			FrontEnd.verbose("optionSet: " + optionSet);
-		} catch (OptionException e)
+		}
+		catch (OptionException e)
 		{
 			String help = comm.generateHelp();
 			Message message = new StringTextComponent(help);

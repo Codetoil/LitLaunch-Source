@@ -27,33 +27,44 @@ public class GetFields implements IGetFields
 	public synchronized long getTotalWorldTime(int dimension)
 	{
 		long result = -1;
-		try {
+		try
+		{
 			World world = DimensionManager.getWorld(dimension);
 			if (FMLCommonHandler.instance().getSide().isClient() && world == null) // World for dimension is not loaded, but check entityworld
 			{
 				world = getWorldClient();
-				if (world != null) {
+				if (world != null)
+				{
 					WorldProvider provider = world.provider;
-					if (provider != null) {
-						if (world.provider.getDimensionId() == dimension) {
+					if (provider != null)
+					{
+						if (world.provider.getDimensionId() == dimension)
+						{
 							result = world.getTotalWorldTime();
 						}
-					} else {
+					}
+					else
+					{
 						FrontEnd.error("World provider for Client world could not be loaded!");
 						// world provider cannot be loaded
 					}
-				} else {
+				}
+				else
+				{
 					//LaunchMods.error("Client World Doesn't Exist!");
 					// world cannot be loaded
 				}
-			} else {
+			}
+			else
+			{
 				if (world != null)
 				{
 					result = world.getTotalWorldTime();
 				}
 			}
 		}
-		catch (Throwable e) {
+		catch (Throwable e)
+		{
 			FrontEnd.error("Something went wrong!");
 			e.printStackTrace();
 		}
@@ -80,7 +91,8 @@ public class GetFields implements IGetFields
 		Integer[] dims = DimensionManager.getStaticDimensionIDs();
 		int[] dimIDs = new int[dims.length];
 		int j = 0;
-		for (Integer dim : dims) {
+		for (Integer dim : dims)
+		{
 			dimIDs[j++] = dim;
 		}
 		return dimIDs;

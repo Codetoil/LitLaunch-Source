@@ -4,16 +4,15 @@
 
 package io.github.codetoil.litlaunch._native.mc1_12;
 
-import io.github.codetoil.litlaunch.api.ChainableMap;
 import io.github.codetoil.litlaunch.api.FrontEnd;
-import io.github.codetoil.litlaunch.core.event.*;
+import io.github.codetoil.litlaunch.core.event.LitEvent;
+import io.github.codetoil.litlaunch.core.event.LitEventHandler;
+import net.minecraft.client.network.NetHandlerPlayClient;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 import net.minecraftforge.fml.common.gameevent.TickEvent;
 import net.minecraftforge.fml.common.network.FMLNetworkEvent;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
-
-import java.util.HashMap;
 
 public class EventHandler
 {
@@ -21,16 +20,18 @@ public class EventHandler
 	@SideOnly(Side.CLIENT)
 	public void onClientTick(TickEvent.ClientTickEvent event)
 	{
-		if (event.phase.equals(TickEvent.Phase.END)) {
-			LitEventHandler.COMMON.post(new LitEvent(this, LitEvent.TYPE.CLIENTTICK, FrontEnd.EMPTY_MAP), true);
+		if (event.phase.equals(TickEvent.Phase.END))
+		{
+			LitEventHandler.COMMON.post(new LitEvent(this, LitEvent.TYPE.CLIENTTICK, FrontEnd.EMPTY), true);
 		}
 	}
 
 	@SubscribeEvent
 	public void onServerTick(TickEvent.ServerTickEvent event)
 	{
-		if (event.phase.equals(TickEvent.Phase.END)) {
-			LitEventHandler.COMMON.post(new LitEvent(this, LitEvent.TYPE.SERVERTICK), true);
+		if (event.phase.equals(TickEvent.Phase.END))
+		{
+			LitEventHandler.COMMON.post(new LitEvent(this, LitEvent.TYPE.SERVERTICK, FrontEnd.EMPTY), true);
 		}
 	}
 
@@ -38,6 +39,7 @@ public class EventHandler
 	@SideOnly(Side.CLIENT)
 	public void ServerConnect(FMLNetworkEvent.ClientConnectedToServerEvent event)
 	{
-		LitEventHandler.COMMON.post(new LitEvent(EventHandler.class, LitEvent.TYPE.SERVERCONNECT));
+		LitEventHandler.COMMON.post(new LitEvent(EventHandler.class, LitEvent.TYPE.SERVERCONNECT, FrontEnd.EMPTY));
+		event.getManager().setNetHandler(new EventThrowingClientPlayNetHandler((NetHandlerPlayClient) event.getHandler()));
 	}
 }

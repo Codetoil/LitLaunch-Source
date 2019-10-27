@@ -24,7 +24,7 @@ plugins {
     id "net.minecraftforge.gradle.forge" version "2.0.2"
 }
 */
-version = "forge-mc1.8.9-v0.0.3.12"
+version = "forge-mc1.8.9-v0.0.3.14"
 group= "io.github.codetoil" // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = "litlaunch"
 

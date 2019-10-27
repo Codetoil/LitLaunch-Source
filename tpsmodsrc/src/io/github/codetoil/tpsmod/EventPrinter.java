@@ -4,10 +4,12 @@ import io.github.codetoil.litlaunch.api.FrontEnd;
 import io.github.codetoil.litlaunch.core.event.LitEvent;
 import io.github.codetoil.litlaunch.core.event.LitEventHandler;
 
-import java.io.*;
+import java.io.BufferedOutputStream;
+import java.io.File;
+import java.io.FileOutputStream;
+import java.io.IOException;
 import java.nio.ByteBuffer;
 import java.time.Instant;
-import java.util.logging.LogManager;
 
 public class EventPrinter implements LitEventHandler.EventListener
 {

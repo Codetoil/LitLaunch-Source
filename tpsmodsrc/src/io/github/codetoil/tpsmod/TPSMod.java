@@ -7,6 +7,7 @@ package io.github.codetoil.tpsmod;
 import com.google.common.collect.BiMap;
 import com.google.common.collect.HashBiMap;
 import io.github.codetoil.litlaunch.api.Command;
+import io.github.codetoil.litlaunch.api.EnumRequireOrNot;
 import io.github.codetoil.litlaunch.api.FrontEnd;
 import io.github.codetoil.litlaunch.api.IMod;
 import io.github.codetoil.litlaunch.api.arguments.ArgumentParserInteger;
@@ -24,27 +25,30 @@ import java.util.List;
 public class TPSMod implements IMod, LitEventHandler.EventListener
 {
 	public static final String MODID = "tpsmod";
-	public static final String VERSION = "2.0.1.2.15-debug";
+	public static final String VERSION = "2.0.1.2.16";
 
 	public final static LitEventHandler EVENTS = new LitEventHandler();
-
-	public final static List<Command> commandList = newCommandList();
 	public final static Object INSTNACE = new TPSMod();
 	public final static LitEvent.TYPE updateTPS = LitEvent.TYPE.getEnumFromString("updateTPS");
-	private static MeasureTPSdrop[] independentDimensionTPSMeasures;
 	public static double initialLoadTime;
-	static {
+	public final static List<Command> commandList = newCommandList();
+	private static MeasureTPSdrop[] independentDimensionTPSMeasures;
+
+	static
+	{
 		if (LaunchCommon.getSide() == null)
 		{
 			FrontEnd.error("wtf... LitLaunch is not sided... uh...");
 		}
-		try
-		{
-			new EventPrinter();
-		}
-		catch (IOException e)
-		{
-			e.printStackTrace();
+		if (LaunchCommon.isVerbose()) {
+			try
+			{
+				new EventPrinter();
+			}
+			catch (IOException e)
+			{
+				e.printStackTrace();
+			}
 		}
 	}
 
@@ -60,7 +64,8 @@ public class TPSMod implements IMod, LitEventHandler.EventListener
 	private static List<Command> newCommandList()
 	{
 		List<Command> internalCommandList = new ArrayList<>();
-		try {
+		try
+		{
 			BiMap<String, ArgumentWrapper<?>> args = HashBiMap.create();
 			switch (LaunchCommon.getSide())
 			{
@@ -75,10 +80,82 @@ public class TPSMod implements IMod, LitEventHandler.EventListener
 			internalCommandList.add(new Command("/tps", CommandHandler::executeTPS, args, Command.Side.BOTH));
 			internalCommandList.add(new Command("/tpstoall", CommandHandler::executeTPSTOALL, args, Command.Side.BOTH));
 		}
-		catch (Exception e) {
+		catch (Exception e)
+		{
 			e.printStackTrace();
 		}
 		return internalCommandList;
+	}
+
+	@Override
+	public void ReceivedEvent(LitEvent event)
+	{
+		try
+		{
+			switch (event.getType().getName())
+			{
+				case "Construction":
+					construction();
+					break;
+				case "PreInit":
+					preInit();
+					break;
+				case "Init":
+					Init();
+					break;
+				case "PostInit":
+					postInit();
+					break;
+				case "ServerLoad":
+					serverLoad();
+					break;
+				case "ServerConnect":
+					connectedToServer();
+					break;
+				default:
+					break;
+			}
+		}
+		catch (IllegalArgumentException e)
+		{
+			//LaunchMods.debug("Unknown event " + event.toString());
+		}
+	}
+
+	public void connectedToServer()
+	{
+		FrontEnd.info("TPSMod v" + VERSION + " connected to server");
+		TPSMod.initialLoadTime = LaunchCommon.getTimeInSeconds();
+	}
+
+	@Override
+	public LitEventHandler.EventListener getListener()
+	{
+		return (LitEventHandler.EventListener) INSTNACE;
+	}
+
+	@Override
+	public EnumRequireOrNot onClient()
+	{
+		return EnumRequireOrNot.COMPATIBLE;
+	}
+
+	@Override
+	public EnumRequireOrNot onServer()
+	{
+		return EnumRequireOrNot.COMPATIBLE;
+	}
+
+	@Override
+	public String getModID()
+	{
+		return MODID;
+	}
+
+	@Override
+	public String getVersion()
+	{
+		return VERSION;
 	}
 
 	@Override
@@ -109,7 +186,8 @@ public class TPSMod implements IMod, LitEventHandler.EventListener
 		FrontEnd.info("Dimensions Amount: " + dimensionAmount);
 		FrontEnd.info("Dimensions Available: " + Arrays.toString(FrontEnd.GET_FIELDS().getDimsAvailable()));
 		TPSMod.independentDimensionTPSMeasures = new MeasureTPSdrop[dimensionAmount];
-		for (int i = 0; i < dimensionAmount; i++) {
+		for (int i = 0; i < dimensionAmount; i++)
+		{
 			MeasureTPSdrop temp = new MeasureTPSdrop(FrontEnd.GET_FIELDS().getDimsAvailable()[i]);
 			TPSMod.independentDimensionTPSMeasures[i] = temp;
 		}
@@ -119,65 +197,10 @@ public class TPSMod implements IMod, LitEventHandler.EventListener
 	{
 		FrontEnd.info("TPSMod v" + VERSION + " starting server");
 	}
-	public void connectedToServer()
-	{
-		FrontEnd.info("TPSMod v" + VERSION + " connected to server");
-		TPSMod.initialLoadTime = LaunchCommon.getTimeInSeconds();
-	}
 
 	@Override
 	public IMod getModINSTANCE()
 	{
 		return (IMod) INSTNACE;
-	}
-
-	@Override
-	public void ReceivedEvent(LitEvent event)
-	{
-		try {
-			switch (event.getType().getName()) {
-				case "Construction":
-					construction();
-					break;
-				case "PreInit":
-					preInit();
-					break;
-				case "Init":
-					Init();
-					break;
-				case "PostInit":
-					postInit();
-					break;
-				case "ServerLoad":
-					serverLoad();
-					break;
-				case "ServerConnect":
-					connectedToServer();
-					break;
-				default:
-					break;
-			}
-		}
-		catch (IllegalArgumentException e) {
-			//LaunchMods.debug("Unknown event " + event.toString());
-		}
-	}
-
-	@Override
-	public LitEventHandler.EventListener getListener()
-	{
-		return (LitEventHandler.EventListener) INSTNACE;
-	}
-
-	@Override
-	public String getModID()
-	{
-		return MODID;
-	}
-
-	@Override
-	public String getVersion()
-	{
-		return VERSION;
 	}
 }

@@ -1,8 +1,9 @@
+
 buildscript {
     repositories {
-        //maven { url = 'https://files.minecraftforge.net/maven' }
-        //jcenter()
-        //mavenCentral()
+        maven { url = 'https://files.minecraftforge.net/maven' }
+        jcenter()
+        mavenCentral()
         maven { url = "D:/Files/ForgeDataOffline" }
     }
     dependencies {
@@ -14,9 +15,9 @@ apply plugin: 'net.minecraftforge.gradle'
 
 
 repositories {
-    //maven { url = 'https://files.minecraftforge.net/maven' }
-    //jcenter()
-    //mavenCentral()
+    maven { url = 'https://files.minecraftforge.net/maven' }
+    jcenter()
+    mavenCentral()
     maven { url = "D:/Files/ForgeDataOffline" }
 }
 
@@ -24,7 +25,7 @@ apply plugin: 'eclipse'
 apply plugin: 'maven-publish'
 
 
-version = "forge-mc1.13.2-v0.0.3.11"
+version = "forge-mc1.13.2-v0.0.3.14"
 group = "io.github.codetoil" // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = "litlaunch"
 
@@ -39,7 +40,7 @@ minecraft {
     mappings channel: 'stable', version: '43-1.13'
     // makeObfSourceJar = false // an Srg named sources jar is made by default. uncomment this to disable.
     
-    // accessTransformer = file('build/resources/main/META-INF/accesstransformer.cfg')
+    accessTransformer = file('src/main/resources/META-INF/accesstransformer.cfg')
 
     // Default run configurations.
     // These can be tweaked, removed, or duplicated as needed.

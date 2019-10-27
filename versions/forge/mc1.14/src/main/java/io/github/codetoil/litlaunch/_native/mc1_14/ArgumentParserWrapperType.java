@@ -14,6 +14,7 @@ public class ArgumentParserWrapperType<T> implements ArgumentType<T>
 	{
 		this.parser = parser;
 	}
+
 	@Override
 	public T parse(StringReader pStringReader) throws CommandSyntaxException
 	{

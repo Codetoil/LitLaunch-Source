@@ -7,12 +7,15 @@ package io.github.codetoil.litlaunch._native.mc1_12;
 import com.google.common.collect.BiMap;
 import com.google.common.collect.HashBiMap;
 import com.google.common.collect.Lists;
+import io.github.codetoil.litlaunch.api.Command;
 import io.github.codetoil.litlaunch.api.FrontEnd;
 import io.github.codetoil.litlaunch.api.arguments.ArgumentWrapper;
-import io.github.codetoil.litlaunch.api.Command;
 import io.github.codetoil.litlaunch.api.arguments.IArgumentParser;
 import io.github.codetoil.litlaunch.api.arguments.IArgumentValue;
-import joptsimple.*;
+import joptsimple.OptionException;
+import joptsimple.OptionParser;
+import joptsimple.OptionSet;
+import joptsimple.OptionSpec;
 import net.minecraft.command.CommandException;
 import net.minecraft.command.ICommand;
 import net.minecraft.command.ICommandSender;
@@ -44,12 +47,6 @@ public class CommandNew implements ICommand
 	}
 
 	@Override
-	public String getUsage(ICommandSender sender)
-	{
-		return comm.generateHelp();
-	}
-
-	@Override
 	public List<String> getAliases()
 	{
 		return new ArrayList<>();
@@ -59,10 +56,12 @@ public class CommandNew implements ICommand
 	public void execute(MinecraftServer server, ICommandSender sender, String[] args) throws CommandException
 	{
 		List<ArgumentWrapper<?>> argWrappers = parseArgs(args, sender);
-		try {
+		try
+		{
 			comm.methodToRun.accept(argWrappers);
 		}
-		catch (Throwable t) {
+		catch (Throwable t)
+		{
 			t.printStackTrace();
 		}
 	}
@@ -91,10 +90,12 @@ public class CommandNew implements ICommand
 		});
 		FrontEnd.verbose("argToSpec: " + argToSpec);
 		OptionSet optionSet;
-		try {
+		try
+		{
 			optionSet = parser.parse(argsIn);
 			FrontEnd.verbose("optionSet: " + optionSet);
-		} catch (OptionException e)
+		}
+		catch (OptionException e)
 		{
 			throw new WrongUsageException(getUsage(sender));
 		}
@@ -116,6 +117,12 @@ public class CommandNew implements ICommand
 			}
 		});
 		return out;
+	}
+
+	@Override
+	public String getUsage(ICommandSender sender)
+	{
+		return comm.generateHelp();
 	}
 
 	@Override

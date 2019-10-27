@@ -24,7 +24,7 @@ repositories {
 
 apply plugin: 'forge'
 
-version = "forge-mc1.7.10-v0.0.3.11"
+version = "forge-mc1.7.10-v0.0.3.14"
 group= "io.github.codetoil" 
 /*
  * Copyright Codetoil (c) 2019

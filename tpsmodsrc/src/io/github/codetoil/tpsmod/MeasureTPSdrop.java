@@ -10,8 +10,6 @@ import io.github.codetoil.litlaunch.core.LaunchCommon;
 import io.github.codetoil.litlaunch.core.event.LitEvent;
 import io.github.codetoil.litlaunch.core.event.LitEventHandler;
 
-import java.util.HashMap;
-
 public class MeasureTPSdrop implements LitEventHandler.EventListener
 {
 	private static double maxTimeWait = 5.0;
@@ -45,26 +43,12 @@ public class MeasureTPSdrop implements LitEventHandler.EventListener
 	public void ReceivedEvent(LitEvent event)
 	{
 		//LaunchMods.trace(event.getType());
-		if (event.getType() == LitEvent.TYPE.CLIENTTICK || event.getType() == LitEvent.TYPE.SERVERTICK) {
-			seeIfTWTHasDropped();
-		}
-	}
-
-	public void seeIfTWTHasDropped()
-	{
-		//LaunchMods.trace("checking if total world time has dropped");
-		long totalWorldTime = LaunchCommon.getGetFields().getTotalWorldTime(dimension);
-		double timeNow = LaunchCommon.getTimeInSeconds();
-		long DeltaTick = totalWorldTime - totalWorldTimePrevTick;
-		if (DeltaTick != 0)
+		if ((event.getType() == LitEvent.TYPE.ONPACKET && event.getDataMap().get("Type").equals("WorldTime")) || event.getType() == LitEvent.TYPE.SERVERTICK)
 		{
-			FrontEnd.verbose("Delta Tick: " + DeltaTick);
+			long totalWorldTime = LaunchCommon.getGetFields().getTotalWorldTime(dimension);
+			double timeNow = LaunchCommon.getTimeInSeconds();
+			TPSMod.EVENTS.post(new LitEvent(this, TPSMod.updateTPS, ChainableMap.<String, Object>newMap().putChain("totalWorldTime", totalWorldTime).putChain("timeNow", timeNow).putChain("dimension", dimension)), true);
 		}
-		if (DeltaTick < 0 || timeNow - previousMeasureTime > maxTimeWait) {
-			TPSMod.EVENTS.post(new LitEvent(this, TPSMod.updateTPS, ChainableMap.newMap().putChain("totalWorldTime", totalWorldTime).putChain("timeNow", timeNow).put("dimension", dimension))), true);
-			previousMeasureTime = timeNow;
-		}
-		totalWorldTimePrevTick = totalWorldTime;
 	}
 
 	// This class is the listener!

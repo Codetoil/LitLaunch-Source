@@ -46,12 +46,6 @@ public class CommandNew implements ICommand
 	}
 
 	@Override
-	public String getCommandUsage(ICommandSender p_71518_1_)
-	{
-		return comm.generateHelp();
-	}
-
-	@Override
 	public List getCommandAliases()
 	{
 		return new ArrayList<>();
@@ -60,13 +54,16 @@ public class CommandNew implements ICommand
 	@Override
 	public void processCommand(ICommandSender p_71515_1_, String[] p_71515_2_)
 	{
-		try {
+		try
+		{
 			comm.methodToRun.accept(parseArgs(p_71515_2_, p_71515_1_));
 		}
-		catch (Throwable t) {
+		catch (Throwable t)
+		{
 			t.printStackTrace();
 		}
 	}
+
 	public List<ArgumentWrapper<?>> parseArgs(String[] argsIn, ICommandSender sender) throws WrongUsageException
 	{
 		FrontEnd.verbose("argsIn: " + Arrays.asList(argsIn));
@@ -91,10 +88,12 @@ public class CommandNew implements ICommand
 		});
 		FrontEnd.verbose("argToSpec: " + argToSpec);
 		OptionSet optionSet;
-		try {
+		try
+		{
 			optionSet = parser.parse(argsIn);
 			FrontEnd.verbose("optionSet: " + optionSet);
-		} catch (OptionException e)
+		}
+		catch (OptionException e)
 		{
 			throw new WrongUsageException(getCommandUsage(sender));
 		}
@@ -118,6 +117,11 @@ public class CommandNew implements ICommand
 		return out;
 	}
 
+	@Override
+	public String getCommandUsage(ICommandSender p_71518_1_)
+	{
+		return comm.generateHelp();
+	}
 
 	@Override
 	public boolean canCommandSenderUseCommand(ICommandSender p_71519_1_)
@@ -132,15 +136,15 @@ public class CommandNew implements ICommand
 	}
 
 	@Override
-	public int compareTo(ICommand o)
-	{
-		return this.comm.name.compareTo(o.getCommandName());
-	}
-
-	@Override
 	public boolean isUsernameIndex(String[] args, int index)
 	{
 		return false;
+	}
+
+	@Override
+	public int compareTo(ICommand o)
+	{
+		return this.comm.name.compareTo(o.getCommandName());
 	}
 
 }

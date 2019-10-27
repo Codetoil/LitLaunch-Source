@@ -20,6 +20,12 @@ public class Logger1_14 implements ILogger
 	}
 
 	@Override
+	public void debug(Object obj)
+	{
+		this.LOGGER.debug(obj);
+	}
+
+	@Override
 	public void info(Object obj)
 	{
 		this.LOGGER.info(obj);
@@ -41,12 +47,6 @@ public class Logger1_14 implements ILogger
 	public void fatal(Object obj)
 	{
 		this.LOGGER.fatal(obj);
-	}
-
-	@Override
-	public void debug(Object obj)
-	{
-		this.LOGGER.debug(obj);
 	}
 
 	@Override
@@ -72,7 +72,8 @@ public class Logger1_14 implements ILogger
 
 	public void setInternalLogger(Object logger)
 	{
-		if (this.LOGGER == null) {
+		if (this.LOGGER == null)
+		{
 			this.LOGGER = (Logger) logger;
 		}
 	}

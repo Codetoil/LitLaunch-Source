@@ -1,0 +1,21 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Minecraft Server 1.13.2" type="Application" factoryName="Application" singleton="false">
+    <envs>
+      <env name="MOD_CLASSES" value="tpsmod%%D:\Files\ME_MODS\tpsmod\versions\forge\mc1.13\build\resources\main;tpsmod%%D:\Files\ME_MODS\tpsmod\versions\forge\mc1.13\build\classes\java\main" />
+      <env name="MCP_MAPPINGS" value="stable_43-1.13" />
+      <env name="MCP_VERSION" value="20190213.203750" />
+      <env name="FORGE_VERSION" value="25.0.219" />
+      <env name="FORGE_GROUP" value="net.minecraftforge" />
+      <env name="target" value="fmluserdevserver" />
+      <env name="MC_VERSION" value="1.13.2" />
+    </envs>
+    <option name="MAIN_CLASS_NAME" value="net.minecraftforge.userdev.LaunchTesting" />
+    <module name="litlaunch+tpsmod.versions.forge.mc1.13.main" />
+    <option name="VM_PARAMETERS" value="-Dforge.logging.console.level=debug -Dforge.logging.markers=SCAN,REGISTRIES,REGISTRYDUMP" />
+    <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../tpsmodrun/mc1.13.server" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+      <option name="Gradle.BeforeRunTask" enabled="true" tasks=":versions:forge:mc1.13:prepareRunServer" externalProjectPath="$PROJECT_DIR$" />
+    </method>
+  </configuration>
+</component>

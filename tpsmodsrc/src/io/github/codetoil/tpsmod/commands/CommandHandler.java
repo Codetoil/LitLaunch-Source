@@ -4,10 +4,10 @@
 
 package io.github.codetoil.tpsmod.commands;
 
-import io.github.codetoil.litlaunch.api.FrontEnd;
-import io.github.codetoil.litlaunch.api.arguments.ArgumentWrapper;
 import io.github.codetoil.litlaunch.api.Command;
+import io.github.codetoil.litlaunch.api.FrontEnd;
 import io.github.codetoil.litlaunch.api.IDoThing;
+import io.github.codetoil.litlaunch.api.arguments.ArgumentWrapper;
 import io.github.codetoil.litlaunch.api.arguments.IArgumentValue;
 import io.github.codetoil.litlaunch.core.LaunchCommon;
 import io.github.codetoil.tpsmod.MeasureTPSdrop;
@@ -42,30 +42,8 @@ public class CommandHandler
 		}
 	}
 
-	public static void executeTPSTOALL(List<ArgumentWrapper<?>> args)
+	private static Integer getDimensionFromArgs(List<ArgumentWrapper<?>> argList)
 	{
-		FrontEnd.verbose(args);
-		Integer dimension = getDimensionFromArgs(args);
-		if (dimension == null)
-		{
-			LaunchCommon.getDoThing().notifyUser("Dimension " + args.get(0) + " is not valid or not loaded. The argument must be an integer.", IDoThing.Color.RED);
-			return;
-		}
-		if (LaunchCommon.getTimeInSeconds() - TPSMod.initialLoadTime > 5.0)
-		{
-			//LaunchMods.info("executed //tpstoall!");
-			double TPS = getTPS(dimension);
-			String TPS_STR = formatTPS(TPS);
-			LaunchCommon.getDoThing().sendAsChatMessage("[TPS Mod v" + TPSMod.VERSION + "] " + TPS_STR + " tps in dimension " + dimension);
-			//LaunchMods.info("TPS: " + TPS_STR);
-		}
-		else
-		{
-			LaunchCommon.getDoThing().notifyUser("The TPS Mod v" + TPSMod.VERSION + " is still loading. Please wait...", IDoThing.Color.RED);
-		}
-	}
-
-	private static Integer getDimensionFromArgs(List<ArgumentWrapper<?>> argList) {
 		Integer result = null;
 		if (argList.size() == 1)
 		{
@@ -91,8 +69,10 @@ public class CommandHandler
 	{
 		double TPS = Double.NaN;
 		MeasureTPSdrop[] lTPSdrop = TPSMod.getIndependentDimensionTPSMeasures();
-		for (MeasureTPSdrop TPSdrop : lTPSdrop) {
-			if (TPSdrop.dimension == dimension) {
+		for (MeasureTPSdrop TPSdrop : lTPSdrop)
+		{
+			if (TPSdrop.dimension == dimension)
+			{
 				TPS = TPSdrop.calculateTPS.getTPS();
 			}
 		}
@@ -104,5 +84,28 @@ public class CommandHandler
 		DecimalFormat df = new DecimalFormat("#.##");
 		df.setRoundingMode(RoundingMode.CEILING);
 		return df.format(TPS);
+	}
+
+	public static void executeTPSTOALL(List<ArgumentWrapper<?>> args)
+	{
+		FrontEnd.verbose(args);
+		Integer dimension = getDimensionFromArgs(args);
+		if (dimension == null)
+		{
+			LaunchCommon.getDoThing().notifyUser("Dimension " + args.get(0) + " is not valid or not loaded. The argument must be an integer.", IDoThing.Color.RED);
+			return;
+		}
+		if (LaunchCommon.getTimeInSeconds() - TPSMod.initialLoadTime > 5.0)
+		{
+			//LaunchMods.info("executed //tpstoall!");
+			double TPS = getTPS(dimension);
+			String TPS_STR = formatTPS(TPS);
+			LaunchCommon.getDoThing().sendAsChatMessage("[TPS Mod v" + TPSMod.VERSION + "] " + TPS_STR + " tps in dimension " + dimension);
+			//LaunchMods.info("TPS: " + TPS_STR);
+		}
+		else
+		{
+			LaunchCommon.getDoThing().notifyUser("The TPS Mod v" + TPSMod.VERSION + " is still loading. Please wait...", IDoThing.Color.RED);
+		}
 	}
 }

@@ -4,12 +4,12 @@
 
 package io.github.codetoil.litlaunch._native.mc1_12.proxy;
 
+import io.github.codetoil.litlaunch._native.mc1_12.CommandNew;
 import io.github.codetoil.litlaunch.api.Command;
 import io.github.codetoil.litlaunch.api.FrontEnd;
 import io.github.codetoil.litlaunch.core.CommonProxy;
 import io.github.codetoil.litlaunch.core.LaunchCommon;
 import io.github.codetoil.litlaunch.modloader.ModFinder;
-import io.github.codetoil.litlaunch._native.mc1_12.CommandNew;
 import net.minecraft.client.Minecraft;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
@@ -37,23 +37,31 @@ public class ClientProxy1_12 implements CommonProxy
 	{
 		FrontEnd.info("LitLaunch Client Proxy PreInitializing!");
 		ModFinder.validMods.forEach((modClass) -> {
-			try {
+			try
+			{
 				Object oCommands = modClass.getField("commandList").get(null);
 				List lCommands;
-				if (oCommands instanceof List) {
+				if (oCommands instanceof List)
+				{
 					lCommands = (List) oCommands;
 					lCommands.forEach((command) -> {
-						if (command instanceof Command) {
+						if (command instanceof Command)
+						{
 							if (Command.Side.CLIENT.equals(((Command) command).side) || Command.Side.BOTH.equals(((Command) command).side))
+							{
 								net.minecraftforge.client.ClientCommandHandler.instance.registerCommand(new CommandNew((Command) command));
+							}
 						}
 					});
-				} else {
+				}
+				else
+				{
 					FrontEnd.error("Mod " + modClass + " does not have a method named \"commandList\". This is neccesary for the api to work though. Skipping!");
 				}
 
 			}
-			catch (Throwable pThrowable) {
+			catch (Throwable pThrowable)
+			{
 				pThrowable.printStackTrace();
 			}
 

@@ -76,7 +76,8 @@ public class Logger1_7 implements ILogger
 
 	public void setInternalLogger(Object logger)
 	{
-		if (this.LOGGER == null) {
+		if (this.LOGGER == null)
+		{
 			this.LOGGER = (Logger) logger;
 		}
 	}

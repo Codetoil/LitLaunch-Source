@@ -13,14 +13,14 @@ public class ArgumentParserString implements IArgumentParser<IArgumentValue<Stri
 	}
 
 	@Override
-	public Class<?> getClassOfT()
-	{
-		return String.class;
-	}
-
-	@Override
 	public boolean isNumber()
 	{
 		return false;
+	}
+
+	@Override
+	public Class<?> getClassOfT()
+	{
+		return String.class;
 	}
 }

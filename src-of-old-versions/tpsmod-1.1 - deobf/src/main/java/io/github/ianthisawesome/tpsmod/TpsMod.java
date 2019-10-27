@@ -12,34 +12,38 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 @Mod(
-   modid = "tpsmod",
-   version = "1.1"
+		modid = "tpsmod",
+		version = "1.1"
 )
-public class TpsMod {
-   public static final String MODID = "tpsmod";
-   public static final String VERSION = "1.1";
-   private static final Logger LOGGER = LogManager.getLogger();
-   public static WorldLogger theWorldLogger;
+public class TpsMod
+{
+	public static final String MODID = "tpsmod";
+	public static final String VERSION = "1.1";
+	private static final Logger LOGGER = LogManager.getLogger();
+	public static WorldLogger theWorldLogger;
 
-   //Blocks and items etc.
-   @EventHandler
-   public void preinit(FMLPreInitializationEvent event) {
-      LOGGER.info("[TPS Mod]: Preinit");
-      ClientCommandHandler.instance.registerCommand(new CommandTPS());
-      ClientCommandHandler.instance.registerCommand(new CommandALLTPS());
-   }
+	//Blocks and items etc.
+	@EventHandler
+	public void preinit(FMLPreInitializationEvent event)
+	{
+		LOGGER.info("[TPS Mod]: Preinit");
+		ClientCommandHandler.instance.registerCommand(new CommandTPS());
+		ClientCommandHandler.instance.registerCommand(new CommandALLTPS());
+	}
 
-   //Recipies and such
-   @EventHandler
-   public void init(FMLInitializationEvent event) {
-      LOGGER.info("[TPS Mod]: Init");
-      theWorldLogger = new WorldLogger("World Logger");
-      theWorldLogger.start();
-   }
+	//Recipies and such
+	@EventHandler
+	public void init(FMLInitializationEvent event)
+	{
+		LOGGER.info("[TPS Mod]: Init");
+		theWorldLogger = new WorldLogger("World Logger");
+		theWorldLogger.start();
+	}
 
-   //Interactions w/ other mods
-   @EventHandler
-   public void postinit(FMLPostInitializationEvent event) {
-      LOGGER.info("[TPS Mod]: Postinit");
-   }
+	//Interactions w/ other mods
+	@EventHandler
+	public void postinit(FMLPostInitializationEvent event)
+	{
+		LOGGER.info("[TPS Mod]: Postinit");
+	}
 }

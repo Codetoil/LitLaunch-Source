@@ -28,12 +28,14 @@ public class LitEventHandler
 
 	private synchronized void updateListenersFromQueue()
 	{
-		while (!eventListenersToAdd.isEmpty()) {
+		while (!eventListenersToAdd.isEmpty())
+		{
 			EventListener listener = eventListenersToAdd.poll();
 			FrontEnd.info("Adding: " + listener.toString());
 			_listeners.add(listener);
 		}
-		while (!eventListenersToRemove.isEmpty()) {
+		while (!eventListenersToRemove.isEmpty())
+		{
 			EventListener listener = eventListenersToRemove.poll();
 			FrontEnd.info("Removing: " + listener.toString());
 			_listeners.remove(listener);
@@ -60,16 +62,20 @@ public class LitEventHandler
 	{
 		updateListenersFromQueue();
 		logEVENT(event, pIsSPAMMY);
-		for (EventListener listener : this._listeners) {
+		for (EventListener listener : this._listeners)
+		{
 			listener.ReceivedEvent(event);
 		}
 	}
 
 	private void logEVENT(LitEvent event, boolean isSpammy)
 	{
-		if (!isSpammy) {
+		if (!isSpammy)
+		{
 			FrontEnd.trace("Sent Event: " + event.toString());
-		} else {
+		}
+		else
+		{
 			FrontEnd.verbose("Sent Event (Verbose): " + event.toString());
 		}
 	}

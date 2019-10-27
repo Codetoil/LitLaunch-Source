@@ -44,10 +44,12 @@ public class CommandBuilder
 		@Override
 		public CommandResult process(CommandSource source, String arguments) throws CommandException
 		{
-			try {
+			try
+			{
 				List<ArgumentWrapper<?>> args = parseArgs(arguments.split(" "));
 				command.methodToRun.accept(args);
-			} catch (Throwable t)
+			}
+			catch (Throwable t)
 			{
 				t.printStackTrace();
 				return CommandResult.successCount(0);
@@ -110,10 +112,12 @@ public class CommandBuilder
 			});
 			FrontEnd.verbose("argToSpec: " + argToSpec);
 			OptionSet optionSet;
-			try {
+			try
+			{
 				optionSet = parser.parse(argsIn);
 				FrontEnd.verbose("optionSet: " + optionSet);
-			} catch (OptionException e)
+			}
+			catch (OptionException e)
 			{
 				//throw new WrongUsageException(getUsage(sender));
 				//throw new com.mojang.brigadier.exceptions.CommandSyntaxException(new SimpleCommandExceptionType(new StringTextComponent(comm.generateHelp())),  new StringTextComponent(comm.generateHelp()));

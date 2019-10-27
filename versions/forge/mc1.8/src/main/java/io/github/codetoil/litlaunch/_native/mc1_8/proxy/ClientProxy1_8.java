@@ -37,23 +37,31 @@ public class ClientProxy1_8 implements CommonProxy
 	{
 		FrontEnd.info("LitLaunch Client Proxy PreInitializing!");
 		ModFinder.validMods.forEach((modClass) -> {
-			try {
+			try
+			{
 				Object oCommands = modClass.getField("commandList").get(null);
 				List lCommands;
-				if (oCommands instanceof List) {
+				if (oCommands instanceof List)
+				{
 					lCommands = (List) oCommands;
 					lCommands.forEach((command) -> {
-						if (command instanceof Command) {
+						if (command instanceof Command)
+						{
 							if (Command.Side.CLIENT.equals(((Command) command).side) || Command.Side.BOTH.equals(((Command) command).side))
+							{
 								net.minecraftforge.client.ClientCommandHandler.instance.registerCommand(new CommandNew((Command) command));
+							}
 						}
 					});
-				} else {
+				}
+				else
+				{
 					FrontEnd.error("Mod " + modClass + " does not have a method named \"commandList\". This is neccesary for the api to work though. Skipping!");
 				}
 
 			}
-			catch (Throwable pThrowable) {
+			catch (Throwable pThrowable)
+			{
 				pThrowable.printStackTrace();
 			}
 

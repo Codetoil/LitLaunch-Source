@@ -1,30 +1,32 @@
 Symbol range map extraction starting
-Processing 8 files
-startProcessing "io\github\codetoil\litlaunch\_native\mc1_12\CommandNew.java" md5: 87ace505828a6f175d4c528c31737b94
+Processing 9 files
+startProcessing "io\github\codetoil\litlaunch\_native\mc1_12\CommandNew.java" md5: fc9f9fe4de5eb820802ad59f690f65c4
 Cache Hit!
 endProcessing "io\github\codetoil\litlaunch\_native\mc1_12\CommandNew.java"
 
-startProcessing "io\github\codetoil\litlaunch\_native\mc1_12\DoThing.java" md5: 8bf3f9dec007f628e27f7bcccccdcf3d
+startProcessing "io\github\codetoil\litlaunch\_native\mc1_12\DoThing.java" md5: 11fd3528620609715e0de2e27d9d07a4
 Cache Hit!
 endProcessing "io\github\codetoil\litlaunch\_native\mc1_12\DoThing.java"
 
-startProcessing "io\github\codetoil\litlaunch\_native\mc1_12\EventHandler.java" md5: a2ebe57a0c6575a2ac69a3304b7871bb
-Cache Hit!
+startProcessing "io\github\codetoil\litlaunch\_native\mc1_12\EventHandler.java" md5: d36a37962ac584d657c0e6e77a397c35
 endProcessing "io\github\codetoil\litlaunch\_native\mc1_12\EventHandler.java"
 
-startProcessing "io\github\codetoil\litlaunch\_native\mc1_12\GetFields.java" md5: 3815894b591ad48ccae76453ad756de6
+startProcessing "io\github\codetoil\litlaunch\_native\mc1_12\EventThrowingClientPlayNetHandler.java" md5: a8e6274338d522830c8817d3bb807512
+endProcessing "io\github\codetoil\litlaunch\_native\mc1_12\EventThrowingClientPlayNetHandler.java"
+
+startProcessing "io\github\codetoil\litlaunch\_native\mc1_12\GetFields.java" md5: 65400f88e73241e30e60b9a61d789245
 Cache Hit!
 endProcessing "io\github\codetoil\litlaunch\_native\mc1_12\GetFields.java"
 
-startProcessing "io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java" md5: 24af5e603640f9016924b4f7cf0ef716
+startProcessing "io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java" md5: 8ed2a6a630edc4a1a5be26f51570e6de
 Cache Hit!
 endProcessing "io\github\codetoil\litlaunch\_native\mc1_12\Launch1_12.java"
 
-startProcessing "io\github\codetoil\litlaunch\_native\mc1_12\Logger1_12.java" md5: 409c598ac65468c8429dae1a12bedf74
+startProcessing "io\github\codetoil\litlaunch\_native\mc1_12\Logger1_12.java" md5: aaae03eaa9f0ecd55123f337bdc0d61d
 Cache Hit!
 endProcessing "io\github\codetoil\litlaunch\_native\mc1_12\Logger1_12.java"
 
-startProcessing "io\github\codetoil\litlaunch\_native\mc1_12\proxy\ClientProxy1_12.java" md5: 6ed025b784924abf6d59917f970b8bd2
+startProcessing "io\github\codetoil\litlaunch\_native\mc1_12\proxy\ClientProxy1_12.java" md5: c434ead312cd2dde0e639755c410fb4c
 Cache Hit!
 endProcessing "io\github\codetoil\litlaunch\_native\mc1_12\proxy\ClientProxy1_12.java"
 

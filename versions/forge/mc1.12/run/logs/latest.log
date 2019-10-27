@@ -1,49 +1,98 @@
-[19:18:09] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --assetsDir, D:/gradle/caches/minecraft/assets, --assetIndex, 1.12, --accessToken{REDACTED}, --version, 1.12.2, --tweakClass, net.minecraftforge.fml.common.launcher.FMLTweaker, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
-[19:18:09] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
-[19:18:09] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
-[19:18:09] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
-[19:18:09] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
-[19:18:09] [main/INFO] [FML]: Forge Mod Loader version 14.23.5.2768 for Minecraft 1.12.2 loading
-[19:18:09] [main/INFO] [FML]: Java is OpenJDK 64-Bit Server VM, version 1.8.0_212, running on Windows 10:amd64:10.0, installed at C:\Program Files\Java\jdk-8.0.212.04-hotspot\jre
-[19:18:10] [main/ERROR] [FML]: Apache Maven library folder was not in the format expected. Using default libraries directory.
-[19:18:10] [main/ERROR] [FML]: Full: D:\gradle\caches\modules-2\files-2.1\org.apache.maven\maven-artifact\3.5.3\7dc72b6d6d8a6dced3d294ed54c2cc3515ade9f4\maven-artifact-3.5.3.jar
-[19:18:10] [main/ERROR] [FML]: Trimmed: d:/gradle/caches/modules-2/files-2.1/org.apache.maven/maven-artifact/3.5.3/
-[19:18:10] [main/INFO] [FML]: Managed to load a deobfuscated Minecraft name- we are in a deobfuscated environment. Skipping runtime deobfuscation
-[19:18:10] [main/INFO] [FML]: Detected deobfuscated environment, loading log configs for colored console logs.
-[19:18:11] [main/INFO] [FML]: Ignoring missing certificate for coremod FMLCorePlugin (net.minecraftforge.fml.relauncher.FMLCorePlugin), we are in deobf and it's a forge core plugin
-[19:18:11] [main/INFO] [FML]: Ignoring missing certificate for coremod FMLForgePlugin (net.minecraftforge.classloading.FMLForgePlugin), we are in deobf and it's a forge core plugin
-[19:18:11] [main/INFO] [FML]: Searching D:\Files\ME_MODS\tpsmod\versions\forge\mc1.12\run\.\mods for mods
-[19:18:11] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.gradle.tweakers.CoremodTweaker
-[19:18:11] [main/INFO] [GradleStart]: Injecting location in coremod net.minecraftforge.fml.relauncher.FMLCorePlugin
-[19:18:11] [main/INFO] [GradleStart]: Injecting location in coremod net.minecraftforge.classloading.FMLForgePlugin
-[19:18:11] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[19:18:11] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
-[19:18:11] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
-[19:18:11] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[19:18:11] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[19:18:11] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[19:18:13] [main/ERROR] [FML]: FML appears to be missing any signature data. This is not a good thing
-[19:18:13] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[19:18:13] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
-[19:18:13] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
-[19:18:13] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
-[19:18:13] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
-[19:18:13] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.client.main.Main}
-[19:18:16] [main/INFO] [net.minecraft.client.Minecraft]: Setting user: Player687
-[19:18:19] [main/INFO] [net.minecraft.client.Minecraft]: LWJGL Version: 2.9.4
-[19:18:21] [main/INFO] [FML]: -- System Details --
+[10:18:50] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --assetsDir, D:/gradle/caches/minecraft/assets, --assetIndex, 1.12, --accessToken{REDACTED}, --version, 1.12.2, --tweakClass, net.minecraftforge.fml.common.launcher.FMLTweaker, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
+[10:18:50] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[10:18:50] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[10:18:50] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
+[10:18:50] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
+[10:18:50] [main/INFO] [FML]: Forge Mod Loader version 14.23.5.2768 for Minecraft 1.12.2 loading
+[10:18:50] [main/INFO] [FML]: Java is OpenJDK 64-Bit Server VM, version 1.8.0_222, running on Windows 10:amd64:10.0, installed at C:\Program Files\AdoptOpenJDK\jdk-8.0.222.10-hotspot\jre
+[10:18:50] [main/ERROR] [FML]: Apache Maven library folder was not in the format expected. Using default libraries directory.
+[10:18:50] [main/ERROR] [FML]: Full: D:\gradle\caches\modules-2\files-2.1\org.apache.maven\maven-artifact\3.5.3\7dc72b6d6d8a6dced3d294ed54c2cc3515ade9f4\maven-artifact-3.5.3.jar
+[10:18:50] [main/ERROR] [FML]: Trimmed: d:/gradle/caches/modules-2/files-2.1/org.apache.maven/maven-artifact/3.5.3/
+[10:18:50] [main/INFO] [FML]: Managed to load a deobfuscated Minecraft name- we are in a deobfuscated environment. Skipping runtime deobfuscation
+[10:18:50] [main/INFO] [FML]: Detected deobfuscated environment, loading log configs for colored console logs.
+[10:18:51] [main/INFO] [FML]: Ignoring missing certificate for coremod FMLCorePlugin (net.minecraftforge.fml.relauncher.FMLCorePlugin), we are in deobf and it's a forge core plugin
+[10:18:51] [main/INFO] [FML]: Ignoring missing certificate for coremod FMLForgePlugin (net.minecraftforge.classloading.FMLForgePlugin), we are in deobf and it's a forge core plugin
+[10:18:51] [main/INFO] [FML]: Searching D:\Files\ME_MODS\tpsmod\versions\forge\mc1.12\run\.\mods for mods
+[10:18:51] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.gradle.tweakers.CoremodTweaker
+[10:18:51] [main/INFO] [GradleStart]: Injecting location in coremod net.minecraftforge.fml.relauncher.FMLCorePlugin
+[10:18:51] [main/INFO] [GradleStart]: Injecting location in coremod net.minecraftforge.classloading.FMLForgePlugin
+[10:18:51] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[10:18:51] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[10:18:51] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
+[10:18:51] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[10:18:51] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[10:18:51] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[10:18:51] [main/ERROR] [FML]: FML appears to be missing any signature data. This is not a good thing
+[10:18:51] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[10:18:51] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[10:18:52] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
+[10:18:52] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
+[10:18:52] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
+[10:18:52] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.client.main.Main}
+[10:18:52] [main/INFO] [net.minecraft.client.Minecraft]: Setting user: Player734
+[10:18:54] [main/INFO] [net.minecraft.client.Minecraft]: LWJGL Version: 2.9.4
+[10:18:55] [main/INFO] [FML]: -- System Details --
 Details:
 	Minecraft Version: 1.12.2
 	Operating System: Windows 10 (amd64) version 10.0
-	Java Version: 1.8.0_212, AdoptOpenJDK
+	Java Version: 1.8.0_222, AdoptOpenJDK
 	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode), 
-	Memory: 169102552 bytes (161 MB) / 493879296 bytes (471 MB) up to 3787980800 bytes (3612 MB)
+	Memory: 137785824 bytes (131 MB) / 480247808 bytes (458 MB) up to 3787980800 bytes (3612 MB)
 	JVM Flags: 0 total; 
 	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
 	FML: 
 	Loaded coremods (and transformers): 
 	GL info: ' Vendor: 'NVIDIA Corporation' Version: '4.6.0 NVIDIA 425.45' Renderer: 'GeForce GTX 1050/PCIe/SSE2'
-[19:18:21] [main/INFO] [FML]: MinecraftForge v14.23.5.2768 Initialized
-[19:18:21] [main/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
-[19:18:21] [main/INFO] [FML]: Replaced 1036 ore ingredients
-[19:18:21] [main/INFO] [FML]: Searching D:\Files\ME_MODS\tpsmod\versions\forge\mc1.12\run\.\mods for mods
+[10:18:55] [main/INFO] [FML]: MinecraftForge v14.23.5.2768 Initialized
+[10:18:56] [main/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
+[10:18:56] [main/INFO] [FML]: Replaced 1036 ore ingredients
+[10:18:56] [main/INFO] [FML]: Searching D:\Files\ME_MODS\tpsmod\versions\forge\mc1.12\run\.\mods for mods
+[10:18:57] [main/INFO] [FML]: Forge Mod Loader has identified 5 mods to load
+[10:18:57] [main/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, litlaunch] at CLIENT
+[10:18:57] [main/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, litlaunch] at SERVER
+[10:18:58] [main/INFO] [litlaunch]: Preforming LitLaunch Bootstrap!
+[10:18:58] [main/INFO] [litlaunch]: LitLaunch Client Proxy Setting Game Path On Lit Launch!
+[10:18:58] [main/INFO] [litlaunch]: Locating config file!
+[10:18:58] [main/INFO] [litlaunch]: Reading config file for mods and settings...
+[10:18:58] [main/INFO] [litlaunch]: Finding and validating mods!
+[10:18:58] [main/INFO] [litlaunch]: Locating mods!
+[10:18:58] [main/INFO] [litlaunch]: Now Garbage Collecting!
+[10:18:58] [main/INFO] [litlaunch]: Done! Now sending construction event!
+[10:18:58] [main/INFO] [litlaunch]: LitLaunch Client Proxy Constructing!
+[10:18:58] [main/INFO] [net.minecraft.client.resources.SimpleReloadableResourceManager]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:LitLaunch
+[10:18:58] [main/INFO] [FML]: Processing ObjectHolder annotations
+[10:18:58] [main/INFO] [FML]: Found 1168 ObjectHolder annotations
+[10:18:58] [main/INFO] [FML]: Identifying ItemStackHolder annotations
+[10:18:58] [main/INFO] [FML]: Found 0 ItemStackHolder annotations
+[10:18:58] [main/INFO] [FML]: Configured a dormant chunk cache size of 0
+[10:18:58] [main/INFO] [litlaunch]: LitLaunch Client Proxy PreInitializing!
+[10:18:58] [main/INFO] [FML]: Applying holder lookups
+[10:18:58] [main/INFO] [FML]: Holder lookups applied
+[10:18:58] [main/INFO] [FML]: Applying holder lookups
+[10:18:58] [main/INFO] [FML]: Holder lookups applied
+[10:18:58] [main/INFO] [FML]: Applying holder lookups
+[10:18:58] [main/INFO] [FML]: Holder lookups applied
+[10:18:58] [main/INFO] [FML]: Applying holder lookups
+[10:18:58] [main/INFO] [FML]: Holder lookups applied
+[10:18:58] [main/INFO] [FML]: Injecting itemstacks
+[10:18:58] [main/INFO] [FML]: Itemstack injection complete
+[10:18:59] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[10:18:59] [Thread-3/INFO] [FML]: Using sync timing. 200 frames of Display.update took 341125900 nanos
+[10:19:01] [Sound Library Loader/INFO] [net.minecraft.client.audio.SoundManager]: Starting up SoundSystem...
+[10:19:01] [Thread-5/INFO] [net.minecraft.client.audio.SoundManager]: Initializing LWJGL OpenAL
+[10:19:01] [Thread-5/INFO] [net.minecraft.client.audio.SoundManager]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[10:19:02] [Thread-5/INFO] [net.minecraft.client.audio.SoundManager]: OpenAL initialized.
+[10:19:02] [Sound Library Loader/INFO] [net.minecraft.client.audio.SoundManager]: Sound engine started
+[10:19:05] [main/INFO] [FML]: Max texture size: 16384
+[10:19:05] [main/INFO] [net.minecraft.client.renderer.texture.TextureMap]: Created: 512x512 textures-atlas
+[10:19:07] [main/INFO] [FML]: Applying holder lookups
+[10:19:07] [main/INFO] [FML]: Holder lookups applied
+[10:19:07] [main/INFO] [litlaunch]: LitLaunch Client Proxy Initializing!
+[10:19:07] [main/INFO] [FML]: Injecting itemstacks
+[10:19:07] [main/INFO] [FML]: Itemstack injection complete
+[10:19:07] [main/INFO] [litlaunch]: LitLaunch Client Proxy PostInitializing!
+[10:19:07] [main/INFO] [FML]: Forge Mod Loader has successfully loaded 5 mods
+[10:19:07] [main/INFO] [com.mojang.text2speech.NarratorWindows]: Narrator library for x64 successfully loaded
+[10:19:16] [main/INFO] [net.minecraft.client.Minecraft]: Stopping!
+[10:19:16] [main/INFO] [net.minecraft.client.audio.SoundManager]: SoundSystem shutting down...
+[10:19:16] [main/WARN] [net.minecraft.client.audio.SoundManager]: Author: Paul Lamb, www.paulscode.com

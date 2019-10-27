@@ -4,33 +4,39 @@ import cpw.mods.fml.common.eventhandler.SubscribeEvent;
 import net.minecraft.client.Minecraft;
 import net.minecraftforge.event.world.WorldEvent;
 
-public class TpsInitialLoad {
+public class TpsInitialLoad
+{
 	@SubscribeEvent
 	public void worldLoad(WorldEvent.Load event)
 	{
 		new TpsInitialLoad.WaitForLoad("Tps Initial Load").start();
 	}
-	
+
 	@SubscribeEvent
 	public void worldUnLoad(WorldEvent.Unload event)
 	{
 		TpsMod.getTPS.resetVals();
 	}
-	
+
 	class WaitForLoad extends ThreadLogged
 	{
 
-		public WaitForLoad(String name) {
+		public WaitForLoad(String name)
+		{
 			super(name);
 		}
 
 		@Override
-		public void runOn() {
+		public void runOn()
+		{
 			while (Minecraft.getMinecraft().theWorld == null)
 			{
-				try {
+				try
+				{
 					Thread.sleep(100);
-				} catch (InterruptedException e) {
+				}
+				catch (InterruptedException e)
+				{
 					e.printStackTrace();
 				}
 			}
@@ -38,6 +44,6 @@ public class TpsInitialLoad {
 			TpsMod.getTPS.updatePreviousTotalWorldTime(Minecraft.getMinecraft().theWorld);
 			TpsMod.getTPS.updateTPS(Minecraft.getMinecraft().theWorld);
 		}
-		
+
 	}
 }
