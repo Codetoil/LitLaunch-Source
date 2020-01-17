@@ -1,7 +1,7 @@
 <component name="libraryTable">
   <library name="Gradle: com.mojang:realms:1.13.9">
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/../../ForgeDataOffline/com/mojang/realms/1.13.9/realms-1.13.9.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.mojang/realms/1.13.9/88d2ecc34dba880fb4f10c7318b313e067e8b6ae/realms-1.13.9.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />
