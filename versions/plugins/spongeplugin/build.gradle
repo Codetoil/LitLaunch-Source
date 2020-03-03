@@ -1,10 +1,10 @@
 buildscript {
     repositories {
-        /*jcenter()
+        jcenter()
         maven {
             name = 'sponge-repo'
             url = 'https://repo.spongepowered.org/maven'
-        }*/
+        }
         maven {
             name = "local"
             url = "file:///D:\\Files\\ForgeDataOffline"
@@ -20,11 +20,11 @@ plugins {
 }
 
 repositories {
-    /*jcenter()
+    jcenter()
     maven {
         name = 'sponge-repo'
         url = 'https://repo.spongepowered.org/maven'
-    }*/
+    }
     maven {
         name = "local"
         url = "file:///D:\\Files\\ForgeDataOffline"
@@ -35,7 +35,7 @@ repositories {
 compileJava.options.encoding = 'UTF-8'
 
 group = 'io.github.codetoil.litlaunch.version.sponge'
-version = 'sponge-mc1.12.2-v0.0.3.11'
+version = 'sponge-mc1.12.2-v${ver}'
 description = 'An api to allow you to use the same mod with many different modloaders(e.g. Forge or Fabric).\n' +
         ' This also allows for different versions of the modloaders. (i.e. the same mod on 1.7.10 and 1.14.4)'
 

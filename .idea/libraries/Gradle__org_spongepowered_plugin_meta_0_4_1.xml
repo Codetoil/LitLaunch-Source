@@ -1,13 +1,15 @@
 <component name="libraryTable">
   <library name="Gradle: org.spongepowered:plugin-meta:0.4.1">
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/../../ForgeDataOffline/org/spongepowered/plugin-meta/0.4.1/plugin-meta-0.4.1.jar!/" />
+      <root url="jar://$USER_HOME$/ForgeDataOffline/org/spongepowered/plugin-meta/0.4.1/plugin-meta-0.4.1.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.spongepowered/plugin-meta/0.4.1/419e2f7cb6f7ccdb13cbba0c46021c3e2f0fefda/plugin-meta-0.4.1.jar!/" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://D:/gradle/caches/modules-2/files-2.1/org.spongepowered/plugin-meta/0.4.1/689a581c0e531bd8bdaa7d2678b90f3262800221/plugin-meta-0.4.1-javadoc.jar!/" />
     </JAVADOC>
     <SOURCES>
-      <root url="jar://$PROJECT_DIR$/../../ForgeDataOffline/org/spongepowered/plugin-meta/0.4.1/plugin-meta-0.4.1-sources.jar!/" />
+      <root url="jar://$USER_HOME$/ForgeDataOffline/org/spongepowered/plugin-meta/0.4.1/plugin-meta-0.4.1-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.spongepowered/plugin-meta/0.4.1/7db7c6d2dcc7a9fdb74bee95c0ced94294cc00bd/plugin-meta-0.4.1-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

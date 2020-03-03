@@ -18,7 +18,7 @@ import java.nio.file.Path;
 public abstract class LaunchCommon
 {
 	public static final String NAME = "LitLaunch";
-	public static final String VERSION = "0.0.3.14";
+	public static final String VERSION = "0.0.3.15";
 	public static final String MODID = "litlaunch";
 	public static final ChainableMap<String, Object> EMPTY = new ChainableMap<>();
 	private static CommonProxy ccproxy;
@@ -117,7 +117,8 @@ public abstract class LaunchCommon
 		info("Reading config file for mods and settings...");
 		ConfigFile.readConfig(litlaunchCFG);
 		info("Finding and validating mods!");
-		ModFinder.locateMods();
+		ModFinder.locateMods(LaunchCommon.getGamePath().resolve("mods_litlaunch"));
+		ModFinder.locateMods(LaunchCommon.getGamePath().resolve("mods"));
 		ModFinder.validateMods();
 		info("Now Garbage Collecting!");
 		System.gc();
@@ -125,7 +126,7 @@ public abstract class LaunchCommon
 		debug("verbose: " + isVerbose());
 		if (isVerbose())
 		{
-			warn("Warning: You have decided for Lit Launch to be verbose! If you did not intend for this to be verbose, Make sure to change the config file. You will see a spam of debug messages under \"trace\".");
+			warn("Warning: You have decided for LitLaunch to be verbose! If you did not intend for this to be verbose, Make sure to change the config file. You will see a spam of debug messages under \"trace\".");
 		}
 		LitEventHandler.COMMON.post(new LitEvent(LaunchCommon.class, LitEvent.TYPE.CONSTRUCTION, EMPTY));
 		getCcproxy().construction();

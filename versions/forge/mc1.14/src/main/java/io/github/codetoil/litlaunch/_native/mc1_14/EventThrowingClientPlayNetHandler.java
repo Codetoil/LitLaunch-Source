@@ -539,9 +539,8 @@ public class EventThrowingClientPlayNetHandler extends ClientPlayNetHandler
 	}
 
 	@Override
-	public void func_217273_a(SMerchantOffersPacket p_217273_1_)
-	{
-		netHandlerOriginal.func_217273_a(p_217273_1_);
+	public void handleMerchantOffers(SMerchantOffersPacket packetIn) {
+		netHandlerOriginal.handleMerchantOffers(packetIn);
 	}
 
 	@Override

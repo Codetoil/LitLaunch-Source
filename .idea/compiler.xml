@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CompilerConfiguration">
+    <option name="BUILD_PROCESS_HEAP_SIZE" value="2048" />
     <bytecodeTargetLevel>
       <module name="litlaunch+tpsmod.litlaunchsrc.main" target="1.8" />
       <module name="litlaunch+tpsmod.litlaunchsrc.test" target="1.8" />
@@ -29,6 +30,8 @@
       <module name="litlaunch+tpsmod.versions.forge.mc1.13.test" target="1.8" />
       <module name="litlaunch+tpsmod.versions.forge.mc1.14.main" target="1.8" />
       <module name="litlaunch+tpsmod.versions.forge.mc1.14.test" target="1.8" />
+      <module name="litlaunch+tpsmod.versions.forge.mc1.15.main" target="1.8" />
+      <module name="litlaunch+tpsmod.versions.forge.mc1.15.test" target="1.8" />
       <module name="litlaunch+tpsmod.versions.forge.mc1.8.api" target="1.8" />
       <module name="litlaunch+tpsmod.versions.forge.mc1.8.main" target="1.8" />
       <module name="litlaunch+tpsmod.versions.forge.mc1.8.test" target="1.8" />

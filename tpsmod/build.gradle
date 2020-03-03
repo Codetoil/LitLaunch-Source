@@ -14,7 +14,7 @@ version='2.0.1.2.16'
 repositories {
      mavenCentral()
      jcenter()
-     maven { url = "D:/Files/ForgeDataOffline"}
+     //maven { url = "D:/Files/ForgeDataOffline"}
 }
 
 sourceSets {

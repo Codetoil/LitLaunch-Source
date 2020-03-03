@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<module external.linked.project.id=":versions:forge:mc1.8:main" external.linked.project.path="$MODULE_DIR$/../../../../../versions/forge/mc1.8" external.root.project.path="$MODULE_DIR$/../../../../.." external.system.id="GRADLE" external.system.module.group="io.github.codetoil" external.system.module.type="sourceSet" external.system.module.version="forge-mc1.8.9-v0.0.3.14" type="JAVA_MODULE" version="4">
+<module external.linked.project.id=":versions:forge:mc1.8:main" external.linked.project.path="$MODULE_DIR$/../../../../../versions/forge/mc1.8" external.root.project.path="$MODULE_DIR$/../../../../.." external.system.id="GRADLE" external.system.module.group="io.github.codetoil" external.system.module.type="sourceSet" external.system.module.version="forge-mc1.8.9-v0.0.3.15" type="JAVA_MODULE" version="4">
   <component name="FacetManager">
     <facet type="minecraft" name="Minecraft">
       <configuration>
@@ -11,20 +11,12 @@
     </facet>
   </component>
   <component name="McpModuleSettings">
-    <option name="mappingFiles">
-      <set>
-        <option value="D:\gradle\caches\minecraft\de\oceanlabs\mcp\mcp_stable\22\srgs\notch-srg.srg" />
-        <option value="D:\gradle\caches\minecraft\de\oceanlabs\mcp\mcp_stable\22\srgs\srg.exc" />
-        <option value="D:\gradle\caches\minecraft\de\oceanlabs\mcp\mcp_stable\22\srgs\mcp-notch.srg" />
-        <option value="D:\gradle\caches\minecraft\de\oceanlabs\mcp\mcp_stable\22\srgs\mcp-srg.srg" />
-        <option value="D:\gradle\caches\minecraft\de\oceanlabs\mcp\mcp_stable\22\srgs\mcp.exc" />
-        <option value="D:\gradle\caches\minecraft\de\oceanlabs\mcp\mcp_stable\22\srgs\notch-mcp.srg" />
-      </set>
-    </option>
+    <option name="mappingFile" value="C:\Users\Anthony school\.gradle\caches\minecraft\de\oceanlabs\mcp\mcp_stable\22\srgs\mcp-srg.srg" />
     <option name="mcpVersion" value="stable_22" />
     <option name="minecraftVersion" value="1.8.9" />
+    <option name="srgType" value="SRG" />
   </component>
-  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8" inherit-compiler-output="true">
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8" inherit-compiler-output="$fg.debugRepo$">
     <exclude-output />
     <content url="file://$MODULE_DIR$/../../../../../versions/forge/mc1.8/src/main">
       <sourceFolder url="file://$MODULE_DIR$/../../../../../versions/forge/mc1.8/src/main/java" isTestSource="false" />
@@ -36,7 +28,7 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://D:/gradle/caches/minecraft/deobfedDeps/compileDummy.jar!/" />
+          <root url="jar://$USER_HOME$/.gradle/caches/minecraft/deobfedDeps/compileDummy.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -45,7 +37,7 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://D:/gradle/caches/minecraft/deobfedDeps/providedDummy.jar!/" />
+          <root url="jar://$USER_HOME$/.gradle/caches/minecraft/deobfedDeps/providedDummy.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -55,65 +47,45 @@
     <orderEntry type="module-library">
       <library name="Gradle: com.google.code.gson:gson:2.8.0">
         <CLASSES>
-          <root url="jar://D:/gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.8.0/c4ba5371a29ac9b2ad6129b1d39ea38750043eff/gson-2.8.0.jar!/" />
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.8.0/c4ba5371a29ac9b2ad6129b1d39ea38750043eff/gson-2.8.0.jar!/" />
         </CLASSES>
         <JAVADOC>
-          <root url="jar://D:/gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.8.0/4791230388bf03457c7e235b69479b46a5931861/gson-2.8.0-javadoc.jar!/" />
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.8.0/4791230388bf03457c7e235b69479b46a5931861/gson-2.8.0-javadoc.jar!/" />
         </JAVADOC>
         <SOURCES>
-          <root url="jar://D:/gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.8.0/baf95d8519fc1a11d388f8543cb40cd2bb9d66dc/gson-2.8.0-sources.jar!/" />
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.8.0/baf95d8519fc1a11d388f8543cb40cd2bb9d66dc/gson-2.8.0-sources.jar!/" />
         </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="module-library">
       <library name="Gradle: com.google.guava:guava:21.0">
         <CLASSES>
-          <root url="jar://D:/gradle/caches/modules-2/files-2.1/com.google.guava/guava/21.0/3a3d111be1be1b745edfa7d91678a12d7ed38709/guava-21.0.jar!/" />
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/21.0/3a3d111be1be1b745edfa7d91678a12d7ed38709/guava-21.0.jar!/" />
         </CLASSES>
         <JAVADOC>
-          <root url="jar://D:/gradle/caches/modules-2/files-2.1/com.google.guava/guava/21.0/7d48c9b5304b8bab31d1ed7c9ef9670b646866c0/guava-21.0-javadoc.jar!/" />
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/21.0/7d48c9b5304b8bab31d1ed7c9ef9670b646866c0/guava-21.0-javadoc.jar!/" />
         </JAVADOC>
         <SOURCES>
-          <root url="jar://D:/gradle/caches/modules-2/files-2.1/com.google.guava/guava/21.0/b9ed26b8c23fe7cd3e6b463b34e54e5c6d9536d5/guava-21.0-sources.jar!/" />
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/21.0/b9ed26b8c23fe7cd3e6b463b34e54e5c6d9536d5/guava-21.0-sources.jar!/" />
         </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://D:/gradle/caches/minecraft/net/minecraftforge/forge/1.8.9-11.15.1.2318-1.8.9/stable/22/forgeSrc-1.8.9-11.15.1.2318-1.8.9.jar!/" />
+          <root url="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.8.9-11.15.1.2318-1.8.9/stable/22/forgeSrc-1.8.9-11.15.1.2318-1.8.9.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES>
-          <root url="jar://D:/gradle/caches/minecraft/net/minecraftforge/forge/1.8.9-11.15.1.2318-1.8.9/stable/22/forgeSrc-1.8.9-11.15.1.2318-1.8.9-sources.jar!/" />
+          <root url="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.8.9-11.15.1.2318-1.8.9/stable/22/forgeSrc-1.8.9-11.15.1.2318-1.8.9-sources.jar!/" />
         </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="library" name="Gradle: com.mojang:netty:1.6" level="project" />
-    <orderEntry type="module-library">
-      <library name="Gradle: oshi-project:oshi-core:1.1">
-        <CLASSES>
-          <root url="jar://D:/gradle/caches/modules-2/files-2.1/oshi-project/oshi-core/1.1/9ddf7b048a8d701be231c0f4f95fd986198fd2d8/oshi-core-1.1.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES>
-          <root url="jar://D:/gradle/caches/modules-2/files-2.1/oshi-project/oshi-core/1.1/1ec1ab1e6ac5a1572edfd0dd9ac95e83684b8a65/oshi-core-1.1-sources.jar!/" />
-        </SOURCES>
-      </library>
-    </orderEntry>
+    <orderEntry type="library" name="Gradle: oshi-project:oshi-core:1.1" level="project" />
     <orderEntry type="library" name="Gradle: net.java.dev.jna:jna:3.4.0" level="project" />
     <orderEntry type="library" name="Gradle: net.java.dev.jna:platform:3.4.0" level="project" />
-    <orderEntry type="module-library">
-      <library name="Gradle: com.ibm.icu:icu4j-core-mojang:51.2">
-        <CLASSES>
-          <root url="jar://D:/gradle/caches/modules-2/files-2.1/com.ibm.icu/icu4j-core-mojang/51.2/63d216a9311cca6be337c1e458e587f99d382b84/icu4j-core-mojang-51.2.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES>
-          <root url="jar://D:/gradle/caches/modules-2/files-2.1/com.ibm.icu/icu4j-core-mojang/51.2/814397ccbafff1132758e551c37396c528d7f2d7/icu4j-core-mojang-51.2-sources.jar!/" />
-        </SOURCES>
-      </library>
-    </orderEntry>
+    <orderEntry type="library" name="Gradle: com.ibm.icu:icu4j-core-mojang:51.2" level="project" />
     <orderEntry type="library" name="Gradle: net.minecraft:launchwrapper:1.12" level="project" />
     <orderEntry type="library" name="Gradle: net.sf.jopt-simple:jopt-simple:4.6" level="project" />
     <orderEntry type="library" name="Gradle: io.netty:netty-all:4.0.23.Final" level="project" />
@@ -152,52 +124,12 @@
     <orderEntry type="library" name="Gradle: org.scala-lang:scala-library:2.11.1" level="project" />
     <orderEntry type="library" name="Gradle: lzma:lzma:0.0.1" level="project" />
     <orderEntry type="library" name="Gradle: net.sf.trove4j:trove4j:3.0.3" level="project" />
-    <orderEntry type="module-library">
-      <library name="Gradle: com.paulscode:codecjorbis:20101023">
-        <CLASSES>
-          <root url="jar://D:/gradle/caches/modules-2/files-2.1/com.paulscode/codecjorbis/20101023/c73b5636faf089d9f00e8732a829577de25237ee/codecjorbis-20101023.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES>
-          <root url="jar://D:/gradle/caches/modules-2/files-2.1/com.paulscode/codecjorbis/20101023/4ca2436396bc14ebd78b7db1d4e11ca607c8705e/codecjorbis-20101023-sources.jar!/" />
-        </SOURCES>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library name="Gradle: com.paulscode:codecwav:20101023">
-        <CLASSES>
-          <root url="jar://D:/gradle/caches/modules-2/files-2.1/com.paulscode/codecwav/20101023/12f031cfe88fef5c1dd36c563c0a3a69bd7261da/codecwav-20101023.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES>
-          <root url="jar://D:/gradle/caches/modules-2/files-2.1/com.paulscode/codecwav/20101023/71ec00b9b9c1a6a2c3a8a25f481a23ddb5b21ddb/codecwav-20101023-sources.jar!/" />
-        </SOURCES>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library name="Gradle: com.paulscode:libraryjavasound:20101123">
-        <CLASSES>
-          <root url="jar://D:/gradle/caches/modules-2/files-2.1/com.paulscode/libraryjavasound/20101123/5c5e304366f75f9eaa2e8cca546a1fb6109348b3/libraryjavasound-20101123.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES>
-          <root url="jar://D:/gradle/caches/modules-2/files-2.1/com.paulscode/libraryjavasound/20101123/945ff5711de27751cf699641d1ea316ba6cf7589/libraryjavasound-20101123-sources.jar!/" />
-        </SOURCES>
-      </library>
-    </orderEntry>
+    <orderEntry type="library" name="Gradle: com.paulscode:codecjorbis:20101023" level="project" />
+    <orderEntry type="library" name="Gradle: com.paulscode:codecwav:20101023" level="project" />
+    <orderEntry type="library" name="Gradle: com.paulscode:libraryjavasound:20101123" level="project" />
     <orderEntry type="library" name="Gradle: com.paulscode:soundsystem:20120107" level="project" />
     <orderEntry type="library" name="Gradle: tv.twitch:twitch:6.5" level="project" />
-    <orderEntry type="module-library">
-      <library name="Gradle: java3d:vecmath:1.5.2">
-        <CLASSES>
-          <root url="jar://D:/gradle/caches/modules-2/files-2.1/java3d/vecmath/1.5.2/79846ba34cbd89e2422d74d53752f993dcc2ccaf/vecmath-1.5.2.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES>
-          <root url="jar://D:/gradle/caches/modules-2/files-2.1/java3d/vecmath/1.5.2/42442b23189fbef9353c1751055610b63dd57e85/vecmath-1.5.2-sources.jar!/" />
-        </SOURCES>
-      </library>
-    </orderEntry>
+    <orderEntry type="library" name="Gradle: java3d:vecmath:1.5.2" level="project" />
     <orderEntry type="library" name="Gradle: org.fusesource.jansi:jansi:1.11" level="project" />
     <orderEntry type="library" name="Gradle: net.java.jinput:jinput-platform:natives-linux:2.0.5" level="project" />
     <orderEntry type="library" name="Gradle: net.java.jinput:jinput-platform:natives-windows:2.0.5" level="project" />
@@ -213,7 +145,7 @@
     <orderEntry type="module-library" scope="RUNTIME">
       <library>
         <CLASSES>
-          <root url="file://D:/gradle/caches/minecraft/net/minecraftforge/forge/1.8.9-11.15.1.2318-1.8.9/start" />
+          <root url="file://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.8.9-11.15.1.2318-1.8.9/start" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />

@@ -1,12 +1,12 @@
 buildscript {
     ext.kotlin_version = '1.3.31'
     repositories {
-        /*jcenter()
-        maven { url = "http://files.minecraftforge.net/maven" }*/
-        maven {
-            name = "local"
-            url = "file:///D:\\Files\\ForgeDataOffline"
-        }
+        jcenter()
+        maven { url = "http://files.minecraftforge.net/maven" }
+        //maven {
+        //    name = "local"
+        //    url = "file:///D:\\Files\\ForgeDataOffline"
+        //}
     }
     dependencies {
         classpath 'net.minecraftforge.gradle:ForgeGradle:2.3-SNAPSHOT'
@@ -20,15 +20,15 @@ apply plugin: 'net.minecraftforge.gradle.forge'
 //Only edit below this line, the above code adds and enables the necessary things for Forge to be setup.
 
 repositories {
-    /*jcenter()
-    maven { url = "http://files.minecraftforge.net/maven" }*/
-    maven {
-        name = "local"
-        url = "file:///D:\\Files\\ForgeDataOffline"
-    }
+    jcenter()
+    maven { url = "http://files.minecraftforge.net/maven" }
+    //maven {
+     //   name = "local"
+     //   url = "file:///D:\\Files\\ForgeDataOffline"
+    //}
 }
 
-version = "forge-mc1.12.2-v0.0.3.14"
+version = "forge-mc1.12.2-v${ver}"
 group = "io.github.codetoil" // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = "litlaunch"
 

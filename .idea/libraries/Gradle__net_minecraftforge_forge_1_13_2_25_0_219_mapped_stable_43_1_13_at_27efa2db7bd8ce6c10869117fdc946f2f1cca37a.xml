@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="Gradle: net.minecraftforge:forge:1.13.2-25.0.219_mapped_stable_43-1.13_at_27efa2db7bd8ce6c10869117fdc946f2f1cca37a">
-    <CLASSES>
-      <root url="jar://$PROJECT_DIR$/versions/forge/mc1.13/build/fg_cache/net/minecraftforge/forge/1.13.2-25.0.219_mapped_stable_43-1.13/forge-1.13.2-25.0.219_mapped_stable_43-1.13.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>

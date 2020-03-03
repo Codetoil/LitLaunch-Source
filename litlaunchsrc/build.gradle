@@ -8,10 +8,10 @@ dependencies {
 repositories {
     mavenCentral()
     jcenter()
-    maven { url = "D:/Files/ForgeDataOffline"}
+    //maven { url = "D:/Files/ForgeDataOffline"}
 }
 
-version="0.0.3.14-api"
+version="${ver}-api"
 
 sourceSets {
     main {

@@ -4,11 +4,12 @@
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
-        <option name="delegatedBuild" value="true" />
+        <option name="delegatedBuild" value="$fg.debugRepo$" />
         <option name="testRunner" value="GRADLE" />
-        <option name="distributionType" value="LOCAL" />
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="gradleHome" value="D:/gradle/wrapper/dists/gradle-4.10.3-bin/31t79e2qsceia4mkbojplrgx/gradle-4.10.3" />
+        <option name="gradleJvm" value="1.8" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
@@ -17,15 +18,15 @@
             <option value="$PROJECT_DIR$/versions" />
             <option value="$PROJECT_DIR$/versions/forge" />
             <option value="$PROJECT_DIR$/versions/forge/mc1.12" />
-            <option value="$PROJECT_DIR$/versions/forge/mc1.13" />
             <option value="$PROJECT_DIR$/versions/forge/mc1.14" />
+            <option value="$PROJECT_DIR$/versions/forge/mc1.15" />
             <option value="$PROJECT_DIR$/versions/forge/mc1.8" />
             <option value="$PROJECT_DIR$/versions/plugins" />
             <option value="$PROJECT_DIR$/versions/plugins/spongeplugin" />
           </set>
         </option>
-        <option name="useAutoImport" value="true" />
-        <option name="useQualifiedModuleNames" value="true" />
+        <option name="useAutoImport" value="$fg.debugRepo$" />
+        <option name="useQualifiedModuleNames" value="$fg.debugRepo$" />
       </GradleProjectSettings>
     </option>
   </component>

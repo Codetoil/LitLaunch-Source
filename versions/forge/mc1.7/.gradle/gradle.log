@@ -1,15 +1,2 @@
-Etag download for http://export.mcpbot.bspk.rs/versions.json failed with code 503Etag download for http://export.mcpbot.bspk.rs/versions.json failed with code 503
-
-#################################################
-         ForgeGradle 1.2-SNAPSHOT-fb514d3        
-  https://github.com/MinecraftForge/ForgeGradle  
-#################################################
-               Powered by MCP unknown               
-             http://modcoderpack.com             
-         by: Searge, ProfMobius, Fesh0r,         
-         R4wk, ZeuX, IngisKahn, bspkrs           
-#################################################
-
-BUILD SUCCESSFUL
-
-Total time: 41.209 secs
+Etag download for http://files.minecraftforge.net/maven/net/minecraftforge/forge/json failed with code 404
+Error occurred parsing version!

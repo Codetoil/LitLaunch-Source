@@ -1,10 +1,10 @@
 modLoader="javafml" #mandatory
 loaderVersion="[25,)" #mandatory
-displayURL="https://github.com/Codetoil/TPS-Mod-Source" #optional
+displayURL="https://github.com/Codetoil/LitLaunch-Source" #optional
 authors="Codetoil" #optional
 [[mods]] #mandatory
 modId="litlaunch" #mandatory
-version="0.0.3.11" #mandatory
+version="0.0.3.15" #mandatory
 displayName="Lit Launch" #mandatory
 description='''
 An api to allow you to use the same mod with many different modloaders(e.g. Forge or Fabric).

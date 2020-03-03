@@ -32,10 +32,9 @@ public class ModFinder
 	private final static List<String> MOD_LIST = new ArrayList<>();
 
 
-	public static void locateMods()
+	public static void locateMods(Path modsFolder)
 	{
 		FrontEnd.info("Locating mods!");
-		Path modsFolder = LaunchCommon.getGamePath().resolve("mods_litlaunch");
 		FrontEnd.trace(modsFolder);
 		if (modsFolder.toFile().isDirectory())
 		{
