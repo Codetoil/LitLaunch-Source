@@ -1,0 +1,4 @@
+name: Litlaunch
+version: @version@
+main: io.github.codetoil.litlaunch.LitlaunchBukkit
+api-version: 1.13
