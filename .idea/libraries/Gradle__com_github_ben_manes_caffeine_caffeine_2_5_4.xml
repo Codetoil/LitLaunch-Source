@@ -1,14 +1,10 @@
 <component name="libraryTable">
   <library name="Gradle: com.github.ben-manes.caffeine:caffeine:2.5.4">
     <CLASSES>
-      <root url="jar://$USER_HOME$/ForgeDataOffline/com/github/ben-manes/caffeine/caffeine/2.5.4/caffeine-2.5.4.jar!/" />
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.ben-manes.caffeine/caffeine/2.5.4/a162a31c2973550a8cd37cb9773a814ae3394fbb/caffeine-2.5.4.jar!/" />
     </CLASSES>
-    <JAVADOC>
-      <root url="jar://D:/gradle/caches/modules-2/files-2.1/com.github.ben-manes.caffeine/caffeine/2.5.4/367926bffc0389aeaf30f0351dfff4a10b2b1dbc/caffeine-2.5.4-javadoc.jar!/" />
-    </JAVADOC>
+    <JAVADOC />
     <SOURCES>
-      <root url="jar://$USER_HOME$/ForgeDataOffline/com/github/ben-manes/caffeine/caffeine/2.5.4/caffeine-2.5.4-sources.jar!/" />
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.ben-manes.caffeine/caffeine/2.5.4/28e84ab1f5952824e092a2634142efc1f6152c9b/caffeine-2.5.4-sources.jar!/" />
     </SOURCES>
   </library>

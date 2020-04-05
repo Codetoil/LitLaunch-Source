@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="deobfed">
-    <CLASSES>
-      <root url="jar://$PROJECT_DIR$/SpongeForge/SpongeCommon/build/tmp/deobfMcSRG/deobfed.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>

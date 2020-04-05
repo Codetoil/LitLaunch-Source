@@ -2,42 +2,34 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/SpongeForge/SpongeCommon/SpongeAPI/SpongeAPI.iml" filepath="$PROJECT_DIR$/SpongeForge/SpongeCommon/SpongeAPI/SpongeAPI.iml" />
-      <module fileurl="file://$PROJECT_DIR$/SpongeForge/SpongeCommon/SpongeCommon.iml" filepath="$PROJECT_DIR$/SpongeForge/SpongeCommon/SpongeCommon.iml" />
-      <module fileurl="file://$PROJECT_DIR$/SpongeForge/SpongeForge.iml" filepath="$PROJECT_DIR$/SpongeForge/SpongeForge.iml" />
-      <module fileurl="file://$PROJECT_DIR$/versions/forge/mc1.7/build/sources/build.iml" filepath="$PROJECT_DIR$/versions/forge/mc1.7/build/sources/build.iml" />
-      <module fileurl="file://$PROJECT_DIR$/litlaunch+tpsmod.iml" filepath="$PROJECT_DIR$/litlaunch+tpsmod.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/litlaunchsrc/litlaunch+tpsmod.litlaunchsrc.iml" filepath="$PROJECT_DIR$/.idea/modules/litlaunchsrc/litlaunch+tpsmod.litlaunchsrc.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/litlaunchsrc/litlaunch+tpsmod.litlaunchsrc.main.iml" filepath="$PROJECT_DIR$/.idea/modules/litlaunchsrc/litlaunch+tpsmod.litlaunchsrc.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/litlaunchsrc/litlaunch+tpsmod.litlaunchsrc.test.iml" filepath="$PROJECT_DIR$/.idea/modules/litlaunchsrc/litlaunch+tpsmod.litlaunchsrc.test.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/tpsmod/litlaunch+tpsmod.tpsmod.iml" filepath="$PROJECT_DIR$/.idea/modules/tpsmod/litlaunch+tpsmod.tpsmod.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/tpsmod/litlaunch+tpsmod.tpsmod.main.iml" filepath="$PROJECT_DIR$/.idea/modules/tpsmod/litlaunch+tpsmod.tpsmod.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/tpsmod/litlaunch+tpsmod.tpsmod.test.iml" filepath="$PROJECT_DIR$/.idea/modules/tpsmod/litlaunch+tpsmod.tpsmod.test.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/versions/litlaunch+tpsmod.versions.iml" filepath="$PROJECT_DIR$/.idea/modules/versions/litlaunch+tpsmod.versions.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/versions/forge/litlaunch+tpsmod.versions.forge.iml" filepath="$PROJECT_DIR$/.idea/modules/versions/forge/litlaunch+tpsmod.versions.forge.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/versions/forge/mc1.12/litlaunch+tpsmod.versions.forge.mc1.12.iml" filepath="$PROJECT_DIR$/.idea/modules/versions/forge/mc1.12/litlaunch+tpsmod.versions.forge.mc1.12.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/versions/forge/mc1.12/litlaunch+tpsmod.versions.forge.mc1.12.api.iml" filepath="$PROJECT_DIR$/.idea/modules/versions/forge/mc1.12/litlaunch+tpsmod.versions.forge.mc1.12.api.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/versions/forge/mc1.12/litlaunch+tpsmod.versions.forge.mc1.12.main.iml" filepath="$PROJECT_DIR$/.idea/modules/versions/forge/mc1.12/litlaunch+tpsmod.versions.forge.mc1.12.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/versions/forge/mc1.12/litlaunch+tpsmod.versions.forge.mc1.12.test.iml" filepath="$PROJECT_DIR$/.idea/modules/versions/forge/mc1.12/litlaunch+tpsmod.versions.forge.mc1.12.test.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/versions/forge/mc1.14/litlaunch+tpsmod.versions.forge.mc1.14.iml" filepath="$PROJECT_DIR$/.idea/modules/versions/forge/mc1.14/litlaunch+tpsmod.versions.forge.mc1.14.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/versions/forge/mc1.14/litlaunch+tpsmod.versions.forge.mc1.14.main.iml" filepath="$PROJECT_DIR$/.idea/modules/versions/forge/mc1.14/litlaunch+tpsmod.versions.forge.mc1.14.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/versions/forge/mc1.14/litlaunch+tpsmod.versions.forge.mc1.14.test.iml" filepath="$PROJECT_DIR$/.idea/modules/versions/forge/mc1.14/litlaunch+tpsmod.versions.forge.mc1.14.test.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/versions/forge/mc1.15/litlaunch+tpsmod.versions.forge.mc1.15.iml" filepath="$PROJECT_DIR$/.idea/modules/versions/forge/mc1.15/litlaunch+tpsmod.versions.forge.mc1.15.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/versions/forge/mc1.15/litlaunch+tpsmod.versions.forge.mc1.15.main.iml" filepath="$PROJECT_DIR$/.idea/modules/versions/forge/mc1.15/litlaunch+tpsmod.versions.forge.mc1.15.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/versions/forge/mc1.15/litlaunch+tpsmod.versions.forge.mc1.15.test.iml" filepath="$PROJECT_DIR$/.idea/modules/versions/forge/mc1.15/litlaunch+tpsmod.versions.forge.mc1.15.test.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/versions/forge/mc1.8/litlaunch+tpsmod.versions.forge.mc1.8.iml" filepath="$PROJECT_DIR$/.idea/modules/versions/forge/mc1.8/litlaunch+tpsmod.versions.forge.mc1.8.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/versions/forge/mc1.8/litlaunch+tpsmod.versions.forge.mc1.8.api.iml" filepath="$PROJECT_DIR$/.idea/modules/versions/forge/mc1.8/litlaunch+tpsmod.versions.forge.mc1.8.api.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/versions/forge/mc1.8/litlaunch+tpsmod.versions.forge.mc1.8.main.iml" filepath="$PROJECT_DIR$/.idea/modules/versions/forge/mc1.8/litlaunch+tpsmod.versions.forge.mc1.8.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/versions/forge/mc1.8/litlaunch+tpsmod.versions.forge.mc1.8.test.iml" filepath="$PROJECT_DIR$/.idea/modules/versions/forge/mc1.8/litlaunch+tpsmod.versions.forge.mc1.8.test.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/versions/plugins/litlaunch+tpsmod.versions.plugins.iml" filepath="$PROJECT_DIR$/.idea/modules/versions/plugins/litlaunch+tpsmod.versions.plugins.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/versions/plugins/spongeplugin/litlaunch+tpsmod.versions.plugins.spongeplugin.iml" filepath="$PROJECT_DIR$/.idea/modules/versions/plugins/spongeplugin/litlaunch+tpsmod.versions.plugins.spongeplugin.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/versions/plugins/spongeplugin/litlaunch+tpsmod.versions.plugins.spongeplugin.main.iml" filepath="$PROJECT_DIR$/.idea/modules/versions/plugins/spongeplugin/litlaunch+tpsmod.versions.plugins.spongeplugin.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/versions/plugins/spongeplugin/litlaunch+tpsmod.versions.plugins.spongeplugin.test.iml" filepath="$PROJECT_DIR$/.idea/modules/versions/plugins/spongeplugin/litlaunch+tpsmod.versions.plugins.spongeplugin.test.iml" />
-      <module fileurl="file://$PROJECT_DIR$/versions/forge/mc1.7/src - Copy/main/main5.iml" filepath="$PROJECT_DIR$/versions/forge/mc1.7/src - Copy/main/main5.iml" />
-      <module fileurl="file://$PROJECT_DIR$/versions/forge/mc1.7/build/tmp/makeStart/makeStart2.iml" filepath="$PROJECT_DIR$/versions/forge/mc1.7/build/tmp/makeStart/makeStart2.iml" />
-      <module fileurl="file://$PROJECT_DIR$/versions/forge/mc1.7/mc1.7.iml" filepath="$PROJECT_DIR$/versions/forge/mc1.7/mc1.7.iml" />
-      <module fileurl="file://$PROJECT_DIR$/SpongeForge/testmods/testmods.iml" filepath="$PROJECT_DIR$/SpongeForge/testmods/testmods.iml" />
-      <module fileurl="file://$PROJECT_DIR$/SpongeForge/SpongeCommon/testplugins/testplugins.iml" filepath="$PROJECT_DIR$/SpongeForge/SpongeCommon/testplugins/testplugins.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LitLaunch/LitLaunch.iml" filepath="$PROJECT_DIR$/LitLaunch/LitLaunch.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/litlaunch.iml" filepath="$PROJECT_DIR$/.idea/modules/litlaunch.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/litlaunch-bukkit/litlaunch.litlaunch-bukkit.iml" filepath="$PROJECT_DIR$/.idea/modules/litlaunch-bukkit/litlaunch.litlaunch-bukkit.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/litlaunch-bukkit/litlaunch.litlaunch-bukkit.main.iml" filepath="$PROJECT_DIR$/.idea/modules/litlaunch-bukkit/litlaunch.litlaunch-bukkit.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/litlaunch-bukkit/litlaunch.litlaunch-bukkit.test.iml" filepath="$PROJECT_DIR$/.idea/modules/litlaunch-bukkit/litlaunch.litlaunch-bukkit.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/litlaunch-common/litlaunch.litlaunch-common.iml" filepath="$PROJECT_DIR$/.idea/modules/litlaunch-common/litlaunch.litlaunch-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/litlaunch-common/litlaunch.litlaunch-common.main.iml" filepath="$PROJECT_DIR$/.idea/modules/litlaunch-common/litlaunch.litlaunch-common.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/litlaunch-common/litlaunch.litlaunch-common.test.iml" filepath="$PROJECT_DIR$/.idea/modules/litlaunch-common/litlaunch.litlaunch-common.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/litlaunch-forge-1.12.2/litlaunch.litlaunch-forge-1.12.2.iml" filepath="$PROJECT_DIR$/.idea/modules/litlaunch-forge-1.12.2/litlaunch.litlaunch-forge-1.12.2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/litlaunch-forge-1.12.2/litlaunch.litlaunch-forge-1.12.2.api.iml" filepath="$PROJECT_DIR$/.idea/modules/litlaunch-forge-1.12.2/litlaunch.litlaunch-forge-1.12.2.api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/litlaunch-forge-1.12.2/litlaunch.litlaunch-forge-1.12.2.main.iml" filepath="$PROJECT_DIR$/.idea/modules/litlaunch-forge-1.12.2/litlaunch.litlaunch-forge-1.12.2.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/litlaunch-forge-1.12.2/litlaunch.litlaunch-forge-1.12.2.test.iml" filepath="$PROJECT_DIR$/.idea/modules/litlaunch-forge-1.12.2/litlaunch.litlaunch-forge-1.12.2.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/litlaunch-forge-1.14.4/litlaunch.litlaunch-forge-1.14.4.iml" filepath="$PROJECT_DIR$/.idea/modules/litlaunch-forge-1.14.4/litlaunch.litlaunch-forge-1.14.4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/litlaunch-forge-1.14.4/litlaunch.litlaunch-forge-1.14.4.main.iml" filepath="$PROJECT_DIR$/.idea/modules/litlaunch-forge-1.14.4/litlaunch.litlaunch-forge-1.14.4.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/litlaunch-forge-1.14.4/litlaunch.litlaunch-forge-1.14.4.test.iml" filepath="$PROJECT_DIR$/.idea/modules/litlaunch-forge-1.14.4/litlaunch.litlaunch-forge-1.14.4.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/litlaunch-forge-1.15.2/litlaunch.litlaunch-forge-1.15.2.iml" filepath="$PROJECT_DIR$/.idea/modules/litlaunch-forge-1.15.2/litlaunch.litlaunch-forge-1.15.2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/litlaunch-forge-1.15.2/litlaunch.litlaunch-forge-1.15.2.main.iml" filepath="$PROJECT_DIR$/.idea/modules/litlaunch-forge-1.15.2/litlaunch.litlaunch-forge-1.15.2.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/litlaunch-forge-1.15.2/litlaunch.litlaunch-forge-1.15.2.test.iml" filepath="$PROJECT_DIR$/.idea/modules/litlaunch-forge-1.15.2/litlaunch.litlaunch-forge-1.15.2.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/litlaunch-forge-1.8.9/litlaunch.litlaunch-forge-1.8.9.iml" filepath="$PROJECT_DIR$/.idea/modules/litlaunch-forge-1.8.9/litlaunch.litlaunch-forge-1.8.9.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/litlaunch-forge-1.8.9/litlaunch.litlaunch-forge-1.8.9.api.iml" filepath="$PROJECT_DIR$/.idea/modules/litlaunch-forge-1.8.9/litlaunch.litlaunch-forge-1.8.9.api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/litlaunch-forge-1.8.9/litlaunch.litlaunch-forge-1.8.9.main.iml" filepath="$PROJECT_DIR$/.idea/modules/litlaunch-forge-1.8.9/litlaunch.litlaunch-forge-1.8.9.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/litlaunch-forge-1.8.9/litlaunch.litlaunch-forge-1.8.9.test.iml" filepath="$PROJECT_DIR$/.idea/modules/litlaunch-forge-1.8.9/litlaunch.litlaunch-forge-1.8.9.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/litlaunch-sponge/litlaunch.litlaunch-sponge.iml" filepath="$PROJECT_DIR$/.idea/modules/litlaunch-sponge/litlaunch.litlaunch-sponge.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/litlaunch-sponge/litlaunch.litlaunch-sponge.main.iml" filepath="$PROJECT_DIR$/.idea/modules/litlaunch-sponge/litlaunch.litlaunch-sponge.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/litlaunch-sponge/litlaunch.litlaunch-sponge.test.iml" filepath="$PROJECT_DIR$/.idea/modules/litlaunch-sponge/litlaunch.litlaunch-sponge.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/tpsmodsrc/litlaunch.tpsmodsrc.iml" filepath="$PROJECT_DIR$/.idea/modules/tpsmodsrc/litlaunch.tpsmodsrc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/tpsmodsrc/litlaunch.tpsmodsrc.main.iml" filepath="$PROJECT_DIR$/.idea/modules/tpsmodsrc/litlaunch.tpsmodsrc.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/tpsmodsrc/litlaunch.tpsmodsrc.test.iml" filepath="$PROJECT_DIR$/.idea/modules/tpsmodsrc/litlaunch.tpsmodsrc.test.iml" />
     </modules>
   </component>
 </project>

@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="deobfed3">
-    <CLASSES>
-      <root url="jar://$PROJECT_DIR$/versions/forge/mc1.12/build/tmp/deobfMcSRG/deobfed.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>

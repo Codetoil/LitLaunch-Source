@@ -1,14 +1,10 @@
 <component name="libraryTable">
   <library name="Gradle: com.google.inject:guice:4.1.0">
     <CLASSES>
-      <root url="jar://$USER_HOME$/ForgeDataOffline/com/google/inject/guice/4.1.0/guice-4.1.0.jar!/" />
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.inject/guice/4.1.0/eeb69005da379a10071aa4948c48d89250febb07/guice-4.1.0.jar!/" />
     </CLASSES>
-    <JAVADOC>
-      <root url="jar://D:/gradle/caches/modules-2/files-2.1/com.google.inject/guice/4.1.0/ea11f69906201086c4e09eca556519ef7db77d8f/guice-4.1.0-javadoc.jar!/" />
-    </JAVADOC>
+    <JAVADOC />
     <SOURCES>
-      <root url="jar://$USER_HOME$/ForgeDataOffline/com/google/inject/guice/4.1.0/guice-4.1.0-sources.jar!/" />
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.inject/guice/4.1.0/3f43f7c8743238f310246cfb13ba3e2e1aca6655/guice-4.1.0-sources.jar!/" />
     </SOURCES>
   </library>

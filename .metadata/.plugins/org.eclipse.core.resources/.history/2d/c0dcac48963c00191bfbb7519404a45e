@@ -1,8 +1,0 @@
-package io.github.littoil.litlaunch.launchcommon;
-
-public interface ILogger {
-	public void println(Object obj);
-	public void println(String str);
-	public void print(Object obj);
-	public void print(String str);
-}

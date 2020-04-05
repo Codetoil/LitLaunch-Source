@@ -1,42 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CompilerConfiguration">
-    <option name="BUILD_PROCESS_HEAP_SIZE" value="2048" />
     <bytecodeTargetLevel>
-      <module name="litlaunch+tpsmod.litlaunchsrc.main" target="1.8" />
-      <module name="litlaunch+tpsmod.litlaunchsrc.test" target="1.8" />
-      <module name="litlaunch+tpsmod.SpongeForge.api" target="1.8" />
-      <module name="litlaunch+tpsmod.SpongeForge.java6" target="1.6" />
-      <module name="litlaunch+tpsmod.SpongeForge.main" target="1.8" />
-      <module name="litlaunch+tpsmod.SpongeForge.SpongeCommon.java6" target="1.6" />
-      <module name="litlaunch+tpsmod.SpongeForge.SpongeCommon.main" target="1.8" />
-      <module name="litlaunch+tpsmod.SpongeForge.SpongeCommon.SpongeAPI.ap" target="1.8" />
-      <module name="litlaunch+tpsmod.SpongeForge.SpongeCommon.SpongeAPI.main" target="1.8" />
-      <module name="litlaunch+tpsmod.SpongeForge.SpongeCommon.SpongeAPI.test" target="1.8" />
-      <module name="litlaunch+tpsmod.SpongeForge.SpongeCommon.test" target="1.8" />
-      <module name="litlaunch+tpsmod.SpongeForge.SpongeCommon.testplugins.main" target="1.8" />
-      <module name="litlaunch+tpsmod.SpongeForge.SpongeCommon.testplugins.test" target="1.8" />
-      <module name="litlaunch+tpsmod.SpongeForge.test" target="1.8" />
-      <module name="litlaunch+tpsmod.SpongeForge.testmods.main" target="1.8" />
-      <module name="litlaunch+tpsmod.SpongeForge.testmods.test" target="1.8" />
-      <module name="litlaunch+tpsmod.spongetpsmod.main" target="1.8" />
-      <module name="litlaunch+tpsmod.spongetpsmod.test" target="1.8" />
-      <module name="litlaunch+tpsmod.tpsmod.main" target="1.8" />
-      <module name="litlaunch+tpsmod.tpsmod.test" target="1.8" />
-      <module name="litlaunch+tpsmod.versions.forge.mc1.12.api" target="1.8" />
-      <module name="litlaunch+tpsmod.versions.forge.mc1.12.main" target="1.8" />
-      <module name="litlaunch+tpsmod.versions.forge.mc1.12.test" target="1.8" />
-      <module name="litlaunch+tpsmod.versions.forge.mc1.13.main" target="1.8" />
-      <module name="litlaunch+tpsmod.versions.forge.mc1.13.test" target="1.8" />
-      <module name="litlaunch+tpsmod.versions.forge.mc1.14.main" target="1.8" />
-      <module name="litlaunch+tpsmod.versions.forge.mc1.14.test" target="1.8" />
-      <module name="litlaunch+tpsmod.versions.forge.mc1.15.main" target="1.8" />
-      <module name="litlaunch+tpsmod.versions.forge.mc1.15.test" target="1.8" />
-      <module name="litlaunch+tpsmod.versions.forge.mc1.8.api" target="1.8" />
-      <module name="litlaunch+tpsmod.versions.forge.mc1.8.main" target="1.8" />
-      <module name="litlaunch+tpsmod.versions.forge.mc1.8.test" target="1.8" />
-      <module name="litlaunch+tpsmod.versions.plugins.spongeplugin.main" target="1.8" />
-      <module name="litlaunch+tpsmod.versions.plugins.spongeplugin.test" target="1.8" />
+      <module name="litlaunch.litlaunch-bukkit.main" target="1.8" />
+      <module name="litlaunch.litlaunch-bukkit.test" target="1.8" />
+      <module name="litlaunch.litlaunch-common.main" target="1.8" />
+      <module name="litlaunch.litlaunch-common.test" target="1.8" />
+      <module name="litlaunch.litlaunch-forge-1.12.2.api" target="1.8" />
+      <module name="litlaunch.litlaunch-forge-1.12.2.main" target="1.8" />
+      <module name="litlaunch.litlaunch-forge-1.12.2.test" target="1.8" />
+      <module name="litlaunch.litlaunch-forge-1.14.4.main" target="1.8" />
+      <module name="litlaunch.litlaunch-forge-1.14.4.test" target="1.8" />
+      <module name="litlaunch.litlaunch-forge-1.15.2.main" target="1.8" />
+      <module name="litlaunch.litlaunch-forge-1.15.2.test" target="1.8" />
+      <module name="litlaunch.litlaunch-forge-1.8.9.api" target="1.8" />
+      <module name="litlaunch.litlaunch-forge-1.8.9.main" target="1.8" />
+      <module name="litlaunch.litlaunch-forge-1.8.9.test" target="1.8" />
+      <module name="litlaunch.litlaunch-forge.main" target="1.8" />
+      <module name="litlaunch.litlaunch-forge.test" target="1.8" />
+      <module name="litlaunch.litlaunch-sponge.main" target="1.8" />
+      <module name="litlaunch.litlaunch-sponge.test" target="1.8" />
+      <module name="litlaunch.tpsmodsrc.main" target="1.8" />
+      <module name="litlaunch.tpsmodsrc.test" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

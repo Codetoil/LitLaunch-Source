@@ -1,14 +1,10 @@
 <component name="libraryTable">
   <library name="Gradle: org.checkerframework:checker-qual:2.4.0">
     <CLASSES>
-      <root url="jar://$USER_HOME$/ForgeDataOffline/org/checkerframework/checker-qual/2.4.0/checker-qual-2.4.0.jar!/" />
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.checkerframework/checker-qual/2.4.0/e59a242c30953d9442e957639dbcc9e3784803e4/checker-qual-2.4.0.jar!/" />
     </CLASSES>
-    <JAVADOC>
-      <root url="jar://D:/gradle/caches/modules-2/files-2.1/org.checkerframework/checker-qual/2.4.0/cb650879e62eb9d84e644025ec4ab901a1669230/checker-qual-2.4.0-javadoc.jar!/" />
-    </JAVADOC>
+    <JAVADOC />
     <SOURCES>
-      <root url="jar://$USER_HOME$/ForgeDataOffline/org/checkerframework/checker-qual/2.4.0/checker-qual-2.4.0-sources.jar!/" />
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.checkerframework/checker-qual/2.4.0/f5ad56eea38b765c2418157d34a47c1827558c87/checker-qual-2.4.0-sources.jar!/" />
     </SOURCES>
   </library>

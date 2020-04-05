@@ -1,8 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="jar" name="tpsmod:jar">
-    <output-path>$PROJECT_DIR$/run/mods</output-path>
-    <root id="archive" name="tpsmod-2.0.1-Beta-1.jar">
-      <element id="module-output" name="tpsmod" />
-    </root>
-  </artifact>
-</component>

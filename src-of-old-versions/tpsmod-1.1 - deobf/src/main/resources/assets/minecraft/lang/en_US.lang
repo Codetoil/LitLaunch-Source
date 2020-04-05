@@ -1,6 +1,0 @@
-message.tpsmod.tps=[TPS Mod] %s tps
-message.tpsmod.pleasewait=[TPS Mod] Please wait while the TPS Mod is loading...
-message.tpsmod.canbemeasured=[TPS Mod] The TPS Mod have finished loading! You can use /tps to get the tps!
-message.tpsmod.fail=[TPS Mod] Please wait until the mod is fully loaded before trying to measure the tps!
-message.tpsmod.tps.help=/tps [help]
-message.tpsmod.alltps.help=/tpstoall [help]

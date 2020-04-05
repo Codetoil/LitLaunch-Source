@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<section name="Workbench">
-	<section name="org.eclipse.buildship.ui.wizard.project.import">
-		<item value="GRADLE_DISTRIBUTION(VERSION(3.5))" key="gradle_distribution"/>
-		<item value="D:\Files\ME_MODS\tpsmod\versions\forge\mc1.7" key="project_location"/>
-	</section>
-</section>
