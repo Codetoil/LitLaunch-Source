@@ -1,0 +1,29 @@
+
+ext.litlaunch112 = project.project(':versions:forge:mc1.12')
+
+apply plugin: 'java'
+
+dependencies {
+     compile litlaunch112
+     compile 'com.google.code.gson:gson:2.8.0'
+     compile 'com.google.guava:guava:21.0'
+}
+
+version='2.0.1.2.16'
+
+repositories {
+     mavenCentral()
+     jcenter()
+     //maven { url = "D:/Files/ForgeDataOffline"}
+}
+
+sourceSets {
+     main {
+          java {
+               srcDir "../tpsmodsrc/src"
+          }
+          resources {
+               srcDir "../tpsmodsrc/src"
+          }
+     }
+}

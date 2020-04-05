@@ -1,0 +1,8 @@
+rootProject.name='litlaunch+tpsmod'
+include 'litlaunchsrc'
+include 'versions:forge:mc1.12', /*'versions:forge:mc1.13',*/
+        'versions:forge:mc1.14','versions:forge:mc1.15', 'versions:plugins:spongeplugin', 'tpsmod'
+include 'versions:forge:mc1.8'
+//include 'versions:forge:mc1.7'
+//include 'SpongeForge', 'SpongeForge:SpongeCommon', 'SpongeForge:SpongeCommon:SpongeAPI',
+//'SpongeForge:SpongeCommon:testplugins', 'SpongeForge:testmods'

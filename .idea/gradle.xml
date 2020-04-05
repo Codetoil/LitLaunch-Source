@@ -4,24 +4,28 @@
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
-        <option name="disableWrapperSourceDistributionNotification" value="$fg.debugRepo$" />
+        <option name="delegatedBuild" value="$fg.debugRepo$" />
+        <option name="testRunner" value="GRADLE" />
         <option name="distributionType" value="DEFAULT_WRAPPED" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/LitLaunch" />
-        <option name="gradleHome" value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10.2-bin/cghg6c4gf4vkiutgsab8yrnwv/gradle-4.10.2" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleHome" value="D:/gradle/wrapper/dists/gradle-4.10.3-bin/31t79e2qsceia4mkbojplrgx/gradle-4.10.3" />
         <option name="gradleJvm" value="1.8" />
         <option name="modules">
           <set>
-            <option value="$PROJECT_DIR$/LitLaunch" />
-            <option value="$PROJECT_DIR$/LitLaunch/litlaunch-bukkit" />
-            <option value="$PROJECT_DIR$/LitLaunch/litlaunch-common" />
-            <option value="$PROJECT_DIR$/LitLaunch/litlaunch-forge-1.12.2" />
-            <option value="$PROJECT_DIR$/LitLaunch/litlaunch-forge-1.14.4" />
-            <option value="$PROJECT_DIR$/LitLaunch/litlaunch-forge-1.15.2" />
-            <option value="$PROJECT_DIR$/LitLaunch/litlaunch-forge-1.8.9" />
-            <option value="$PROJECT_DIR$/LitLaunch/litlaunch-sponge" />
-            <option value="$PROJECT_DIR$/LitLaunch/tpsmodsrc" />
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/litlaunchsrc" />
+            <option value="$PROJECT_DIR$/tpsmod" />
+            <option value="$PROJECT_DIR$/versions" />
+            <option value="$PROJECT_DIR$/versions/forge" />
+            <option value="$PROJECT_DIR$/versions/forge/mc1.12" />
+            <option value="$PROJECT_DIR$/versions/forge/mc1.14" />
+            <option value="$PROJECT_DIR$/versions/forge/mc1.15" />
+            <option value="$PROJECT_DIR$/versions/forge/mc1.8" />
+            <option value="$PROJECT_DIR$/versions/plugins" />
+            <option value="$PROJECT_DIR$/versions/plugins/spongeplugin" />
           </set>
         </option>
+        <option name="useAutoImport" value="$fg.debugRepo$" />
         <option name="useQualifiedModuleNames" value="$fg.debugRepo$" />
       </GradleProjectSettings>
     </option>

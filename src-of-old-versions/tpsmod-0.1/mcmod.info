@@ -1,0 +1,16 @@
+[
+{
+  "modid": "tpsmod",
+  "name": "TPS Mod",
+  "description": "Shows the TPS on the F3 Screen",
+  "version": "0.1",
+  "mcversion": "1.7.10",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Littoil"],
+  "credits": "",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

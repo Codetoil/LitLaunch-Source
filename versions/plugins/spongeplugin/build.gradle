@@ -1,0 +1,57 @@
+buildscript {
+    repositories {
+        jcenter()
+        maven {
+            name = 'sponge-repo'
+            url = 'https://repo.spongepowered.org/maven'
+        }
+        maven {
+            name = "local"
+            url = "file:///D:\\Files\\ForgeDataOffline"
+        }
+    }
+    dependencies {
+        classpath 'gradle.plugin.org.spongepowered:spongegradle:0.9.0'
+    }
+}
+
+plugins {
+    id 'java'
+}
+
+repositories {
+    jcenter()
+    maven {
+        name = 'sponge-repo'
+        url = 'https://repo.spongepowered.org/maven'
+    }
+    maven {
+        name = "local"
+        url = "file:///D:\\Files\\ForgeDataOffline"
+    }
+}
+
+// This may not be required, but has solved issues in the past
+compileJava.options.encoding = 'UTF-8'
+
+group = 'io.github.codetoil.litlaunch.version.sponge'
+version = 'sponge-mc1.12.2-v${ver}'
+description = 'An api to allow you to use the same mod with many different modloaders(e.g. Forge or Fabric).\n' +
+        ' This also allows for different versions of the modloaders. (i.e. the same mod on 1.7.10 and 1.14.4)'
+
+dependencies {
+    compile 'org.spongepowered:spongeapi:7.1.0'
+    compile 'net.sf.jopt-simple:jopt-simple:5.0.4'
+    compile project.project(':litlaunchsrc')
+}
+
+sourceSets {
+    main {
+        java {
+            srcDir "src/main/java"
+        }
+        resources {
+            srcDir "src/main/resources"
+        }
+    }
+}

@@ -2,5 +2,9 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/SpongeForge" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/SpongeForge/SpongeCommon" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/SpongeForge/SpongeCommon/SpongeAPI" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/tpsmodsrc" vcs="Git" />
   </component>
 </project>
