@@ -12,15 +12,22 @@ import java.util.List;
 import java.util.Queue;
 
 public class LitEventHandler {
-    public final static LitEventHandler COMMON = new LitEventHandler();
-    public final static LitEventHandler CLIENT = new LitEventHandler();
-    public final static LitEventHandler SERVER = new LitEventHandler();
+    public final String NAME;
+    public final static LitEventHandler COMMON = new LitEventHandler("Common");
+    public final static LitEventHandler CLIENT = new LitEventHandler("Client");
+    public final static LitEventHandler SERVER = new LitEventHandler("Server");
 
     public final Queue<EventListener> eventListenersToAdd = new ArrayDeque<>();
     public final Queue<EventListener> eventListenersToRemove = new ArrayDeque<>();
-    private List<EventListener> _listeners = new ArrayList<EventListener>();
+    private List<EventListener> _listeners = new ArrayList<>();
 
-    public LitEventHandler() {
+    @Override
+    public String toString() {
+        return NAME + "{"+eventListenersToAdd+","+eventListenersToRemove+","+_listeners+"}";
+    }
+
+    public LitEventHandler(String name) {
+        this.NAME = name;
         updateListenersFromQueue();
     }
 
@@ -54,7 +61,8 @@ public class LitEventHandler {
         updateListenersFromQueue();
         logEVENT(event, pIsSPAMMY);
         for (EventListener listener : this._listeners) {
-            listener.ReceivedEvent(event);
+            FrontEnd.verbose("Sending event to: " + listener);
+            listener.ReceivedEvent(event, this);
         }
     }
 
@@ -67,7 +75,7 @@ public class LitEventHandler {
     }
 
     public interface EventListener {
-        void ReceivedEvent(LitEvent event);
+        void ReceivedEvent(LitEvent event, LitEventHandler from);
 
         EventListener getListener();
     }

@@ -24,16 +24,20 @@ import java.util.List;
 
 public class TPSMod implements IMod, LitEventHandler.EventListener {
     public static final String MODID = "tpsmod";
-    public static final String VERSION = "2.0.1.2.16";
+    public static final String VERSION = "2.0.1.3.0";
 
-    public final static LitEventHandler EVENTS = new LitEventHandler();
-    public final static Object INSTNACE = new TPSMod();
+    public final static LitEventHandler EVENTS = new LitEventHandler("TPSMod");
+    public final static Object INSTANCE = new TPSMod();
     public final static LitEvent.TYPE updateTPS = LitEvent.TYPE.getEnumFromString("updateTPS");
     public static double initialLoadTime;
     public final static List<Command> commandList = newCommandList();
     private static MeasureTPSdrop[] independentDimensionTPSMeasures;
 
     static {
+        if (!FrontEnd.LITLAUNCH_VERSION.contains("0.0.4"))
+        {
+            throw new RuntimeException("Please Upgrade LitLaunch to 0.0.4.0");
+        }
         if (LaunchCommon.getSide() == null) {
             FrontEnd.error("wtf... LitLaunch is not sided... uh...");
         }
@@ -47,6 +51,7 @@ public class TPSMod implements IMod, LitEventHandler.EventListener {
     }
 
     public TPSMod() {
+
     }
 
     public static MeasureTPSdrop[] getIndependentDimensionTPSMeasures() {
@@ -57,17 +62,9 @@ public class TPSMod implements IMod, LitEventHandler.EventListener {
         List<Command> internalCommandList = new ArrayList<>();
         try {
             BiMap<String, ArgumentWrapper<?>> args = HashBiMap.create();
-            switch (LaunchCommon.getSide()) {
-                case CLIENT:
-                case BOTH:
-                    args.put("dimension", new ArgumentWrapper<>("dimension", new ArgumentParserInteger(), "Dimension to measure the tps of", false));
-                    break;
-                case SERVER:
-                    args.put("dimension", new ArgumentWrapper<>("dimension", new ArgumentParserInteger(), "Dimension to measure the tps of", true));
-                    break;
-            }
-            internalCommandList.add(new Command("/tps", CommandHandler::executeTPS, args, Command.Side.BOTH));
-            internalCommandList.add(new Command("/tpstoall", CommandHandler::executeTPSTOALL, args, Command.Side.BOTH));
+            args.put("dimension", new ArgumentWrapper<>("dimension", new ArgumentParserInteger(), "Dimension to measure the tps of", LaunchCommon.getSide() == Command.Side.SERVER));
+            internalCommandList.add(new Command("/tps", CommandHandler::executeTPS, args, Command.Side.CLIENT));
+            internalCommandList.add(new Command("/tpstoall", CommandHandler::executeTPSTOALL, args, Command.Side.CLIENT));
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -75,7 +72,7 @@ public class TPSMod implements IMod, LitEventHandler.EventListener {
     }
 
     @Override
-    public void ReceivedEvent(LitEvent event) {
+    public void ReceivedEvent(LitEvent event, LitEventHandler handler) {
         try {
             switch (event.getType().getName()) {
                 case "Construction":
@@ -111,7 +108,7 @@ public class TPSMod implements IMod, LitEventHandler.EventListener {
 
     @Override
     public LitEventHandler.EventListener getListener() {
-        return (LitEventHandler.EventListener) INSTNACE;
+        return (LitEventHandler.EventListener) INSTANCE;
     }
 
     @Override
@@ -121,7 +118,7 @@ public class TPSMod implements IMod, LitEventHandler.EventListener {
 
     @Override
     public EnumRequireOrNot onServer() {
-        return EnumRequireOrNot.COMPATIBLE;
+        return EnumRequireOrNot.INCOMPATIBLE;
     }
 
     @Override
@@ -144,6 +141,7 @@ public class TPSMod implements IMod, LitEventHandler.EventListener {
     }
 
     public void preInit() {
+
         FrontEnd.info("TPSMod v" + VERSION + " preinitializing");
     }
 
@@ -169,6 +167,6 @@ public class TPSMod implements IMod, LitEventHandler.EventListener {
 
     @Override
     public IMod getModINSTANCE() {
-        return (IMod) INSTNACE;
+        return (IMod) INSTANCE;
     }
 }

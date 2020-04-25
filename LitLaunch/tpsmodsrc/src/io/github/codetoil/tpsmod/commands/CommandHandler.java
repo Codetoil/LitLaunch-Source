@@ -21,6 +21,7 @@ public class CommandHandler {
     public static void executeTPS(List<ArgumentWrapper<?>> args) {
         FrontEnd.verbose(args);
         Integer dimension = getDimensionFromArgs(args);
+
         if (dimension == null) {
             LaunchCommon.getDoThing().notifyUser("Dimension " + args.get(0) + " is not valid or not loaded. The argument must be an integer.", IDoThing.Color.RED);
             return;
@@ -32,7 +33,7 @@ public class CommandHandler {
             LaunchCommon.getDoThing().notifyUser("[TPS Mod v" + TPSMod.VERSION + "] " + TPS_STR + " tps in dimension " + dimension, IDoThing.Color.YELLOW);
             //LaunchMods.info("TPS: " + TPS_STR);
         } else {
-            LaunchCommon.getDoThing().notifyUser("The TPS Mod v" + TPSMod.VERSION + " is still loading. Please wait...", IDoThing.Color.RED);
+            LaunchCommon.getDoThing().notifyUser("The TPS Mod v" + TPSMod.VERSION + " is still loading. Please wait " + (LaunchCommon.getTimeInSeconds() - TPSMod.initialLoadTime) + " more seconds", IDoThing.Color.RED);
         }
     }
 
@@ -84,7 +85,7 @@ public class CommandHandler {
             LaunchCommon.getDoThing().sendAsChatMessage("[TPS Mod v" + TPSMod.VERSION + "] " + TPS_STR + " tps in dimension " + dimension);
             //LaunchMods.info("TPS: " + TPS_STR);
         } else {
-            LaunchCommon.getDoThing().notifyUser("The TPS Mod v" + TPSMod.VERSION + " is still loading. Please wait...", IDoThing.Color.RED);
+            LaunchCommon.getDoThing().notifyUser("The TPS Mod v" + TPSMod.VERSION + " is still loading. Please wait " + (LaunchCommon.getTimeInSeconds() - TPSMod.initialLoadTime) + " more seconds", IDoThing.Color.RED);
         }
     }
 }

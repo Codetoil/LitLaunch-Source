@@ -40,7 +40,7 @@ public class ModFinder {
                     mods
             ) {
                 FrontEnd.trace(mod);
-                if (mod.isFile()) {
+                if (mod.isFile() && mod.getName().endsWith(".jar")) {
                     testIfMod(mod);
                 }
             }
@@ -138,8 +138,8 @@ public class ModFinder {
                     } else {
                         FrontEnd.error("Failed initializing Mod \"" + possibility.getName() + "\" because required methods cannot be located. Skipping it!");
                     }
-                } catch (InstantiationException t) {
-                    FrontEnd.error("Failed initializing Mod \"" + possibility.getName() + "\" due to an InstantationException! Skipping Mod!");
+                } catch (InstantiationException | NoSuchMethodError t) {
+                    FrontEnd.error("Failed initializing Mod \"" + possibility.getName() + "\" due to an InstantationException or NoSuchMethodError! Skipping Mod!");
                 }
 
             }

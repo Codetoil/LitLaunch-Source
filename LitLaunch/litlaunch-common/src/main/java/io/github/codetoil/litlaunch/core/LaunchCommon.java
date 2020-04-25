@@ -17,7 +17,8 @@ import java.nio.file.Path;
 
 public abstract class LaunchCommon {
     public static final String NAME = "LitLaunch";
-    public static final String VERSION = "0.0.3.15";
+    @Deprecated
+    public static final String VERSION = "0.0.4.0";
     public static final String MODID = "litlaunch";
     public static final ChainableMap<String, Object> EMPTY = new ChainableMap<>();
     private static CommonProxy ccproxy;
@@ -154,7 +155,7 @@ public abstract class LaunchCommon {
     }
 
     public static Boolean isVerbose() {
-        return verbose;
+        return verbose == null ? false : verbose;
     }
 
     public static void warn(Object object) {

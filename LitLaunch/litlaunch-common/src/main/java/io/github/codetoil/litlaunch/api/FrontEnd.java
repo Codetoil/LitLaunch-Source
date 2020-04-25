@@ -17,7 +17,7 @@ import java.util.List;
  * The front end of LitLaunch, allows to access to the api from a single class
  */
 public class FrontEnd {
-    public static final String LITLAUNCH_VERSION = LaunchCommon.VERSION;
+    public static String LITLAUNCH_VERSION = LaunchCommon.VERSION;
     public static final String LITLAUNCH_MOD = LaunchCommon.MODID;
     public static final ChainableMap<String, Object> EMPTY = LaunchCommon.EMPTY;
 
@@ -89,8 +89,16 @@ public class FrontEnd {
         return ModFinder.litClassLoader;
     }
 
-    public static LitEventHandler COMMON_NO_SPAM_EVENT_HANDLER() {
+    public static LitEventHandler COMMON_EVENT_HANDLER() {
         return LitEventHandler.COMMON;
+    }
+
+    public static LitEventHandler CLIENT_EVENT_HANDLER() {
+        return LitEventHandler.CLIENT;
+    }
+
+    public static LitEventHandler SERVER_EVENT_HANDLER() {
+        return LitEventHandler.SERVER;
     }
 
 

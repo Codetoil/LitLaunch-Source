@@ -70,6 +70,7 @@ public class LitEvent extends EventObject {
     }
 
     public static class TYPE {
+        public static final TYPE DISCONNECT = getEnumFromString("Disconnect");
         private static Map<String, TYPE> types = new HashMap<>();
         public static final TYPE CONSTRUCTION = getEnumFromString("Contruction");
         public static final TYPE PREINIT = getEnumFromString("PreInit");

@@ -13,18 +13,18 @@ import net.minecraft.client.network.play.ClientPlayNetHandler;
 import net.minecraft.client.network.play.IClientPlayNetHandler;
 import net.minecraft.network.NetworkManager;
 import net.minecraftforge.api.distmarker.Dist;
-import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.event.TickEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
+import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.network.NetworkEvent;
 
 import java.util.Objects;
 
-public class EventHandler {
+@Mod.EventBusSubscriber(value = Dist.CLIENT, modid = LaunchCommon.MODID, bus = Mod.EventBusSubscriber.Bus.FORGE)
+public class EventHandlerClient {
     @SubscribeEvent
-    @OnlyIn(Dist.CLIENT)
     public static void ServerConnect(NetworkEvent.ClientCustomPayloadLoginEvent event) {
-        LitEventHandler.COMMON.post(new LitEvent(EventHandler.class, LitEvent.TYPE.SERVERCONNECT, LaunchCommon.EMPTY));
+        LitEventHandler.CLIENT.post(new LitEvent(EventHandlerClient.class, LitEvent.TYPE.SERVERCONNECT, LaunchCommon.EMPTY));
         NetworkManager manager = Objects.requireNonNull(Minecraft.getInstance().getConnection()).getNetworkManager();
         if (manager.getNetHandler() instanceof IClientPlayNetHandler) {
             manager.setNetHandler(new EventThrowingClientPlayNetHandler((ClientPlayNetHandler) manager.getNetHandler()));
@@ -34,17 +34,14 @@ public class EventHandler {
     }
 
     @SubscribeEvent
-    @OnlyIn(Dist.CLIENT)
-    public void onClientTick(TickEvent.ClientTickEvent event) {
+    public static void onClientTick(TickEvent.ClientTickEvent event) {
         if (event.phase.equals(TickEvent.Phase.END)) {
-            LitEventHandler.COMMON.post(new LitEvent(this, LitEvent.TYPE.CLIENTTICK, LaunchCommon.EMPTY), true);
+            LitEventHandler.CLIENT.post(new LitEvent(EventHandlerClient.class, LitEvent.TYPE.CLIENTTICK, LaunchCommon.EMPTY), true);
         }
     }
 
     @SubscribeEvent
-    public void onServerTick(TickEvent.ServerTickEvent event) {
-        if (event.phase.equals(TickEvent.Phase.END)) {
-            LitEventHandler.COMMON.post(new LitEvent(this, LitEvent.TYPE.SERVERTICK, LaunchCommon.EMPTY), true);
-        }
+    public static void onServerTick(TickEvent.ServerTickEvent event) {
+        EventHandlerServer.onServerTick(event);
     }
 }

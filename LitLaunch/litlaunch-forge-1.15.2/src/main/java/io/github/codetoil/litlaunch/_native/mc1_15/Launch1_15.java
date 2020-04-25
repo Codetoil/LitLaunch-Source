@@ -45,7 +45,7 @@ public class Launch1_15 implements ILaunch {
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::setup);
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::setupClient);
         MinecraftForge.EVENT_BUS.register(this);
-        MinecraftForge.EVENT_BUS.register(EventHandler.class);
+        MinecraftForge.EVENT_BUS.register(EventHandlerClient.class);
         //FMLJavaModLoadingContext.get().getModEventBus().addListener(this::serverLoad);
     }
 
@@ -95,7 +95,7 @@ public class Launch1_15 implements ILaunch {
                     lCommands = (List) oCommands;
                     lCommands.forEach((command) -> {
                         if (command instanceof Command) {
-                            if (Command.Side.CLIENT.equals(((Command) command).side) || Command.Side.BOTH.equals(((Command) command).side)) {
+                            if (Command.Side.SERVER.equals(((Command) command).side) || Command.Side.BOTH.equals(((Command) command).side)) {
                                 new CommandNew((Command) command, event.getCommandDispatcher());
                             }
                         }

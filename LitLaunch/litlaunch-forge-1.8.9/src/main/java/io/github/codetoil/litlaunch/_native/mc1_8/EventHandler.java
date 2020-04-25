@@ -19,21 +19,21 @@ public class EventHandler {
     @SideOnly(Side.CLIENT)
     public void onClientTick(TickEvent.ClientTickEvent event) {
         if (event.phase.equals(TickEvent.Phase.END)) {
-            LitEventHandler.COMMON.post(new LitEvent(this, LitEvent.TYPE.CLIENTTICK, FrontEnd.EMPTY), true);
+            LitEventHandler.CLIENT.post(new LitEvent(this, LitEvent.TYPE.CLIENTTICK, FrontEnd.EMPTY), true);
         }
     }
 
     @SubscribeEvent
     public void onServerTick(TickEvent.ServerTickEvent event) {
         if (event.phase.equals(TickEvent.Phase.END)) {
-            LitEventHandler.COMMON.post(new LitEvent(this, LitEvent.TYPE.SERVERTICK), true);
+            LitEventHandler.SERVER.post(new LitEvent(this, LitEvent.TYPE.SERVERTICK), true);
         }
     }
 
     @SubscribeEvent
     @SideOnly(Side.CLIENT)
     public void ServerConnect(FMLNetworkEvent.ClientConnectedToServerEvent event) {
-        LitEventHandler.COMMON.post(new LitEvent(EventHandler.class, LitEvent.TYPE.SERVERCONNECT));
+        LitEventHandler.CLIENT.post(new LitEvent(EventHandler.class, LitEvent.TYPE.SERVERCONNECT));
         event.manager.setNetHandler(new EventThrowingClientPlayNetHandler((NetHandlerPlayClient) event.handler));
     }
 }

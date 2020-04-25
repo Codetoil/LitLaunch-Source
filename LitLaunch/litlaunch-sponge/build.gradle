@@ -3,12 +3,11 @@ plugins {
 }
 
 dependencies {
-    compile project(':litlaunch-common')
     compileOnly 'org.spongepowered:spongeapi:7.2.0-SNAPSHOT'
     annotationProcessor 'org.spongepowered:spongeapi:7.2.0-SNAPSHOT'
 }
 
-sponge.plugin.id = pluginId
+sponge.plugin.id = litlaunchId
 
 shadowJar {
     dependencies {

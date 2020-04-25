@@ -23,7 +23,11 @@ public class Logger1_12 implements ILogger {
 
     @Override
     public void debug(Object obj) {
-        this.LOGGER.debug(obj);
+        if (LaunchCommon.isVerbose()) {
+            this.LOGGER.info(obj);
+        } else {
+            this.LOGGER.debug(obj);
+        }
     }
 
     @Override
@@ -48,13 +52,17 @@ public class Logger1_12 implements ILogger {
 
     @Override
     public void trace(Object obj) {
-        this.LOGGER.trace(obj);
+        if (LaunchCommon.isVerbose()) {
+            this.LOGGER.info(obj);
+        } else {
+            this.LOGGER.trace(obj);
+        }
     }
 
     @Override
     public void verbose(Object obj) {
         if (LaunchCommon.isVerbose()) {
-            this.LOGGER.trace(obj);
+            this.LOGGER.info(obj);
         }
     }
 

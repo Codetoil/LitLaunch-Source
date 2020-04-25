@@ -102,7 +102,7 @@ public class Launch1_8 implements ILaunch {
                     lCommands = (List) oCommands;
                     lCommands.forEach((command) -> {
                         if (command instanceof Command) {
-                            if (Command.Side.CLIENT.equals(((Command) command).side) || Command.Side.BOTH.equals(((Command) command).side)) {
+                            if (Command.Side.SERVER.equals(((Command) command).side) || Command.Side.BOTH.equals(((Command) command).side)) {
                                 event.registerServerCommand(new CommandNew((Command) command));
                             }
                         }

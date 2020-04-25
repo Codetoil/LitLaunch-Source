@@ -17,75 +17,60 @@ import net.minecraft.client.Minecraft;
 import java.util.List;
 
 @SideOnly(Side.CLIENT)
-public class ClientProxy1_7 implements CommonProxy
-{
-	@Override
-	public void setGamePath()
-	{
-		FrontEnd.info("Li Launch Client Proxy Setting Game Path On Lit Launch!");
-		LaunchCommon.setGamePath(Minecraft.getMinecraft().mcDataDir.toPath());
-	}
+public class ClientProxy1_7 implements CommonProxy {
+    @Override
+    public void setGamePath() {
+        FrontEnd.info("LitLaunch Client Proxy Setting Game Path On Lit Launch!");
+        LaunchCommon.setGamePath(Minecraft.getMinecraft().mcDataDir.toPath());
+    }
 
-	@Override
-	public void construction()
-	{
-		FrontEnd.info("LitLaunch Client Proxy Constructing!");
-	}
+    @Override
+    public void construction() {
+        FrontEnd.info("LitLaunch Client Proxy Constructing!");
+    }
 
-	@Override
-	public void preInit()
-	{
-		FrontEnd.info("LitLaunch Client Proxy PreInitializing!");
-		ModFinder.validMods.forEach((modClass) -> {
-			try
-			{
-				Object oCommands = modClass.getField("commandList").get(null);
-				List lCommands;
-				if (oCommands instanceof List)
-				{
-					lCommands = (List) oCommands;
-					lCommands.forEach((command) -> {
-						if (command instanceof Command)
-						{
-							if (Command.Side.CLIENT.equals(((Command) command).side) || Command.Side.BOTH.equals(((Command) command).side))
-							{
-								net.minecraftforge.client.ClientCommandHandler.instance.registerCommand(new CommandNew((Command) command));
-							}
-						}
-					});
-				}
-				else
-				{
-					FrontEnd.error("Mod " + modClass + " does not have a method named \"commandList\". This is neccesary for the api to work though. Skipping!");
-				}
+    @Override
+    public void preInit() {
+        FrontEnd.info("LitLaunch Client Proxy PreInitializing!");
+        ModFinder.validMods.forEach((modClass) -> {
+            try {
+                Object oCommands = modClass.getField("commandList").get(null);
+                List lCommands;
+                if (oCommands instanceof List) {
+                    lCommands = (List) oCommands;
+                    lCommands.forEach((command) -> {
+                        if (command instanceof Command) {
+                            if (Command.Side.CLIENT.equals(((Command) command).side) || Command.Side.BOTH.equals(((Command) command).side)) {
+                                net.minecraftforge.client.ClientCommandHandler.instance.registerCommand(new CommandNew((Command) command));
+                            }
+                        }
+                    });
+                } else {
+                    FrontEnd.error("Mod " + modClass + " does not have a method named \"commandList\". This is neccesary for the api to work though. Skipping!");
+                }
 
-			}
-			catch (Throwable pThrowable)
-			{
-				pThrowable.printStackTrace();
-			}
+            } catch (Throwable pThrowable) {
+                pThrowable.printStackTrace();
+            }
 
-		});
-	}
+        });
+    }
 
-	@Override
-	public void init()
-	{
-		FrontEnd.info("LitLaunch Client Proxy Initializing!");
+    @Override
+    public void init() {
+        FrontEnd.info("LitLaunch Client Proxy Initializing!");
 
-	}
+    }
 
-	@Override
-	public void postInit()
-	{
-		FrontEnd.info("LitLaunch Client Proxy PostInitializing!");
+    @Override
+    public void postInit() {
+        FrontEnd.info("LitLaunch Client Proxy PostInitializing!");
 
-	}
+    }
 
-	@Override
-	public void serverLoad()
-	{
-		FrontEnd.info("LitLaunch Client Proxy Loading Server!");
+    @Override
+    public void serverLoad() {
+        FrontEnd.info("LitLaunch Client Proxy Loading Server!");
 
-	}
+    }
 }

@@ -19,7 +19,7 @@ public class CalculateTPS implements LitEventHandler.EventListener {
         this.dimension = dimension;
     }
 
-    public void ReceivedEvent(LitEvent event) {
+    public void ReceivedEvent(LitEvent event, LitEventHandler eventHandler) {
         if (event.getType() == TPSMod.updateTPS) {
             if (event.getData()[2].equals(this.dimension)) {
                 updateTPS();
