@@ -25,7 +25,7 @@ public class EventPrinter implements LitEventHandler.EventListener {
     }
 
     @Override
-    public void ReceivedEvent(LitEvent event, LitEventHandler handler) {
+    public void receivedEvent(LitEvent event, LitEventHandler handler) {
         ByteBuffer buffer = ByteBuffer.allocate(1028);
         String lineToPut = Instant.now() + ": " + handler + ": " + event + "\n";
         FrontEnd.info(lineToPut);

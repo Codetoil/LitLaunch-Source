@@ -36,7 +36,7 @@ public class TPSMod implements IMod, LitEventHandler.EventListener {
     static {
         if (!FrontEnd.LITLAUNCH_VERSION.contains("0.0.4"))
         {
-            throw new RuntimeException("Please Upgrade LitLaunch to 0.0.4.0");
+            throw new OldLitLaunchVersionException();
         }
         if (LaunchCommon.getSide() == null) {
             FrontEnd.error("wtf... LitLaunch is not sided... uh...");
@@ -48,10 +48,6 @@ public class TPSMod implements IMod, LitEventHandler.EventListener {
                 e.printStackTrace();
             }
         }
-    }
-
-    public TPSMod() {
-
     }
 
     public static MeasureTPSdrop[] getIndependentDimensionTPSMeasures() {
@@ -72,7 +68,7 @@ public class TPSMod implements IMod, LitEventHandler.EventListener {
     }
 
     @Override
-    public void ReceivedEvent(LitEvent event, LitEventHandler handler) {
+    public void receivedEvent(LitEvent event, LitEventHandler handler) {
         try {
             switch (event.getType().getName()) {
                 case "Construction":
@@ -82,7 +78,7 @@ public class TPSMod implements IMod, LitEventHandler.EventListener {
                     preInit();
                     break;
                 case "Init":
-                    Init();
+                    init();
                     break;
                 case "PostInit":
                     postInit();
@@ -145,18 +141,18 @@ public class TPSMod implements IMod, LitEventHandler.EventListener {
         FrontEnd.info("TPSMod v" + VERSION + " preinitializing");
     }
 
-    public void Init() {
+    public void init() {
         FrontEnd.info("TPSMod v" + VERSION + " initializing");
     }
 
     public void postInit() {
         FrontEnd.info("TPSMod v" + VERSION + " postinitializing");
-        int dimensionAmount = FrontEnd.GET_FIELDS().getDimsAvailable().length;
+        int dimensionAmount = FrontEnd.getFields().getDimsAvailable().length;
         FrontEnd.info("Dimensions Amount: " + dimensionAmount);
-        FrontEnd.info("Dimensions Available: " + Arrays.toString(FrontEnd.GET_FIELDS().getDimsAvailable()));
+        FrontEnd.info("Dimensions Available: " + Arrays.toString(FrontEnd.getFields().getDimsAvailable()));
         TPSMod.independentDimensionTPSMeasures = new MeasureTPSdrop[dimensionAmount];
         for (int i = 0; i < dimensionAmount; i++) {
-            MeasureTPSdrop temp = new MeasureTPSdrop(FrontEnd.GET_FIELDS().getDimsAvailable()[i]);
+            MeasureTPSdrop temp = new MeasureTPSdrop(FrontEnd.getFields().getDimsAvailable()[i]);
             TPSMod.independentDimensionTPSMeasures[i] = temp;
         }
     }

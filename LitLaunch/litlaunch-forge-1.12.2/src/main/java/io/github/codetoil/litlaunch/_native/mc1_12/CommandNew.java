@@ -28,7 +28,7 @@ import java.util.List;
 
 public class CommandNew implements ICommand {
 
-    Command comm;
+    private Command comm;
 
     public CommandNew() {
     }

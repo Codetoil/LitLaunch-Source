@@ -9,7 +9,6 @@ import net.minecraft.network.IPacket;
 import net.minecraft.network.NetworkManager;
 import net.minecraft.network.play.server.*;
 import net.minecraft.util.text.ITextComponent;
-import org.lwjgl.system.NonnullDefault;
 
 import java.util.Map;
 

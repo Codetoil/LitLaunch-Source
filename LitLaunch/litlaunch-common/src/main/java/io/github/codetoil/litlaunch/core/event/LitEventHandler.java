@@ -62,7 +62,7 @@ public class LitEventHandler {
         logEVENT(event, pIsSPAMMY);
         for (EventListener listener : this._listeners) {
             FrontEnd.verbose("Sending event to: " + listener);
-            listener.ReceivedEvent(event, this);
+            listener.receivedEvent(event, this);
         }
     }
 
@@ -75,7 +75,7 @@ public class LitEventHandler {
     }
 
     public interface EventListener {
-        void ReceivedEvent(LitEvent event, LitEventHandler from);
+        void receivedEvent(LitEvent event, LitEventHandler from);
 
         EventListener getListener();
     }

@@ -21,7 +21,7 @@ public interface IMod {
 
     void preInit();
 
-    void Init();
+    void init();
 
     void postInit();
 

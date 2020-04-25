@@ -6,7 +6,6 @@ import io.github.codetoil.litlaunch.core.event.LitEventHandler;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.network.NetHandlerPlayClient;
 import net.minecraft.network.Packet;
-import net.minecraft.network.play.INetHandlerPlayClient;
 import net.minecraft.network.play.server.S0EPacketSpawnObject;
 import net.minecraft.util.IChatComponent;
 import net.minecraftforge.fml.common.ObfuscationReflectionHelper;

@@ -60,10 +60,8 @@ public class LitClassLoader {
         for (Method method : classIn.getMethods()) {
             FrontEnd.trace(method);
             FrontEnd.trace(method.getName());
-            if (methodName.equals(method.getName())) {
-                if (areClassListsEqual(method.getParameterTypes(), paramTypes)) {
-                    return method;
-                }
+            if (methodName.equals(method.getName()) && areClassListsEqual(method.getParameterTypes(), paramTypes)) {
+                return method;
             }
         }
         return null;

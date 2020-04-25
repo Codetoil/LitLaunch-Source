@@ -21,83 +21,83 @@ public class FrontEnd {
     public static final String LITLAUNCH_MOD = LaunchCommon.MODID;
     public static final ChainableMap<String, Object> EMPTY = LaunchCommon.EMPTY;
 
-    public static String MINECRAFT_VERSION() {
+    public static String minecraftVersion() {
         return LaunchCommon.getGetFields().getVERSION();
     }
 
-    public static CommonProxy ACTIVE_PROXY() {
+    public static CommonProxy activeProxy() {
         return LaunchCommon.getCcproxy();
     }
 
-    public static IGetFields GET_FIELDS() {
+    public static IGetFields getFields() {
         return LaunchCommon.getGetFields();
     }
 
-    public static IDoThing DO_THING_OBJECT() {
+    public static IDoThing doThingObject() {
         return LaunchCommon.getDoThing();
     }
 
-    public static boolean IS_LITLAUNCH_VERBOSE() {
+    public static boolean isLitLaunchVerbose() {
         return LaunchCommon.isVerbose();
     }
 
-    public static double INITIAL_TIME_FOR_MEASURING_TIME() {
+    public static double timeFrame() {
         return LaunchCommon.getTimeInit();
     }
 
-    public static Command.Side SIDE() {
+    public static Command.Side getSide() {
         return LaunchCommon.getSide();
     }
 
     public static void debug(Object obj) {
-        LOGGER().debug(obj);
+        getLogger().debug(obj);
     }
 
-    public static ILogger LOGGER() {
+    public static ILogger getLogger() {
         return LaunchCommon.getLOGGER();
     }
 
     public static void info(Object obj) {
-        LOGGER().info(obj);
+        getLogger().info(obj);
     }
 
     public static void trace(Object obj) {
-        LOGGER().trace(obj);
+        getLogger().trace(obj);
     }
 
     public static void warn(Object obj) {
-        LOGGER().warn(obj);
+        getLogger().warn(obj);
     }
 
     public static void fatal(Object obj) {
-        LOGGER().fatal(obj);
+        getLogger().fatal(obj);
     }
 
     public static void error(Object obj) {
-        LOGGER().error(obj);
+        getLogger().error(obj);
     }
 
     public static void verbose(Object obj) {
-        LOGGER().verbose(obj);
+        getLogger().verbose(obj);
     }
 
-    public static List<Class<?>> MODS_LOADED() {
+    public static List<Class<?>> modsLoaded() {
         return ModFinder.validMods;
     }
 
-    public static LitClassLoader CLASSLOADER() {
+    public static LitClassLoader classLoader() {
         return ModFinder.litClassLoader;
     }
 
-    public static LitEventHandler COMMON_EVENT_HANDLER() {
+    public static LitEventHandler commonEventHandler() {
         return LitEventHandler.COMMON;
     }
 
-    public static LitEventHandler CLIENT_EVENT_HANDLER() {
+    public static LitEventHandler clientEventHandler() {
         return LitEventHandler.CLIENT;
     }
 
-    public static LitEventHandler SERVER_EVENT_HANDLER() {
+    public static LitEventHandler serverEventHandler() {
         return LitEventHandler.SERVER;
     }
 

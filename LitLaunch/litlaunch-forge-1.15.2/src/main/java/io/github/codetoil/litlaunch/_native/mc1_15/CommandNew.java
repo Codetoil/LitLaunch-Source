@@ -27,8 +27,8 @@ import java.util.List;
 
 public class CommandNew {
 
-    Command comm;
-    CommandDispatcher<CommandSource> disp;
+    private Command comm;
+    private CommandDispatcher<CommandSource> disp;
 
     public CommandNew() {
     }

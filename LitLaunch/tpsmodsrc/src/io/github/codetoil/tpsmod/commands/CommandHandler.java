@@ -46,10 +46,8 @@ public class CommandHandler {
             if (val instanceof Integer) {
                 result = (Integer) val;
             }
-        } else if (argList.size() == 0) {
-            if (LaunchCommon.getSide().equals(Command.Side.CLIENT)) {
-                result = LaunchCommon.getGetFields().getDimRunning();
-            }
+        } else if (argList.size() == 0 && LaunchCommon.getSide().equals(Command.Side.CLIENT)) {
+            result = LaunchCommon.getGetFields().getDimRunning();
         }
         return result;
     }

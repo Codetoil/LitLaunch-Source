@@ -32,7 +32,7 @@ public class EventHandler {
 
     @SubscribeEvent
     @SideOnly(Side.CLIENT)
-    public void ServerConnect(FMLNetworkEvent.ClientConnectedToServerEvent event) {
+    public void serverConnect(FMLNetworkEvent.ClientConnectedToServerEvent event) {
         LitEventHandler.CLIENT.post(new LitEvent(EventHandler.class, LitEvent.TYPE.SERVERCONNECT));
         event.manager.setNetHandler(new EventThrowingClientPlayNetHandler((NetHandlerPlayClient) event.handler));
     }

@@ -21,7 +21,7 @@ public class MeasureTPSdrop implements LitEventHandler.EventListener {
     }
 
     @Override
-    public void ReceivedEvent(LitEvent event, LitEventHandler handler) {
+    public void receivedEvent(LitEvent event, LitEventHandler handler) {
         if ((event.getType() == LitEvent.TYPE.ONPACKET && event.getDataMap().get("Type").equals("TimeUpdate")) || event.getType() == LitEvent.TYPE.SERVERTICK) {
             long totalWorldTime = LaunchCommon.getGetFields().getTotalWorldTime(dimension);
             double timeNow = LaunchCommon.getTimeInSeconds();
