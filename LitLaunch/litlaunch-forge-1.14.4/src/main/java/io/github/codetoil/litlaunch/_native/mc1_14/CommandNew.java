@@ -28,15 +28,13 @@ import java.util.List;
 public class CommandNew {
 
     private Command comm;
-    private CommandDispatcher<CommandSource> disp;
 
     public CommandNew() {
     }
 
     public CommandNew(Command comm, CommandDispatcher<CommandSource> disp) {
         this.comm = comm;
-        this.disp = disp;
-        this.register(this.disp);
+        this.register(disp);
     }
 
     public void register(CommandDispatcher<CommandSource> disp) {

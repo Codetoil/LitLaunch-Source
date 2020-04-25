@@ -20,11 +20,11 @@ import net.minecraftforge.fml.network.NetworkEvent;
 
 import java.util.Objects;
 
-@Mod.EventBusSubscriber(value = Dist.CLIENT, modid = LaunchCommon.MODID, bus = Mod.EventBusSubscriber.Bus.FORGE)
-public class EventHandlerClient {
+@Mod.EventBusSubscriber(modid = LaunchCommon.MODID)
+public class EventHandler {
     @SubscribeEvent
     public static void ServerConnect(NetworkEvent.ClientCustomPayloadLoginEvent event) {
-        LitEventHandler.CLIENT.post(new LitEvent(EventHandlerClient.class, LitEvent.TYPE.SERVERCONNECT, LaunchCommon.EMPTY));
+        LitEventHandler.CLIENT.post(new LitEvent(EventHandler.class, LitEvent.TYPE.SERVERCONNECT, LaunchCommon.EMPTY));
         NetworkManager manager = Objects.requireNonNull(Minecraft.getInstance().getConnection()).getNetworkManager();
         if (manager.getNetHandler() instanceof IClientPlayNetHandler) {
             manager.setNetHandler(new EventThrowingClientPlayNetHandler((ClientPlayNetHandler) manager.getNetHandler()));
@@ -36,12 +36,14 @@ public class EventHandlerClient {
     @SubscribeEvent
     public static void onClientTick(TickEvent.ClientTickEvent event) {
         if (event.phase.equals(TickEvent.Phase.END)) {
-            LitEventHandler.CLIENT.post(new LitEvent(EventHandlerClient.class, LitEvent.TYPE.CLIENTTICK, LaunchCommon.EMPTY), true);
+            LitEventHandler.CLIENT.post(new LitEvent(EventHandler.class, LitEvent.TYPE.CLIENTTICK, LaunchCommon.EMPTY), true);
         }
     }
 
     @SubscribeEvent
     public static void onServerTick(TickEvent.ServerTickEvent event) {
-        EventHandlerServer.onServerTick(event);
+        if (event.phase.equals(TickEvent.Phase.END)) {
+            LitEventHandler.SERVER.post(new LitEvent(EventHandler.class, LitEvent.TYPE.SERVERTICK, LaunchCommon.EMPTY), true);
+        }
     }
 }

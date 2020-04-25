@@ -19,6 +19,8 @@ import net.minecraftforge.fml.server.ServerLifecycleHooks;
 import java.util.Iterator;
 import java.util.List;
 
+
+
 public class GetFields implements IGetFields {
     public static final IGetFields INSTANCE = new io.github.codetoil.litlaunch._native.mc1_14.GetFields();
 
@@ -39,10 +41,10 @@ public class GetFields implements IGetFields {
                         if (world.dimension.getType().getId() == dimension) {
                             result = world.getGameTime();
                         }
-                    } else {
-                        //LaunchMods.error("Client World Doesn't Exist!");
-                        // world cannot be loaded
                     }
+                    //LaunchMods.error("Client World Doesn't Exist!");
+                    // world cannot be loaded
+
                 } else {
                     if (world != null) {
                         result = world.getGameTime();

@@ -153,7 +153,7 @@ public class ModFinder {
     private static boolean verifySide(Object object) {
         if (object instanceof IMod) {
             IMod mod = (IMod) object;
-            switch (FrontEnd.SIDE()) {
+            switch (FrontEnd.getSide()) {
                 case BOTH:
                 case CLIENT:
                     return !mod.onClient().equals(EnumRequireOrNot.INCOMPATIBLE);

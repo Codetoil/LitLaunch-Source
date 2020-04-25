@@ -18,6 +18,8 @@ import net.minecraftforge.fml.event.server.FMLServerStartingEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.fml.loading.FMLEnvironment;
 import net.minecraftforge.fml.loading.FMLLoader;
+import net.minecraftforge.fml.network.NetworkEvent;
+import net.minecraftforge.fml.network.NetworkInstance;
 import org.apache.logging.log4j.LogManager;
 
 import java.util.List;
@@ -47,7 +49,7 @@ public class Launch1144 implements ILaunch {
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::setup);
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::setupClient);
         MinecraftForge.EVENT_BUS.register(this);
-        //FMLJavaModLoadingContext.get().getModEventBus().addListener(this::serverLoad);
+        //FMLJavaModLoadingContext.get().getModEventBus().addListener(this::serverLoad); //seems to work without being called weird
     }
 
     public void setup(final FMLCommonSetupEvent event) {

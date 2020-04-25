@@ -101,10 +101,8 @@ public class Launch1122 implements ILaunch {
                 if (oCommands instanceof List) {
                     lCommands = (List) oCommands;
                     lCommands.forEach((command) -> {
-                        if (command instanceof Command) {
-                            if (Command.Side.SERVER.equals(((Command) command).side) || Command.Side.BOTH.equals(((Command) command).side)) {
-                                event.registerServerCommand(new CommandNew((Command) command));
-                            }
+                        if (command instanceof Command && (Command.Side.SERVER.equals(((Command) command).side) || Command.Side.BOTH.equals(((Command) command).side))) {
+                            event.registerServerCommand(new CommandNew((Command) command));
                         }
                     });
                 } else {
